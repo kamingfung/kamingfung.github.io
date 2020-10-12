@@ -238,11 +238,49 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.css">
+  <link rel="stylesheet" href="/css/wowchemy.min.865920f909e6383a23ab6ab7f304a48b.css">
 
   
 
 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108520539-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-108520539-2', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
   
@@ -763,7 +801,7 @@
         
 
   
-  <span class="author-highlighted"><a href="/author/ka-ming-fung/">Ka Ming FUNG</a></span>
+  <span class="author-highlighted">Ka Ming FUNG</span>
       </div>
       
     </div>
@@ -869,7 +907,7 @@
         
 
   
-  <span class="author-highlighted"><a href="/author/ka-ming-fung/">Ka Ming FUNG</a></span>
+  <span class="author-highlighted">Ka Ming FUNG</span>
       </div>
       
     </div>
@@ -990,7 +1028,7 @@
         
 
   
-  <span class="author-highlighted"><a href="/author/ka-ming-fung/">Ka Ming FUNG</a></span>
+  <span class="author-highlighted">Ka Ming FUNG</span>
       </div>
       
     </div>
@@ -1100,7 +1138,7 @@
         
 
   
-  <span class="author-highlighted"><a href="/author/ka-ming-fung/">Ka Ming FUNG</a></span>
+  <span class="author-highlighted">Ka Ming FUNG</span>
       </div>
       
     </div>
@@ -1202,7 +1240,7 @@
         
 
   
-  <span class="author-highlighted"><a href="/author/ka-ming-fung/">Ka Ming FUNG</a></span>
+  <span class="author-highlighted">Ka Ming FUNG</span>
       </div>
       
     </div>
@@ -1304,7 +1342,7 @@
         
 
   
-  <span class="author-highlighted"><a href="/author/ka-ming-fung/">Ka Ming FUNG</a></span>
+  <span class="author-highlighted">Ka Ming FUNG</span>
       </div>
       
     </div>
@@ -1410,7 +1448,7 @@
         
 
   
-  <span class="author-highlighted"><a href="/author/ka-ming-fung/">Ka Ming FUNG</a></span>
+  <span class="author-highlighted">Ka Ming FUNG</span>
       </div>
       
     </div>
@@ -1512,7 +1550,7 @@
         
 
   
-  <span class="author-highlighted"><a href="/author/ka-ming-fung/">Ka Ming FUNG</a></span>
+  <span class="author-highlighted">Ka Ming FUNG</span>
       </div>
       
     </div>
@@ -1633,7 +1671,7 @@
         
 
   
-  <span class="author-highlighted"><a href="/author/ka-ming-fung/">Ka Ming FUNG</a></span>
+  <span class="author-highlighted">Ka Ming FUNG</span>
       </div>
       
     </div>
@@ -1735,7 +1773,7 @@
         
 
   
-  <span class="author-highlighted"><a href="/author/ka-ming-fung/">Ka Ming FUNG</a></span>
+  <span class="author-highlighted">Ka Ming FUNG</span>
       </div>
       
     </div>
@@ -1837,7 +1875,7 @@
         
 
   
-  <span class="author-highlighted"><a href="/author/ka-ming-fung/">Ka Ming FUNG</a></span>
+  <span class="author-highlighted">Ka Ming FUNG</span>
       </div>
       
     </div>
@@ -1958,7 +1996,7 @@
         
 
   
-  <span class="author-highlighted"><a href="/author/ka-ming-fung/">Ka Ming FUNG</a></span>
+  <span class="author-highlighted">Ka Ming FUNG</span>
       </div>
       
     </div>
@@ -2060,7 +2098,7 @@
         
 
   
-  <span class="author-highlighted"><a href="/author/ka-ming-fung/">Ka Ming FUNG</a></span>
+  <span class="author-highlighted">Ka Ming FUNG</span>
       </div>
       
     </div>
@@ -2170,7 +2208,7 @@
         
 
   
-  <span class="author-highlighted"><a href="/author/ka-ming-fung/">Ka Ming FUNG</a></span>
+  <span class="author-highlighted">Ka Ming FUNG</span>
       </div>
       
     </div>
@@ -2283,7 +2321,7 @@
         
 
   
-  <span class="author-highlighted"><a href="/author/ka-ming-fung/">Ka Ming FUNG</a></span>
+  <span class="author-highlighted">Ka Ming FUNG</span>
       </div>
       
     </div>
@@ -2464,23 +2502,25 @@
   
 
   <p class="powered-by">
-    © 2020 fkm
-  </p>
-
-  
-  
-
-
-
-
-
-
-  <p class="powered-by">
+    © 2020 fkm |
     
-    Published with
-    <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy</a>  —
-    the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">
-    open source</a> website builder that empowers creators.
+  
+
+  
+  
+
+
+
+
+
+
+  
+    
+    Powered by
+    <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy</a> 
+     
+    
+    
     
 
     
@@ -2494,7 +2534,6 @@
     
   </p>
 </footer>
-
   </div>
   
 

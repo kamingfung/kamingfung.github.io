@@ -238,11 +238,49 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.css">
+  <link rel="stylesheet" href="/css/wowchemy.min.865920f909e6383a23ab6ab7f304a48b.css">
 
   
 
 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108520539-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-108520539-2', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
   
@@ -284,7 +322,7 @@
     
       <meta property="article:published_time" content="2020-10-12T06:17:05&#43;00:00">
     
-    <meta property="article:modified_time" content="2020-10-12T02:17:05-04:00">
+    <meta property="article:modified_time" content="2020-10-12T15:44:05-04:00">
   
 
   
@@ -311,7 +349,7 @@
   "headline": "Predicting cerebral hyperperfusion syndrome following superficial temporal artery to middle cerebral artery bypass based on intraoperative perfusion-weighted magnetic resonance imaging",
   
   "datePublished": "2020-10-12T06:17:05Z",
-  "dateModified": "2020-10-12T02:17:05-04:00",
+  "dateModified": "2020-10-12T15:44:05-04:00",
   
   "author": {
     "@type": "Person",
@@ -748,7 +786,7 @@
     
 
   
-  <span ><a href="/author/defeng-wang/">Defeng Wang</a></span>, <span ><a href="/author/fengping-zhu/">Fengping Zhu</a></span>, <span ><a href="/author/ka-ming-fung/">Ka Ming Fung</a></span>, <span ><a href="/author/wei-zhu/">Wei Zhu</a></span>, <span ><a href="/author/yishan-luo/">Yishan Luo</a></span>, <span ><a href="/author/winnie-chiu-wing-w.c.w.-chu/">Winnie Chiu Wing W.C.W. Chu</a></span>, <span ><a href="/author/vincent-chung-v.c.-tong-mok/">Vincent Chung V.C. Tong Mok</a></span>, <span ><a href="/author/jinsong-wu/">Jinsong Wu</a></span>, <span ><a href="/author/lin-shi/">Lin Shi</a></span>, <span ><a href="/author/anil-t.-a.t.-ahuja/">Anil T. A.T. Ahuja</a></span>, <span ><a href="/author/ying-mao/">Ying Mao</a></span>
+  <span >Defeng Wang</span>, <span >Fengping Zhu</span>, <span >Ka Ming Fung</span>, <span >Wei Zhu</span>, <span >Yishan Luo</span>, <span >Winnie Chiu Wing W.C.W. Chu</span>, <span >Vincent Chung V.C. Tong Mok</span>, <span >Jinsong Wu</span>, <span >Lin Shi</span>, <span >Anil T. A.T. Ahuja</span>, <span >Ying Mao</span>
   </div>
   
   
@@ -1221,23 +1259,25 @@
   
 
   <p class="powered-by">
-    © 2020 fkm
-  </p>
-
-  
-  
-
-
-
-
-
-
-  <p class="powered-by">
+    © 2020 fkm |
     
-    Published with
-    <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy</a>  —
-    the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">
-    open source</a> website builder that empowers creators.
+  
+
+  
+  
+
+
+
+
+
+
+  
+    
+    Powered by
+    <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy</a> 
+     
+    
+    
     
 
     
@@ -1251,7 +1291,6 @@
     
   </p>
 </footer>
-
   </div>
   
 
