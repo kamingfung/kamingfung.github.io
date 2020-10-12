@@ -1,326 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ka Ming Fung | Academic</title>
-    <link>https://kamingfung.github.io/testing/author/ka-ming-fung/</link>
-      <atom:link href="https://kamingfung.github.io/testing/author/ka-ming-fung/index.xml" rel="self" type="application/rss+xml" />
+    <title>Ka Ming Fung | Ka Ming Fung, Ph.D.</title>
+    <link>/author/ka-ming-fung/</link>
+      <atom:link href="/author/ka-ming-fung/index.xml" rel="self" type="application/rss+xml" />
     <description>Ka Ming Fung</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 11 Oct 2020 16:58:10 -0400</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 fkm</copyright><lastBuildDate>Fri, 09 Oct 2020 16:58:10 -0400</lastBuildDate>
     <image>
-      <url>https://kamingfung.github.io/testing/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu26daae2aec3aee1c848737d70e9dbe2a_4285112_512x512_fill_lanczos_center_2.png</url>
       <title>Ka Ming Fung</title>
-      <link>https://kamingfung.github.io/testing/author/ka-ming-fung/</link>
+      <link>/author/ka-ming-fung/</link>
     </image>
     
     <item>
       <title>This is the moment</title>
-      <link>https://kamingfung.github.io/testing/post/so-i-have-been-told-copy-2/</link>
-      <pubDate>Sun, 11 Oct 2020 16:58:10 -0400</pubDate>
-      <guid>https://kamingfung.github.io/testing/post/so-i-have-been-told-copy-2/</guid>
-      <description>&lt;p&gt;So I have been told there is a new tool (new to me 😉) trending among academicians. I was casually checking it out last night, and now, I have just finished my 12-hour journey of website migration. Not to bore you to death by giving you all the geeky 👓 and technical details (including how I googled and picked the nicest templates, extracted the good elements, studied their liquid syntax &amp;amp; HTML codes, reassembled them, fixed countless bugs, and ran numerous tests&amp;hellip;), I will discuss some major advantages of Jekyll, as a static web page generator, over WordPress.&lt;/p&gt;
-&lt;h3 id=&#34;wordpress-was-not-good-enough&#34;&gt;WordPress was not good enough&lt;/h3&gt;
-&lt;p&gt;Let&amp;rsquo;s start with WordPress (WP). Here is a list of bad things about this commercial web page hosting service providers:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;WP is Slow&lt;/strong&gt; - to entertain its broad base of users WP comes with a bunch of plug-ins that most of us won&amp;rsquo;t find useful. Recently, they updated their editors to enable &amp;ldquo;block&amp;rdquo; elements, hoping to make layout design more flexible. But this change came at the expanse of becoming more graphically demanding (as compared to Google&amp;rsquo;s Site &amp;lt;- Yes, it is revived 😈). All these non-essential add-ons have made WP extremely heavy and slow.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;WP Poses Design Restrictions&lt;/strong&gt; - though WP has a bunch of themes and plugins to choose from, it&amp;rsquo;s not easy to make small adjustments because it doesn&amp;rsquo;t allow you to go all the way under the hood (i.e., change the codes). WP&amp;rsquo;s closed ecosystem limits customizations.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;WP Has Ads&lt;/strong&gt; - pop-ups, top-bars, and other forms of ads appear like elves if you are not a paid user. It just look unprofessional. (I know, so does emojis 😱.)&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;jekyll-is-not-perfect-but-just-better&#34;&gt;Jekyll is not perfect but just better&lt;/h3&gt;
-&lt;p&gt;After some research, aka skimming though the first page of Google Search results and watched a few Youtube vids, I found that Jekyll + GitHub Pages would be a better alternative for me.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Jekyll is Simple&lt;/strong&gt; - if you have used MS FrontPage to make websites (like ~20 years ago 💾), you would know how tedious it could be to write a blog post, format it, and index it alongside other posts. Jekyll, an HTML code generator, can auto-complete those procedures for you. The only thing your need is some knowledge of the markdown and liquid syntaxes.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Jekyll is Fast&lt;/strong&gt; - similar to WP, you can choose your favorite template from a collection of free and paid ones. Unlike WP, these templates come with source codes, which allow you to trim, extract, reuse, improve, and modify as you see fit. Optimizing code sets to your needs helps speed up the loading time. Also, it&amp;rsquo;s always ad-free.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Jekyll Puts You in Charge&lt;/strong&gt; - even though the Jekyll-generated websites still need to be hosted on places like Github Pages, you can always keep a local copy of it, including all the blog posts, pages, pictures, pdf files, etc. With this, you don&amp;rsquo;t have to worry about your memories will be gone one day like those Xanga dairies you once wrote. (Sorry that I am a senior netizen. 👴)&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;one-size-doesnt-fit-all&#34;&gt;One size doesn&amp;rsquo;t fit all&lt;/h3&gt;
-&lt;p&gt;I am sure that somewhere out there a newer and fancier tool have already been invited. I also have to confess that learning Jekyll was not my sweetest moment, and I have invested quite some time (properly longer than I should have). It&amp;rsquo;s highly customizable but not at all straight-forward. But, after all, I am happy to pay such as a small cost and appreciate Jekyll&amp;rsquo;s letting me own my contents and, together with GitHub, enabling me to host an ad-free open-source website.&lt;/p&gt;
-&lt;p&gt;I think Jekyll will make maintaining my website easier. If you are considering switching to Jekyll but still in doubt, free feel to connect with me. I will be more than happy to share with you my experience.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>This is the moment</title>
-      <link>https://kamingfung.github.io/testing/post/so-i-have-been-told-copy-3/</link>
-      <pubDate>Sun, 11 Oct 2020 16:58:10 -0400</pubDate>
-      <guid>https://kamingfung.github.io/testing/post/so-i-have-been-told-copy-3/</guid>
-      <description>&lt;p&gt;So I have been told there is a new tool (new to me 😉) trending among academicians. I was casually checking it out last night, and now, I have just finished my 12-hour journey of website migration. Not to bore you to death by giving you all the geeky 👓 and technical details (including how I googled and picked the nicest templates, extracted the good elements, studied their liquid syntax &amp;amp; HTML codes, reassembled them, fixed countless bugs, and ran numerous tests&amp;hellip;), I will discuss some major advantages of Jekyll, as a static web page generator, over WordPress.&lt;/p&gt;
-&lt;h3 id=&#34;wordpress-was-not-good-enough&#34;&gt;WordPress was not good enough&lt;/h3&gt;
-&lt;p&gt;Let&amp;rsquo;s start with WordPress (WP). Here is a list of bad things about this commercial web page hosting service providers:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;WP is Slow&lt;/strong&gt; - to entertain its broad base of users WP comes with a bunch of plug-ins that most of us won&amp;rsquo;t find useful. Recently, they updated their editors to enable &amp;ldquo;block&amp;rdquo; elements, hoping to make layout design more flexible. But this change came at the expanse of becoming more graphically demanding (as compared to Google&amp;rsquo;s Site &amp;lt;- Yes, it is revived 😈). All these non-essential add-ons have made WP extremely heavy and slow.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;WP Poses Design Restrictions&lt;/strong&gt; - though WP has a bunch of themes and plugins to choose from, it&amp;rsquo;s not easy to make small adjustments because it doesn&amp;rsquo;t allow you to go all the way under the hood (i.e., change the codes). WP&amp;rsquo;s closed ecosystem limits customizations.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;WP Has Ads&lt;/strong&gt; - pop-ups, top-bars, and other forms of ads appear like elves if you are not a paid user. It just look unprofessional. (I know, so does emojis 😱.)&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;jekyll-is-not-perfect-but-just-better&#34;&gt;Jekyll is not perfect but just better&lt;/h3&gt;
-&lt;p&gt;After some research, aka skimming though the first page of Google Search results and watched a few Youtube vids, I found that Jekyll + GitHub Pages would be a better alternative for me.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Jekyll is Simple&lt;/strong&gt; - if you have used MS FrontPage to make websites (like ~20 years ago 💾), you would know how tedious it could be to write a blog post, format it, and index it alongside other posts. Jekyll, an HTML code generator, can auto-complete those procedures for you. The only thing your need is some knowledge of the markdown and liquid syntaxes.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Jekyll is Fast&lt;/strong&gt; - similar to WP, you can choose your favorite template from a collection of free and paid ones. Unlike WP, these templates come with source codes, which allow you to trim, extract, reuse, improve, and modify as you see fit. Optimizing code sets to your needs helps speed up the loading time. Also, it&amp;rsquo;s always ad-free.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Jekyll Puts You in Charge&lt;/strong&gt; - even though the Jekyll-generated websites still need to be hosted on places like Github Pages, you can always keep a local copy of it, including all the blog posts, pages, pictures, pdf files, etc. With this, you don&amp;rsquo;t have to worry about your memories will be gone one day like those Xanga dairies you once wrote. (Sorry that I am a senior netizen. 👴)&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;one-size-doesnt-fit-all&#34;&gt;One size doesn&amp;rsquo;t fit all&lt;/h3&gt;
-&lt;p&gt;I am sure that somewhere out there a newer and fancier tool have already been invited. I also have to confess that learning Jekyll was not my sweetest moment, and I have invested quite some time (properly longer than I should have). It&amp;rsquo;s highly customizable but not at all straight-forward. But, after all, I am happy to pay such as a small cost and appreciate Jekyll&amp;rsquo;s letting me own my contents and, together with GitHub, enabling me to host an ad-free open-source website.&lt;/p&gt;
-&lt;p&gt;I think Jekyll will make maintaining my website easier. If you are considering switching to Jekyll but still in doubt, free feel to connect with me. I will be more than happy to share with you my experience.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>This is the moment</title>
-      <link>https://kamingfung.github.io/testing/post/so-i-have-been-told-copy-4/</link>
-      <pubDate>Sun, 11 Oct 2020 16:58:10 -0400</pubDate>
-      <guid>https://kamingfung.github.io/testing/post/so-i-have-been-told-copy-4/</guid>
-      <description>&lt;p&gt;So I have been told there is a new tool (new to me 😉) trending among academicians. I was casually checking it out last night, and now, I have just finished my 12-hour journey of website migration. Not to bore you to death by giving you all the geeky 👓 and technical details (including how I googled and picked the nicest templates, extracted the good elements, studied their liquid syntax &amp;amp; HTML codes, reassembled them, fixed countless bugs, and ran numerous tests&amp;hellip;), I will discuss some major advantages of Jekyll, as a static web page generator, over WordPress.&lt;/p&gt;
-&lt;h3 id=&#34;wordpress-was-not-good-enough&#34;&gt;WordPress was not good enough&lt;/h3&gt;
-&lt;p&gt;Let&amp;rsquo;s start with WordPress (WP). Here is a list of bad things about this commercial web page hosting service providers:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;WP is Slow&lt;/strong&gt; - to entertain its broad base of users WP comes with a bunch of plug-ins that most of us won&amp;rsquo;t find useful. Recently, they updated their editors to enable &amp;ldquo;block&amp;rdquo; elements, hoping to make layout design more flexible. But this change came at the expanse of becoming more graphically demanding (as compared to Google&amp;rsquo;s Site &amp;lt;- Yes, it is revived 😈). All these non-essential add-ons have made WP extremely heavy and slow.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;WP Poses Design Restrictions&lt;/strong&gt; - though WP has a bunch of themes and plugins to choose from, it&amp;rsquo;s not easy to make small adjustments because it doesn&amp;rsquo;t allow you to go all the way under the hood (i.e., change the codes). WP&amp;rsquo;s closed ecosystem limits customizations.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;WP Has Ads&lt;/strong&gt; - pop-ups, top-bars, and other forms of ads appear like elves if you are not a paid user. It just look unprofessional. (I know, so does emojis 😱.)&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;jekyll-is-not-perfect-but-just-better&#34;&gt;Jekyll is not perfect but just better&lt;/h3&gt;
-&lt;p&gt;After some research, aka skimming though the first page of Google Search results and watched a few Youtube vids, I found that Jekyll + GitHub Pages would be a better alternative for me.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Jekyll is Simple&lt;/strong&gt; - if you have used MS FrontPage to make websites (like ~20 years ago 💾), you would know how tedious it could be to write a blog post, format it, and index it alongside other posts. Jekyll, an HTML code generator, can auto-complete those procedures for you. The only thing your need is some knowledge of the markdown and liquid syntaxes.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Jekyll is Fast&lt;/strong&gt; - similar to WP, you can choose your favorite template from a collection of free and paid ones. Unlike WP, these templates come with source codes, which allow you to trim, extract, reuse, improve, and modify as you see fit. Optimizing code sets to your needs helps speed up the loading time. Also, it&amp;rsquo;s always ad-free.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Jekyll Puts You in Charge&lt;/strong&gt; - even though the Jekyll-generated websites still need to be hosted on places like Github Pages, you can always keep a local copy of it, including all the blog posts, pages, pictures, pdf files, etc. With this, you don&amp;rsquo;t have to worry about your memories will be gone one day like those Xanga dairies you once wrote. (Sorry that I am a senior netizen. 👴)&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;one-size-doesnt-fit-all&#34;&gt;One size doesn&amp;rsquo;t fit all&lt;/h3&gt;
-&lt;p&gt;I am sure that somewhere out there a newer and fancier tool have already been invited. I also have to confess that learning Jekyll was not my sweetest moment, and I have invested quite some time (properly longer than I should have). It&amp;rsquo;s highly customizable but not at all straight-forward. But, after all, I am happy to pay such as a small cost and appreciate Jekyll&amp;rsquo;s letting me own my contents and, together with GitHub, enabling me to host an ad-free open-source website.&lt;/p&gt;
-&lt;p&gt;I think Jekyll will make maintaining my website easier. If you are considering switching to Jekyll but still in doubt, free feel to connect with me. I will be more than happy to share with you my experience.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>This is the moment</title>
-      <link>https://kamingfung.github.io/testing/post/so-i-have-been-told-copy-5/</link>
-      <pubDate>Sun, 11 Oct 2020 16:58:10 -0400</pubDate>
-      <guid>https://kamingfung.github.io/testing/post/so-i-have-been-told-copy-5/</guid>
-      <description>&lt;p&gt;So I have been told there is a new tool (new to me 😉) trending among academicians. I was casually checking it out last night, and now, I have just finished my 12-hour journey of website migration. Not to bore you to death by giving you all the geeky 👓 and technical details (including how I googled and picked the nicest templates, extracted the good elements, studied their liquid syntax &amp;amp; HTML codes, reassembled them, fixed countless bugs, and ran numerous tests&amp;hellip;), I will discuss some major advantages of Jekyll, as a static web page generator, over WordPress.&lt;/p&gt;
-&lt;h3 id=&#34;wordpress-was-not-good-enough&#34;&gt;WordPress was not good enough&lt;/h3&gt;
-&lt;p&gt;Let&amp;rsquo;s start with WordPress (WP). Here is a list of bad things about this commercial web page hosting service providers:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;WP is Slow&lt;/strong&gt; - to entertain its broad base of users WP comes with a bunch of plug-ins that most of us won&amp;rsquo;t find useful. Recently, they updated their editors to enable &amp;ldquo;block&amp;rdquo; elements, hoping to make layout design more flexible. But this change came at the expanse of becoming more graphically demanding (as compared to Google&amp;rsquo;s Site &amp;lt;- Yes, it is revived 😈). All these non-essential add-ons have made WP extremely heavy and slow.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;WP Poses Design Restrictions&lt;/strong&gt; - though WP has a bunch of themes and plugins to choose from, it&amp;rsquo;s not easy to make small adjustments because it doesn&amp;rsquo;t allow you to go all the way under the hood (i.e., change the codes). WP&amp;rsquo;s closed ecosystem limits customizations.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;WP Has Ads&lt;/strong&gt; - pop-ups, top-bars, and other forms of ads appear like elves if you are not a paid user. It just look unprofessional. (I know, so does emojis 😱.)&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;jekyll-is-not-perfect-but-just-better&#34;&gt;Jekyll is not perfect but just better&lt;/h3&gt;
-&lt;p&gt;After some research, aka skimming though the first page of Google Search results and watched a few Youtube vids, I found that Jekyll + GitHub Pages would be a better alternative for me.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Jekyll is Simple&lt;/strong&gt; - if you have used MS FrontPage to make websites (like ~20 years ago 💾), you would know how tedious it could be to write a blog post, format it, and index it alongside other posts. Jekyll, an HTML code generator, can auto-complete those procedures for you. The only thing your need is some knowledge of the markdown and liquid syntaxes.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Jekyll is Fast&lt;/strong&gt; - similar to WP, you can choose your favorite template from a collection of free and paid ones. Unlike WP, these templates come with source codes, which allow you to trim, extract, reuse, improve, and modify as you see fit. Optimizing code sets to your needs helps speed up the loading time. Also, it&amp;rsquo;s always ad-free.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Jekyll Puts You in Charge&lt;/strong&gt; - even though the Jekyll-generated websites still need to be hosted on places like Github Pages, you can always keep a local copy of it, including all the blog posts, pages, pictures, pdf files, etc. With this, you don&amp;rsquo;t have to worry about your memories will be gone one day like those Xanga dairies you once wrote. (Sorry that I am a senior netizen. 👴)&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;one-size-doesnt-fit-all&#34;&gt;One size doesn&amp;rsquo;t fit all&lt;/h3&gt;
-&lt;p&gt;I am sure that somewhere out there a newer and fancier tool have already been invited. I also have to confess that learning Jekyll was not my sweetest moment, and I have invested quite some time (properly longer than I should have). It&amp;rsquo;s highly customizable but not at all straight-forward. But, after all, I am happy to pay such as a small cost and appreciate Jekyll&amp;rsquo;s letting me own my contents and, together with GitHub, enabling me to host an ad-free open-source website.&lt;/p&gt;
-&lt;p&gt;I think Jekyll will make maintaining my website easier. If you are considering switching to Jekyll but still in doubt, free feel to connect with me. I will be more than happy to share with you my experience.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>This is the moment</title>
-      <link>https://kamingfung.github.io/testing/post/so-i-have-been-told-copy-6/</link>
-      <pubDate>Sun, 11 Oct 2020 16:58:10 -0400</pubDate>
-      <guid>https://kamingfung.github.io/testing/post/so-i-have-been-told-copy-6/</guid>
-      <description>&lt;p&gt;So I have been told there is a new tool (new to me 😉) trending among academicians. I was casually checking it out last night, and now, I have just finished my 12-hour journey of website migration. Not to bore you to death by giving you all the geeky 👓 and technical details (including how I googled and picked the nicest templates, extracted the good elements, studied their liquid syntax &amp;amp; HTML codes, reassembled them, fixed countless bugs, and ran numerous tests&amp;hellip;), I will discuss some major advantages of Jekyll, as a static web page generator, over WordPress.&lt;/p&gt;
-&lt;h3 id=&#34;wordpress-was-not-good-enough&#34;&gt;WordPress was not good enough&lt;/h3&gt;
-&lt;p&gt;Let&amp;rsquo;s start with WordPress (WP). Here is a list of bad things about this commercial web page hosting service providers:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;WP is Slow&lt;/strong&gt; - to entertain its broad base of users WP comes with a bunch of plug-ins that most of us won&amp;rsquo;t find useful. Recently, they updated their editors to enable &amp;ldquo;block&amp;rdquo; elements, hoping to make layout design more flexible. But this change came at the expanse of becoming more graphically demanding (as compared to Google&amp;rsquo;s Site &amp;lt;- Yes, it is revived 😈). All these non-essential add-ons have made WP extremely heavy and slow.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;WP Poses Design Restrictions&lt;/strong&gt; - though WP has a bunch of themes and plugins to choose from, it&amp;rsquo;s not easy to make small adjustments because it doesn&amp;rsquo;t allow you to go all the way under the hood (i.e., change the codes). WP&amp;rsquo;s closed ecosystem limits customizations.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;WP Has Ads&lt;/strong&gt; - pop-ups, top-bars, and other forms of ads appear like elves if you are not a paid user. It just look unprofessional. (I know, so does emojis 😱.)&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;jekyll-is-not-perfect-but-just-better&#34;&gt;Jekyll is not perfect but just better&lt;/h3&gt;
-&lt;p&gt;After some research, aka skimming though the first page of Google Search results and watched a few Youtube vids, I found that Jekyll + GitHub Pages would be a better alternative for me.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Jekyll is Simple&lt;/strong&gt; - if you have used MS FrontPage to make websites (like ~20 years ago 💾), you would know how tedious it could be to write a blog post, format it, and index it alongside other posts. Jekyll, an HTML code generator, can auto-complete those procedures for you. The only thing your need is some knowledge of the markdown and liquid syntaxes.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Jekyll is Fast&lt;/strong&gt; - similar to WP, you can choose your favorite template from a collection of free and paid ones. Unlike WP, these templates come with source codes, which allow you to trim, extract, reuse, improve, and modify as you see fit. Optimizing code sets to your needs helps speed up the loading time. Also, it&amp;rsquo;s always ad-free.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Jekyll Puts You in Charge&lt;/strong&gt; - even though the Jekyll-generated websites still need to be hosted on places like Github Pages, you can always keep a local copy of it, including all the blog posts, pages, pictures, pdf files, etc. With this, you don&amp;rsquo;t have to worry about your memories will be gone one day like those Xanga dairies you once wrote. (Sorry that I am a senior netizen. 👴)&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;one-size-doesnt-fit-all&#34;&gt;One size doesn&amp;rsquo;t fit all&lt;/h3&gt;
-&lt;p&gt;I am sure that somewhere out there a newer and fancier tool have already been invited. I also have to confess that learning Jekyll was not my sweetest moment, and I have invested quite some time (properly longer than I should have). It&amp;rsquo;s highly customizable but not at all straight-forward. But, after all, I am happy to pay such as a small cost and appreciate Jekyll&amp;rsquo;s letting me own my contents and, together with GitHub, enabling me to host an ad-free open-source website.&lt;/p&gt;
-&lt;p&gt;I think Jekyll will make maintaining my website easier. If you are considering switching to Jekyll but still in doubt, free feel to connect with me. I will be more than happy to share with you my experience.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>This is the moment</title>
-      <link>https://kamingfung.github.io/testing/post/so-i-have-been-told-copy-7/</link>
-      <pubDate>Sun, 11 Oct 2020 16:58:10 -0400</pubDate>
-      <guid>https://kamingfung.github.io/testing/post/so-i-have-been-told-copy-7/</guid>
-      <description>&lt;p&gt;So I have been told there is a new tool (new to me 😉) trending among academicians. I was casually checking it out last night, and now, I have just finished my 12-hour journey of website migration. Not to bore you to death by giving you all the geeky 👓 and technical details (including how I googled and picked the nicest templates, extracted the good elements, studied their liquid syntax &amp;amp; HTML codes, reassembled them, fixed countless bugs, and ran numerous tests&amp;hellip;), I will discuss some major advantages of Jekyll, as a static web page generator, over WordPress.&lt;/p&gt;
-&lt;h3 id=&#34;wordpress-was-not-good-enough&#34;&gt;WordPress was not good enough&lt;/h3&gt;
-&lt;p&gt;Let&amp;rsquo;s start with WordPress (WP). Here is a list of bad things about this commercial web page hosting service providers:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;WP is Slow&lt;/strong&gt; - to entertain its broad base of users WP comes with a bunch of plug-ins that most of us won&amp;rsquo;t find useful. Recently, they updated their editors to enable &amp;ldquo;block&amp;rdquo; elements, hoping to make layout design more flexible. But this change came at the expanse of becoming more graphically demanding (as compared to Google&amp;rsquo;s Site &amp;lt;- Yes, it is revived 😈). All these non-essential add-ons have made WP extremely heavy and slow.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;WP Poses Design Restrictions&lt;/strong&gt; - though WP has a bunch of themes and plugins to choose from, it&amp;rsquo;s not easy to make small adjustments because it doesn&amp;rsquo;t allow you to go all the way under the hood (i.e., change the codes). WP&amp;rsquo;s closed ecosystem limits customizations.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;WP Has Ads&lt;/strong&gt; - pop-ups, top-bars, and other forms of ads appear like elves if you are not a paid user. It just look unprofessional. (I know, so does emojis 😱.)&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;jekyll-is-not-perfect-but-just-better&#34;&gt;Jekyll is not perfect but just better&lt;/h3&gt;
-&lt;p&gt;After some research, aka skimming though the first page of Google Search results and watched a few Youtube vids, I found that Jekyll + GitHub Pages would be a better alternative for me.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Jekyll is Simple&lt;/strong&gt; - if you have used MS FrontPage to make websites (like ~20 years ago 💾), you would know how tedious it could be to write a blog post, format it, and index it alongside other posts. Jekyll, an HTML code generator, can auto-complete those procedures for you. The only thing your need is some knowledge of the markdown and liquid syntaxes.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Jekyll is Fast&lt;/strong&gt; - similar to WP, you can choose your favorite template from a collection of free and paid ones. Unlike WP, these templates come with source codes, which allow you to trim, extract, reuse, improve, and modify as you see fit. Optimizing code sets to your needs helps speed up the loading time. Also, it&amp;rsquo;s always ad-free.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Jekyll Puts You in Charge&lt;/strong&gt; - even though the Jekyll-generated websites still need to be hosted on places like Github Pages, you can always keep a local copy of it, including all the blog posts, pages, pictures, pdf files, etc. With this, you don&amp;rsquo;t have to worry about your memories will be gone one day like those Xanga dairies you once wrote. (Sorry that I am a senior netizen. 👴)&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;one-size-doesnt-fit-all&#34;&gt;One size doesn&amp;rsquo;t fit all&lt;/h3&gt;
-&lt;p&gt;I am sure that somewhere out there a newer and fancier tool have already been invited. I also have to confess that learning Jekyll was not my sweetest moment, and I have invested quite some time (properly longer than I should have). It&amp;rsquo;s highly customizable but not at all straight-forward. But, after all, I am happy to pay such as a small cost and appreciate Jekyll&amp;rsquo;s letting me own my contents and, together with GitHub, enabling me to host an ad-free open-source website.&lt;/p&gt;
-&lt;p&gt;I think Jekyll will make maintaining my website easier. If you are considering switching to Jekyll but still in doubt, free feel to connect with me. I will be more than happy to share with you my experience.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>This is the moment</title>
-      <link>https://kamingfung.github.io/testing/post/so-i-have-been-told-copy-8/</link>
-      <pubDate>Sun, 11 Oct 2020 16:58:10 -0400</pubDate>
-      <guid>https://kamingfung.github.io/testing/post/so-i-have-been-told-copy-8/</guid>
-      <description>&lt;p&gt;So I have been told there is a new tool (new to me 😉) trending among academicians. I was casually checking it out last night, and now, I have just finished my 12-hour journey of website migration. Not to bore you to death by giving you all the geeky 👓 and technical details (including how I googled and picked the nicest templates, extracted the good elements, studied their liquid syntax &amp;amp; HTML codes, reassembled them, fixed countless bugs, and ran numerous tests&amp;hellip;), I will discuss some major advantages of Jekyll, as a static web page generator, over WordPress.&lt;/p&gt;
-&lt;h3 id=&#34;wordpress-was-not-good-enough&#34;&gt;WordPress was not good enough&lt;/h3&gt;
-&lt;p&gt;Let&amp;rsquo;s start with WordPress (WP). Here is a list of bad things about this commercial web page hosting service providers:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;WP is Slow&lt;/strong&gt; - to entertain its broad base of users WP comes with a bunch of plug-ins that most of us won&amp;rsquo;t find useful. Recently, they updated their editors to enable &amp;ldquo;block&amp;rdquo; elements, hoping to make layout design more flexible. But this change came at the expanse of becoming more graphically demanding (as compared to Google&amp;rsquo;s Site &amp;lt;- Yes, it is revived 😈). All these non-essential add-ons have made WP extremely heavy and slow.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;WP Poses Design Restrictions&lt;/strong&gt; - though WP has a bunch of themes and plugins to choose from, it&amp;rsquo;s not easy to make small adjustments because it doesn&amp;rsquo;t allow you to go all the way under the hood (i.e., change the codes). WP&amp;rsquo;s closed ecosystem limits customizations.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;WP Has Ads&lt;/strong&gt; - pop-ups, top-bars, and other forms of ads appear like elves if you are not a paid user. It just look unprofessional. (I know, so does emojis 😱.)&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;jekyll-is-not-perfect-but-just-better&#34;&gt;Jekyll is not perfect but just better&lt;/h3&gt;
-&lt;p&gt;After some research, aka skimming though the first page of Google Search results and watched a few Youtube vids, I found that Jekyll + GitHub Pages would be a better alternative for me.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Jekyll is Simple&lt;/strong&gt; - if you have used MS FrontPage to make websites (like ~20 years ago 💾), you would know how tedious it could be to write a blog post, format it, and index it alongside other posts. Jekyll, an HTML code generator, can auto-complete those procedures for you. The only thing your need is some knowledge of the markdown and liquid syntaxes.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Jekyll is Fast&lt;/strong&gt; - similar to WP, you can choose your favorite template from a collection of free and paid ones. Unlike WP, these templates come with source codes, which allow you to trim, extract, reuse, improve, and modify as you see fit. Optimizing code sets to your needs helps speed up the loading time. Also, it&amp;rsquo;s always ad-free.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Jekyll Puts You in Charge&lt;/strong&gt; - even though the Jekyll-generated websites still need to be hosted on places like Github Pages, you can always keep a local copy of it, including all the blog posts, pages, pictures, pdf files, etc. With this, you don&amp;rsquo;t have to worry about your memories will be gone one day like those Xanga dairies you once wrote. (Sorry that I am a senior netizen. 👴)&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;one-size-doesnt-fit-all&#34;&gt;One size doesn&amp;rsquo;t fit all&lt;/h3&gt;
-&lt;p&gt;I am sure that somewhere out there a newer and fancier tool have already been invited. I also have to confess that learning Jekyll was not my sweetest moment, and I have invested quite some time (properly longer than I should have). It&amp;rsquo;s highly customizable but not at all straight-forward. But, after all, I am happy to pay such as a small cost and appreciate Jekyll&amp;rsquo;s letting me own my contents and, together with GitHub, enabling me to host an ad-free open-source website.&lt;/p&gt;
-&lt;p&gt;I think Jekyll will make maintaining my website easier. If you are considering switching to Jekyll but still in doubt, free feel to connect with me. I will be more than happy to share with you my experience.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>This is the moment</title>
-      <link>https://kamingfung.github.io/testing/post/so-i-have-been-told-copy/</link>
-      <pubDate>Sun, 11 Oct 2020 16:58:10 -0400</pubDate>
-      <guid>https://kamingfung.github.io/testing/post/so-i-have-been-told-copy/</guid>
-      <description>&lt;p&gt;So I have been told there is a new tool (new to me 😉) trending among academicians. I was casually checking it out last night, and now, I have just finished my 12-hour journey of website migration. Not to bore you to death by giving you all the geeky 👓 and technical details (including how I googled and picked the nicest templates, extracted the good elements, studied their liquid syntax &amp;amp; HTML codes, reassembled them, fixed countless bugs, and ran numerous tests&amp;hellip;), I will discuss some major advantages of Jekyll, as a static web page generator, over WordPress.&lt;/p&gt;
-&lt;h3 id=&#34;wordpress-was-not-good-enough&#34;&gt;WordPress was not good enough&lt;/h3&gt;
-&lt;p&gt;Let&amp;rsquo;s start with WordPress (WP). Here is a list of bad things about this commercial web page hosting service providers:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;WP is Slow&lt;/strong&gt; - to entertain its broad base of users WP comes with a bunch of plug-ins that most of us won&amp;rsquo;t find useful. Recently, they updated their editors to enable &amp;ldquo;block&amp;rdquo; elements, hoping to make layout design more flexible. But this change came at the expanse of becoming more graphically demanding (as compared to Google&amp;rsquo;s Site &amp;lt;- Yes, it is revived 😈). All these non-essential add-ons have made WP extremely heavy and slow.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;WP Poses Design Restrictions&lt;/strong&gt; - though WP has a bunch of themes and plugins to choose from, it&amp;rsquo;s not easy to make small adjustments because it doesn&amp;rsquo;t allow you to go all the way under the hood (i.e., change the codes). WP&amp;rsquo;s closed ecosystem limits customizations.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;WP Has Ads&lt;/strong&gt; - pop-ups, top-bars, and other forms of ads appear like elves if you are not a paid user. It just look unprofessional. (I know, so does emojis 😱.)&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;jekyll-is-not-perfect-but-just-better&#34;&gt;Jekyll is not perfect but just better&lt;/h3&gt;
-&lt;p&gt;After some research, aka skimming though the first page of Google Search results and watched a few Youtube vids, I found that Jekyll + GitHub Pages would be a better alternative for me.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Jekyll is Simple&lt;/strong&gt; - if you have used MS FrontPage to make websites (like ~20 years ago 💾), you would know how tedious it could be to write a blog post, format it, and index it alongside other posts. Jekyll, an HTML code generator, can auto-complete those procedures for you. The only thing your need is some knowledge of the markdown and liquid syntaxes.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Jekyll is Fast&lt;/strong&gt; - similar to WP, you can choose your favorite template from a collection of free and paid ones. Unlike WP, these templates come with source codes, which allow you to trim, extract, reuse, improve, and modify as you see fit. Optimizing code sets to your needs helps speed up the loading time. Also, it&amp;rsquo;s always ad-free.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Jekyll Puts You in Charge&lt;/strong&gt; - even though the Jekyll-generated websites still need to be hosted on places like Github Pages, you can always keep a local copy of it, including all the blog posts, pages, pictures, pdf files, etc. With this, you don&amp;rsquo;t have to worry about your memories will be gone one day like those Xanga dairies you once wrote. (Sorry that I am a senior netizen. 👴)&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;one-size-doesnt-fit-all&#34;&gt;One size doesn&amp;rsquo;t fit all&lt;/h3&gt;
-&lt;p&gt;I am sure that somewhere out there a newer and fancier tool have already been invited. I also have to confess that learning Jekyll was not my sweetest moment, and I have invested quite some time (properly longer than I should have). It&amp;rsquo;s highly customizable but not at all straight-forward. But, after all, I am happy to pay such as a small cost and appreciate Jekyll&amp;rsquo;s letting me own my contents and, together with GitHub, enabling me to host an ad-free open-source website.&lt;/p&gt;
-&lt;p&gt;I think Jekyll will make maintaining my website easier. If you are considering switching to Jekyll but still in doubt, free feel to connect with me. I will be more than happy to share with you my experience.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>This is the moment</title>
-      <link>https://kamingfung.github.io/testing/post/so-i-have-been-told/</link>
-      <pubDate>Sun, 11 Oct 2020 16:58:10 -0400</pubDate>
-      <guid>https://kamingfung.github.io/testing/post/so-i-have-been-told/</guid>
+      <link>/post/so-i-have-been-told/</link>
+      <pubDate>Fri, 09 Oct 2020 16:58:10 -0400</pubDate>
+      <guid>/post/so-i-have-been-told/</guid>
       <description>&lt;p&gt;So I have been told there is a new tool (new to me 😉) trending among academicians. I was casually checking it out last night, and now, I have just finished my 12-hour journey of website migration. Not to bore you to death by giving you all the geeky 👓 and technical details (including how I googled and picked the nicest templates, extracted the good elements, studied their liquid syntax &amp;amp; HTML codes, reassembled them, fixed countless bugs, and ran numerous tests&amp;hellip;), I will discuss some major advantages of Jekyll, as a static web page generator, over WordPress.&lt;/p&gt;
 &lt;h3 id=&#34;wordpress-was-not-good-enough&#34;&gt;WordPress was not good enough&lt;/h3&gt;
 &lt;p&gt;Let&amp;rsquo;s start with WordPress (WP). Here is a list of bad things about this commercial web page hosting service providers:&lt;/p&gt;
@@ -356,9 +52,9 @@
     
     <item>
       <title>Python Basics for CESM</title>
-      <link>https://kamingfung.github.io/testing/post/2020-10-03-python_basics_cesm/</link>
+      <link>/post/2020-10-03-python_basics_cesm/</link>
       <pubDate>Sat, 03 Oct 2020 16:05:04 -0400</pubDate>
-      <guid>https://kamingfung.github.io/testing/post/2020-10-03-python_basics_cesm/</guid>
+      <guid>/post/2020-10-03-python_basics_cesm/</guid>
       <description>&lt;p&gt;&lt;em&gt;Created by &lt;a href=&#34;kamingfung@mit.edu&#34;&gt;Ka Ming Fung&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;references&#34;&gt;References:&lt;/h2&gt;
 &lt;p&gt;For general python handling of nc files: &lt;a href=&#34;https://github.com/geoschem/GEOSChem-python-tutorial&#34;&gt;https://github.com/geoschem/GEOSChem-python-tutorial&lt;/a&gt;
@@ -585,6 +281,279 @@ plt.savefig(&amp;quot;Figure1.png&amp;quot;) # we can simply specify the wanted 
 &lt;pre&gt;&lt;code&gt;Figure1.png
 &lt;/code&gt;&lt;/pre&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Setting up Colorbar Colors Using R and ggplot2</title>
+      <link>/post/2019-09-30-setting-color-bars/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/post/2019-09-30-setting-color-bars/</guid>
+      <description>&lt;p&gt;Created by Ka Ming Fung (&lt;a href=&#34;mailto:kamingfung@mit.edu&#34;&gt;kamingfung@mit.edu&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;This is an example to set up colors in the colorbars in ggplot2.&lt;/p&gt;
+&lt;p&gt;Let’s start with generating some random data.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# create a 10-by-10 matrix with random numbers as entries
+m = matrix(data = rnorm(n = 100), nrow = 10, ncol = 10)
+
+# converting the matrix into a data frame for ggplot to read
+library(reshape2)
+df = melt(m)
+
+# showing the first 7 rows of the data frame for illustration
+head(x = df, n = 7)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##   Var1 Var2      value
+## 1    1    1 -0.2921716
+## 2    2    1 -0.6998522
+## 3    3    1  1.2001914
+## 4    4    1  0.8193078
+## 5    5    1 -0.5572283
+## 6    6    1 -0.7793558
+## 7    7    1 -0.5819304
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Time to play with ggplot colorbars (#nofun).&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(ggplot2)  # for plotting
+library(cowplot)  # for publication friendly ggplot themes
+
+# setting up the base plot
+g = ggplot(data = df, mapping = aes(x = Var1, y = Var2)) + theme_cowplot()
+
+g
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;unnamed-chunk-2-1.png&#34; alt=&#34;&#34;&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;p&gt;Showing our data on the plot as a heatmap colors depending on &amp;ldquo;value&amp;rdquo;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# adding &amp;quot;heatmap&amp;quot; using rastered grids
+g1 = g + geom_raster(mapping = aes(fill = value)) # for raster plot, &amp;quot;fill&amp;quot; defines the color inside each rectangle
+g1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;unnamed-chunk-3-1.png&#34; alt=&#34;&#34;&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;p&gt;It looks good. Gridboxes with lower values are filled with darker blue,
+vice versa. But, people want better. For example, some prefer nicer
+colors.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# adding raster but with better colors
+g2 = g1 + scale_fill_distiller(palette = &amp;quot;Spectral&amp;quot;)
+g2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;unnamed-chunk-4-1.png&#34; alt=&#34;&#34;&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;p&gt;Some prefer binned colors.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# adding raster but with binned colors
+g2.binned = g1 + scale_fill_fermenter(palette = &amp;quot;Spectral&amp;quot;)
+g2.binned
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;unnamed-chunk-5-1.png&#34; alt=&#34;&#34;&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;p&gt;Some prefer binned colors with non-uniform breaks.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# adding raster but with binned colors and customerized breaks
+g3 = g1 + scale_fill_fermenter(palette = &amp;quot;Spectral&amp;quot;, breaks = c(-1, 0, 2))
+g3
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;unnamed-chunk-6-1.png&#34; alt=&#34;&#34;&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;p&gt;Some even prefer non-uniform scales.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# adding raster but with binned colors and customerized breaks on a non-uniform scale
+g4 = g1 + scale_fill_fermenter(palette = &amp;quot;Spectral&amp;quot;, breaks = c(-1, 0, 2)) + guides (fill = guide_coloursteps(even.steps = F))
+g4
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;unnamed-chunk-7-1.png&#34; alt=&#34;&#34;&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;p&gt;Finally, for some who want to control the limits or ends of the
+colorbar. One thing to note: after setting the limit range for the
+colorbar, some gridboxes may have out-of-bound (oob) values and to be
+treated as &amp;ldquo;NA&amp;rdquo;. This can be simply avoid by using the &amp;ldquo;squish&amp;rdquo; function
+under package &amp;ldquo;scales&amp;rdquo;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# adding raster with binned colors and customerized breaks on a non-uniform scale, and control the limits
+library(scales)   # for the &amp;quot;squish&amp;quot; function
+g5 = g1 + scale_fill_fermenter(palette = &amp;quot;Spectral&amp;quot;, breaks = c(-1, 0, 2), limits = c(-2, 3), oob = squish) + guides (fill = guide_coloursteps(even.steps = F, show.limits = T))
+g5
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;unnamed-chunk-8-1.png&#34; alt=&#34;&#34;&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;!-- Bonus: if you want to make a fancier interactive map, the package `plotly` would be a good choice. --&gt;
+&lt;!-- ```{r, warning=FALSE} --&gt;
+&lt;!-- library(plotly) # for drawing interactive plots --&gt;
+&lt;!-- p = ggplotly(g5) --&gt;
+&lt;!-- p --&gt;
+&lt;!-- ``` --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Displaying Special Symbols for Equations and Reactions</title>
+      <link>/post/2019-09-24-parsing-special-symbols/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/post/2019-09-24-parsing-special-symbols/</guid>
+      <description>&lt;p&gt;Created by Ka Ming Fung (&lt;a href=&#34;mailto:kamingfung@mit.edu&#34;&gt;kamingfung@mit.edu&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;This is an example to show special characters and formats in ggplot2.&lt;/p&gt;
+&lt;p&gt;In the following example, we are going to show a chemical reaction in a
+plot created by &amp;ldquo;ggplot2&amp;rdquo;. It may seem straightforward but the way R
+handling it is not. Let’s see the codes.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(ggplot2)  # for plotting
+
+# setting up the base plot
+g = ggplot()
+g = g + geom_text(aes(x = 1, y = 1, label = &#39;S(IV)[&amp;quot;(aq)&amp;quot;]~&amp;quot;+&amp;quot;~H[2]*O[2*&amp;quot;(aq)&amp;quot;] %-&amp;gt;% SO[4*&amp;quot;(aq)&amp;quot;]^&amp;quot;2–&amp;quot;~(mode~1)&#39;), parse = T)
+
+g
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;unnamed-chunk-1-1.png&#34; alt=&#34;&#34;&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;p&gt;In the code example, we try to pass a string defined for &amp;ldquo;label&amp;rdquo; into
+the &amp;ldquo;R&amp;rdquo; basic function &amp;ldquo;parse&amp;rdquo; to convert plain text into an &amp;ldquo;plot.math&amp;rdquo;
+object, i.e., a chemical equation in this example. There are some
+strange symbols in the string and they all carry special function -&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;round brackets &amp;ldquo;(&amp;rdquo; and &amp;ldquo;)&amp;rdquo; are quoted so that &amp;ldquo;parse&amp;rdquo; considers them
+normal characters.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;~&amp;rdquo; and &amp;ldquo;*&amp;rdquo; indicate whether linking characters are separated by a
+space or not, respectively.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;~&amp;rdquo; can sometimes be replaced by a space character &amp;quot;  &amp;quot; if there is
+no ambiguity for &amp;ldquo;parse&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;[&amp;rdquo; and &amp;ldquo;]&amp;rdquo; are used to put the containing characters a subscript.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;^&amp;rdquo; is used for super-scripting, and, to put multiple characters
+into one superscription, we need to quote the characters using
+quotation marks &amp;ldquo;&amp;quot;&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;For an expression with both sub- and superscription, &amp;ldquo;parse&amp;rdquo;
+considers them orderly as sub- &amp;gt; superscription.&lt;/li&gt;
+&lt;li&gt;Finally, &amp;ldquo;%-&amp;gt;%&amp;rdquo; is the arrow symbol, and a list of such special
+equation symbols can be found in &lt;a href=&#34;https://astrostatistics.psu.edu/su07/R/html/grDevices/html/plotmath.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this website of
+plotmath&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bar Charts with Labels</title>
+      <link>/post/2019-09-17-barchart-with-labels/</link>
+      <pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/post/2019-09-17-barchart-with-labels/</guid>
+      <description>&lt;p&gt;This is an example to draw a informative bar chart using &amp;ldquo;geom_label&amp;rdquo; from &amp;ldquo;ggplot2&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Let’s start with generating some sample data.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# we will use the Motor Trend Car Road Tests datasets from R base (only the first 15 models for better illustration)
+# run ?mtcars for details of the datasets
+df = mtcars[1:20,]
+
+# showing the first 7 rows of the data frame for illustration
+head(x = df, n = 7)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##                    mpg cyl disp  hp drat    wt  qsec vs am gear carb
+## Mazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4
+## Mazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4
+## Datsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1
+## Hornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1
+## Hornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2
+## Valiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1
+## Duster 360        14.3   8  360 245 3.21 3.570 15.84  0  0    3    4
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Suppose we wants to show the weight in tons (wt) of the cars, we start
+with a basic bar chart.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(ggplot2)  # for plotting
+library(cowplot)  # for publication friendly ggplot themes
+
+# setting up the base plot
+g = ggplot(data = df, mapping = aes(x = rownames(df), y = wt)) + geom_bar(stat = &amp;quot;identity&amp;quot;) + theme_cowplot() + labs(x = &amp;quot;Models&amp;quot;, y = &amp;quot;Weight (tons)&amp;quot;)
+
+g
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;unnamed-chunk-2-1.png&#34; alt=&#34;&#34;&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;p&gt;Oh, the names of the models are all overlapped…Let’s fix it by rotating
+them by 45º.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# fixing the overlapped the labels of the x-axis
+g1 = g + theme(axis.text.x = element_text(angle = 45, hjust = 1))
+g1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;unnamed-chunk-3-1.png&#34; alt=&#34;&#34;&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;p&gt;Looks not bad.&lt;/p&gt;
+&lt;p&gt;Now, let’s suppose that we somehow want to know the total weight of
+automatic transmission cars vs manual transmission cars (i.e., based on
+the &lt;code&gt;am&lt;/code&gt; column), we can visualize it by stacking up the bars.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# converting the entries in the &amp;quot;am&amp;quot; column into factor-valued (Note: 0 = autmatic, 1 = manual, in the original data)
+df$am = factor(df$am, labels = c(&amp;quot;automatic&amp;quot;, &amp;quot;manual&amp;quot;))
+
+# fixing the overlapped the labels of the x-axis
+g2 = ggplot(data = df, mapping = aes(x = am, y = wt)) + geom_bar(stat = &amp;quot;identity&amp;quot;, position = &amp;quot;stack&amp;quot;, color = &amp;quot;black&amp;quot;) + theme_cowplot() + labs(x = &amp;quot;Transmission&amp;quot;, y = &amp;quot;Weight (tons)&amp;quot;)
+g2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/unnamed-chunk-4-1.png&#34; alt=&#34;&#34;&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;p&gt;Wow, we now know that the cars with automatic transmission are heavier
+than the manual ones. We can also show how much weight each car has
+contributed.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# adding colors to the bar
+g3 = g2 + geom_bar(mapping = aes(fill = row.names(df)), stat = &amp;quot;identity&amp;quot;, position = &amp;quot;stack&amp;quot;, color = &amp;quot;black&amp;quot;) + labs(fill = &amp;quot;Models&amp;quot;)
+g3
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;unnamed-chunk-5-1.png&#34; alt=&#34;&#34;&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;p&gt;Not bad. But, what cross referencing between the bar segments and the
+legend makes people’s eyes sore. Can it be easier? Yes, and the answer
+is &lt;code&gt;geom_label&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# adding labels on the bar chart
+g4 = g3 + geom_label(mapping = aes(label = row.names(df)), position = position_stack(vjust = 0.5))
+g4
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;unnamed-chunk-6-1.png&#34; alt=&#34;&#34;&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;p&gt;Wait, there are two problems. First, the labels are mismatch!!!
+Second, labels are overlapped!!! For the first problem, it is because
+&lt;code&gt;geom_label&lt;/code&gt; and &lt;code&gt;geom_bar&lt;/code&gt; are not sharing the same mapping aesthetics,
+i.e., &lt;code&gt;fill&lt;/code&gt; is only defined in &lt;code&gt;geom_bar&lt;/code&gt; only. Therefore, the data are
+not “grouped” properly for both objects. The fix is to set &lt;code&gt;fill&lt;/code&gt; as a
+global variable. For the second problem, we seek help from the package
+&lt;code&gt;ggrepel&lt;/code&gt;. Let’s check out the codes:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# adding a new grouping variable to the plot
+g5 = ggplot(data = df, mapping = aes(x = am, y = wt, fill = row.names(df))) + theme_cowplot() + labs(x = &amp;quot;Transmission&amp;quot;, y = &amp;quot;Weight (tons)&amp;quot;, fill = &amp;quot;Models&amp;quot;)
+
+# adding the bar chart
+g5 = g5 + geom_bar(stat = &amp;quot;identity&amp;quot;, position = &amp;quot;stack&amp;quot;, color = &amp;quot;black&amp;quot;) 
+
+# adding new labels
+library(ggrepel) # for the function (geom_label_repel)
+g5 = g5 + geom_label_repel(mapping = aes(label = row.names(df)), position = position_stack(vjust = 0.5), color = &amp;quot;white&amp;quot;, segment.alpha = 0.5, segment.color = &amp;quot;black&amp;quot;)
+
+g5
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;unnamed-chunk-7-1.png&#34; alt=&#34;&#34;&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;p&gt;After ensuring the labels are correctly matched, we can even omit the
+legend which is kinda redundant.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# turning off the guides
+g6 = g5 + scale_fill_discrete(guide = guide_none())
+
+g6
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;unnamed-chunk-8-1.png&#34; alt=&#34;&#34;&gt;&lt;!-- --&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Atlantic Centered Map</title>
+      <link>/post/atlantic-centered-map/</link>
+      <pubDate>Tue, 10 Sep 2019 17:06:22 -0400</pubDate>
+      <guid>/post/atlantic-centered-map/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Created by &lt;a href=&#34;kamingfung@mit.edu&#34;&gt;Ka Ming Fung&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This is an example to plot a world map with Atlantic centered map using
+R and ggplot2.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(ggplot2) # for plotting
+
+ggplot() + borders(&amp;quot;world2&amp;quot;) + coord_fixed(expand = FALSE) + theme_bw()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;unnamed-chunk-1-1.png&#34; alt=&#34;&#34;&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;p&gt;…and with a bit more informative axes.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(scales)  # for formatting axes labels
+
+ggplot() + borders(&amp;quot;world2&amp;quot;) + coord_fixed(expand = FALSE) + theme_bw() + 
+  scale_x_continuous(breaks = c(90, 180, 270), labels = label_number(suffix = &amp;quot;ºE&amp;quot;)) + 
+  scale_y_continuous(breaks = c(-60, -30, 0, 30, 60), labels = label_number(suffix = &amp;quot;ºN&amp;quot;))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;unnamed-chunk-2-1.png&#34; alt=&#34;&#34;&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;p&gt;You can then add other geometry object onto the maps.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Co-benefits of intercropping as a sustainable farming method for safeguarding both food security and air quality</title>
+      <link>/publication/fung-2019/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/fung-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predicting cerebral hyperperfusion syndrome following superficial temporal artery to middle cerebral artery bypass based on intraoperative perfusion-weighted magnetic resonance imaging</title>
+      <link>/publication/wang-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/wang-2015/</guid>
+      <description></description>
     </item>
     
   </channel>

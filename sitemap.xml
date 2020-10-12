@@ -3,134 +3,248 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://kamingfung.github.io/testing/</loc>
-    <lastmod>2020-10-11T17:06:22-04:00</lastmod>
+    <loc>/talk/my-talk-name/</loc>
+    <lastmod>2020-10-12T02:30:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kamingfung.github.io/testing/post/atlantic-centered-map/</loc>
-    <lastmod>2020-10-11T17:06:22-04:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2020-10-12T02:30:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kamingfung.github.io/testing/categories/</loc>
-    <lastmod>2020-10-11T17:06:22-04:00</lastmod>
+    <loc>/authors/</loc>
+    <lastmod>2020-10-12T02:17:05-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kamingfung.github.io/testing/post/</loc>
-    <lastmod>2020-10-11T17:06:22-04:00</lastmod>
+    <loc>/category/casual/</loc>
+    <lastmod>2020-10-09T16:58:10-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kamingfung.github.io/testing/tag/r/</loc>
-    <lastmod>2020-10-11T17:06:22-04:00</lastmod>
+    <loc>/tag/casual/</loc>
+    <lastmod>2020-10-09T16:58:10-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kamingfung.github.io/testing/category/skill-share/</loc>
-    <lastmod>2020-10-11T17:06:22-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kamingfung.github.io/testing/tags/</loc>
-    <lastmod>2020-10-11T17:06:22-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kamingfung.github.io/testing/tag/tutorial/</loc>
-    <lastmod>2020-10-11T17:06:22-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kamingfung.github.io/testing/authors/</loc>
-    <lastmod>2020-10-11T16:58:10-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kamingfung.github.io/testing/tag/casual/</loc>
-    <lastmod>2020-10-11T16:58:10-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kamingfung.github.io/testing/author/ka-ming-fung/</loc>
-    <lastmod>2020-10-11T16:58:10-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kamingfung.github.io/testing/post/so-i-have-been-told-copy-2/</loc>
-    <lastmod>2020-10-11T16:58:10-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kamingfung.github.io/testing/post/so-i-have-been-told-copy-3/</loc>
-    <lastmod>2020-10-11T16:58:10-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kamingfung.github.io/testing/post/so-i-have-been-told-copy-4/</loc>
-    <lastmod>2020-10-11T16:58:10-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kamingfung.github.io/testing/post/so-i-have-been-told-copy-5/</loc>
-    <lastmod>2020-10-11T16:58:10-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kamingfung.github.io/testing/post/so-i-have-been-told-copy-6/</loc>
-    <lastmod>2020-10-11T16:58:10-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kamingfung.github.io/testing/post/so-i-have-been-told-copy-7/</loc>
-    <lastmod>2020-10-11T16:58:10-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kamingfung.github.io/testing/post/so-i-have-been-told-copy-8/</loc>
-    <lastmod>2020-10-11T16:58:10-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kamingfung.github.io/testing/post/so-i-have-been-told-copy/</loc>
-    <lastmod>2020-10-11T16:58:10-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kamingfung.github.io/testing/post/so-i-have-been-told/</loc>
-    <lastmod>2020-10-11T16:58:10-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kamingfung.github.io/testing/tag/notebook/</loc>
+    <loc>/categories/</loc>
     <lastmod>2020-10-11T16:05:04-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kamingfung.github.io/testing/tag/python/</loc>
+    <loc>/author/ka-ming-fung/</loc>
+    <lastmod>2020-10-12T02:17:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-10-12T02:17:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/so-i-have-been-told/</loc>
+    <lastmod>2020-10-09T16:58:10-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/notebook/</loc>
     <lastmod>2020-10-11T16:05:04-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kamingfung.github.io/testing/post/2020-10-03-python_basics_cesm/</loc>
+    <loc>/tag/python/</loc>
     <lastmod>2020-10-11T16:05:04-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kamingfung.github.io/testing/author/nelson-bighetti/</loc>
+    <loc>/post/2020-10-03-python_basics_cesm/</loc>
+    <lastmod>2020-10-11T16:05:04-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kamingfung.github.io/testing/publication_types/</loc>
+    <loc>/category/skill-share/</loc>
+    <lastmod>2020-10-11T16:05:04-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kamingfung.github.io/testing/publication/</loc>
+    <loc>/tag/r/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kamingfung.github.io/testing/talk/</loc>
+    <loc>/post/2019-09-30-setting-color-bars/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/tutorial/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2019-09-24-parsing-special-symbols/</loc>
+    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2019-09-17-barchart-with-labels/</loc>
+    <lastmod>2019-09-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/atlantic-centered-map/</loc>
+    <lastmod>2019-09-10T17:06:22-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2019-09-03-about-ka-ming/</loc>
+    <lastmod>2019-09-03T11:12:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/biogeosciences/</loc>
+    <lastmod>2020-10-12T02:17:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/china/</loc>
+    <lastmod>2020-10-12T02:17:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/dndc/</loc>
+    <lastmod>2020-10-12T02:17:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/food-security/</loc>
+    <lastmod>2020-10-12T02:17:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/geos-chem/</loc>
+    <lastmod>2020-10-12T02:17:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/pm2.5/</loc>
+    <lastmod>2020-10-12T02:17:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/sustainable-farming/</loc>
+    <lastmod>2020-10-12T02:17:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication-type/2/</loc>
+    <lastmod>2020-10-12T02:17:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/amos-pui-kuen-tai/</loc>
+    <lastmod>2020-10-12T02:17:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/fung-2019/</loc>
+    <lastmod>2020-10-12T02:17:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/hon-ming-lam/</loc>
+    <lastmod>2020-10-12T02:17:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2020-10-12T02:17:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/taiwen-yong/</loc>
+    <lastmod>2020-10-12T02:17:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/xiaoming-liu/</loc>
+    <lastmod>2020-10-12T02:17:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/anil-t.-a.t.-ahuja/</loc>
+    <lastmod>2020-10-12T02:17:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/defeng-wang/</loc>
+    <lastmod>2020-10-12T02:17:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/fengping-zhu/</loc>
+    <lastmod>2020-10-12T02:17:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/jinsong-wu/</loc>
+    <lastmod>2020-10-12T02:17:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/lin-shi/</loc>
+    <lastmod>2020-10-12T02:17:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/wang-2015/</loc>
+    <lastmod>2020-10-12T02:17:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/vincent-chung-v.c.-tong-mok/</loc>
+    <lastmod>2020-10-12T02:17:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/wei-zhu/</loc>
+    <lastmod>2020-10-12T02:17:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/winnie-chiu-wing-w.c.w.-chu/</loc>
+    <lastmod>2020-10-12T02:17:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/ying-mao/</loc>
+    <lastmod>2020-10-12T02:17:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/yishan-luo/</loc>
+    <lastmod>2020-10-12T02:17:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/ka-ming-fung/</loc>
+    <lastmod>2020-10-01T17:43:54+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-07-29T20:27:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2020-07-29T20:27:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/</loc>
+    <lastmod>2020-07-29T20:27:45+01:00</lastmod>
   </url>
   
 </urlset>
