@@ -24,7 +24,7 @@
 &lt;p&gt;&lt;strong&gt;Hugo is Faster&lt;/strong&gt; - website generating is a process of conversion from a collection of scripts into html and other media files for website hosts. With multimedia content, such as pictures and videos, Jekyll took 8 seconds to render my site vs Hugo&amp;rsquo;s &amp;lt;1 second. Some users tested that Hugo can generate 600k pages within 5 minutes.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Hugo is Neater&lt;/strong&gt; - I folked my site from &lt;a href=&#34;https://github.com/wowchemy/starter-academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&amp;rsquo;s Academic Theme&lt;/a&gt;. This template groups all posts/pages under individual folders which store all relevant contents, including source markdown scripts, pictures etc. of each post/page. In the contrary, the Jekyll al-folio classify required files by file type.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hugo is Neater&lt;/strong&gt; - I forked my site from &lt;a href=&#34;https://github.com/wowchemy/starter-academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&amp;rsquo;s Academic Theme&lt;/a&gt;. This template groups all posts/pages under individual folders which store all relevant contents, including source markdown scripts, pictures etc. of each post/page. In the contrary, the Jekyll al-folio classify required files by file type.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Hugo is Newer&lt;/strong&gt; - one long page, fast scrolling, no BS. Just like Insta. 📷&lt;/p&gt;
