@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks | Ka Ming Fung, Ph.D.</title>
-    <link>/talk/</link>
-      <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://kamingfung.github.io/kamingfung.github.io.hugo/talk/</link>
+      <atom:link href="https://kamingfung.github.io/kamingfung.github.io.hugo/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 fkm</copyright>
     <image>
-      <url>/images/icon_hu26daae2aec3aee1c848737d70e9dbe2a_4285112_512x512_fill_lanczos_center_2.png</url>
+      <url>https://kamingfung.github.io/kamingfung.github.io.hugo/images/icon_hu26daae2aec3aee1c848737d70e9dbe2a_4285112_512x512_fill_lanczos_center_2.png</url>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>/talk/</link>
+      <link>https://kamingfung.github.io/kamingfung.github.io.hugo/talk/</link>
     </image>
     
     <item>
       <title>Exploring natural aerosol formation from DMS oxidation and implications for aerosol forcing</title>
-      <link>/talk/my-talk-name/</link>
+      <link>https://kamingfung.github.io/kamingfung.github.io.hugo/talk/my-talk-name/</link>
       <pubDate>Mon, 12 Oct 2020 02:30:52 -0400</pubDate>
-      <guid>/talk/my-talk-name/</guid>
+      <guid>https://kamingfung.github.io/kamingfung.github.io.hugo/talk/my-talk-name/</guid>
       <description></description>
     </item>
     

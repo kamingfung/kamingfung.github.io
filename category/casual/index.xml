@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Casual | Ka Ming Fung, Ph.D.</title>
-    <link>/category/casual/</link>
-      <atom:link href="/category/casual/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://kamingfung.github.io/kamingfung.github.io.hugo/category/casual/</link>
+      <atom:link href="https://kamingfung.github.io/kamingfung.github.io.hugo/category/casual/index.xml" rel="self" type="application/rss+xml" />
     <description>Casual</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 fkm</copyright><lastBuildDate>Fri, 09 Oct 2020 16:58:10 -0400</lastBuildDate>
     <image>
-      <url>/images/icon_hu26daae2aec3aee1c848737d70e9dbe2a_4285112_512x512_fill_lanczos_center_2.png</url>
+      <url>https://kamingfung.github.io/kamingfung.github.io.hugo/images/icon_hu26daae2aec3aee1c848737d70e9dbe2a_4285112_512x512_fill_lanczos_center_2.png</url>
       <title>Casual</title>
-      <link>/category/casual/</link>
+      <link>https://kamingfung.github.io/kamingfung.github.io.hugo/category/casual/</link>
     </image>
     
     <item>
       <title>This is the moment</title>
-      <link>/post/so-i-have-been-told/</link>
+      <link>https://kamingfung.github.io/kamingfung.github.io.hugo/post/so-i-have-been-told/</link>
       <pubDate>Fri, 09 Oct 2020 16:58:10 -0400</pubDate>
-      <guid>/post/so-i-have-been-told/</guid>
+      <guid>https://kamingfung.github.io/kamingfung.github.io.hugo/post/so-i-have-been-told/</guid>
       <description>&lt;p&gt;So I have been told there is a new tool (new to me 😉) trending among academicians. I was casually checking it out last night, and now, I have just finished my 12-hour journey of website migration. Not to bore you to death by giving you all the geeky 👓 and technical details (including how I googled and picked the nicest templates, extracted the good elements, studied their liquid syntax &amp;amp; HTML codes, reassembled them, fixed countless bugs, and ran numerous tests&amp;hellip;), I will discuss some major advantages of Jekyll, as a static web page generator, over WordPress.&lt;/p&gt;
 &lt;h3 id=&#34;wordpress-was-not-good-enough&#34;&gt;WordPress was not good enough&lt;/h3&gt;
 &lt;p&gt;Let&amp;rsquo;s start with WordPress (WP). Here is a list of bad things about this commercial web page hosting service providers:&lt;/p&gt;
@@ -52,9 +52,9 @@
     
     <item>
       <title>My name is &#34;Ka-ming&#34;</title>
-      <link>/post/2019-09-03-about-ka-ming/</link>
+      <link>https://kamingfung.github.io/kamingfung.github.io.hugo/post/2019-09-03-about-ka-ming/</link>
       <pubDate>Tue, 03 Sep 2019 11:12:00 -0400</pubDate>
-      <guid>/post/2019-09-03-about-ka-ming/</guid>
+      <guid>https://kamingfung.github.io/kamingfung.github.io.hugo/post/2019-09-03-about-ka-ming/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;./IMG_2917.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;Fung&amp;rdquo; (馮) is my family name and &amp;ldquo;Ka Ming&amp;rdquo; (家銘) is my first name (Yes, two words); both are romanized Cantonese.&lt;/p&gt;
 &lt;p&gt;In a Chinese name, the family name comes first so my birth name reads &amp;ldquo;Fung Ka Ming&amp;rdquo;. Since Hong Kong&amp;rsquo;s education system adopts the British model, some Hong Kongers would use additional English names as nicknames (e.g., mine is &amp;ldquo;Victor&amp;rdquo;).&lt;/p&gt;

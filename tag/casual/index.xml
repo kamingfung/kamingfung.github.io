@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>casual | Ka Ming Fung, Ph.D.</title>
-    <link>/tag/casual/</link>
-      <atom:link href="/tag/casual/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://kamingfung.github.io/kamingfung.github.io.hugo/tag/casual/</link>
+      <atom:link href="https://kamingfung.github.io/kamingfung.github.io.hugo/tag/casual/index.xml" rel="self" type="application/rss+xml" />
     <description>casual</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 fkm</copyright><lastBuildDate>Fri, 09 Oct 2020 16:58:10 -0400</lastBuildDate>
     <image>
-      <url>/images/icon_hu26daae2aec3aee1c848737d70e9dbe2a_4285112_512x512_fill_lanczos_center_2.png</url>
+      <url>https://kamingfung.github.io/kamingfung.github.io.hugo/images/icon_hu26daae2aec3aee1c848737d70e9dbe2a_4285112_512x512_fill_lanczos_center_2.png</url>
       <title>casual</title>
-      <link>/tag/casual/</link>
+      <link>https://kamingfung.github.io/kamingfung.github.io.hugo/tag/casual/</link>
     </image>
     
     <item>
       <title>This is the moment</title>
-      <link>/post/so-i-have-been-told/</link>
+      <link>https://kamingfung.github.io/kamingfung.github.io.hugo/post/so-i-have-been-told/</link>
       <pubDate>Fri, 09 Oct 2020 16:58:10 -0400</pubDate>
-      <guid>/post/so-i-have-been-told/</guid>
+      <guid>https://kamingfung.github.io/kamingfung.github.io.hugo/post/so-i-have-been-told/</guid>
       <description>&lt;p&gt;So I have been told there is a new tool (new to me 😉) trending among academicians. I was casually checking it out last night, and now, I have just finished my 12-hour journey of website migration. Not to bore you to death by giving you all the geeky 👓 and technical details (including how I googled and picked the nicest templates, extracted the good elements, studied their liquid syntax &amp;amp; HTML codes, reassembled them, fixed countless bugs, and ran numerous tests&amp;hellip;), I will discuss some major advantages of Jekyll, as a static web page generator, over WordPress.&lt;/p&gt;
 &lt;h3 id=&#34;wordpress-was-not-good-enough&#34;&gt;WordPress was not good enough&lt;/h3&gt;
 &lt;p&gt;Let&amp;rsquo;s start with WordPress (WP). Here is a list of bad things about this commercial web page hosting service providers:&lt;/p&gt;
