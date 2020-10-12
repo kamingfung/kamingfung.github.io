@@ -8,17 +8,27 @@
   </url>
   
   <url>
+    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/talk/2020-12-agu/</loc>
+    <lastmod>2020-12-10T07:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/authors/</loc>
     <lastmod>2020-12-10T07:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/tag/dms/</loc>
+    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/categories/</loc>
     <lastmod>2020-12-10T07:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/talk/agu2020/</loc>
+    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/category/conference-posters/</loc>
+    <lastmod>2020-12-10T07:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/tag/dms/</loc>
     <lastmod>2020-12-10T07:00:00-04:00</lastmod>
   </url>
   
@@ -43,23 +53,8 @@
   </url>
   
   <url>
-    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/tag/casual/</loc>
-    <lastmod>2020-10-09T16:58:10-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/categories/</loc>
-    <lastmod>2020-10-11T16:05:04-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/post/so-i-have-been-told/</loc>
     <lastmod>2020-10-09T16:58:10-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/tag/notebook/</loc>
-    <lastmod>2020-10-11T16:05:04-04:00</lastmod>
   </url>
   
   <url>
@@ -78,17 +73,47 @@
   </url>
   
   <url>
+    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/tag/agriculture/</loc>
+    <lastmod>2020-03-04T09:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/tag/ammonia/</loc>
+    <lastmod>2020-03-04T09:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/tag/cesm/</loc>
+    <lastmod>2020-03-04T09:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/talk/2020-03-clm/</loc>
+    <lastmod>2020-03-04T09:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/tag/clm/</loc>
+    <lastmod>2020-03-04T09:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/category/conference-talks/</loc>
+    <lastmod>2020-03-04T09:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/talk/2019-12-agu/</loc>
+    <lastmod>2019-12-11T11:50:00-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/tag/r/</loc>
     <lastmod>2019-09-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/post/2019-09-30-setting-color-bars/</loc>
-    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/tag/tutorial/</loc>
     <lastmod>2019-09-30T00:00:00+00:00</lastmod>
   </url>
   
@@ -108,43 +133,53 @@
   </url>
   
   <url>
+    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/category/research-tool/</loc>
+    <lastmod>2020-10-10T17:06:22-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/post/useful-datasets/</loc>
+    <lastmod>2020-10-10T17:06:22-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/post/2019-09-03-about-ka-ming/</loc>
     <lastmod>2019-09-03T11:12:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/tag/biogeosciences/</loc>
-    <lastmod>2020-10-12T02:17:05-04:00</lastmod>
+    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/talk/2019-08-ccmi/</loc>
+    <lastmod>2019-08-09T10:05:00+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/tag/china/</loc>
-    <lastmod>2020-10-12T02:17:05-04:00</lastmod>
+    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/talk/2019-07-grc/</loc>
+    <lastmod>2019-07-22T11:50:00-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/tag/dndc/</loc>
-    <lastmod>2020-10-12T02:17:05-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/tag/food-security/</loc>
-    <lastmod>2020-10-12T02:17:05-04:00</lastmod>
+    <lastmod>2019-05-10T11:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/tag/geos-chem/</loc>
-    <lastmod>2020-10-12T02:17:05-04:00</lastmod>
+    <lastmod>2019-05-10T11:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/tag/pm2.5/</loc>
-    <lastmod>2020-10-12T02:17:05-04:00</lastmod>
+    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/talk/2019-05-uofcambridge/</loc>
+    <lastmod>2019-05-10T11:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/tag/sustainable-farming/</loc>
-    <lastmod>2020-10-12T02:17:05-04:00</lastmod>
+    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/category/invited-talks/</loc>
+    <lastmod>2019-05-10T11:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/talk/2019-03-acci/</loc>
+    <lastmod>2019-03-20T09:00:00-06:00</lastmod>
   </url>
   
   <url>
@@ -180,6 +215,46 @@
   <url>
     <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/author/xiaoming-liu/</loc>
     <lastmod>2020-10-12T02:17:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/talk/2019-01-gyss/</loc>
+    <lastmod>2019-01-23T09:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/talk/2018-12-agu/</loc>
+    <lastmod>2018-12-10T16:15:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/talk/2018-09-igac/</loc>
+    <lastmod>2018-09-27T09:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/talk/2018-02-clm/</loc>
+    <lastmod>2018-02-05T09:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/talk/2017-12-agu/</loc>
+    <lastmod>2017-12-15T11:50:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/talk/2017-09-ileaps/</loc>
+    <lastmod>2017-09-11T10:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/talk/2017-06-igc/</loc>
+    <lastmod>2017-05-03T09:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kamingfung.github.io/kamingfung.github.io.hugo/talk/2016-12-agu/</loc>
+    <lastmod>2016-12-12T08:00:00-07:00</lastmod>
   </url>
   
   <url>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research Tool | Ka Ming Fung, Ph.D.</title>
+    <link>https://kamingfung.github.io/kamingfung.github.io.hugo/category/research-tool/</link>
+      <atom:link href="https://kamingfung.github.io/kamingfung.github.io.hugo/category/research-tool/index.xml" rel="self" type="application/rss+xml" />
+    <description>Research Tool</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 fkm</copyright><lastBuildDate>Tue, 03 Sep 2019 16:58:10 -0400</lastBuildDate>
+    <image>
+      <url>https://kamingfung.github.io/kamingfung.github.io.hugo/images/icon_hu26daae2aec3aee1c848737d70e9dbe2a_4285112_512x512_fill_lanczos_center_2.png</url>
+      <title>Research Tool</title>
+      <link>https://kamingfung.github.io/kamingfung.github.io.hugo/category/research-tool/</link>
+    </image>
+    
+    <item>
+      <title>Useful Datasets</title>
+      <link>https://kamingfung.github.io/kamingfung.github.io.hugo/post/useful-datasets/</link>
+      <pubDate>Tue, 03 Sep 2019 16:58:10 -0400</pubDate>
+      <guid>https://kamingfung.github.io/kamingfung.github.io.hugo/post/useful-datasets/</guid>
+      <description>&lt;p&gt;&lt;em&gt;The below datasets or documentation are open to all. Hope it will benefit your research.&lt;/em&gt;&lt;/p&gt;
+&lt;h4 id=&#34;climate&#34;&gt;Climate&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis2.surface.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Centers for Environmental Predictions (NCEP) Reanalysis II: air temperature, precipitation water, and other meteorological variables at various pressure levels&lt;/a&gt; (daily &amp;amp; monthly over 1979–present; 2.5º-by-2.5º) [&lt;a href=&#34;https://journals.ametsoc.org/doi/10.1175/BAMS-83-11-1631&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kanamitsu et al, 2012&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;ammonia-nhsub3sub&#34;&gt;Ammonia (NH&lt;sub&gt;3&lt;/sub&gt;)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://doi.pangaea.de/10.1594/PANGAEA.894736&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IASI satellite-measured column concentration&lt;/a&gt; (0.01º-by-0.01º) &lt;a href=&#34;%22https://www.nature.com/articles/s41586-018-0747-1%22&#34;&gt;[Van Damme et al. 2018]&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://nadp.slh.wisc.edu/data/AMoN/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ammonia Monitoring Network (AMoN) in situ ground measurement of the 2-m concentration&lt;/a&gt; (site data) &lt;a href=&#34;http://nadp.slh.wisc.edu/amon/sites/AMoNMetadata.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[National Atmospheric Deposition Program 2014]&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://mycuhk-my.sharepoint.com/:u:/g/personal/1155013803_link_cuhk_edu_hk/EaAlyS_IyKlHi5Otu7NK56IBoQLZukLFyJ6pd8NMHrEMgQ?e=UKCEGs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MASAGE_NH3 – a global agricultural emission inventory&lt;/a&gt; (monthly; 2º-by-2.5) [&lt;a href=&#34;http://acmg.seas.harvard.edu/publications/2014/paulot2014_emissions.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paulot et al. 2014&lt;/a&gt;]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;%28http://www.phy.pku.edu.cn/~acaq/data/nh3_agr_emis.html%29&#34;&gt;A Chinese agricultural emission inventory by Peking University&lt;/a&gt; (monthly; 0.5°×0.667°) [&lt;a href=&#34;https://www.atmos-chem-phys.net/18/339/2018/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zhang et al. 2018&lt;/a&gt;]&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;nitrogen-dioxide-nosub2sub&#34;&gt;Nitrogen Dioxide (NO&lt;sub&gt;2&lt;/sub&gt;)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://nelson.wisc.edu/sage/data-and-models/OMI_NO2.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gridded concentration derived from OMI satellite measurement by the University of Wisconsin-Madison&lt;/a&gt; (monthly over 2006–2018; 12 km-by-12 km) [&lt;a href=&#34;https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2015JD023316&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Harkey et al. 2015&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;fine-particulate-matter-pmsub25sub&#34;&gt;Fine Particulate Matter (PM&lt;sub&gt;2.5&lt;/sub&gt;)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pubs.acs.org/doi/suppl/10.1021/acs.est.8b02864&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A global concentration estimate based on the Bayesian hierarchical model&lt;/a&gt; (annually over 2010–2016; 0.1° × 0.1°) [&lt;a href=&#34;https://pubs.acs.org/doi/10.1021/acs.est.8b02864&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Shaddick et al. 2018&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;agriculture&#34;&gt;Agriculture&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://nelson.wisc.edu/sage/data-and-models/crop-calendar-dataset/index.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Crop calendar dataset by the University of Wisconsin-Madison&lt;/a&gt; (5&#39;-by-5&#39; &amp;amp; 0.5º-by-0.5º ) [&lt;a href=&#34;https://nelson.wisc.edu/sage/data-and-models/crop-calendar-dataset/sacksetalGEB2010.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sacks et al. 2010&lt;/a&gt;]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;%28http://www.earthstat.org/harvested-area-yield-175-crops/%29&#34;&gt;Harvest area and yield for 175 Crops by EarthStat&lt;/a&gt; (for the year 2000; 5&#39;-by-5&#39;) [&lt;a href=&#34;https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2007GB002947&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Monfreda et al. 2008&lt;/a&gt;]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.earthstat.org/crop-allocation-food-feed-nonfood/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Crop allocation to food, feed, and nonfood by EarthStat&lt;/a&gt; (5&#39;-by-5&#39;) [&lt;a href=&#34;http://iopscience.iop.org/article/10.1088/1748-9326/8/3/034015/meta&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cassidy et al. 2013&lt;/a&gt;]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.earthstat.org/nutrient-application-major-crops/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Nutrient Application for Major Crops&lt;/a&gt; (for the year 2000; 5&#39;-by-5&#39;) [&lt;a href=&#34;https://www.nature.com/articles/nature11420&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mueller et al. 2012&lt;/a&gt;]&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;soil&#34;&gt;Soil&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.fao.org/soils-portal/soil-survey/soil-maps-and-databases/harmonized-world-soil-database-v12/en/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Harmonized World Soil Database v1.2&lt;/a&gt; [&lt;a href=&#34;http://pure.iiasa.ac.at/id/eprint/13290/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fischer et al. 2008&lt;/a&gt;]
+&lt;ul&gt;
+&lt;li&gt;Land mask, terrain elevation, slope  (30&amp;quot;-by-30&amp;quot; &amp;amp; 5&#39;-by-5&#39;)&lt;/li&gt;
+&lt;li&gt;Land use and land cover: rain-fed cultivated land, irrigated land, forest land, grass/scrub/woodland, built-up land (residential/infrastructure), barren/very sparsely vegetated land, or water bodies  (5&#39;-by-5&#39;)&lt;/li&gt;
+&lt;li&gt;Soil qualities for crop production: nutrient availability, nutrient retention capacity, rooting conditions, oxygen availability for roots, excess salts, toxicity, and workability (5&#39;-by-5&#39;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;geography&#34;&gt;Geography&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gadm.org/about.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GADM database of Global Administrative Areas&lt;/a&gt; (shapefiles; check out my &lt;a href=&#34;https://github.com/kamingfung/CLM-Analysis-Tools&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub repo&lt;/a&gt; on how to use it in R)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
