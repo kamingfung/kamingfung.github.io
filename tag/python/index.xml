@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python | Ka Ming Fung, Ph.D.</title>
-    <link>https://kamingfung.github.io/kamingfung.github.io.hugo/tag/python/</link>
-      <atom:link href="https://kamingfung.github.io/kamingfung.github.io.hugo/tag/python/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://kamingfung.github.io/tag/python/</link>
+      <atom:link href="https://kamingfung.github.io/tag/python/index.xml" rel="self" type="application/rss+xml" />
     <description>Python</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 fkm</copyright><lastBuildDate>Sat, 03 Oct 2020 16:05:04 -0400</lastBuildDate>
     <image>
-      <url>https://kamingfung.github.io/kamingfung.github.io.hugo/images/icon_hu26daae2aec3aee1c848737d70e9dbe2a_4285112_512x512_fill_lanczos_center_2.png</url>
+      <url>https://kamingfung.github.io/images/icon_hu26daae2aec3aee1c848737d70e9dbe2a_4285112_512x512_fill_lanczos_center_2.png</url>
       <title>Python</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.hugo/tag/python/</link>
+      <link>https://kamingfung.github.io/tag/python/</link>
     </image>
     
     <item>
       <title>Python Basics for CESM</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.hugo/post/2020-10-03-python_basics_cesm/</link>
+      <link>https://kamingfung.github.io/post/2020-10-03-python_basics_cesm/</link>
       <pubDate>Sat, 03 Oct 2020 16:05:04 -0400</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.hugo/post/2020-10-03-python_basics_cesm/</guid>
+      <guid>https://kamingfung.github.io/post/2020-10-03-python_basics_cesm/</guid>
       <description>&lt;p&gt;&lt;em&gt;Created by &lt;a href=&#34;kamingfung@mit.edu&#34;&gt;Ka Ming Fung&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;references&#34;&gt;References:&lt;/h2&gt;
 &lt;p&gt;For general python handling of nc files: &lt;a href=&#34;https://github.com/geoschem/GEOSChem-python-tutorial&#34;&gt;https://github.com/geoschem/GEOSChem-python-tutorial&lt;/a&gt;

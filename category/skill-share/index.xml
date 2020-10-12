@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Skill Share | Ka Ming Fung, Ph.D.</title>
-    <link>https://kamingfung.github.io/kamingfung.github.io.hugo/category/skill-share/</link>
-      <atom:link href="https://kamingfung.github.io/kamingfung.github.io.hugo/category/skill-share/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://kamingfung.github.io/category/skill-share/</link>
+      <atom:link href="https://kamingfung.github.io/category/skill-share/index.xml" rel="self" type="application/rss+xml" />
     <description>Skill Share</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 fkm</copyright><lastBuildDate>Sat, 03 Oct 2020 16:05:04 -0400</lastBuildDate>
     <image>
-      <url>https://kamingfung.github.io/kamingfung.github.io.hugo/images/icon_hu26daae2aec3aee1c848737d70e9dbe2a_4285112_512x512_fill_lanczos_center_2.png</url>
+      <url>https://kamingfung.github.io/images/icon_hu26daae2aec3aee1c848737d70e9dbe2a_4285112_512x512_fill_lanczos_center_2.png</url>
       <title>Skill Share</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.hugo/category/skill-share/</link>
+      <link>https://kamingfung.github.io/category/skill-share/</link>
     </image>
     
     <item>
       <title>Python Basics for CESM</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.hugo/post/2020-10-03-python_basics_cesm/</link>
+      <link>https://kamingfung.github.io/post/2020-10-03-python_basics_cesm/</link>
       <pubDate>Sat, 03 Oct 2020 16:05:04 -0400</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.hugo/post/2020-10-03-python_basics_cesm/</guid>
+      <guid>https://kamingfung.github.io/post/2020-10-03-python_basics_cesm/</guid>
       <description>&lt;p&gt;&lt;em&gt;Created by &lt;a href=&#34;kamingfung@mit.edu&#34;&gt;Ka Ming Fung&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;references&#34;&gt;References:&lt;/h2&gt;
 &lt;p&gt;For general python handling of nc files: &lt;a href=&#34;https://github.com/geoschem/GEOSChem-python-tutorial&#34;&gt;https://github.com/geoschem/GEOSChem-python-tutorial&lt;/a&gt;
@@ -247,9 +247,9 @@ plt.savefig(&amp;quot;Figure1.png&amp;quot;) # we can simply specify the wanted 
     
     <item>
       <title>Setting up Colorbar Colors Using R and ggplot2</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.hugo/post/2019-09-30-setting-color-bars/</link>
+      <link>https://kamingfung.github.io/post/2019-09-30-setting-color-bars/</link>
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.hugo/post/2019-09-30-setting-color-bars/</guid>
+      <guid>https://kamingfung.github.io/post/2019-09-30-setting-color-bars/</guid>
       <description>&lt;p&gt;Created by Ka Ming Fung (&lt;a href=&#34;mailto:kamingfung@mit.edu&#34;&gt;kamingfung@mit.edu&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;This is an example to set up colors in the colorbars in ggplot2.&lt;/p&gt;
 &lt;p&gt;Let’s start with generating some random data.&lt;/p&gt;
@@ -336,9 +336,9 @@ g5
     
     <item>
       <title>Displaying Special Symbols for Equations and Reactions</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.hugo/post/2019-09-24-parsing-special-symbols/</link>
+      <link>https://kamingfung.github.io/post/2019-09-24-parsing-special-symbols/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.hugo/post/2019-09-24-parsing-special-symbols/</guid>
+      <guid>https://kamingfung.github.io/post/2019-09-24-parsing-special-symbols/</guid>
       <description>&lt;p&gt;Created by Ka Ming Fung (&lt;a href=&#34;mailto:kamingfung@mit.edu&#34;&gt;kamingfung@mit.edu&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;This is an example to show special characters and formats in ggplot2.&lt;/p&gt;
 &lt;p&gt;In the following example, we are going to show a chemical reaction in a
@@ -379,9 +379,9 @@ plotmath&lt;/a&gt;.&lt;/li&gt;
     
     <item>
       <title>Bar Charts with Labels</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.hugo/post/2019-09-17-barchart-with-labels/</link>
+      <link>https://kamingfung.github.io/post/2019-09-17-barchart-with-labels/</link>
       <pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.hugo/post/2019-09-17-barchart-with-labels/</guid>
+      <guid>https://kamingfung.github.io/post/2019-09-17-barchart-with-labels/</guid>
       <description>&lt;p&gt;This is an example to draw a informative bar chart using &amp;ldquo;geom_label&amp;rdquo; from &amp;ldquo;ggplot2&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;Let’s start with generating some sample data.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# we will use the Motor Trend Car Road Tests datasets from R base (only the first 15 models for better illustration)
@@ -429,7 +429,7 @@ df$am = factor(df$am, labels = c(&amp;quot;automatic&amp;quot;, &amp;quot;manual
 g2 = ggplot(data = df, mapping = aes(x = am, y = wt)) + geom_bar(stat = &amp;quot;identity&amp;quot;, position = &amp;quot;stack&amp;quot;, color = &amp;quot;black&amp;quot;) + theme_cowplot() + labs(x = &amp;quot;Transmission&amp;quot;, y = &amp;quot;Weight (tons)&amp;quot;)
 g2
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://kamingfung.github.io/kamingfung.github.io.hugo/unnamed-chunk-4-1.png&#34; alt=&#34;&#34;&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kamingfung.github.io/unnamed-chunk-4-1.png&#34; alt=&#34;&#34;&gt;&lt;!-- --&gt;&lt;/p&gt;
 &lt;p&gt;Wow, we now know that the cars with automatic transmission are heavier
 than the manual ones. We can also show how much weight each car has
 contributed.&lt;/p&gt;
@@ -479,9 +479,9 @@ g6
     
     <item>
       <title>Atlantic Centered Map</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.hugo/post/atlantic-centered-map/</link>
+      <link>https://kamingfung.github.io/post/atlantic-centered-map/</link>
       <pubDate>Tue, 10 Sep 2019 17:06:22 -0400</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.hugo/post/atlantic-centered-map/</guid>
+      <guid>https://kamingfung.github.io/post/atlantic-centered-map/</guid>
       <description>&lt;p&gt;&lt;em&gt;Created by &lt;a href=&#34;kamingfung@mit.edu&#34;&gt;Ka Ming Fung&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;This is an example to plot a world map with Atlantic centered map using
 R and ggplot2.&lt;/p&gt;

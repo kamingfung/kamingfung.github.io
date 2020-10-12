@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors | Ka Ming Fung, Ph.D.</title>
-    <link>https://kamingfung.github.io/kamingfung.github.io.hugo/authors/</link>
-      <atom:link href="https://kamingfung.github.io/kamingfung.github.io.hugo/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://kamingfung.github.io/authors/</link>
+      <atom:link href="https://kamingfung.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 fkm</copyright><lastBuildDate>Thu, 10 Dec 2020 07:00:00 -0400</lastBuildDate>
     <image>
-      <url>https://kamingfung.github.io/kamingfung.github.io.hugo/images/icon_hu26daae2aec3aee1c848737d70e9dbe2a_4285112_512x512_fill_lanczos_center_2.png</url>
+      <url>https://kamingfung.github.io/images/icon_hu26daae2aec3aee1c848737d70e9dbe2a_4285112_512x512_fill_lanczos_center_2.png</url>
       <title>Authors</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.hugo/authors/</link>
+      <link>https://kamingfung.github.io/authors/</link>
     </image>
     
   </channel>

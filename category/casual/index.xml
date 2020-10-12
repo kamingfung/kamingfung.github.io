@@ -2,21 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Casual | Ka Ming Fung, Ph.D.</title>
-    <link>https://kamingfung.github.io/kamingfung.github.io.hugo/category/casual/</link>
-      <atom:link href="https://kamingfung.github.io/kamingfung.github.io.hugo/category/casual/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://kamingfung.github.io/category/casual/</link>
+      <atom:link href="https://kamingfung.github.io/category/casual/index.xml" rel="self" type="application/rss+xml" />
     <description>Casual</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 fkm</copyright><lastBuildDate>Fri, 09 Oct 2020 16:58:10 -0400</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 fkm</copyright><lastBuildDate>Mon, 12 Oct 2020 13:00:00 -0400</lastBuildDate>
     <image>
-      <url>https://kamingfung.github.io/kamingfung.github.io.hugo/images/icon_hu26daae2aec3aee1c848737d70e9dbe2a_4285112_512x512_fill_lanczos_center_2.png</url>
+      <url>https://kamingfung.github.io/images/icon_hu26daae2aec3aee1c848737d70e9dbe2a_4285112_512x512_fill_lanczos_center_2.png</url>
       <title>Casual</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.hugo/category/casual/</link>
+      <link>https://kamingfung.github.io/category/casual/</link>
     </image>
     
     <item>
+      <title>Oops! I did it again.</title>
+      <link>https://kamingfung.github.io/post/oops-i-did-it-again/</link>
+      <pubDate>Mon, 12 Oct 2020 13:00:00 -0400</pubDate>
+      <guid>https://kamingfung.github.io/post/oops-i-did-it-again/</guid>
+      <description>&lt;p&gt;I did it again. A day after my Jekyll-generated site is launched, I discovered Hugo, another SSG (static site generator) written in Go ❇️. Six hours later, my Hugo-powered site is up and running. I will lay out why:&lt;/p&gt;
+&lt;h3 id=&#34;dr-jekyll-vs-mr-hugo&#34;&gt;Dr. Jekyll vs. Mr. Hugo&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Hugo is Faster&lt;/strong&gt; - website generating is a process of conversion from a collection of scripts into html and other media files for website hosts. With multimedia content, such as pictures and videos, Jekyll took 8 seconds to render my site vs Hugo&amp;rsquo;s &amp;lt;1 second. Some users tested that Hugo can generate 600k pages within 5 minutes.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Hugo is Neater&lt;/strong&gt; - I folked my site from &lt;a href=&#34;https://github.com/wowchemy/starter-academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&amp;rsquo;s Academic Theme&lt;/a&gt;. This template groups all posts/pages under individual folders which store all relevant contents, including source markdown scripts, pictures etc. of each post/page. In the contrary, the Jekyll al-folio classify required files by file type.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Hugo is Newer&lt;/strong&gt; - one long page, fast scrolling, no BS. Just like Insta. 📷&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;jekyll-for-flexibility&#34;&gt;Jekyll for flexibility&lt;/h3&gt;
+&lt;p&gt;Based on Ruby, Jekyll is still a more customizable tool for website builders. It encourages users to use add contents using HTML, liquid syntax, markdown all at once, sounding perfect for picky geeks 🤓.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>This is the moment</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.hugo/post/so-i-have-been-told/</link>
+      <link>https://kamingfung.github.io/post/so-i-have-been-told/</link>
       <pubDate>Fri, 09 Oct 2020 16:58:10 -0400</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.hugo/post/so-i-have-been-told/</guid>
+      <guid>https://kamingfung.github.io/post/so-i-have-been-told/</guid>
       <description>&lt;p&gt;So I have been told there is a new tool (new to me 😉) trending among academicians. I was casually checking it out last night, and now, I have just finished my 12-hour journey of website migration. Not to bore you to death by giving you all the geeky 👓 and technical details (including how I googled and picked the nicest templates, extracted the good elements, studied their liquid syntax &amp;amp; HTML codes, reassembled them, fixed countless bugs, and ran numerous tests&amp;hellip;), I will discuss some major advantages of Jekyll, as a static web page generator, over WordPress.&lt;/p&gt;
 &lt;h3 id=&#34;wordpress-was-not-good-enough&#34;&gt;WordPress was not good enough&lt;/h3&gt;
 &lt;p&gt;Let&amp;rsquo;s start with WordPress (WP). Here is a list of bad things about this commercial web page hosting service providers:&lt;/p&gt;
@@ -52,9 +75,9 @@
     
     <item>
       <title>My name is &#34;Ka-ming&#34;</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.hugo/post/2019-09-03-about-ka-ming/</link>
+      <link>https://kamingfung.github.io/post/2019-09-03-about-ka-ming/</link>
       <pubDate>Tue, 03 Sep 2019 11:12:00 -0400</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.hugo/post/2019-09-03-about-ka-ming/</guid>
+      <guid>https://kamingfung.github.io/post/2019-09-03-about-ka-ming/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;./IMG_2917.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;Fung&amp;rdquo; (馮) is my family name and &amp;ldquo;Ka Ming&amp;rdquo; (家銘) is my first name (Yes, two words); both are romanized Cantonese.&lt;/p&gt;
 &lt;p&gt;In a Chinese name, the family name comes first so my birth name reads &amp;ldquo;Fung Ka Ming&amp;rdquo;. Since Hong Kong&amp;rsquo;s education system adopts the British model, some Hong Kongers would use additional English names as nicknames (e.g., mine is &amp;ldquo;Victor&amp;rdquo;).&lt;/p&gt;
