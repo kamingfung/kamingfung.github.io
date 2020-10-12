@@ -17,7 +17,7 @@
       <link>https://kamingfung.github.io/post/2019-09-30-setting-color-bars/</link>
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
       <guid>https://kamingfung.github.io/post/2019-09-30-setting-color-bars/</guid>
-      <description>&lt;p&gt;Created by Ka Ming Fung (&lt;a href=&#34;mailto:kamingfung@mit.edu&#34;&gt;kamingfung@mit.edu&lt;/a&gt;)&lt;/p&gt;
+      <description>&lt;!-- Created by Ka Ming Fung (&lt;kamingfung@mit.edu&gt;) --&gt;
 &lt;p&gt;This is an example to set up colors in the colorbars in ggplot2.&lt;/p&gt;
 &lt;p&gt;Let’s start with generating some random data.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# create a 10-by-10 matrix with random numbers as entries
@@ -106,8 +106,7 @@ g5
       <link>https://kamingfung.github.io/post/2019-09-24-parsing-special-symbols/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
       <guid>https://kamingfung.github.io/post/2019-09-24-parsing-special-symbols/</guid>
-      <description>&lt;p&gt;Created by Ka Ming Fung (&lt;a href=&#34;mailto:kamingfung@mit.edu&#34;&gt;kamingfung@mit.edu&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;This is an example to show special characters and formats in ggplot2.&lt;/p&gt;
+      <description>&lt;p&gt;This is an example to show special characters and formats in ggplot2.&lt;/p&gt;
 &lt;p&gt;In the following example, we are going to show a chemical reaction in a
 plot created by &amp;ldquo;ggplot2&amp;rdquo;. It may seem straightforward but the way R
 handling it is not. Let’s see the codes.&lt;/p&gt;
@@ -249,7 +248,7 @@ g6
       <link>https://kamingfung.github.io/post/atlantic-centered-map/</link>
       <pubDate>Tue, 10 Sep 2019 17:06:22 -0400</pubDate>
       <guid>https://kamingfung.github.io/post/atlantic-centered-map/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Created by &lt;a href=&#34;kamingfung@mit.edu&#34;&gt;Ka Ming Fung&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+      <description>&lt;!-- *Created by [Ka Ming Fung](kamingfung@mit.edu)* --&gt;
 &lt;p&gt;This is an example to plot a world map with Atlantic centered map using
 R and ggplot2.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(ggplot2) # for plotting

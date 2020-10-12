@@ -17,7 +17,7 @@
       <link>https://kamingfung.github.io/post/2020-10-03-python_basics_cesm/</link>
       <pubDate>Sat, 03 Oct 2020 16:05:04 -0400</pubDate>
       <guid>https://kamingfung.github.io/post/2020-10-03-python_basics_cesm/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Created by &lt;a href=&#34;kamingfung@mit.edu&#34;&gt;Ka Ming Fung&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+      <description>&lt;!-- *Created by [Ka Ming Fung](kamingfung@mit.edu)* --&gt;
 &lt;h2 id=&#34;references&#34;&gt;References:&lt;/h2&gt;
 &lt;p&gt;For general python handling of nc files: &lt;a href=&#34;https://github.com/geoschem/GEOSChem-python-tutorial&#34;&gt;https://github.com/geoschem/GEOSChem-python-tutorial&lt;/a&gt;
 &lt;br/&gt;
