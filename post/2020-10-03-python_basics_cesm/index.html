@@ -1,0 +1,1325 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  
+  
+  <meta name="generator" content="Wowchemy 4.8.0 for Hugo">
+  
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Nelson Bighetti">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="some basic examples in processing nc.files and plotting">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://kamingfung.github.io/testing/post/2020-10-03-python_basics_cesm/">
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+    
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/testing/css/wowchemy.css">
+
+  
+
+
+
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/testing/index.webmanifest">
+  <link rel="icon" type="image/png" href="/testing/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/testing/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://kamingfung.github.io/testing/post/2020-10-03-python_basics_cesm/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Academic">
+  <meta property="og:url" content="https://kamingfung.github.io/testing/post/2020-10-03-python_basics_cesm/">
+  <meta property="og:title" content="Python Basics for CESM | Academic">
+  <meta property="og:description" content="some basic examples in processing nc.files and plotting"><meta property="og:image" content="https://kamingfung.github.io/testing/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="https://kamingfung.github.io/testing/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2020-10-03T16:05:04-04:00">
+    
+    <meta property="article:modified_time" content="2020-10-11T16:05:04-04:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://kamingfung.github.io/testing/post/2020-10-03-python_basics_cesm/"
+  },
+  "headline": "Python Basics for CESM",
+  
+  "datePublished": "2020-10-03T16:05:04-04:00",
+  "dateModified": "2020-10-11T16:05:04-04:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Ka Ming Fung"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Academic",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://kamingfung.github.io/testing/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "some basic examples in processing nc.files and plotting"
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Python Basics for CESM | Academic</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class=" ">
+
+  
+  
+  
+    <script>window.wcDarkLightEnabled = true;</script>
+  
+  
+    <script>const isSiteThemeDark = false;</script>
+  
+  
+  <script src="/testing/js/load-theme.js"></script>
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/testing/">Academic</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/testing/">Academic</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/testing/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/testing/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/testing/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/testing/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/testing/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Python Basics for CESM</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span ><a href="/testing/author/ka-ming-fung/">Ka Ming Fung</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Oct 11, 2020
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    5 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/testing/category/skill-share/">Skill Share</a></span>
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p><em>Created by <a href="kamingfung@mit.edu">Ka Ming Fung</a></em></p>
+<h2 id="references">References:</h2>
+<p>For general python handling of nc files: <a href="https://github.com/geoschem/GEOSChem-python-tutorial">https://github.com/geoschem/GEOSChem-python-tutorial</a>
+<br/>
+For NCL plot styles: <a href="http://www.pyngl.ucar.edu/">http://www.pyngl.ucar.edu/</a>
+<br/>
+For merging nc files: <a href="https://medium.com/@neetinayak/combine-many-netcdf-files-into-a-single-file-with-python-469ba476fc14">https://medium.com/@neetinayak/combine-many-netcdf-files-into-a-single-file-with-python-469ba476fc14</a>
+<br/>
+For NCL color scales: <a href="https://github.com/hhuangwx/cmaps">https://github.com/hhuangwx/cmaps</a></p>
+<p>This is an example to show how to combine multiple ncdf files, compute annual means, and make plots.</p>
+<pre><code class="language-python">import numpy as np                    # for better array
+import xarray as xr                   # the major tool to work with NetCDF data!
+</code></pre>
+<h2 id="merging-monthly-nc-files">Merging monthly .nc files</h2>
+<p>Below is a list of files for this example. They are nc files named after case name, for each month in 2016.
+<br /></p>
+<p>Note that we could use, in the code, % (magic link) to call a function on the shell level.</p>
+<pre><code class="language-python">%ls _data/*.nc
+</code></pre>
+<pre><code>_data/FC2000climo.f19_f19.2_1_MOSAIC.OAS_KPP_ISO.cam.h0.2016-01.nc
+_data/FC2000climo.f19_f19.2_1_MOSAIC.OAS_KPP_ISO.cam.h0.2016-02.nc
+_data/FC2000climo.f19_f19.2_1_MOSAIC.OAS_KPP_ISO.cam.h0.2016-03.nc
+_data/FC2000climo.f19_f19.2_1_MOSAIC.OAS_KPP_ISO.cam.h0.2016-04.nc
+_data/FC2000climo.f19_f19.2_1_MOSAIC.OAS_KPP_ISO.cam.h0.2016-05.nc
+_data/FC2000climo.f19_f19.2_1_MOSAIC.OAS_KPP_ISO.cam.h0.2016-06.nc
+_data/FC2000climo.f19_f19.2_1_MOSAIC.OAS_KPP_ISO.cam.h0.2016-07.nc
+_data/FC2000climo.f19_f19.2_1_MOSAIC.OAS_KPP_ISO.cam.h0.2016-08.nc
+_data/FC2000climo.f19_f19.2_1_MOSAIC.OAS_KPP_ISO.cam.h0.2016-09.nc
+_data/FC2000climo.f19_f19.2_1_MOSAIC.OAS_KPP_ISO.cam.h0.2016-10.nc
+_data/FC2000climo.f19_f19.2_1_MOSAIC.OAS_KPP_ISO.cam.h0.2016-11.nc
+_data/FC2000climo.f19_f19.2_1_MOSAIC.OAS_KPP_ISO.cam.h0.2016-12.nc
+_data/FC2000climo.f19_f19.2_1_MOSAIC.OAS_KPP_ISO.cam.i.2017-01-01-00000.nc
+</code></pre>
+<p>We use the function xr.open_mfdataset from the xarray package. specifying the &ldquo;names, <strong>combining</strong> <em>method</em> and <em>dimension</em> for <strong>concatenation</strong>. Note the use of * as a wildcard.</p>
+<pre><code class="language-python">ds = xr.open_mfdataset(paths='_data/*.cam.h0.2016-*.nc', combine='by_coords', concat_dim=&quot;time&quot;)
+
+# ds
+</code></pre>
+<p>Done! Couldn&rsquo;t imagine life can be this easy :P</p>
+<h2 id="computing-global-and-annual-mean-surface-value-of-variables-of-interest">Computing global and annual-mean surface value of variables of interest</h2>
+<p>We want to extract the variables concerned using some string selection tracks, for instance &ldquo;startswith&rdquo; here.</p>
+<pre><code class="language-python">vid = [x for x in ds.keys() if x.startswith('r_is')]
+dr = ds[vid]
+
+# dr
+</code></pre>
+<p>Then, we &ldquo;slice&rdquo; the surface layers out from the big dataset.</p>
+<pre><code class="language-python">dr_surf = dr.sel(lev=slice(100, 1000))  # lev is in hPa. Here I assume troposphere is within 1000hPa-100hPa
+
+# dr_surf
+</code></pre>
+<p>Do a quick check on the global mean values.</p>
+<pre><code class="language-python">print(dr_surf.mean().compute().values)
+</code></pre>
+<pre><code>&lt;bound method Mapping.values of &lt;xarray.Dataset&gt;
+Dimensions:                ()
+Data variables:
+    r_is_HOOCH2SCH2O       float32 11.503614
+    r_is_HOOCH2SCO_1       float32 368.33008
+    r_is_HOOCH2SCO_2       float32 0.021772318
+    r_is_HOOCH2SO_NO2      float32 11.119194
+    r_is_HOOCH2SO_O3       float32 368.70016
+    r_is_HOOCH2S_NO2       float32 10.201074
+    r_is_HOOCH2S_O3        float32 369.6315
+    r_is_HPMTF_OH          float32 368.35184
+    r_is_OOCH2SCH2OOH_HO2  float32 12.836186
+    r_is_OOCH2SCH2OOH_NO   float32 11.503614
+    r_is_shift_1           float32 1240.3165
+    r_is_shift_2           float32 1215.9198&gt;
+</code></pre>
+<p>Ok, they are about right.</p>
+<h2 id="plotting-variables-on-maps">Plotting variables on maps</h2>
+<p>To plot variables, we employ the powerful and (most) popular packages:</p>
+<pre><code class="language-python">%matplotlib inline
+from matplotlib import pyplot as plt  # for plotting
+</code></pre>
+<p>Here, we want to plot variable, r_is_shift_1, which is a 4-D array (lon, lat, lev, and time).</p>
+<pre><code class="language-python">vid = &quot;r_is_shift_1&quot;                  # storing the variable id for easier recall
+
+# dr_surf[vid]                          # just to double check if the array is what we want
+</code></pre>
+<pre><code class="language-python"># actual plotting codes:
+
+fig = plt.figure(figsize=(14, 4))     # defining the canvas with size 14 x 4
+ax = plt.axes()                       # defining the axes (Cartesian rectangle)
+
+dr_surf[vid].mean(dim=['lev', 'time']).plot()  # two operations happened here, this line first compute the mean along lev and time dimensions of the array and then make the plot
+
+</code></pre>
+<pre><code>&lt;matplotlib.collections.QuadMesh at 0x2b0b7a6006d0&gt;
+</code></pre>
+<p><img src="output_18_1.png" alt="png"></p>
+<p>Hurray, we got our nice plot. But who would stop here?
+<br/></p>
+<p>Time to play around the codes and make some aesthetic changes.</p>
+<pre><code class="language-python"># Change 1: Projection - People have been arguing about which map projection is the best to maintain the &quot;shape&quot; of the Earth.
+# One popular choice is the Robinson
+# So this is how we do it.
+
+from cartopy import crs as ccrs       # for map projections
+
+fig = plt.figure(figsize=(14, 4))          # again, defining the canvas
+ax = plt.axes(projection=ccrs.Robinson())  # defining the axes after Robinson projection
+
+dr_surf[vid].mean(dim=['time', 'lev']).plot(transform=ccrs.PlateCarree())  # two operations here: computing the mean, and transforming the retangular grids onto a Robinson-projected coordinate system
+</code></pre>
+<pre><code>&lt;matplotlib.collections.QuadMesh at 0x2b0b7a4fd310&gt;
+</code></pre>
+<p><img src="output_20_1.png" alt="png"></p>
+<pre><code class="language-python"># Change 2: Coastline - Land-sea difference of some variables are not that obvisous so we also draw coastal lines for better readability
+
+fig = plt.figure(figsize=(14, 4))
+ax = plt.axes(projection=ccrs.Robinson())
+
+dr_surf[vid].mean(dim=['time', 'lev']).plot(transform=ccrs.PlateCarree()) 
+
+ax.coastlines(color=&quot;w&quot;) # this line adds coastlines to the coordinate system (aka axes in the language of matplotlib), and we used white
+
+</code></pre>
+<pre><code>&lt;cartopy.mpl.feature_artist.FeatureArtist at 0x2b0b7a6d4610&gt;
+</code></pre>
+<p><img src="output_21_1.png" alt="png"></p>
+<pre><code class="language-python"># Change 3: Color Scale - the default color scale of matplotlib is a color-blindness-friendly one but some community like to use their own color scales.
+# For example, this popular White-Blue-Green-Yellow-Red scale:
+
+from matplotlib import colors as c    # for making color schemes from Ngl applicable to matplot-style plots
+import cmaps                          # packages for NCL color options
+
+fig = plt.figure(figsize=(14, 4))
+ax = plt.axes(projection=ccrs.Robinson())
+
+dr_surf[vid].mean(dim=['time', 'lev']).plot(transform=ccrs.PlateCarree(), 
+                                            cmap = cmaps.WhiteBlueGreenYellowRed) # assigning the color scale
+
+ax.coastlines() # now we use black coastal lines
+
+</code></pre>
+<pre><code>&lt;cartopy.mpl.feature_artist.FeatureArtist at 0x2b0b7cb88f10&gt;
+</code></pre>
+<p><img src="output_22_1.png" alt="png"></p>
+<pre><code class="language-python"># Change 4: Color Steps or discretized color scale - Some scientists advocate for minimial color shades for better comparison.
+# This is how we do that.
+
+fig = plt.figure(figsize=(14, 4))
+ax = plt.axes(projection=ccrs.Robinson())
+
+dr_surf[vid].mean(dim=['time', 'lev']).plot(transform=ccrs.PlateCarree(), 
+                                            cmap = cmaps.WhiteBlueGreenYellowRed,
+                                            levels = 10)
+
+ax.coastlines()
+
+</code></pre>
+<pre><code>&lt;cartopy.mpl.feature_artist.FeatureArtist at 0x2b0b7cb45850&gt;
+</code></pre>
+<p><img src="output_23_1.png" alt="png"></p>
+<pre><code class="language-python"># Change 5: Titles and Labels - They are simply essential for all plots.
+
+fig = plt.figure(figsize=(14, 4))
+ax = plt.axes(projection=ccrs.Robinson())
+
+ms = dr_surf[vid].mean(dim=['time', 'lev']).plot(transform=ccrs.PlateCarree(), 
+                                                 cmap = cmaps.WhiteBlueGreenYellowRed,
+                                                 levels = 10,
+                                                 add_colorbar = False) # Omitting the original colorbar.
+
+# I haven't find how to change title using the build-in attribute of xarray so I recreate the color using the matplotlib function like this
+colorbar_obj = plt.colorbar(ms)
+colorbar_obj.set_label('molecules cm$^{-3}$ s$^{-1}$')  # adding the unit to the colorbar
+
+ax.coastlines()
+plt.title(&quot;Surface &quot; + vid + &quot;(global and annual mean)&quot;)  # adding a title to the plot
+</code></pre>
+<pre><code>Text(0.5, 1.0, 'Surface r_is_shift_1(global and annual mean)')
+</code></pre>
+<p><img src="output_24_1.png" alt="png"></p>
+<pre><code class="language-python"># Bonus Change: Showing smaller values only - sometimes some data are just too large that the color scale, 
+# we would want to put a maximum on the values to show, we set that cap at 6000
+
+fig = plt.figure(figsize=(14, 4))
+ax = plt.axes(projection=ccrs.Robinson())
+
+ms = dr_surf[vid].mean(dim=['time', 'lev']).plot(transform=ccrs.PlateCarree(), 
+                                                 cmap = cmaps.WhiteBlueGreenYellowRed,
+                                                 levels = 10,
+                                                 add_colorbar = False,
+                                                 vmax = 6000) # setting the variable using vmax and vmin
+
+# I haven't found how to change title using the build-in attribute of xarray so I recreate the color using the matplotlib function like this
+colorbar_obj = plt.colorbar(ms)
+colorbar_obj.set_label('molecules cm$^{-3}$ s$^{-1}$')
+
+ax.coastlines()
+plt.title(&quot;Surface &quot; + vid + &quot; (global and annual mean)&quot;)
+</code></pre>
+<pre><code>Text(0.5, 1.0, 'Surface r_is_shift_1 (global and annual mean)')
+</code></pre>
+<p><img src="output_25_1.png" alt="png"></p>
+<h2 id="saving-the-figure">Saving the figure</h2>
+<p>Now we have done some simple post-processing. Let&rsquo;s output the plot for publication!</p>
+<pre><code class="language-python">fig = plt.figure(figsize=(14, 4))
+ax = plt.axes(projection=ccrs.Robinson())
+
+ms = dr_surf[vid].mean(dim=['time', 'lev']).plot(transform=ccrs.PlateCarree(), 
+                                                 cmap = cmaps.WhiteBlueGreenYellowRed,
+                                                 levels = 10,
+                                                 add_colorbar = False,
+                                                 vmax = 6000)
+
+colorbar_obj = plt.colorbar(ms)
+colorbar_obj.set_label('molecules cm$^{-3}$ s$^{-1}$')
+
+ax.coastlines()
+plt.title(&quot;Surface &quot; + vid + &quot; (global and annual mean)&quot;)
+
+plt.savefig(&quot;Figure1.png&quot;) # we can simply specify the wanted file type in the filename
+</code></pre>
+<p><img src="output_27_0.png" alt="png"></p>
+<p>And a png.file is created in under the same directory.</p>
+<pre><code class="language-python">%ls *.png
+
+
+</code></pre>
+<pre><code>Figure1.png
+</code></pre>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/testing/tag/python/">python</a>
+  
+  <a class="badge badge-light" href="/testing/tag/notebook/">notebook</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://kamingfung.github.io/testing/post/2020-10-03-python_basics_cesm/&amp;text=Python%20Basics%20for%20CESM" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://kamingfung.github.io/testing/post/2020-10-03-python_basics_cesm/&amp;t=Python%20Basics%20for%20CESM" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Python%20Basics%20for%20CESM&amp;body=https://kamingfung.github.io/testing/post/2020-10-03-python_basics_cesm/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://kamingfung.github.io/testing/post/2020-10-03-python_basics_cesm/&amp;title=Python%20Basics%20for%20CESM" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Python%20Basics%20for%20CESM%20https://kamingfung.github.io/testing/post/2020-10-03-python_basics_cesm/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://kamingfung.github.io/testing/post/2020-10-03-python_basics_cesm/&amp;title=Python%20Basics%20for%20CESM" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/testing/post/atlantic-centered-map/">Atlantic Centered Map</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/testing/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks",
+        'slides' : "Slides"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/testing/js/wowchemy.min.4c2bca31150ce93c5a5e43b8a50f22fd.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    Published with
+    <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy</a>  —
+    the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">
+    open source</a> website builder that empowers creators.
+    
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

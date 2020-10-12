@@ -1,78 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | Academic</title>
-    <link>https://kamingfung.github.io/testing/post/</link>
-      <atom:link href="https://kamingfung.github.io/testing/post/index.xml" rel="self" type="application/rss+xml" />
-    <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 11 Oct 2020 17:06:22 -0400</lastBuildDate>
+    <title>python | Academic</title>
+    <link>https://kamingfung.github.io/testing/tag/python/</link>
+      <atom:link href="https://kamingfung.github.io/testing/tag/python/index.xml" rel="self" type="application/rss+xml" />
+    <description>python</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 03 Oct 2020 16:05:04 -0400</lastBuildDate>
     <image>
       <url>https://kamingfung.github.io/testing/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Posts</title>
-      <link>https://kamingfung.github.io/testing/post/</link>
+      <title>python</title>
+      <link>https://kamingfung.github.io/testing/tag/python/</link>
     </image>
-    
-    <item>
-      <title>Atlantic Centered Map</title>
-      <link>https://kamingfung.github.io/testing/post/atlantic-centered-map/</link>
-      <pubDate>Sun, 11 Oct 2020 17:06:22 -0400</pubDate>
-      <guid>https://kamingfung.github.io/testing/post/atlantic-centered-map/</guid>
-      <description>&lt;p&gt;This is an example to plot a world map with Atlantic centered map using
-R and ggplot2.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(ggplot2) # for plotting
-
-ggplot() + borders(&amp;quot;world2&amp;quot;) + coord_fixed(expand = FALSE) + theme_bw()
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;unnamed-chunk-1-1.png&#34; alt=&#34;&#34;&gt;&lt;!-- --&gt;&lt;/p&gt;
-&lt;p&gt;…and with a bit more informative axes.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(scales)  # for formatting axes labels
-
-ggplot() + borders(&amp;quot;world2&amp;quot;) + coord_fixed(expand = FALSE) + theme_bw() + 
-  scale_x_continuous(breaks = c(90, 180, 270), labels = label_number(suffix = &amp;quot;ºE&amp;quot;)) + 
-  scale_y_continuous(breaks = c(-60, -30, 0, 30, 60), labels = label_number(suffix = &amp;quot;ºN&amp;quot;))
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;unnamed-chunk-2-1.png&#34; alt=&#34;&#34;&gt;&lt;!-- --&gt;&lt;/p&gt;
-&lt;p&gt;You can then add other geometry object onto the maps.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>This is the moment</title>
-      <link>https://kamingfung.github.io/testing/post/so-i-have-been-told/</link>
-      <pubDate>Sun, 11 Oct 2020 16:58:10 -0400</pubDate>
-      <guid>https://kamingfung.github.io/testing/post/so-i-have-been-told/</guid>
-      <description>&lt;p&gt;So I have been told there is a new tool (new to me 😉) trending among academicians. I was casually checking it out last night, and now, I have just finished my 12-hour journey of website migration. Not to bore you to death by giving you all the geeky 👓 and technical details (including how I googled and picked the nicest templates, extracted the good elements, studied their liquid syntax &amp;amp; HTML codes, reassembled them, fixed countless bugs, and ran numerous tests&amp;hellip;), I will discuss some major advantages of Jekyll, as a static web page generator, over WordPress.&lt;/p&gt;
-&lt;h3 id=&#34;wordpress-was-not-good-enough&#34;&gt;WordPress was not good enough&lt;/h3&gt;
-&lt;p&gt;Let&amp;rsquo;s start with WordPress (WP). Here is a list of bad things about this commercial web page hosting service providers:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;WP is Slow&lt;/strong&gt; - to entertain its broad base of users WP comes with a bunch of plug-ins that most of us won&amp;rsquo;t find useful. Recently, they updated their editors to enable &amp;ldquo;block&amp;rdquo; elements, hoping to make layout design more flexible. But this change came at the expanse of becoming more graphically demanding (as compared to Google&amp;rsquo;s Site &amp;lt;- Yes, it is revived 😈). All these non-essential add-ons have made WP extremely heavy and slow.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;WP Poses Design Restrictions&lt;/strong&gt; - though WP has a bunch of themes and plugins to choose from, it&amp;rsquo;s not easy to make small adjustments because it doesn&amp;rsquo;t allow you to go all the way under the hood (i.e., change the codes). WP&amp;rsquo;s closed ecosystem limits customizations.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;WP Has Ads&lt;/strong&gt; - pop-ups, top-bars, and other forms of ads appear like elves if you are not a paid user. It just look unprofessional. (I know, so does emojis 😱.)&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;jekyll-is-not-perfect-but-just-better&#34;&gt;Jekyll is not perfect but just better&lt;/h3&gt;
-&lt;p&gt;After some research, aka skimming though the first page of Google Search results and watched a few Youtube vids, I found that Jekyll + GitHub Pages would be a better alternative for me.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Jekyll is Simple&lt;/strong&gt; - if you have used MS FrontPage to make websites (like ~20 years ago 💾), you would know how tedious it could be to write a blog post, format it, and index it alongside other posts. Jekyll, an HTML code generator, can auto-complete those procedures for you. The only thing your need is some knowledge of the markdown and liquid syntaxes.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Jekyll is Fast&lt;/strong&gt; - similar to WP, you can choose your favorite template from a collection of free and paid ones. Unlike WP, these templates come with source codes, which allow you to trim, extract, reuse, improve, and modify as you see fit. Optimizing code sets to your needs helps speed up the loading time. Also, it&amp;rsquo;s always ad-free.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Jekyll Puts You in Charge&lt;/strong&gt; - even though the Jekyll-generated websites still need to be hosted on places like Github Pages, you can always keep a local copy of it, including all the blog posts, pages, pictures, pdf files, etc. With this, you don&amp;rsquo;t have to worry about your memories will be gone one day like those Xanga dairies you once wrote. (Sorry that I am a senior netizen. 👴)&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;one-size-doesnt-fit-all&#34;&gt;One size doesn&amp;rsquo;t fit all&lt;/h3&gt;
-&lt;p&gt;I am sure that somewhere out there a newer and fancier tool have already been invited. I also have to confess that learning Jekyll was not my sweetest moment, and I have invested quite some time (properly longer than I should have). It&amp;rsquo;s highly customizable but not at all straight-forward. But, after all, I am happy to pay such as a small cost and appreciate Jekyll&amp;rsquo;s letting me own my contents and, together with GitHub, enabling me to host an ad-free open-source website.&lt;/p&gt;
-&lt;p&gt;I think Jekyll will make maintaining my website easier. If you are considering switching to Jekyll but still in doubt, free feel to connect with me. I will be more than happy to share with you my experience.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Python Basics for CESM</title>

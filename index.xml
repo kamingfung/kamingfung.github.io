@@ -5,12 +5,307 @@
     <link>https://kamingfung.github.io/testing/</link>
       <atom:link href="https://kamingfung.github.io/testing/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 11 Oct 2020 17:06:22 -0400</lastBuildDate>
     <image>
       <url>https://kamingfung.github.io/testing/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Academic</title>
       <link>https://kamingfung.github.io/testing/</link>
     </image>
+    
+    <item>
+      <title>Atlantic Centered Map</title>
+      <link>https://kamingfung.github.io/testing/post/atlantic-centered-map/</link>
+      <pubDate>Sun, 11 Oct 2020 17:06:22 -0400</pubDate>
+      <guid>https://kamingfung.github.io/testing/post/atlantic-centered-map/</guid>
+      <description>&lt;p&gt;This is an example to plot a world map with Atlantic centered map using
+R and ggplot2.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(ggplot2) # for plotting
+
+ggplot() + borders(&amp;quot;world2&amp;quot;) + coord_fixed(expand = FALSE) + theme_bw()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;unnamed-chunk-1-1.png&#34; alt=&#34;&#34;&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;p&gt;…and with a bit more informative axes.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(scales)  # for formatting axes labels
+
+ggplot() + borders(&amp;quot;world2&amp;quot;) + coord_fixed(expand = FALSE) + theme_bw() + 
+  scale_x_continuous(breaks = c(90, 180, 270), labels = label_number(suffix = &amp;quot;ºE&amp;quot;)) + 
+  scale_y_continuous(breaks = c(-60, -30, 0, 30, 60), labels = label_number(suffix = &amp;quot;ºN&amp;quot;))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;unnamed-chunk-2-1.png&#34; alt=&#34;&#34;&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;p&gt;You can then add other geometry object onto the maps.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>This is the moment</title>
+      <link>https://kamingfung.github.io/testing/post/so-i-have-been-told/</link>
+      <pubDate>Sun, 11 Oct 2020 16:58:10 -0400</pubDate>
+      <guid>https://kamingfung.github.io/testing/post/so-i-have-been-told/</guid>
+      <description>&lt;p&gt;So I have been told there is a new tool (new to me 😉) trending among academicians. I was casually checking it out last night, and now, I have just finished my 12-hour journey of website migration. Not to bore you to death by giving you all the geeky 👓 and technical details (including how I googled and picked the nicest templates, extracted the good elements, studied their liquid syntax &amp;amp; HTML codes, reassembled them, fixed countless bugs, and ran numerous tests&amp;hellip;), I will discuss some major advantages of Jekyll, as a static web page generator, over WordPress.&lt;/p&gt;
+&lt;h3 id=&#34;wordpress-was-not-good-enough&#34;&gt;WordPress was not good enough&lt;/h3&gt;
+&lt;p&gt;Let&amp;rsquo;s start with WordPress (WP). Here is a list of bad things about this commercial web page hosting service providers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;WP is Slow&lt;/strong&gt; - to entertain its broad base of users WP comes with a bunch of plug-ins that most of us won&amp;rsquo;t find useful. Recently, they updated their editors to enable &amp;ldquo;block&amp;rdquo; elements, hoping to make layout design more flexible. But this change came at the expanse of becoming more graphically demanding (as compared to Google&amp;rsquo;s Site &amp;lt;- Yes, it is revived 😈). All these non-essential add-ons have made WP extremely heavy and slow.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;WP Poses Design Restrictions&lt;/strong&gt; - though WP has a bunch of themes and plugins to choose from, it&amp;rsquo;s not easy to make small adjustments because it doesn&amp;rsquo;t allow you to go all the way under the hood (i.e., change the codes). WP&amp;rsquo;s closed ecosystem limits customizations.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;WP Has Ads&lt;/strong&gt; - pop-ups, top-bars, and other forms of ads appear like elves if you are not a paid user. It just look unprofessional. (I know, so does emojis 😱.)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;jekyll-is-not-perfect-but-just-better&#34;&gt;Jekyll is not perfect but just better&lt;/h3&gt;
+&lt;p&gt;After some research, aka skimming though the first page of Google Search results and watched a few Youtube vids, I found that Jekyll + GitHub Pages would be a better alternative for me.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Jekyll is Simple&lt;/strong&gt; - if you have used MS FrontPage to make websites (like ~20 years ago 💾), you would know how tedious it could be to write a blog post, format it, and index it alongside other posts. Jekyll, an HTML code generator, can auto-complete those procedures for you. The only thing your need is some knowledge of the markdown and liquid syntaxes.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Jekyll is Fast&lt;/strong&gt; - similar to WP, you can choose your favorite template from a collection of free and paid ones. Unlike WP, these templates come with source codes, which allow you to trim, extract, reuse, improve, and modify as you see fit. Optimizing code sets to your needs helps speed up the loading time. Also, it&amp;rsquo;s always ad-free.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Jekyll Puts You in Charge&lt;/strong&gt; - even though the Jekyll-generated websites still need to be hosted on places like Github Pages, you can always keep a local copy of it, including all the blog posts, pages, pictures, pdf files, etc. With this, you don&amp;rsquo;t have to worry about your memories will be gone one day like those Xanga dairies you once wrote. (Sorry that I am a senior netizen. 👴)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;one-size-doesnt-fit-all&#34;&gt;One size doesn&amp;rsquo;t fit all&lt;/h3&gt;
+&lt;p&gt;I am sure that somewhere out there a newer and fancier tool have already been invited. I also have to confess that learning Jekyll was not my sweetest moment, and I have invested quite some time (properly longer than I should have). It&amp;rsquo;s highly customizable but not at all straight-forward. But, after all, I am happy to pay such as a small cost and appreciate Jekyll&amp;rsquo;s letting me own my contents and, together with GitHub, enabling me to host an ad-free open-source website.&lt;/p&gt;
+&lt;p&gt;I think Jekyll will make maintaining my website easier. If you are considering switching to Jekyll but still in doubt, free feel to connect with me. I will be more than happy to share with you my experience.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Python Basics for CESM</title>
+      <link>https://kamingfung.github.io/testing/post/2020-10-03-python_basics_cesm/</link>
+      <pubDate>Sat, 03 Oct 2020 16:05:04 -0400</pubDate>
+      <guid>https://kamingfung.github.io/testing/post/2020-10-03-python_basics_cesm/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Created by &lt;a href=&#34;kamingfung@mit.edu&#34;&gt;Ka Ming Fung&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References:&lt;/h2&gt;
+&lt;p&gt;For general python handling of nc files: &lt;a href=&#34;https://github.com/geoschem/GEOSChem-python-tutorial&#34;&gt;https://github.com/geoschem/GEOSChem-python-tutorial&lt;/a&gt;
+&lt;br/&gt;
+For NCL plot styles: &lt;a href=&#34;http://www.pyngl.ucar.edu/&#34;&gt;http://www.pyngl.ucar.edu/&lt;/a&gt;
+&lt;br/&gt;
+For merging nc files: &lt;a href=&#34;https://medium.com/@neetinayak/combine-many-netcdf-files-into-a-single-file-with-python-469ba476fc14&#34;&gt;https://medium.com/@neetinayak/combine-many-netcdf-files-into-a-single-file-with-python-469ba476fc14&lt;/a&gt;
+&lt;br/&gt;
+For NCL color scales: &lt;a href=&#34;https://github.com/hhuangwx/cmaps&#34;&gt;https://github.com/hhuangwx/cmaps&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This is an example to show how to combine multiple ncdf files, compute annual means, and make plots.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np                    # for better array
+import xarray as xr                   # the major tool to work with NetCDF data!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;merging-monthly-nc-files&#34;&gt;Merging monthly .nc files&lt;/h2&gt;
+&lt;p&gt;Below is a list of files for this example. They are nc files named after case name, for each month in 2016.
+&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Note that we could use, in the code, % (magic link) to call a function on the shell level.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;%ls _data/*.nc
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;_data/FC2000climo.f19_f19.2_1_MOSAIC.OAS_KPP_ISO.cam.h0.2016-01.nc
+_data/FC2000climo.f19_f19.2_1_MOSAIC.OAS_KPP_ISO.cam.h0.2016-02.nc
+_data/FC2000climo.f19_f19.2_1_MOSAIC.OAS_KPP_ISO.cam.h0.2016-03.nc
+_data/FC2000climo.f19_f19.2_1_MOSAIC.OAS_KPP_ISO.cam.h0.2016-04.nc
+_data/FC2000climo.f19_f19.2_1_MOSAIC.OAS_KPP_ISO.cam.h0.2016-05.nc
+_data/FC2000climo.f19_f19.2_1_MOSAIC.OAS_KPP_ISO.cam.h0.2016-06.nc
+_data/FC2000climo.f19_f19.2_1_MOSAIC.OAS_KPP_ISO.cam.h0.2016-07.nc
+_data/FC2000climo.f19_f19.2_1_MOSAIC.OAS_KPP_ISO.cam.h0.2016-08.nc
+_data/FC2000climo.f19_f19.2_1_MOSAIC.OAS_KPP_ISO.cam.h0.2016-09.nc
+_data/FC2000climo.f19_f19.2_1_MOSAIC.OAS_KPP_ISO.cam.h0.2016-10.nc
+_data/FC2000climo.f19_f19.2_1_MOSAIC.OAS_KPP_ISO.cam.h0.2016-11.nc
+_data/FC2000climo.f19_f19.2_1_MOSAIC.OAS_KPP_ISO.cam.h0.2016-12.nc
+_data/FC2000climo.f19_f19.2_1_MOSAIC.OAS_KPP_ISO.cam.i.2017-01-01-00000.nc
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We use the function xr.open_mfdataset from the xarray package. specifying the &amp;ldquo;names, &lt;strong&gt;combining&lt;/strong&gt; &lt;em&gt;method&lt;/em&gt; and &lt;em&gt;dimension&lt;/em&gt; for &lt;strong&gt;concatenation&lt;/strong&gt;. Note the use of * as a wildcard.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;ds = xr.open_mfdataset(paths=&#39;_data/*.cam.h0.2016-*.nc&#39;, combine=&#39;by_coords&#39;, concat_dim=&amp;quot;time&amp;quot;)
+
+# ds
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Done! Couldn&amp;rsquo;t imagine life can be this easy :P&lt;/p&gt;
+&lt;h2 id=&#34;computing-global-and-annual-mean-surface-value-of-variables-of-interest&#34;&gt;Computing global and annual-mean surface value of variables of interest&lt;/h2&gt;
+&lt;p&gt;We want to extract the variables concerned using some string selection tracks, for instance &amp;ldquo;startswith&amp;rdquo; here.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;vid = [x for x in ds.keys() if x.startswith(&#39;r_is&#39;)]
+dr = ds[vid]
+
+# dr
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then, we &amp;ldquo;slice&amp;rdquo; the surface layers out from the big dataset.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;dr_surf = dr.sel(lev=slice(100, 1000))  # lev is in hPa. Here I assume troposphere is within 1000hPa-100hPa
+
+# dr_surf
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Do a quick check on the global mean values.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(dr_surf.mean().compute().values)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;bound method Mapping.values of &amp;lt;xarray.Dataset&amp;gt;
+Dimensions:                ()
+Data variables:
+    r_is_HOOCH2SCH2O       float32 11.503614
+    r_is_HOOCH2SCO_1       float32 368.33008
+    r_is_HOOCH2SCO_2       float32 0.021772318
+    r_is_HOOCH2SO_NO2      float32 11.119194
+    r_is_HOOCH2SO_O3       float32 368.70016
+    r_is_HOOCH2S_NO2       float32 10.201074
+    r_is_HOOCH2S_O3        float32 369.6315
+    r_is_HPMTF_OH          float32 368.35184
+    r_is_OOCH2SCH2OOH_HO2  float32 12.836186
+    r_is_OOCH2SCH2OOH_NO   float32 11.503614
+    r_is_shift_1           float32 1240.3165
+    r_is_shift_2           float32 1215.9198&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Ok, they are about right.&lt;/p&gt;
+&lt;h2 id=&#34;plotting-variables-on-maps&#34;&gt;Plotting variables on maps&lt;/h2&gt;
+&lt;p&gt;To plot variables, we employ the powerful and (most) popular packages:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;%matplotlib inline
+from matplotlib import pyplot as plt  # for plotting
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here, we want to plot variable, r_is_shift_1, which is a 4-D array (lon, lat, lev, and time).&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;vid = &amp;quot;r_is_shift_1&amp;quot;                  # storing the variable id for easier recall
+
+# dr_surf[vid]                          # just to double check if the array is what we want
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# actual plotting codes:
+
+fig = plt.figure(figsize=(14, 4))     # defining the canvas with size 14 x 4
+ax = plt.axes()                       # defining the axes (Cartesian rectangle)
+
+dr_surf[vid].mean(dim=[&#39;lev&#39;, &#39;time&#39;]).plot()  # two operations happened here, this line first compute the mean along lev and time dimensions of the array and then make the plot
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;matplotlib.collections.QuadMesh at 0x2b0b7a6006d0&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;output_18_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Hurray, we got our nice plot. But who would stop here?
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;Time to play around the codes and make some aesthetic changes.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Change 1: Projection - People have been arguing about which map projection is the best to maintain the &amp;quot;shape&amp;quot; of the Earth.
+# One popular choice is the Robinson
+# So this is how we do it.
+
+from cartopy import crs as ccrs       # for map projections
+
+fig = plt.figure(figsize=(14, 4))          # again, defining the canvas
+ax = plt.axes(projection=ccrs.Robinson())  # defining the axes after Robinson projection
+
+dr_surf[vid].mean(dim=[&#39;time&#39;, &#39;lev&#39;]).plot(transform=ccrs.PlateCarree())  # two operations here: computing the mean, and transforming the retangular grids onto a Robinson-projected coordinate system
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;matplotlib.collections.QuadMesh at 0x2b0b7a4fd310&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;output_20_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Change 2: Coastline - Land-sea difference of some variables are not that obvisous so we also draw coastal lines for better readability
+
+fig = plt.figure(figsize=(14, 4))
+ax = plt.axes(projection=ccrs.Robinson())
+
+dr_surf[vid].mean(dim=[&#39;time&#39;, &#39;lev&#39;]).plot(transform=ccrs.PlateCarree()) 
+
+ax.coastlines(color=&amp;quot;w&amp;quot;) # this line adds coastlines to the coordinate system (aka axes in the language of matplotlib), and we used white
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;cartopy.mpl.feature_artist.FeatureArtist at 0x2b0b7a6d4610&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;output_21_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Change 3: Color Scale - the default color scale of matplotlib is a color-blindness-friendly one but some community like to use their own color scales.
+# For example, this popular White-Blue-Green-Yellow-Red scale:
+
+from matplotlib import colors as c    # for making color schemes from Ngl applicable to matplot-style plots
+import cmaps                          # packages for NCL color options
+
+fig = plt.figure(figsize=(14, 4))
+ax = plt.axes(projection=ccrs.Robinson())
+
+dr_surf[vid].mean(dim=[&#39;time&#39;, &#39;lev&#39;]).plot(transform=ccrs.PlateCarree(), 
+                                            cmap = cmaps.WhiteBlueGreenYellowRed) # assigning the color scale
+
+ax.coastlines() # now we use black coastal lines
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;cartopy.mpl.feature_artist.FeatureArtist at 0x2b0b7cb88f10&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;output_22_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Change 4: Color Steps or discretized color scale - Some scientists advocate for minimial color shades for better comparison.
+# This is how we do that.
+
+fig = plt.figure(figsize=(14, 4))
+ax = plt.axes(projection=ccrs.Robinson())
+
+dr_surf[vid].mean(dim=[&#39;time&#39;, &#39;lev&#39;]).plot(transform=ccrs.PlateCarree(), 
+                                            cmap = cmaps.WhiteBlueGreenYellowRed,
+                                            levels = 10)
+
+ax.coastlines()
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;cartopy.mpl.feature_artist.FeatureArtist at 0x2b0b7cb45850&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;output_23_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Change 5: Titles and Labels - They are simply essential for all plots.
+
+fig = plt.figure(figsize=(14, 4))
+ax = plt.axes(projection=ccrs.Robinson())
+
+ms = dr_surf[vid].mean(dim=[&#39;time&#39;, &#39;lev&#39;]).plot(transform=ccrs.PlateCarree(), 
+                                                 cmap = cmaps.WhiteBlueGreenYellowRed,
+                                                 levels = 10,
+                                                 add_colorbar = False) # Omitting the original colorbar.
+
+# I haven&#39;t find how to change title using the build-in attribute of xarray so I recreate the color using the matplotlib function like this
+colorbar_obj = plt.colorbar(ms)
+colorbar_obj.set_label(&#39;molecules cm$^{-3}$ s$^{-1}$&#39;)  # adding the unit to the colorbar
+
+ax.coastlines()
+plt.title(&amp;quot;Surface &amp;quot; + vid + &amp;quot;(global and annual mean)&amp;quot;)  # adding a title to the plot
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;Text(0.5, 1.0, &#39;Surface r_is_shift_1(global and annual mean)&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;output_24_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Bonus Change: Showing smaller values only - sometimes some data are just too large that the color scale, 
+# we would want to put a maximum on the values to show, we set that cap at 6000
+
+fig = plt.figure(figsize=(14, 4))
+ax = plt.axes(projection=ccrs.Robinson())
+
+ms = dr_surf[vid].mean(dim=[&#39;time&#39;, &#39;lev&#39;]).plot(transform=ccrs.PlateCarree(), 
+                                                 cmap = cmaps.WhiteBlueGreenYellowRed,
+                                                 levels = 10,
+                                                 add_colorbar = False,
+                                                 vmax = 6000) # setting the variable using vmax and vmin
+
+# I haven&#39;t found how to change title using the build-in attribute of xarray so I recreate the color using the matplotlib function like this
+colorbar_obj = plt.colorbar(ms)
+colorbar_obj.set_label(&#39;molecules cm$^{-3}$ s$^{-1}$&#39;)
+
+ax.coastlines()
+plt.title(&amp;quot;Surface &amp;quot; + vid + &amp;quot; (global and annual mean)&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;Text(0.5, 1.0, &#39;Surface r_is_shift_1 (global and annual mean)&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;output_25_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;saving-the-figure&#34;&gt;Saving the figure&lt;/h2&gt;
+&lt;p&gt;Now we have done some simple post-processing. Let&amp;rsquo;s output the plot for publication!&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;fig = plt.figure(figsize=(14, 4))
+ax = plt.axes(projection=ccrs.Robinson())
+
+ms = dr_surf[vid].mean(dim=[&#39;time&#39;, &#39;lev&#39;]).plot(transform=ccrs.PlateCarree(), 
+                                                 cmap = cmaps.WhiteBlueGreenYellowRed,
+                                                 levels = 10,
+                                                 add_colorbar = False,
+                                                 vmax = 6000)
+
+colorbar_obj = plt.colorbar(ms)
+colorbar_obj.set_label(&#39;molecules cm$^{-3}$ s$^{-1}$&#39;)
+
+ax.coastlines()
+plt.title(&amp;quot;Surface &amp;quot; + vid + &amp;quot; (global and annual mean)&amp;quot;)
+
+plt.savefig(&amp;quot;Figure1.png&amp;quot;) # we can simply specify the wanted file type in the filename
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;output_27_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;And a png.file is created in under the same directory.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;%ls *.png
+
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;Figure1.png
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
   </channel>
 </rss>
