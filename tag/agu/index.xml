@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Recent &amp; Upcoming Talks | Ka Ming Fung, Ph.D.</title>
-    <link>https://kamingfung.github.io/kamingfung.github.io.hugo/talk/</link>
-      <atom:link href="https://kamingfung.github.io/kamingfung.github.io.hugo/talk/index.xml" rel="self" type="application/rss+xml" />
-    <description>Recent &amp; Upcoming Talks</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 fkm</copyright>
+    <title>AGU | Ka Ming Fung, Ph.D.</title>
+    <link>https://kamingfung.github.io/kamingfung.github.io.hugo/tag/agu/</link>
+      <atom:link href="https://kamingfung.github.io/kamingfung.github.io.hugo/tag/agu/index.xml" rel="self" type="application/rss+xml" />
+    <description>AGU</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 fkm</copyright><lastBuildDate>Mon, 12 Oct 2020 02:30:52 -0400</lastBuildDate>
     <image>
       <url>https://kamingfung.github.io/kamingfung.github.io.hugo/images/icon_hu26daae2aec3aee1c848737d70e9dbe2a_4285112_512x512_fill_lanczos_center_2.png</url>
-      <title>Recent &amp; Upcoming Talks</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.hugo/talk/</link>
+      <title>AGU</title>
+      <link>https://kamingfung.github.io/kamingfung.github.io.hugo/tag/agu/</link>
     </image>
     
     <item>
