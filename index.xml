@@ -734,7 +734,7 @@ ggplot() + borders(&amp;quot;world2&amp;quot;) + coord_fixed(expand = FALSE) + t
       <link>https://kamingfung.github.io/post/2019-09-03-about-ka-ming/</link>
       <pubDate>Tue, 03 Sep 2019 11:12:00 -0400</pubDate>
       <guid>https://kamingfung.github.io/post/2019-09-03-about-ka-ming/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;./IMG_2917.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+      <description>&lt;!-- ![](./IMG_2917.jpeg) --&gt;
 &lt;p&gt;&amp;ldquo;Fung&amp;rdquo; (馮) is my family name and &amp;ldquo;Ka Ming&amp;rdquo; (家銘) is my first name (Yes, two words); both are romanized Cantonese.&lt;/p&gt;
 &lt;p&gt;In a Chinese name, the family name comes first so my birth name reads &amp;ldquo;Fung Ka Ming&amp;rdquo;. Since Hong Kong&amp;rsquo;s education system adopts the British model, some Hong Kongers would use additional English names as nicknames (e.g., mine is &amp;ldquo;Victor&amp;rdquo;).&lt;/p&gt;
 &lt;p&gt;I choose to use &amp;ldquo;Ka Ming FUNG&amp;rdquo; as my professional identity to express my gratitude to my parents for my birth name as well as to promote and preserve Cantonese.&lt;/p&gt;
