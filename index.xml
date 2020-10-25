@@ -94,7 +94,7 @@ Processes, CUHK&lt;/li&gt;
       <link>https://kamingfung.github.io/post/oops-i-did-it-again/</link>
       <pubDate>Mon, 12 Oct 2020 13:00:00 -0400</pubDate>
       <guid>https://kamingfung.github.io/post/oops-i-did-it-again/</guid>
-      <description>&lt;p&gt;I did it again. A day after my Jekyll-generated site is launched, I discovered Hugo, another SSG (static site generator) written in Go ❇️. Six hours later, my Hugo-powered site is up and running. I will lay out why:&lt;/p&gt;
+      <description>&lt;p&gt;I did it again. A day after my Jekyll-generated site is launched, I discovered Hugo, another SSG (static site generator) written in Go ❇️. Six hours later, my Hugo-powered site is up and running. Here in this post, I am explaining why.&lt;/p&gt;
 &lt;h3 id=&#34;dr-j-and-mr-h&#34;&gt;Dr. J and Mr. H&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
