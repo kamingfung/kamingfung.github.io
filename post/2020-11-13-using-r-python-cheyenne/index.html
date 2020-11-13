@@ -34,10 +34,10 @@
   
     
   
-  <meta name="description" content="This is an example to draw a informative bar chart using &#34;geom_label&#34; from &#34;ggplot2&#34;.">
+  <meta name="description" content="A simple guide to set up Jupyter on NCAR&#39;s supercomputers Cheyenne and Casper to use R and Python">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://kamingfung.github.io/post/2019-09-17-barchart-with-labels/">
+  <link rel="alternate" hreflang="en-us" href="https://kamingfung.github.io/post/2020-11-13-using-r-python-cheyenne/">
 
   
 
@@ -295,7 +295,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu26daae2aec3aee1c848737d70e9dbe2a_4285112_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu26daae2aec3aee1c848737d70e9dbe2a_4285112_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://kamingfung.github.io/post/2019-09-17-barchart-with-labels/">
+  <link rel="canonical" href="https://kamingfung.github.io/post/2020-11-13-using-r-python-cheyenne/">
 
   
   
@@ -313,15 +313,15 @@
   <meta property="twitter:creator" content="@kamingfung">
   
   <meta property="og:site_name" content="Ka Ming Fung, Ph.D.">
-  <meta property="og:url" content="https://kamingfung.github.io/post/2019-09-17-barchart-with-labels/">
-  <meta property="og:title" content="Bar Charts with Labels | Ka Ming Fung, Ph.D.">
-  <meta property="og:description" content="This is an example to draw a informative bar chart using &#34;geom_label&#34; from &#34;ggplot2&#34;."><meta property="og:image" content="https://kamingfung.github.io/post/2019-09-17-barchart-with-labels/featured.png">
-  <meta property="twitter:image" content="https://kamingfung.github.io/post/2019-09-17-barchart-with-labels/featured.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://kamingfung.github.io/post/2020-11-13-using-r-python-cheyenne/">
+  <meta property="og:title" content="Python &amp; R on Cheyenne/Casper | Ka Ming Fung, Ph.D.">
+  <meta property="og:description" content="A simple guide to set up Jupyter on NCAR&#39;s supercomputers Cheyenne and Casper to use R and Python"><meta property="og:image" content="https://kamingfung.github.io/post/2020-11-13-using-r-python-cheyenne/featured.jpg">
+  <meta property="twitter:image" content="https://kamingfung.github.io/post/2020-11-13-using-r-python-cheyenne/featured.jpg"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2019-09-17T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2020-11-13T00:00:00-05:00">
     
-    <meta property="article:modified_time" content="2020-10-12T15:44:05-04:00">
+    <meta property="article:modified_time" content="2020-11-13T00:00:00-05:00">
   
 
   
@@ -345,16 +345,16 @@
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://kamingfung.github.io/post/2019-09-17-barchart-with-labels/"
+    "@id": "https://kamingfung.github.io/post/2020-11-13-using-r-python-cheyenne/"
   },
-  "headline": "Bar Charts with Labels",
+  "headline": "Python \u0026 R on Cheyenne/Casper",
   
   "image": [
-    "https://kamingfung.github.io/post/2019-09-17-barchart-with-labels/featured.png"
+    "https://kamingfung.github.io/post/2020-11-13-using-r-python-cheyenne/featured.jpg"
   ],
   
-  "datePublished": "2019-09-17T00:00:00Z",
-  "dateModified": "2020-10-12T15:44:05-04:00",
+  "datePublished": "2020-11-13T00:00:00-05:00",
+  "dateModified": "2020-11-13T00:00:00-05:00",
   
   "author": {
     "@type": "Person",
@@ -369,7 +369,7 @@
       "url": "https://kamingfung.github.io/images/icon_hu26daae2aec3aee1c848737d70e9dbe2a_4285112_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "This is an example to draw a informative bar chart using \"geom_label\" from \"ggplot2\"."
+  "description": "A simple guide to set up Jupyter on NCAR's supercomputers Cheyenne and Casper to use R and Python"
 }
 </script>
 
@@ -387,7 +387,7 @@
 
 
 
-  <title>Bar Charts with Labels | Ka Ming Fung, Ph.D.</title>
+  <title>Python &amp; R on Cheyenne/Casper | Ka Ming Fung, Ph.D.</title>
 
 </head>
 
@@ -773,7 +773,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Bar Charts with Labels</h1>
+  <h1>Python &amp; R on Cheyenne/Casper</h1>
 
   
 
@@ -801,10 +801,8 @@
     
     
       
-          Last updated on
-      
     
-    Oct 12, 2020
+    Nov 13, 2020
   </span>
   
 
@@ -813,7 +811,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    4 min read
+    3 min read
   </span>
   
 
@@ -853,98 +851,58 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>This is an example to draw a informative bar chart using &ldquo;geom_label&rdquo; from &ldquo;ggplot2&rdquo;.</p>
-<p>Let’s start with generating some sample data.</p>
-<pre><code class="language-r"># we will use the Motor Trend Car Road Tests datasets from R base (only the first 15 models for better illustration)
-# run ?mtcars for details of the datasets
-df = mtcars[1:20,]
-
-# showing the first 7 rows of the data frame for illustration
-head(x = df, n = 7)
+      <p>I am lucky enough to have an access to NCAR&rsquo;s super computing facilities - Cheyenne allows me to run CESM simulation with hundreds of cores while Casper streamlines my data processing, analysis, and visualization without wasting time to transfer large files. But, setting up the correct software to full deploy these machines are a pain in the neck. Here I would like to share how I set up my <code>Jupyter</code> environment to run <code>R</code> and <code>Python</code> on these two supercomputers.</p>
+<h3 id="what-does-ncar-say">What does NCAR say</h3>
+<p>NCAR has been putting a lot of efforts in modernizing their legendary NCL libraries and translating them into Python packages. In this <a href="https://www2.cisl.ucar.edu/resources/python-%e2%80%93-ncar-package-library" target="_blank" rel="noopener">guide</a>, they lay out the easiest way to use <code>Python</code> with <code>Jupyter</code> on Casper.</p>
+<p>The idea is to use <code>module</code> the default environment managing software on Casper to load the pre-bundled package:</p>
+<pre><code>module load ncarenv
 </code></pre>
-<pre><code>##                    mpg cyl disp  hp drat    wt  qsec vs am gear carb
-## Mazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4
-## Mazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4
-## Datsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1
-## Hornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1
-## Hornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2
-## Valiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1
-## Duster 360        14.3   8  360 245 3.21 3.570 15.84  0  0    3    4
+<p>Then, you can run</p>
+<pre><code>ncar_pylib -p 20200417
 </code></pre>
-<p>Suppose we wants to show the weight in tons (wt) of the cars, we start
-with a basic bar chart.</p>
-<pre><code class="language-r">library(ggplot2)  # for plotting
-library(cowplot)  # for publication friendly ggplot themes
-
-# setting up the base plot
-g = ggplot(data = df, mapping = aes(x = rownames(df), y = wt)) + geom_bar(stat = &quot;identity&quot;) + theme_cowplot() + labs(x = &quot;Models&quot;, y = &quot;Weight (tons)&quot;)
-
-g
+<p>to check what packages are pre-installed. If you are happy with it, activate the default package library by invoking</p>
+<pre><code>ncar_pylib
 </code></pre>
-<p><img src="unnamed-chunk-2-1.png" alt=""><!-- --></p>
-<p>Oh, the names of the models are all overlapped…Let’s fix it by rotating
-them by 45º.</p>
-<pre><code class="language-r"># fixing the overlapped the labels of the x-axis
-g1 = g + theme(axis.text.x = element_text(angle = 45, hjust = 1))
-g1
+<p>It should allow you to use <code>Python</code> and other common packages including <code>matplotlib</code>.</p>
+<h3 id="running-jupyter-on-casper">Running <code>Jupyter</code> on Casper</h3>
+<p>NCAR is experimenting a simple way to run <code>Jupyter</code> using <code>JupyterHub</code> (<a href="https://www2.cisl.ucar.edu/resources/jupyterhub-ncar" target="_blank" rel="noopener">Visit here for details</a>) which can bypass using the <code>Terminal</code>.</p>
+<p>Alternatively, the old-fashion <code>IPython</code> approach to run <code>Jupyter</code> can also be found <a href="https://www2.cisl.ucar.edu/resources/jupyter-and-ipython" target="_blank" rel="noopener">here</a>.</p>
+<h3 id="i-wanted-to-include-r">I wanted to include <code>R</code></h3>
+<p>To include more packages and other software, I needed to create my own environment <code>my_npl_clone</code>. For that, I invoked,</p>
+<pre><code>ncar_pylib -c 20200417 /glade/work/$USER/my_npl_clone
 </code></pre>
-<p><img src="unnamed-chunk-3-1.png" alt=""><!-- --></p>
-<p>Looks not bad.</p>
-<p>Now, let’s suppose that we somehow want to know the total weight of
-automatic transmission cars vs manual transmission cars (i.e., based on
-the <code>am</code> column), we can visualize it by stacking up the bars.</p>
-<pre><code class="language-r"># converting the entries in the &quot;am&quot; column into factor-valued (Note: 0 = autmatic, 1 = manual, in the original data)
-df$am = factor(df$am, labels = c(&quot;automatic&quot;, &quot;manual&quot;))
-
-# fixing the overlapped the labels of the x-axis
-g2 = ggplot(data = df, mapping = aes(x = am, y = wt)) + geom_bar(stat = &quot;identity&quot;, position = &quot;stack&quot;, color = &quot;black&quot;) + theme_cowplot() + labs(x = &quot;Transmission&quot;, y = &quot;Weight (tons)&quot;)
-g2
+<p>to create a clone of the environment <code>20200417</code>.</p>
+<p>Activating the new environment with</p>
+<pre><code>ncar_pylib my_npl_clone
 </code></pre>
-<p><img src="/unnamed-chunk-4-1.png" alt=""><!-- --></p>
-<p>Wow, we now know that the cars with automatic transmission are heavier
-than the manual ones. We can also show how much weight each car has
-contributed.</p>
-<pre><code class="language-r"># adding colors to the bar
-g3 = g2 + geom_bar(mapping = aes(fill = row.names(df)), stat = &quot;identity&quot;, position = &quot;stack&quot;, color = &quot;black&quot;) + labs(fill = &quot;Models&quot;)
-g3
+<p>I also install <code>Miniconda</code> - a package management software for <code>Python</code> and <code>R</code>, which helps me to create <code>R</code> directories under my home dir and enables installing package without the <code>root</code> access right.</p>
+<h4 id="installing-miniconda">Installing <code>Miniconda</code></h4>
+<p>In my <code>$HOME</code> directory, I first download the installation file for <code>Miniconda</code>,</p>
+<pre><code>wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 </code></pre>
-<p><img src="unnamed-chunk-5-1.png" alt=""><!-- --></p>
-<p>Not bad. But, what cross referencing between the bar segments and the
-legend makes people’s eyes sore. Can it be easier? Yes, and the answer
-is <code>geom_label</code>.</p>
-<pre><code class="language-r"># adding labels on the bar chart
-g4 = g3 + geom_label(mapping = aes(label = row.names(df)), position = position_stack(vjust = 0.5))
-g4
+<p>then install it by invoking,</p>
+<pre><code>bash Miniconda3-latest-Linux-x86_64.sh
 </code></pre>
-<p><img src="unnamed-chunk-6-1.png" alt=""><!-- --></p>
-<p>Wait, there are two problems. First, the labels are mismatch!!!
-Second, labels are overlapped!!! For the first problem, it is because
-<code>geom_label</code> and <code>geom_bar</code> are not sharing the same mapping aesthetics,
-i.e., <code>fill</code> is only defined in <code>geom_bar</code> only. Therefore, the data are
-not “grouped” properly for both objects. The fix is to set <code>fill</code> as a
-global variable. For the second problem, we seek help from the package
-<code>ggrepel</code>. Let’s check out the codes:</p>
-<pre><code class="language-r"># adding a new grouping variable to the plot
-g5 = ggplot(data = df, mapping = aes(x = am, y = wt, fill = row.names(df))) + theme_cowplot() + labs(x = &quot;Transmission&quot;, y = &quot;Weight (tons)&quot;, fill = &quot;Models&quot;)
-
-# adding the bar chart
-g5 = g5 + geom_bar(stat = &quot;identity&quot;, position = &quot;stack&quot;, color = &quot;black&quot;) 
-
-# adding new labels
-library(ggrepel) # for the function (geom_label_repel)
-g5 = g5 + geom_label_repel(mapping = aes(label = row.names(df)), position = position_stack(vjust = 0.5), color = &quot;white&quot;, segment.alpha = 0.5, segment.color = &quot;black&quot;)
-
-g5
+<p>reviewing the documentation and set up the locations.</p>
+<p>After the installation, I can see they modified my <code>.bashrc</code>. To use <code>Miniconda</code>, I had to run</p>
+<pre><code>source .bashrc
 </code></pre>
-<p><img src="unnamed-chunk-7-1.png" alt=""><!-- --></p>
-<p>After ensuring the labels are correctly matched, we can even omit the
-legend which is kinda redundant.</p>
-<pre><code class="language-r"># turning off the guides
-g6 = g5 + scale_fill_discrete(guide = guide_none())
-
-g6
+<p>(This part may be a bit different for you depending on your settings. Feel free to contact me for details.)</p>
+<p>For better file management, I created a new environment for <code>R</code> and named it <code>r</code> based on two preset library sets <code>r-essentials</code> and <code>r-base</code>,</p>
+<pre><code>conda create -n r -c conda-forge r-base=4.0.2
 </code></pre>
-<p><img src="unnamed-chunk-8-1.png" alt=""><!-- --></p>
+<p>The <code>conda</code> environment is ready to use by running,</p>
+<pre><code>conda activate r
+</code></pre>
+<p>By adding <code>R</code> and <code>my_npl_clone</code> to <code>Jupyter</code>&rsquo;s kernel, I invoked,</p>
+<pre><code>conda install -c r r-irkernel
+ncar_pylib --kernel my_npl_clone
+</code></pre>
+<p>Both should be online for <code>Jupyter</code>.</p>
+<h3 id="bonus-running-rstudio-on-cheyennecasper">Bonus: Running <code>Rstudio</code> on Cheyenne/Casper</h3>
+<p>I am a big fan of <code>RStudio</code> - an integrated development environment for <code>R</code>. With <code>Miniconda</code> it can be installed on Cheyenne/Casper easily by invoking,</p>
+<pre><code>  conda create -n rstudio -c r rstudio
+</code></pre>
 
     </div>
 
@@ -956,6 +914,8 @@ g6
 
 
 <div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/python/">Python</a>
   
   <a class="badge badge-light" href="/tag/r/">R</a>
   
@@ -974,7 +934,7 @@ g6
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://kamingfung.github.io/post/2019-09-17-barchart-with-labels/&amp;text=Bar%20Charts%20with%20Labels" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://kamingfung.github.io/post/2020-11-13-using-r-python-cheyenne/&amp;text=Python%20&amp;amp;%20R%20on%20Cheyenne/Casper" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -987,7 +947,7 @@ g6
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://kamingfung.github.io/post/2019-09-17-barchart-with-labels/&amp;t=Bar%20Charts%20with%20Labels" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://kamingfung.github.io/post/2020-11-13-using-r-python-cheyenne/&amp;t=Python%20&amp;amp;%20R%20on%20Cheyenne/Casper" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1000,7 +960,7 @@ g6
       
       
       <li>
-        <a href="mailto:?subject=Bar%20Charts%20with%20Labels&amp;body=https://kamingfung.github.io/post/2019-09-17-barchart-with-labels/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Python%20&amp;amp;%20R%20on%20Cheyenne/Casper&amp;body=https://kamingfung.github.io/post/2020-11-13-using-r-python-cheyenne/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1013,7 +973,7 @@ g6
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://kamingfung.github.io/post/2019-09-17-barchart-with-labels/&amp;title=Bar%20Charts%20with%20Labels" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://kamingfung.github.io/post/2020-11-13-using-r-python-cheyenne/&amp;title=Python%20&amp;amp;%20R%20on%20Cheyenne/Casper" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1026,7 +986,7 @@ g6
       
       
       <li>
-        <a href="whatsapp://send?text=Bar%20Charts%20with%20Labels%20https://kamingfung.github.io/post/2019-09-17-barchart-with-labels/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Python%20&amp;amp;%20R%20on%20Cheyenne/Casper%20https://kamingfung.github.io/post/2020-11-13-using-r-python-cheyenne/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1039,7 +999,7 @@ g6
       
       
       <li>
-        <a href="https://reddit.com/submit?url=https://kamingfung.github.io/post/2019-09-17-barchart-with-labels/&amp;title=Bar%20Charts%20with%20Labels" target="_blank" rel="noopener" class="share-btn-reddit">
+        <a href="https://reddit.com/submit?url=https://kamingfung.github.io/post/2020-11-13-using-r-python-cheyenne/&amp;title=Python%20&amp;amp;%20R%20on%20Cheyenne/Casper" target="_blank" rel="noopener" class="share-btn-reddit">
           <i class="fab fa-reddit-alien"></i>
         </a>
       </li>
@@ -1220,15 +1180,15 @@ g6
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/post/2020-11-13-using-r-python-cheyenne/">Python &amp; R on Cheyenne/Casper</a></li>
+      <li><a href="/post/2020-10-03-python_basics_cesm/">Python Basics for CESM</a></li>
       
       <li><a href="/post/2019-09-30-setting-color-bars/">Setting up Colorbar Colors Using R and ggplot2</a></li>
       
       <li><a href="/post/2019-09-24-parsing-special-symbols/">Displaying Special Symbols for Equations and Reactions</a></li>
       
-      <li><a href="/post/atlantic-centered-map/">Atlantic Centered Map</a></li>
+      <li><a href="/post/2019-09-17-barchart-with-labels/">Bar Charts with Labels</a></li>
       
-      <li><a href="/post/2020-10-03-python_basics_cesm/">Python Basics for CESM</a></li>
+      <li><a href="/post/atlantic-centered-map/">Atlantic Centered Map</a></li>
       
     </ul>
   </div>

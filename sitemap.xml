@@ -14,7 +14,7 @@
   
   <url>
     <loc>https://kamingfung.github.io/authors/</loc>
-    <lastmod>2020-10-15T01:40:37-04:00</lastmod>
+    <lastmod>2020-11-13T00:00:00-05:00</lastmod>
   </url>
   
   <url>
@@ -24,7 +24,7 @@
   
   <url>
     <loc>https://kamingfung.github.io/categories/</loc>
-    <lastmod>2020-10-15T01:40:37-04:00</lastmod>
+    <lastmod>2020-11-13T00:00:00-05:00</lastmod>
   </url>
   
   <url>
@@ -44,12 +44,32 @@
   
   <url>
     <loc>https://kamingfung.github.io/</loc>
-    <lastmod>2020-10-15T01:40:37-04:00</lastmod>
+    <lastmod>2020-11-13T00:00:00-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://kamingfung.github.io/tags/</loc>
-    <lastmod>2020-10-15T01:40:37-04:00</lastmod>
+    <lastmod>2020-11-13T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kamingfung.github.io/tag/python/</loc>
+    <lastmod>2020-11-13T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kamingfung.github.io/post/2020-11-13-using-r-python-cheyenne/</loc>
+    <lastmod>2020-11-13T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kamingfung.github.io/tag/r/</loc>
+    <lastmod>2020-11-13T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kamingfung.github.io/category/skill-share/</loc>
+    <lastmod>2020-11-13T00:00:00-05:00</lastmod>
   </url>
   
   <url>
@@ -83,17 +103,7 @@
   </url>
   
   <url>
-    <loc>https://kamingfung.github.io/tag/python/</loc>
-    <lastmod>2020-10-12T15:44:05-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://kamingfung.github.io/post/2020-10-03-python_basics_cesm/</loc>
-    <lastmod>2020-10-12T15:44:05-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kamingfung.github.io/category/skill-share/</loc>
     <lastmod>2020-10-12T15:44:05-04:00</lastmod>
   </url>
   
@@ -134,11 +144,6 @@
   
   <url>
     <loc>https://kamingfung.github.io/talk/2019-12-agu/</loc>
-    <lastmod>2020-10-12T15:44:05-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kamingfung.github.io/tag/r/</loc>
     <lastmod>2020-10-12T15:44:05-04:00</lastmod>
   </url>
   

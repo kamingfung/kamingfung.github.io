@@ -25,6 +25,66 @@
     </item>
     
     <item>
+      <title>Python &amp; R on Cheyenne/Casper</title>
+      <link>https://kamingfung.github.io/post/2020-11-13-using-r-python-cheyenne/</link>
+      <pubDate>Fri, 13 Nov 2020 00:00:00 -0500</pubDate>
+      <guid>https://kamingfung.github.io/post/2020-11-13-using-r-python-cheyenne/</guid>
+      <description>&lt;p&gt;I am lucky enough to have an access to NCAR&amp;rsquo;s super computing facilities - Cheyenne allows me to run CESM simulation with hundreds of cores while Casper streamlines my data processing, analysis, and visualization without wasting time to transfer large files. But, setting up the correct software to full deploy these machines are a pain in the neck. Here I would like to share how I set up my &lt;code&gt;Jupyter&lt;/code&gt; environment to run &lt;code&gt;R&lt;/code&gt; and &lt;code&gt;Python&lt;/code&gt; on these two supercomputers.&lt;/p&gt;
+&lt;h3 id=&#34;what-does-ncar-say&#34;&gt;What does NCAR say&lt;/h3&gt;
+&lt;p&gt;NCAR has been putting a lot of efforts in modernizing their legendary NCL libraries and translating them into Python packages. In this &lt;a href=&#34;https://www2.cisl.ucar.edu/resources/python-%e2%80%93-ncar-package-library&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;guide&lt;/a&gt;, they lay out the easiest way to use &lt;code&gt;Python&lt;/code&gt; with &lt;code&gt;Jupyter&lt;/code&gt; on Casper.&lt;/p&gt;
+&lt;p&gt;The idea is to use &lt;code&gt;module&lt;/code&gt; the default environment managing software on Casper to load the pre-bundled package:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;module load ncarenv
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then, you can run&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ncar_pylib -p 20200417
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;to check what packages are pre-installed. If you are happy with it, activate the default package library by invoking&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ncar_pylib
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;It should allow you to use &lt;code&gt;Python&lt;/code&gt; and other common packages including &lt;code&gt;matplotlib&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;running-jupyter-on-casper&#34;&gt;Running &lt;code&gt;Jupyter&lt;/code&gt; on Casper&lt;/h3&gt;
+&lt;p&gt;NCAR is experimenting a simple way to run &lt;code&gt;Jupyter&lt;/code&gt; using &lt;code&gt;JupyterHub&lt;/code&gt; (&lt;a href=&#34;https://www2.cisl.ucar.edu/resources/jupyterhub-ncar&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Visit here for details&lt;/a&gt;) which can bypass using the &lt;code&gt;Terminal&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Alternatively, the old-fashion &lt;code&gt;IPython&lt;/code&gt; approach to run &lt;code&gt;Jupyter&lt;/code&gt; can also be found &lt;a href=&#34;https://www2.cisl.ucar.edu/resources/jupyter-and-ipython&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;i-wanted-to-include-r&#34;&gt;I wanted to include &lt;code&gt;R&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;To include more packages and other software, I needed to create my own environment &lt;code&gt;my_npl_clone&lt;/code&gt;. For that, I invoked,&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ncar_pylib -c 20200417 /glade/work/$USER/my_npl_clone
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;to create a clone of the environment &lt;code&gt;20200417&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Activating the new environment with&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ncar_pylib my_npl_clone
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I also install &lt;code&gt;Miniconda&lt;/code&gt; - a package management software for &lt;code&gt;Python&lt;/code&gt; and &lt;code&gt;R&lt;/code&gt;, which helps me to create &lt;code&gt;R&lt;/code&gt; directories under my home dir and enables installing package without the &lt;code&gt;root&lt;/code&gt; access right.&lt;/p&gt;
+&lt;h4 id=&#34;installing-miniconda&#34;&gt;Installing &lt;code&gt;Miniconda&lt;/code&gt;&lt;/h4&gt;
+&lt;p&gt;In my &lt;code&gt;$HOME&lt;/code&gt; directory, I first download the installation file for &lt;code&gt;Miniconda&lt;/code&gt;,&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;then install it by invoking,&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;bash Miniconda3-latest-Linux-x86_64.sh
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;reviewing the documentation and set up the locations.&lt;/p&gt;
+&lt;p&gt;After the installation, I can see they modified my &lt;code&gt;.bashrc&lt;/code&gt;. To use &lt;code&gt;Miniconda&lt;/code&gt;, I had to run&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;source .bashrc
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;(This part may be a bit different for you depending on your settings. Feel free to contact me for details.)&lt;/p&gt;
+&lt;p&gt;For better file management, I created a new environment for &lt;code&gt;R&lt;/code&gt; and named it &lt;code&gt;r&lt;/code&gt; based on two preset library sets &lt;code&gt;r-essentials&lt;/code&gt; and &lt;code&gt;r-base&lt;/code&gt;,&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;conda create -n r -c conda-forge r-base=4.0.2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;code&gt;conda&lt;/code&gt; environment is ready to use by running,&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;conda activate r
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;By adding &lt;code&gt;R&lt;/code&gt; and &lt;code&gt;my_npl_clone&lt;/code&gt; to &lt;code&gt;Jupyter&lt;/code&gt;&amp;rsquo;s kernel, I invoked,&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;conda install -c r r-irkernel
+ncar_pylib --kernel my_npl_clone
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Both should be online for &lt;code&gt;Jupyter&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;bonus-running-rstudio-on-cheyennecasper&#34;&gt;Bonus: Running &lt;code&gt;Rstudio&lt;/code&gt; on Cheyenne/Casper&lt;/h3&gt;
+&lt;p&gt;I am a big fan of &lt;code&gt;RStudio&lt;/code&gt; - an integrated development environment for &lt;code&gt;R&lt;/code&gt;. With &lt;code&gt;Miniconda&lt;/code&gt; it can be installed on Cheyenne/Casper easily by invoking,&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  conda create -n rstudio -c r rstudio
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Oops! I did it again.</title>
       <link>https://kamingfung.github.io/post/oops-i-did-it-again/</link>
       <pubDate>Mon, 12 Oct 2020 13:00:00 -0400</pubDate>
