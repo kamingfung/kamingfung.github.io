@@ -5,12 +5,127 @@
     <link>https://kamingfung.github.io/category/skill-share/</link>
       <atom:link href="https://kamingfung.github.io/category/skill-share/index.xml" rel="self" type="application/rss+xml" />
     <description>Skill Share</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 fkm</copyright><lastBuildDate>Fri, 13 Nov 2020 00:00:00 -0500</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 fkm</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://kamingfung.github.io/images/icon_hu26daae2aec3aee1c848737d70e9dbe2a_4285112_512x512_fill_lanczos_center_2.png</url>
       <title>Skill Share</title>
       <link>https://kamingfung.github.io/category/skill-share/</link>
     </image>
+    
+    <item>
+      <title>Regional Analysis Using R</title>
+      <link>https://kamingfung.github.io/post/2021-01-01/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://kamingfung.github.io/post/2021-01-01/</guid>
+      <description>&lt;p&gt;This is an example to append geographic information to gridded data for
+regional analysis.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# *** use install.packages to get the packages for the first time ***
+library(raster)       # for handling raster object in R
+library(tidyverse)    # for ggplot2 and other data processing packages
+library(reshape2)     # for preparing data.frame object for ggplot2
+library(pals)          # for prettier color choices
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;step-0-making-up-some-sample-data-matrix&#34;&gt;Step 0: Making up some sample data matrix&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;lon = seq(-180, 180, length.out = 72)
+lat = seq(-90, 90, length.out = 36)
+
+X.matrix = matrix(data = runif(n = 72 * 36), 
+                  nrow = 72,  # number of lon-element
+                  ncol = 36)  # number of lat-element
+
+image(X.matrix, col = tol.rainbow(10))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;figures/pressure-1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Convert that matrix into data frame
+dimnames(X.matrix) = list(lon = lon, lat = lat)  # we rename the 1st dimension of X as lon, 2nd as lat and assign the names row and col as values of lon.vector and lat.vector
+
+# so that we can use one line to make it a data frame
+X.df = melt(X.matrix)
+
+# check the first 5 rows of the data
+head(X.df, 5)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##         lon lat     value
+## 1 -180.0000 -90 0.8672613
+## 2 -174.9296 -90 0.8062684
+## 3 -169.8592 -90 0.3092147
+## 4 -164.7887 -90 0.7819696
+## 5 -159.7183 -90 0.6498956
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;and optionally visualize the data frame&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;X.df %&amp;gt;% ggplot(aes(x = lon, y = lat)) +
+  geom_raster(aes(fill = value)) +
+  scale_fill_gradientn(colors = tol.rainbow(10)) +
+  borders(colour = &amp;quot;black&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;figures/unnamed-chunk-2-1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;step-1-downloading-the-shape-of-the-us&#34;&gt;Step 1: Downloading the “shape” of the US&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;USA.sp = raster::getData(name = &#39;GADM&#39;, # name of database
+                   country =&#39;USA&#39;, # country code of the US
+                   level = 1, # border detail level 1 is state level, 2 is county, 3 is city
+                   download = TRUE)
+
+head(USA.sp)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##    GID_0        NAME_0   GID_1     NAME_1 VARNAME_1 NL_NAME_1 TYPE_1 ENGTYPE_1 CC_1 HASC_1
+## 1    USA United States USA.1_1    Alabama   AL|Ala.      &amp;lt;NA&amp;gt;  State     State &amp;lt;NA&amp;gt;  US.AL
+## 12   USA United States USA.2_1     Alaska AK|Alaska      &amp;lt;NA&amp;gt;  State     State &amp;lt;NA&amp;gt;  US.AK
+## 23   USA United States USA.3_1    Arizona  AZ|Ariz.      &amp;lt;NA&amp;gt;  State     State &amp;lt;NA&amp;gt;  US.AZ
+## 34   USA United States USA.4_1   Arkansas   AR|Ark.      &amp;lt;NA&amp;gt;  State     State &amp;lt;NA&amp;gt;  US.AR
+## 45   USA United States USA.5_1 California CA|Calif.      &amp;lt;NA&amp;gt;  State     State &amp;lt;NA&amp;gt;  US.CA
+## 48   USA United States USA.6_1   Colorado  CO|Colo.      &amp;lt;NA&amp;gt;  State     State &amp;lt;NA&amp;gt;  US.CO
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;step-2-matching-lon-lat-pairs-with-regional-information&#34;&gt;Step 2: Matching (lon, lat)-pairs with regional information&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# this line isolate the distinct (lon, lat)-pairs for faster computation incase X is large
+X.lonlat = X.df %&amp;gt;% 
+  select(lon, lat) %&amp;gt;% 
+  distinct() 
+
+X.lonlat$region = over(x = SpatialPoints(coords = X.lonlat, proj4string = CRS(proj4string(USA.sp))), 
+                       y = USA.sp)
+
+# concat the regional information back to the data frame
+X.df = X.df %&amp;gt;% left_join(X.lonlat)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Joining, by = c(&amp;quot;lon&amp;quot;, &amp;quot;lat&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;step-3-calculating-eg-regional-average&#34;&gt;Step 3: Calculating e,g,, regional average&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;X.df %&amp;gt;% 
+  group_by(region$NAME_1) %&amp;gt;% 
+  summarize(value = mean(value, na.rm = T))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## `summarise()` ungrouping output (override with `.groups` argument)
+
+## # A tibble: 26 x 2
+##    `region$NAME_1` value
+##    &amp;lt;chr&amp;gt;           &amp;lt;dbl&amp;gt;
+##  1 Alaska          0.385
+##  2 Arizona         0.291
+##  3 Arkansas        0.173
+##  4 Colorado        0.298
+##  5 Georgia         0.656
+##  6 Idaho           0.874
+##  7 Illinois        0.337
+##  8 Kansas          0.172
+##  9 Kentucky        0.579
+## 10 Michigan        0.506
+## # … with 16 more rows
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Or isolating only US data on your map.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;X.df %&amp;gt;% 
+  filter(region$GID_0 == &amp;quot;USA&amp;quot;) %&amp;gt;%
+  ggplot(aes(x = lon, y = lat)) +
+  geom_raster(aes(fill = value)) +
+  scale_fill_gradientn(colors = tol.rainbow(10)) +
+  borders(colour = &amp;quot;black&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: Raster pixels are placed at uneven horizontal intervals and will be shifted. Consider using geom_tile() instead.
+
+## Warning: Raster pixels are placed at uneven vertical intervals and will be shifted. Consider using geom_tile() instead.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;figures/unnamed-chunk-6-1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Python &amp; R on Cheyenne/Casper</title>
