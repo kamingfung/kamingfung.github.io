@@ -923,7 +923,7 @@ X.df = X.df %&gt;% left_join(X.lonlat)
 </code></pre>
 <pre><code>## Joining, by = c(&quot;lon&quot;, &quot;lat&quot;)
 </code></pre>
-<h2 id="step-3-calculating-eg-regional-average">Step 3: Calculating e,g,, regional average</h2>
+<h2 id="step-3-calculating-eg-regional-average">Step 3: Calculating e.g., regional average</h2>
 <pre><code class="language-r">X.df %&gt;% 
   group_by(region$NAME_1) %&gt;% 
   summarize(value = mean(value, na.rm = T))
@@ -952,10 +952,6 @@ X.df = X.df %&gt;% left_join(X.lonlat)
   geom_raster(aes(fill = value)) +
   scale_fill_gradientn(colors = tol.rainbow(10)) +
   borders(colour = &quot;black&quot;)
-</code></pre>
-<pre><code>## Warning: Raster pixels are placed at uneven horizontal intervals and will be shifted. Consider using geom_tile() instead.
-
-## Warning: Raster pixels are placed at uneven vertical intervals and will be shifted. Consider using geom_tile() instead.
 </code></pre>
 <p><img src="figures/unnamed-chunk-6-1.png" alt=""></p>
 

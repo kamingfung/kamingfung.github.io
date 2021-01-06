@@ -89,7 +89,7 @@ X.df = X.df %&amp;gt;% left_join(X.lonlat)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## Joining, by = c(&amp;quot;lon&amp;quot;, &amp;quot;lat&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;step-3-calculating-eg-regional-average&#34;&gt;Step 3: Calculating e,g,, regional average&lt;/h2&gt;
+&lt;h2 id=&#34;step-3-calculating-eg-regional-average&#34;&gt;Step 3: Calculating e.g., regional average&lt;/h2&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;X.df %&amp;gt;% 
   group_by(region$NAME_1) %&amp;gt;% 
   summarize(value = mean(value, na.rm = T))
@@ -118,10 +118,6 @@ X.df = X.df %&amp;gt;% left_join(X.lonlat)
   geom_raster(aes(fill = value)) +
   scale_fill_gradientn(colors = tol.rainbow(10)) +
   borders(colour = &amp;quot;black&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Warning: Raster pixels are placed at uneven horizontal intervals and will be shifted. Consider using geom_tile() instead.
-
-## Warning: Raster pixels are placed at uneven vertical intervals and will be shifted. Consider using geom_tile() instead.
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;figures/unnamed-chunk-6-1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 </description>
