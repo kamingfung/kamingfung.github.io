@@ -13,6 +13,135 @@
     </image>
     
     <item>
+      <title>Regridding High-resolution Data</title>
+      <link>https://kamingfung.github.io/post/2021-03-02-r-regridding/</link>
+      <pubDate>Wed, 10 Feb 2021 00:05:04 -0400</pubDate>
+      <guid>https://kamingfung.github.io/post/2021-03-02-r-regridding/</guid>
+      <description>&lt;!-- *Created by [Ka Ming Fung](kamingfung@mit.edu)* --&gt;
+&lt;p&gt;Often time, we use observations to validate model simulations. In
+addition to data quality, a big challenge is that we need to regrid the
+observations (or model results) to match with its counterpart.&lt;/p&gt;
+&lt;p&gt;Here we are using the &lt;code&gt;raster&lt;/code&gt; package to perform a bilinear
+interpolation on the 5-min-by-5-min data of global maize production.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# ====== loading libraries =====
+library(ncdf4)      # for reading nc files
+library(raster)     # for resampling
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Loading required package: sp
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(reshape2)   # for reshaping files
+library(tidyverse)  # for tidying up data
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## ── Attaching packages ─────────────────────────────────────────────────────── tidyverse 1.3.0 ──
+
+## ✓ ggplot2 3.3.2     ✓ purrr   0.3.4
+## ✓ tibble  3.0.3     ✓ dplyr   1.0.1
+## ✓ tidyr   1.1.1     ✓ stringr 1.4.0
+## ✓ readr   1.3.1     ✓ forcats 0.5.0
+
+## ── Conflicts ────────────────────────────────────────────────────────── tidyverse_conflicts() ──
+## x tidyr::extract() masks raster::extract()
+## x dplyr::filter()  masks stats::filter()
+## x dplyr::lag()     masks stats::lag()
+## x dplyr::select()  masks raster::select()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The dataset we use here is in NetCDF format and can be downloaded &lt;a href=&#34;https://mycuhk-my.sharepoint.com/:u:/g/personal/1155013803_link_cuhk_edu_hk/EUGfT23rRvRBqivuwpOFmSgB0a_wvYCPOpnY8STqYqoCKw?e=JRexEL&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# ====== reading data =====
+nc.name = &amp;quot;maize_AreaYieldProduction.nc&amp;quot;
+
+# open the NC file
+nc = nc_open(filename = nc.name)
+
+# extract coordinate and value of interest
+lon.old = ncvar_get(nc = nc, varid = &amp;quot;longitude&amp;quot;)
+lat.old = ncvar_get(nc = nc, varid = &amp;quot;latitude&amp;quot;)
+old.matrix = ncvar_get(nc = nc, varid = &amp;quot;maizeData&amp;quot;)[,,6] # &amp;lt;--- picking the 6th layer of data = production of maize. check out the .nc file for details
+
+nc_close(nc)
+rm(nc)
+
+# Different data could have different methods to assign values to the matrix (increasing vs decreasing lon)
+# I found that the best way to avoid dealing with that is to transform the matrix into a named matrix and then a dataframe, i.e. a list of (lon, lat, and value)
+dimnames(old.matrix) = list(lon = lon.old, lat = lat.old)
+
+old.df = melt(old.matrix)
+
+head(old.df)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##         lon      lat value
+## 1 -179.9583 89.95833   NaN
+## 2 -179.8750 89.95833   NaN
+## 3 -179.7917 89.95833   NaN
+## 4 -179.7083 89.95833   NaN
+## 5 -179.6250 89.95833   NaN
+## 6 -179.5417 89.95833   NaN
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now we have a &lt;code&gt;dataframe&lt;/code&gt; storing the values. We first convert the &lt;code&gt;dataframe&lt;/code&gt; into a &lt;code&gt;raster&lt;/code&gt; object so that we can apply the &lt;code&gt;resample&lt;/code&gt; function in the &lt;code&gt;raster&lt;/code&gt; package. Then, we define the solution of the target grid size (usually matching with model).&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# ===== regridding =====
+# make raster for the old gridded data
+r = rasterFromXYZ(old.df)
+
+# define resolution of the new grid
+dlat.new = 1.9 # new delta lat
+nlat.new = 96  # number of new lat
+dlon.new = 2.5 # new delta lon
+nlon.new = 144 # number of new lon
+
+# make raster for the new grid
+s = raster(nrow = nlat.new, ncol = nlon.new)
+
+# use resample to regridded data
+t = resample(r, s, method = &amp;quot;bilinear&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Finally, we can convert the &lt;code&gt;raster&lt;/code&gt; &lt;code&gt;t&lt;/code&gt; back to a &lt;code&gt;matrix&lt;/code&gt; or a
+&lt;code&gt;dataframe&lt;/code&gt; for further processing.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# converting the regridded raster back to a named matrix 
+new.matrix = as.matrix(t)
+dimnames(new.matrix) = list(lat = seq(90, -90, length.out = nlat.new),
+                   lon = seq(-177.5, 180, by = dlon.new)) # &amp;lt;--- this setting is a bit tricky as lon of -180º = 180º
+
+# or, further, into a dataframe
+new.df = melt(new.matrix)
+
+head(new.df)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##        lat    lon value
+## 1 90.00000 -177.5    NA
+## 2 88.10526 -177.5    NA
+## 3 86.21053 -177.5    NA
+## 4 84.31579 -177.5    NA
+## 5 82.42105 -177.5    NA
+## 6 80.52632 -177.5    NA
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Finally, we can compare the original data and the regridded data
+visually.&lt;/p&gt;
+&lt;p&gt;This is what the original data looks like:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# plot the original data to check
+old.df %&amp;gt;% ggplot(aes(x = lon, y = lat, fill = value)) + 
+  geom_raster(interpolate = FALSE) +  # adding heat maps
+  scale_fill_viridis_b(na.value = NA ) + # change color
+  borders() + # adding country borders
+  coord_equal(expand = FALSE) # keeping a nice aspect ratio
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: Removed 7123007 rows containing missing values (geom_raster).
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;unnamed-chunk-5-1.png&#34; alt=&#34;&#34;&gt;
+and the regridded ones:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# then the regrided data
+new.df %&amp;gt;% ggplot(aes(x = lon, y = lat, fill = value)) + 
+  geom_raster(interpolate = FALSE) +  # adding heat maps
+  scale_fill_viridis_b(na.value = NA ) + # change color
+  borders() + # adding country borders
+  coord_equal(expand = FALSE) # keeping a nice aspect ratio
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: Removed 9010 rows containing missing values (geom_raster).
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;unnamed-chunk-6-1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Done!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Scaling a Subset of Input Data in NetCDF Format</title>
       <link>https://kamingfung.github.io/post/2021-02-11-partial_scaling/</link>
       <pubDate>Wed, 10 Feb 2021 00:05:04 -0400</pubDate>
