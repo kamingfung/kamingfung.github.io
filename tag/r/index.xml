@@ -17,7 +17,7 @@
       <link>https://kamingfung.github.io/post/2021-03-02-r-regridding/</link>
       <pubDate>Wed, 10 Feb 2021 00:05:04 -0400</pubDate>
       <guid>https://kamingfung.github.io/post/2021-03-02-r-regridding/</guid>
-      <description>&lt;!-- *Created by [Ka Ming Fung](kamingfung@mit.edu)* --&gt;
+      <description>&lt;!-- *Created by [Ka Ming Fung](kaming.fung@alumni.ust.hk)* --&gt;
 &lt;p&gt;Often time, we use observations to validate model simulations. In
 addition to data quality, a big challenge is that we need to regrid the
 observations (or model results) to match with its counterpart.&lt;/p&gt;
@@ -317,7 +317,7 @@ ncar_pylib --kernel my_npl_clone
       <link>https://kamingfung.github.io/post/2019-09-30-setting-color-bars/</link>
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
       <guid>https://kamingfung.github.io/post/2019-09-30-setting-color-bars/</guid>
-      <description>&lt;!-- Created by Ka Ming Fung (&lt;kamingfung@mit.edu&gt;) --&gt;
+      <description>&lt;!-- Created by Ka Ming Fung (&lt;kaming.fung@alumni.ust.hk&gt;) --&gt;
 &lt;p&gt;This is an example to set up colors in the colorbars in ggplot2.&lt;/p&gt;
 &lt;p&gt;Let’s start with generating some random data.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# create a 10-by-10 matrix with random numbers as entries
@@ -548,7 +548,7 @@ g6
       <link>https://kamingfung.github.io/post/atlantic-centered-map/</link>
       <pubDate>Tue, 10 Sep 2019 17:06:22 -0400</pubDate>
       <guid>https://kamingfung.github.io/post/atlantic-centered-map/</guid>
-      <description>&lt;!-- *Created by [Ka Ming Fung](kamingfung@mit.edu)* --&gt;
+      <description>&lt;!-- *Created by [Ka Ming Fung](kaming.fung@alumni.ust.hk)* --&gt;
 &lt;p&gt;This is an example to plot a world map with Atlantic centered map using
 R and ggplot2.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(ggplot2) # for plotting

@@ -17,7 +17,7 @@
       <link>https://kamingfung.github.io/post/2021-03-02-r-regridding/</link>
       <pubDate>Wed, 10 Feb 2021 00:05:04 -0400</pubDate>
       <guid>https://kamingfung.github.io/post/2021-03-02-r-regridding/</guid>
-      <description>&lt;!-- *Created by [Ka Ming Fung](kamingfung@mit.edu)* --&gt;
+      <description>&lt;!-- *Created by [Ka Ming Fung](kaming.fung@alumni.ust.hk)* --&gt;
 &lt;p&gt;Often time, we use observations to validate model simulations. In
 addition to data quality, a big challenge is that we need to regrid the
 observations (or model results) to match with its counterpart.&lt;/p&gt;
@@ -146,7 +146,7 @@ new.df %&amp;gt;% ggplot(aes(x = lon, y = lat, fill = value)) +
       <link>https://kamingfung.github.io/post/2021-02-11-partial_scaling/</link>
       <pubDate>Wed, 10 Feb 2021 00:05:04 -0400</pubDate>
       <guid>https://kamingfung.github.io/post/2021-02-11-partial_scaling/</guid>
-      <description>&lt;!-- *Created by [Ka Ming Fung](kamingfung@mit.edu)* --&gt;
+      <description>&lt;!-- *Created by [Ka Ming Fung](kaming.fung@alumni.ust.hk)* --&gt;
 &lt;p&gt;&lt;em&gt;Reference:&lt;/em&gt;
 For general python handling of nc files using Xarray: &lt;a href=&#34;http://xarray.pydata.org/en/stable/index.html&#34;&gt;http://xarray.pydata.org/en/stable/index.html&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I am working on a set of input data of Ocean DMS concentration. I suspect the reported values over the Southern Ocean (vaguely defined as ocean south to 30ºS) is a bit high. I want to reduce those values by 50% to see if my model will match observations better.&lt;/p&gt;
@@ -1498,7 +1498,7 @@ ncar_pylib --kernel my_npl_clone
       <link>https://kamingfung.github.io/post/2020-10-03-python_basics_cesm/</link>
       <pubDate>Sat, 03 Oct 2020 16:05:04 -0400</pubDate>
       <guid>https://kamingfung.github.io/post/2020-10-03-python_basics_cesm/</guid>
-      <description>&lt;!-- *Created by [Ka Ming Fung](kamingfung@mit.edu)* --&gt;
+      <description>&lt;!-- *Created by [Ka Ming Fung](kaming.fung@alumni.ust.hk)* --&gt;
 &lt;h2 id=&#34;references&#34;&gt;References:&lt;/h2&gt;
 &lt;p&gt;For general python handling of nc files: &lt;a href=&#34;https://github.com/geoschem/GEOSChem-python-tutorial&#34;&gt;https://github.com/geoschem/GEOSChem-python-tutorial&lt;/a&gt;
 &lt;br/&gt;
@@ -1731,7 +1731,7 @@ plt.savefig(&amp;quot;Figure1.png&amp;quot;) # we can simply specify the wanted 
       <link>https://kamingfung.github.io/post/2019-09-30-setting-color-bars/</link>
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
       <guid>https://kamingfung.github.io/post/2019-09-30-setting-color-bars/</guid>
-      <description>&lt;!-- Created by Ka Ming Fung (&lt;kamingfung@mit.edu&gt;) --&gt;
+      <description>&lt;!-- Created by Ka Ming Fung (&lt;kaming.fung@alumni.ust.hk&gt;) --&gt;
 &lt;p&gt;This is an example to set up colors in the colorbars in ggplot2.&lt;/p&gt;
 &lt;p&gt;Let’s start with generating some random data.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# create a 10-by-10 matrix with random numbers as entries
@@ -1962,7 +1962,7 @@ g6
       <link>https://kamingfung.github.io/post/atlantic-centered-map/</link>
       <pubDate>Tue, 10 Sep 2019 17:06:22 -0400</pubDate>
       <guid>https://kamingfung.github.io/post/atlantic-centered-map/</guid>
-      <description>&lt;!-- *Created by [Ka Ming Fung](kamingfung@mit.edu)* --&gt;
+      <description>&lt;!-- *Created by [Ka Ming Fung](kaming.fung@alumni.ust.hk)* --&gt;
 &lt;p&gt;This is an example to plot a world map with Atlantic centered map using
 R and ggplot2.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(ggplot2) # for plotting
