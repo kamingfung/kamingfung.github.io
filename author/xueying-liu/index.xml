@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>3 | Ka Ming Fung, Ph.D.</title>
-    <link>https://kamingfung.github.io/publication-type/3/</link>
-      <atom:link href="https://kamingfung.github.io/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
-    <description>3</description>
+    <title>Xueying Liu | Ka Ming Fung, Ph.D.</title>
+    <link>https://kamingfung.github.io/author/xueying-liu/</link>
+      <atom:link href="https://kamingfung.github.io/author/xueying-liu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xueying Liu</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 fkm</copyright><lastBuildDate>Tue, 03 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://kamingfung.github.io/images/icon_hu26daae2aec3aee1c848737d70e9dbe2a_4285112_512x512_fill_lanczos_center_2.png</url>
-      <title>3</title>
-      <link>https://kamingfung.github.io/publication-type/3/</link>
+      <title>Xueying Liu</title>
+      <link>https://kamingfung.github.io/author/xueying-liu/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://kamingfung.github.io/publication/liu-2021/</link>
       <pubDate>Tue, 03 Aug 2021 00:00:00 +0000</pubDate>
       <guid>https://kamingfung.github.io/publication/liu-2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Modeling the interinfluence of fertilizer-induced ammonia emission, nitrogen deposition, and aerosol radiative effects using modified CESM2</title>
-      <link>https://kamingfung.github.io/publication/fung-2021/</link>
-      <pubDate>Tue, 16 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/publication/fung-2021/</guid>
       <description></description>
     </item>
     
