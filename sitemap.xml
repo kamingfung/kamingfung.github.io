@@ -1,440 +1,335 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://kamingfung.github.io/publication-type/3/</loc>
-    <lastmod>2021-08-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-09-27T02:17:05-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/tag/aerosol/</loc>
+    <lastmod>2021-09-27T02:17:05-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/author/andrew-gettelman/</loc>
+    <lastmod>2021-09-27T02:17:05-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/authors/</loc>
+    <lastmod>2021-09-27T02:17:05-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/tag/cam-chem/</loc>
+    <lastmod>2021-09-27T02:17:05-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/tag/cesm/</loc>
+    <lastmod>2021-09-27T02:17:05-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/tag/climate/</loc>
+    <lastmod>2021-09-27T02:17:05-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/author/colette-l.-heald/</loc>
+    <lastmod>2021-09-27T02:17:05-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/tag/dimethyl-sulfide/</loc>
+    <lastmod>2021-09-27T02:17:05-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/tag/dms/</loc>
+    <lastmod>2021-09-27T02:17:05-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/author/donald-r.-blake/</loc>
+    <lastmod>2021-09-27T02:17:05-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/author/duseong-s.-jo/</loc>
+    <lastmod>2021-09-27T02:17:05-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/author/eric-apel/</loc>
+    <lastmod>2021-09-27T02:17:05-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/publication/fung-2021b/</loc>
+    <lastmod>2021-09-27T02:17:05-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/author/jesse-h.-kroll/</loc>
+    <lastmod>2021-09-27T02:17:05-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/author/john-e.-shilling/</loc>
+    <lastmod>2021-09-27T02:17:05-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/author/jose-luis-jimenez/</loc>
+    <lastmod>2021-09-27T02:17:05-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/author/ka-ming-fung/</loc>
+    <lastmod>2021-09-27T02:17:05-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/</loc>
+    <lastmod>2021-09-27T02:17:05-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/author/maria-zawadowicz/</loc>
+    <lastmod>2021-09-27T02:17:05-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/tag/natural-aerosol/</loc>
+    <lastmod>2021-09-27T02:17:05-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/author/patrick-r.-veres/</loc>
+    <lastmod>2021-09-27T02:17:05-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/author/pedro-campuzano-jost/</loc>
+    <lastmod>2021-09-27T02:17:05-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/publication_types/</loc>
+    <lastmod>2021-09-27T02:17:05-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/tag/radiative-effects/</loc>
+    <lastmod>2021-09-27T02:17:05-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/tag/radiative-forcing/</loc>
+    <lastmod>2021-09-27T02:17:05-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/author/rahul-a.-zaveri/</loc>
+    <lastmod>2021-09-27T02:17:05-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/author/siyuan-wang/</loc>
+    <lastmod>2021-09-27T02:17:05-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/tag/sulfate/</loc>
+    <lastmod>2021-09-27T02:17:05-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/tags/</loc>
+    <lastmod>2021-09-27T02:17:05-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/author/timothy-s.-bates/</loc>
+    <lastmod>2021-09-27T02:17:05-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/author/xiaohong-liu/</loc>
+    <lastmod>2021-09-27T02:17:05-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/author/zheng-lu/</loc>
+    <lastmod>2021-09-27T02:17:05-04:00</lastmod>
+  </url><url>
     <loc>https://kamingfung.github.io/tag/agriculture/</loc>
     <lastmod>2021-08-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/tag/ammonia/</loc>
     <lastmod>2021-08-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/author/amos-pui-kuen-tai/</loc>
     <lastmod>2021-08-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kamingfung.github.io/authors/</loc>
-    <lastmod>2021-08-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kamingfung.github.io/tag/cam-chem/</loc>
-    <lastmod>2021-08-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kamingfung.github.io/tag/cesm/</loc>
-    <lastmod>2021-08-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kamingfung.github.io/tag/climate/</loc>
-    <lastmod>2021-08-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/tag/clm/</loc>
     <lastmod>2021-08-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kamingfung.github.io/author/ka-ming-fung/</loc>
-    <lastmod>2021-08-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kamingfung.github.io/</loc>
-    <lastmod>2021-08-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kamingfung.github.io/publication_types/</loc>
-    <lastmod>2021-08-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/publication/liu-2021/</loc>
     <lastmod>2021-08-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kamingfung.github.io/tags/</loc>
-    <lastmod>2021-08-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/author/xueying-liu/</loc>
     <lastmod>2021-08-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/author/maria-val-martin/</loc>
     <lastmod>2020-10-12T02:17:05-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/publication/fung-2021/</loc>
     <lastmod>2020-10-12T02:17:05-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/project/professional-activities/</loc>
     <lastmod>2021-03-07T22:55:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/project/</loc>
     <lastmod>2021-03-07T22:55:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/categories/</loc>
     <lastmod>2021-03-07T22:55:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/tag/python/</loc>
     <lastmod>2021-03-07T22:55:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/tag/r/</loc>
     <lastmod>2021-03-07T22:55:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/post/2021-03-02-r-regridding/</loc>
     <lastmod>2021-03-07T22:55:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/post/2021-02-11-partial_scaling/</loc>
     <lastmod>2021-03-07T22:55:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/category/skill-share/</loc>
     <lastmod>2021-03-07T22:55:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/talk/2021-02-cam/</loc>
     <lastmod>2021-02-09T21:01:42-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/category/conference-talks/</loc>
     <lastmod>2021-02-09T21:01:42-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kamingfung.github.io/tag/dms/</loc>
-    <lastmod>2021-02-09T21:01:42-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/post/2021-01-01/</loc>
     <lastmod>2021-03-07T22:55:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/tag/agu/</loc>
     <lastmod>2020-10-15T01:40:37-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/talk/2020-12-agu/</loc>
     <lastmod>2020-10-15T01:40:37-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/category/conference-posters/</loc>
     <lastmod>2020-10-15T01:40:37-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/post/2020-11-13-using-r-python-cheyenne/</loc>
     <lastmod>2021-03-07T22:55:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/project/community-services/</loc>
     <lastmod>2021-02-09T21:01:42-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/category/casual/</loc>
     <lastmod>2021-02-09T21:01:42-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/post/oops-i-did-it-again/</loc>
     <lastmod>2021-02-09T21:01:42-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/post/so-i-have-been-told/</loc>
     <lastmod>2021-02-09T21:01:42-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/post/2020-10-03-python_basics_cesm/</loc>
     <lastmod>2021-02-09T21:01:42-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/post/2020-03-igacnews/</loc>
     <lastmod>2020-10-15T01:40:37-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/category/media-coverage/</loc>
     <lastmod>2020-10-15T01:40:37-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/talk/2020-03-clm/</loc>
     <lastmod>2020-10-12T15:44:05-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/talk/2019-12-agu/</loc>
     <lastmod>2020-10-12T15:44:05-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/post/2019-09-30-setting-color-bars/</loc>
     <lastmod>2021-02-09T21:01:42-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/post/2019-09-24-parsing-special-symbols/</loc>
     <lastmod>2021-02-09T21:01:42-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/post/2019-09-17-barchart-with-labels/</loc>
     <lastmod>2021-02-09T21:01:42-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/post/atlantic-centered-map/</loc>
     <lastmod>2021-02-09T21:01:42-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/category/research-tool/</loc>
     <lastmod>2021-02-09T21:01:42-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/post/useful-datasets/</loc>
     <lastmod>2021-02-09T21:01:42-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/post/2019-09-03-about-ka-ming/</loc>
     <lastmod>2021-02-09T21:01:42-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/talk/2019-08-ccmi/</loc>
     <lastmod>2020-10-12T15:44:05-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/project/teaching-exerience/</loc>
     <lastmod>2021-03-07T22:55:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/talk/2019-07-grc/</loc>
     <lastmod>2020-10-12T15:44:05-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/tag/dndc/</loc>
     <lastmod>2020-10-15T01:40:37-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/tag/geos-chem/</loc>
     <lastmod>2020-10-15T01:40:37-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/talk/2019-05-uofcambridge/</loc>
     <lastmod>2020-10-12T15:44:05-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/category/invited-talks/</loc>
     <lastmod>2020-10-12T15:44:05-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/talk/2019-03-acci/</loc>
     <lastmod>2020-10-12T15:44:05-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/publication-type/2/</loc>
     <lastmod>2020-10-15T01:40:37-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/publication/fung-2019/</loc>
     <lastmod>2020-10-15T01:40:37-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/tag/economics/</loc>
     <lastmod>2020-10-15T01:40:37-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/author/hon-ming-lam/</loc>
     <lastmod>2020-10-15T01:40:37-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/tag/public-health/</loc>
     <lastmod>2020-10-15T01:40:37-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/author/taiwen-yong/</loc>
     <lastmod>2020-10-15T01:40:37-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/author/xiaoming-liu/</loc>
     <lastmod>2020-10-15T01:40:37-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/talk/2019-01-gyss/</loc>
     <lastmod>2020-10-12T15:44:05-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/talk/2018-12-agu/</loc>
     <lastmod>2020-10-12T15:44:05-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/talk/2018-09-igac/</loc>
     <lastmod>2020-10-12T15:44:05-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/talk/2018-02-clm/</loc>
     <lastmod>2020-10-12T15:44:05-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/talk/2017-12-agu/</loc>
     <lastmod>2020-10-12T15:44:05-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/talk/2017-09-ileaps/</loc>
     <lastmod>2020-10-12T15:44:05-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/talk/2017-06-igc/</loc>
     <lastmod>2020-10-12T15:44:05-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/talk/2016-12-agu/</loc>
     <lastmod>2020-10-12T15:44:05-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/author/anil-t.-a.t.-ahuja/</loc>
     <lastmod>2020-10-12T15:44:05-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/author/defeng-wang/</loc>
     <lastmod>2020-10-12T15:44:05-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/author/fengping-zhu/</loc>
     <lastmod>2020-10-12T15:44:05-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/author/jinsong-wu/</loc>
     <lastmod>2020-10-12T15:44:05-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/author/lin-shi/</loc>
     <lastmod>2020-10-12T15:44:05-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/publication/wang-2015/</loc>
     <lastmod>2020-10-12T15:44:05-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/author/vincent-chung-v.c.-tong-mok/</loc>
     <lastmod>2020-10-12T15:44:05-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/author/wei-zhu/</loc>
     <lastmod>2020-10-12T15:44:05-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/author/winnie-chiu-wing-w.c.w.-chu/</loc>
     <lastmod>2020-10-12T15:44:05-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/author/ying-mao/</loc>
     <lastmod>2020-10-12T15:44:05-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/author/yishan-luo/</loc>
     <lastmod>2020-10-12T15:44:05-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/author/ka-ming-fung/</loc>
     <lastmod>2021-03-07T22:55:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/post/</loc>
     <lastmod>2020-07-29T20:27:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/publication/</loc>
     <lastmod>2020-07-29T20:27:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kamingfung.github.io/talk/</loc>
     <lastmod>2020-10-12T15:44:05-04:00</lastmod>
   </url>
-  
 </urlset>

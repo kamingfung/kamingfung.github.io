@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Radiative Forcing | Ka Ming Fung, Ph.D.</title>
+    <link>https://kamingfung.github.io/tag/radiative-forcing/</link>
+      <atom:link href="https://kamingfung.github.io/tag/radiative-forcing/index.xml" rel="self" type="application/rss+xml" />
+    <description>Radiative Forcing</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 fkm</copyright><lastBuildDate>Mon, 27 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://kamingfung.github.io/images/icon_hu26daae2aec3aee1c848737d70e9dbe2a_4285112_512x512_fill_lanczos_center_3.png</url>
+      <title>Radiative Forcing</title>
+      <link>https://kamingfung.github.io/tag/radiative-forcing/</link>
+    </image>
+    
+    <item>
+      <title>Exploring DMS oxidation and implications for global aerosol radiative forcing</title>
+      <link>https://kamingfung.github.io/publication/fung-2021b/</link>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://kamingfung.github.io/publication/fung-2021b/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
