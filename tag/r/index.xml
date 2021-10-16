@@ -305,10 +305,6 @@ X.df = X.df %&amp;gt;% left_join(X.lonlat)
 ncar_pylib --kernel my_npl_clone
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Both should be online for &lt;code&gt;Jupyter&lt;/code&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;bonus-running-rstudio-on-cheyennecasper&#34;&gt;Bonus: Running &lt;code&gt;Rstudio&lt;/code&gt; on Cheyenne/Casper&lt;/h3&gt;
-&lt;p&gt;I am a big fan of &lt;code&gt;RStudio&lt;/code&gt; - an integrated development environment for &lt;code&gt;R&lt;/code&gt;. With &lt;code&gt;Miniconda&lt;/code&gt; it can be installed on Cheyenne/Casper easily by invoking,&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;  conda create -n rstudio -c r rstudio
-&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
