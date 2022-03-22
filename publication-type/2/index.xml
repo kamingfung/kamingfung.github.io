@@ -5,7 +5,7 @@
     <link>https://kamingfung.github.io/publication-type/2/</link>
       <atom:link href="https://kamingfung.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 fkm</copyright><lastBuildDate>Tue, 01 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 fkm</copyright><lastBuildDate>Mon, 21 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://kamingfung.github.io/images/icon_hu26daae2aec3aee1c848737d70e9dbe2a_4285112_512x512_fill_lanczos_center_3.png</url>
       <title>2</title>
@@ -13,10 +13,18 @@
     </image>
     
     <item>
+      <title>Modeling the interinfluence of fertilizer-induced ammonia emission, nitrogen deposition, and aerosol radiative effects using modified CESM2</title>
+      <link>https://kamingfung.github.io/publication/fung-2022b/</link>
+      <pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://kamingfung.github.io/publication/fung-2022b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Exploring dimethyl sulfide (DMS) oxidation and implications for global aerosol radiative forcing</title>
-      <link>https://kamingfung.github.io/publication/fung-2022/</link>
+      <link>https://kamingfung.github.io/publication/fung-2022a/</link>
       <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/publication/fung-2022/</guid>
+      <guid>https://kamingfung.github.io/publication/fung-2022a/</guid>
       <description></description>
     </item>
     
