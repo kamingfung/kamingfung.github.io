@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alma Hodzic | Ka Ming Fung, Ph.D.</title>
+    <link>https://kamingfung.github.io/author/alma-hodzic/</link>
+      <atom:link href="https://kamingfung.github.io/author/alma-hodzic/index.xml" rel="self" type="application/rss+xml" />
+    <description>Alma Hodzic</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 fkm</copyright><lastBuildDate>Wed, 06 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://kamingfung.github.io/images/icon_hu26daae2aec3aee1c848737d70e9dbe2a_4285112_512x512_fill_lanczos_center_3.png</url>
+      <title>Alma Hodzic</title>
+      <link>https://kamingfung.github.io/author/alma-hodzic/</link>
+    </image>
+    
+    <item>
+      <title>Global Health and Climate Effects of Organic Aerosols from Different Sources</title>
+      <link>https://kamingfung.github.io/publication/jo-2023/</link>
+      <pubDate>Wed, 06 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://kamingfung.github.io/publication/jo-2023/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
