@@ -5,12 +5,139 @@
     <link>https://kamingfung.github.io/category/skill-share/</link>
       <atom:link href="https://kamingfung.github.io/category/skill-share/index.xml" rel="self" type="application/rss+xml" />
     <description>Skill Share</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 fkm</copyright><lastBuildDate>Wed, 10 Feb 2021 00:05:04 -0400</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 fkm</copyright><lastBuildDate>Wed, 14 Feb 2024 00:05:04 -0400</lastBuildDate>
     <image>
       <url>https://kamingfung.github.io/images/icon_hu26daae2aec3aee1c848737d70e9dbe2a_4285112_512x512_fill_lanczos_center_3.png</url>
       <title>Skill Share</title>
       <link>https://kamingfung.github.io/category/skill-share/</link>
     </image>
+    
+    <item>
+      <title>Improved notebook to download buildings from Microsoft</title>
+      <link>https://kamingfung.github.io/post/2024-02-14-ms-buildings/</link>
+      <pubDate>Wed, 14 Feb 2024 00:05:04 -0400</pubDate>
+      <guid>https://kamingfung.github.io/post/2024-02-14-ms-buildings/</guid>
+      <description>&lt;!-- *Created by [Ka Ming Fung](kamingfung@link.cuhk.edu.hk)* --&gt;
+&lt;p&gt;This notebook works with the &lt;a href=&#34;https://github.com/microsoft/GlobalMLBuildingFootprints&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Microsoft Building Footprint Dataset&lt;/a&gt; to download building footprints for a given area of interest (AOI). I modified the &lt;a href=&#34;https://github.com/victor-ka-ming-fung/GlobalMLBuildingFootprints/blob/main/examples/example_building_footprints.ipynb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;original notebook&lt;/a&gt; to download the data to output a parquet file of a GeoDataFrame of buildings, instead of GeoJSON.&lt;/p&gt;
+&lt;p&gt;To find the Jupyter notebook version, please visit &lt;a href=&#34;https://github.com/victor-ka-ming-fung/GlobalMLBuildingFootprints/blob/improved_example_notebook/examples/example_building_footprints.ipynb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# # &amp;quot;&amp;quot;&amp;quot;install packages if not already installed&amp;quot;&amp;quot;&amp;quot;
+# %pip install --upgrade pandas geopandas shapely mercantile tqdm folium
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;set-up-environment-and-local-varialbles&#34;&gt;set up environment and local varialbles&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import pandas as pd
+import geopandas as gpd
+import shapely.geometry
+import mercantile
+from tqdm import tqdm
+
+output_fn = &amp;quot;example_building_footprints.parquet&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;step-1---define-our-area-of-interest-aoi&#34;&gt;Step 1 - Define our area of interest (AOI)&lt;/h2&gt;
+&lt;p&gt;We define our area of interest (or AOI) as a GeoJSON geometry, then use the &lt;code&gt;shapely&lt;/code&gt; library to get the bounding box.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: the coordinate reference system for the GeoJSON should be &amp;ldquo;EPSG:4326&amp;rdquo;, i.e. in global lat/lon format.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Geometry copied from https://geojson.io
+aoi_geom = {
+    &amp;quot;coordinates&amp;quot;: [
+        [
+            [-122.16484503187519, 47.69090474454916],
+            [-122.16484503187519, 47.6217555345674],
+            [-122.06529607517405, 47.6217555345674],
+            [-122.06529607517405, 47.69090474454916],
+            [-122.16484503187519, 47.69090474454916],
+        ]
+    ],
+    &amp;quot;type&amp;quot;: &amp;quot;Polygon&amp;quot;,
+}
+aoi_shape = shapely.geometry.shape(aoi_geom)
+minx, miny, maxx, maxy = aoi_shape.bounds
+
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;step-2---determine-which-tiles-intersect-our-aoi&#34;&gt;Step 2 - Determine which tiles intersect our AOI&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;quot;&amp;quot;&amp;quot;Get tiles for a given bounding box and zoom level&amp;quot;&amp;quot;&amp;quot;
+
+quad_keys = set()
+for tile in list(mercantile.tiles(minx, miny, maxx, maxy, zooms=9)):
+    quad_keys.add(int(mercantile.quadkey(tile)))
+
+quad_keys = list(quad_keys)
+
+print(f&amp;quot;The input area spans {len(quad_keys)} tiles: {quad_keys}&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;The input area spans 1 tiles: [21230030]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;step-3---download-the-building-footprints-for-each-tile-that-intersects-our-aoi-and-crop-the-results&#34;&gt;Step 3 - Download the building footprints for each tile that intersects our AOI and crop the results&lt;/h2&gt;
+&lt;p&gt;This is where most of the magic happens. We download all the building footprints for each tile that intersects our AOI, then only keep the footprints that are &lt;em&gt;contained&lt;/em&gt; by our AOI.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note&lt;/em&gt;: this step might take awhile depending on how many tiles your AOI covers and how many buildings footprints are in those tiles.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# read the quads catalog
+df = pd.read_csv(
+    &amp;quot;https://minedbuildings.blob.core.windows.net/global-buildings/dataset-links.csv&amp;quot;
+)
+
+# extract urls for the quads we want
+urls = df.pipe(lambda x: x[x[&amp;quot;QuadKey&amp;quot;].isin(quad_keys)])[&amp;quot;Url&amp;quot;].unique()
+
+# download the quads and read as one consolidated pandas dataframe
+buildings_df_list = [pd.read_json(url, lines=True) for url in tqdm(urls)]
+
+# concatenate the list of dataframes
+buildings_df = pd.concat(buildings_df_list)
+
+# concvert to geopandas dataframe
+buildings_gdf = (
+    buildings_df.pipe(
+        lambda x: gpd.GeoDataFrame(
+            data=x,
+            crs=4326,
+            geometry=x[&amp;quot;geometry&amp;quot;].apply(shapely.geometry.shape),
+        )
+    )
+    # retain the height information
+    .assign(
+        height_m=lambda x: x[&amp;quot;properties&amp;quot;].apply(
+            lambda p: p[&amp;quot;height&amp;quot;],
+        ),
+    )
+    # drop the raw column for height and type
+    .drop(
+        columns=[
+            &amp;quot;properties&amp;quot;,
+            &amp;quot;type&amp;quot;,
+        ],
+        errors=&amp;quot;ignore&amp;quot;,
+    )
+)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;  0%|          | 0/1 [00:00&amp;lt;?, ?it/s]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# filter to buildings that intersect the AOI
+buildings_in_aoi_gdf = buildings_gdf[buildings_gdf.intersects(aoi_shape)]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;step-4---save-the-resulting-footprints-to-a-parquet-file&#34;&gt;Step 4 - Save the resulting footprints to a parquet file&lt;/h1&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# write to parquet
+buildings_in_aoi_gdf.to_parquet(output_fn)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;optional-sense-check&#34;&gt;Optional sense check&lt;/h1&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# interactive map
+# import folium
+
+# m = buildings_in_aoi_gdf.explore(
+#     attr=&amp;quot;Google&amp;quot;,
+#     tiles=&amp;quot;https://mt1.google.com/vt/lyrs=s&amp;amp;x={x}&amp;amp;y={y}&amp;amp;z={z}&amp;quot;,
+# )
+
+# folium.TileLayer(&amp;quot;OpenStreetMap&amp;quot;).add_to(m)
+
+# folium.LayerControl().add_to(m)
+
+# m
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# static map
+buildings_in_aoi_gdf.plot()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;featured.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Regridding High-resolution Data</title>

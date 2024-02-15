@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kamingfung.github.io/authors/</loc>
+    <lastmod>2024-02-14T00:05:04-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/categories/</loc>
+    <lastmod>2024-02-14T00:05:04-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/post/2024-02-14-ms-buildings/</loc>
+    <lastmod>2024-02-14T00:05:04-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/</loc>
+    <lastmod>2024-02-14T00:05:04-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/tag/python/</loc>
+    <lastmod>2024-02-14T00:05:04-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/category/skill-share/</loc>
+    <lastmod>2024-02-14T00:05:04-04:00</lastmod>
+  </url><url>
+    <loc>https://kamingfung.github.io/tags/</loc>
+    <lastmod>2024-02-14T00:05:04-04:00</lastmod>
+  </url><url>
     <loc>https://kamingfung.github.io/publication-type/2/</loc>
     <lastmod>2023-10-18T02:17:05-04:00</lastmod>
   </url><url>
@@ -12,9 +33,6 @@
     <lastmod>2023-10-18T02:17:05-04:00</lastmod>
   </url><url>
     <loc>https://kamingfung.github.io/author/amos-p.-k.-tai/</loc>
-    <lastmod>2023-10-18T02:17:05-04:00</lastmod>
-  </url><url>
-    <loc>https://kamingfung.github.io/authors/</loc>
     <lastmod>2023-10-18T02:17:05-04:00</lastmod>
   </url><url>
     <loc>https://kamingfung.github.io/author/david-j.-beerling/</loc>
@@ -41,9 +59,6 @@
     <loc>https://kamingfung.github.io/author/ka-ming-fung/</loc>
     <lastmod>2023-10-18T02:17:05-04:00</lastmod>
   </url><url>
-    <loc>https://kamingfung.github.io/</loc>
-    <lastmod>2023-10-18T02:17:05-04:00</lastmod>
-  </url><url>
     <loc>https://kamingfung.github.io/author/louisa-k.-emmons/</loc>
     <lastmod>2023-10-18T02:17:05-04:00</lastmod>
   </url><url>
@@ -60,9 +75,6 @@
     <lastmod>2023-10-18T02:17:05-04:00</lastmod>
   </url><url>
     <loc>https://kamingfung.github.io/publication_types/</loc>
-    <lastmod>2023-10-18T02:17:05-04:00</lastmod>
-  </url><url>
-    <loc>https://kamingfung.github.io/tags/</loc>
     <lastmod>2023-10-18T02:17:05-04:00</lastmod>
   </url><url>
     <loc>https://kamingfung.github.io/author/william-r.-wieder/</loc>
@@ -215,12 +227,6 @@
     <loc>https://kamingfung.github.io/project/</loc>
     <lastmod>2021-03-07T22:55:00-05:00</lastmod>
   </url><url>
-    <loc>https://kamingfung.github.io/categories/</loc>
-    <lastmod>2021-09-28T14:42:16-04:00</lastmod>
-  </url><url>
-    <loc>https://kamingfung.github.io/tag/python/</loc>
-    <lastmod>2021-09-28T14:42:16-04:00</lastmod>
-  </url><url>
     <loc>https://kamingfung.github.io/tag/r/</loc>
     <lastmod>2021-09-28T14:42:16-04:00</lastmod>
   </url><url>
@@ -228,9 +234,6 @@
     <lastmod>2021-09-28T14:42:16-04:00</lastmod>
   </url><url>
     <loc>https://kamingfung.github.io/post/2021-02-11-partial_scaling/</loc>
-    <lastmod>2021-09-28T14:42:16-04:00</lastmod>
-  </url><url>
-    <loc>https://kamingfung.github.io/category/skill-share/</loc>
     <lastmod>2021-09-28T14:42:16-04:00</lastmod>
   </url><url>
     <loc>https://kamingfung.github.io/talk/2021-02-cam/</loc>
