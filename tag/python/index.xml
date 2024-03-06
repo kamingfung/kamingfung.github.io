@@ -5,12 +5,97 @@
     <link>https://kamingfung.github.io/tag/python/</link>
       <atom:link href="https://kamingfung.github.io/tag/python/index.xml" rel="self" type="application/rss+xml" />
     <description>Python</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 fkm</copyright><lastBuildDate>Wed, 14 Feb 2024 00:05:04 -0400</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 fkm</copyright><lastBuildDate>Tue, 05 Mar 2024 00:05:04 -0400</lastBuildDate>
     <image>
       <url>https://kamingfung.github.io/images/icon_hu26daae2aec3aee1c848737d70e9dbe2a_4285112_512x512_fill_lanczos_center_3.png</url>
       <title>Python</title>
       <link>https://kamingfung.github.io/tag/python/</link>
     </image>
+    
+    <item>
+      <title>Finding shadows in images using Python&#39;s scikit-image package</title>
+      <link>https://kamingfung.github.io/post/2024-03-05-segment-shadow-python/</link>
+      <pubDate>Tue, 05 Mar 2024 00:05:04 -0400</pubDate>
+      <guid>https://kamingfung.github.io/post/2024-03-05-segment-shadow-python/</guid>
+      <description>&lt;h1 id=&#34;finding-shadows-in-images-using-pythons-scikit-image-package&#34;&gt;Finding shadows in images using Python&amp;rsquo;s &lt;code&gt;scikit-image&lt;/code&gt; package&lt;/h1&gt;
+&lt;p&gt;Ever noticed how shadows can make photos look cool or kinda tricky for editing? Well, guess what? With some Python magic and a handy tool called scikit-image, you can become a shadow-busting wizard in no time!&lt;/p&gt;
+&lt;p&gt;In this quick guide, we&amp;rsquo;re diving into the nifty world of shadow segmentation. Don&amp;rsquo;t worry; it&amp;rsquo;s just a fancy way of saying we&amp;rsquo;re going to teach you how to spot and separate shadows from the rest of your image. Why? Because sometimes you just need to clear things up a bit, whether you&amp;rsquo;re tweaking photos or working on a cool project that needs shadow detection.&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;ll start with the basics—loading up an image and flipping it into HSV color space. This helps us really see where those sneaky shadows are hiding. Then, with a couple of smart tricks and some threshold magic, we&amp;rsquo;ll show you how to pinpoint those shadows. And to keep things neat, we&amp;rsquo;ll even clean up any small bits and bobs that don&amp;rsquo;t belong.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# %pip install numpy scikit-image matplotlib
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+import skimage
+import matplotlib.pyplot as plt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# get sample image
+image_rgb = skimage.data.stereo_motorcycle()[0]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# sense check (show the image)
+skimage.io.imshow(
+    image_rgb,
+)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;matplotlib.image.AxesImage at 0x10c422f50&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;sample_shadow_segmentation_5_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Convert the image to HSV color space
+image_hsv = skimage.color.rgb2hsv(image_rgb)
+hue = image_hsv[:, :, 0]
+brightness = image_hsv[:, :, 2]
+
+# Find global threshold on the lightness and hue to detect dark (shadow) regions
+brightness_thresh = skimage.filters.threshold_otsu(
+    brightness,
+)
+hue_thresh = skimage.filters.threshold_otsu(
+    hue,
+)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Create a mask for the shadow regions
+shadow_mask = (image_hsv[:, :, 2] &amp;lt; brightness_thresh) &amp;amp; (
+    image_hsv[:, :, 0] &amp;lt; hue_thresh
+)
+
+# Remove small objects from the mask
+shadow_mask = skimage.morphology.remove_small_objects(shadow_mask)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Mask the image with the shadow mask
+image_masked = np.ma.masked_where(
+    np.array(
+        [
+            ~shadow_mask,
+            ~shadow_mask,
+            ~shadow_mask,
+        ]
+    ).transpose(1, 2, 0),
+    image_rgb,
+)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Display the original image and the shadow mask
+fig, ax = plt.subplots(
+    1,
+    2,
+    figsize=(16, 8),
+)
+ax[0].imshow(image_rgb)
+ax[0].set_title(&amp;quot;Original Image&amp;quot;)
+ax[0].axis(&amp;quot;off&amp;quot;)
+ax[0].set_aspect(&amp;quot;equal&amp;quot;)
+
+ax[1].imshow(
+    ~shadow_mask,
+    # cmap=&amp;quot;gray&amp;quot;,
+)
+ax[1].set_title(&amp;quot;Shadow Mask (purple = shadow)&amp;quot;)
+ax[1].axis(&amp;quot;off&amp;quot;)
+ax[1].set_aspect(&amp;quot;equal&amp;quot;)
+
+
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;sample_shadow_segmentation_9_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Improved notebook to download buildings from Microsoft</title>

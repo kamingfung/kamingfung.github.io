@@ -34,10 +34,10 @@
   
     
   
-  <meta name="description" content="Data Scientist">
+  <meta name="description" content="Finding shadows in images using Python&rsquo;s scikit-image package Ever noticed how shadows can make photos look cool or kinda tricky for editing?">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://kamingfung.github.io/tags/">
+  <link rel="alternate" hreflang="en-us" href="https://kamingfung.github.io/post/2024-03-05-segment-shadow-python/">
 
   
 
@@ -260,14 +260,12 @@
   
 
   
-  <link rel="alternate" href="/tags/index.xml" type="application/rss+xml" title="Ka Ming Fung, Ph.D.">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu26daae2aec3aee1c848737d70e9dbe2a_4285112_32x32_fill_lanczos_center_3.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu26daae2aec3aee1c848737d70e9dbe2a_4285112_192x192_fill_lanczos_center_3.png">
 
-  <link rel="canonical" href="https://kamingfung.github.io/tags/">
+  <link rel="canonical" href="https://kamingfung.github.io/post/2024-03-05-segment-shadow-python/">
 
   
   
@@ -277,38 +275,89 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
   <meta property="twitter:site" content="@kamingfung">
   <meta property="twitter:creator" content="@kamingfung">
   
   <meta property="og:site_name" content="Ka Ming Fung, Ph.D.">
-  <meta property="og:url" content="https://kamingfung.github.io/tags/">
-  <meta property="og:title" content="Tags | Ka Ming Fung, Ph.D.">
-  <meta property="og:description" content="Data Scientist"><meta property="og:image" content="https://kamingfung.github.io/images/icon_hu26daae2aec3aee1c848737d70e9dbe2a_4285112_512x512_fill_lanczos_center_3.png">
-  <meta property="twitter:image" content="https://kamingfung.github.io/images/icon_hu26daae2aec3aee1c848737d70e9dbe2a_4285112_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://kamingfung.github.io/post/2024-03-05-segment-shadow-python/">
+  <meta property="og:title" content="Finding shadows in images using Python&#39;s scikit-image package | Ka Ming Fung, Ph.D.">
+  <meta property="og:description" content="Finding shadows in images using Python&rsquo;s scikit-image package Ever noticed how shadows can make photos look cool or kinda tricky for editing?"><meta property="og:image" content="https://kamingfung.github.io/post/2024-03-05-segment-shadow-python/featured.png">
+  <meta property="twitter:image" content="https://kamingfung.github.io/post/2024-03-05-segment-shadow-python/featured.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2024-03-05T00:05:04-04:00">
+    
+      <meta property="article:published_time" content="2024-03-05T00:05:04-04:00">
+    
+    <meta property="article:modified_time" content="2024-03-05T00:05:04-04:00">
   
-
-  
-
-
-
 
   
 
 
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://kamingfung.github.io/post/2024-03-05-segment-shadow-python/"
+  },
+  "headline": "Finding shadows in images using Python's scikit-image package",
+  
+  "image": [
+    "https://kamingfung.github.io/post/2024-03-05-segment-shadow-python/featured.png"
+  ],
+  
+  "datePublished": "2024-03-05T00:05:04-04:00",
+  "dateModified": "2024-03-05T00:05:04-04:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Ka Ming FUNG"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Ka Ming Fung, Ph.D.",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://kamingfung.github.io/images/icon_hu26daae2aec3aee1c848737d70e9dbe2a_4285112_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Finding shadows in images using Python\u0026rsquo;s scikit-image package Ever noticed how shadows can make photos look cool or kinda tricky for editing?"
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
   
 
 
 
 
 
-  <title>Tags | Ka Ming Fung, Ph.D.</title>
+  <title>Finding shadows in images using Python&#39;s scikit-image package | Ka Ming Fung, Ph.D.</title>
 
 </head>
 
@@ -673,154 +722,477 @@
 
 
 
-  
-
-
-
-
-
-
-
-
-
-
-
+  <article class="article">
 
   
 
+
+
+
+
+
+
+
+
+
+
+
+  
+
   
   
+  
+<div class="article-container pt-3">
+  <h1>Finding shadows in images using Python&#39;s scikit-image package</h1>
+
+  
+
   
     
-  
-<div class="universal-wrapper pt-3">
-  <h1>Tags</h1>
+
+
+<div class="article-metadata">
 
   
+  
+  
+  
+  <div>
+    
+
+  
+  <span class="author-highlighted">Ka Ming FUNG</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Mar 05, 2024
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    2 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/skill-share/">Skill Share</a></span>
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
-  
+  <div class="article-container">
 
-  
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tag/python/" >Python</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tag/aerosals/" >Aerosals</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tag/ammonia/" >Ammonia</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tag/environmental-health/" >Environmental Health</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tag/climate/" >Climate</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tag/agriculture/" >Agriculture</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tag/climate-change/" >Climate change</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tag/food-security/" >Food security</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tag/food-supply/" >Food supply</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tag/sustainable/" >Sustainable</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
+    <div class="article-style">
+      <h1 id="finding-shadows-in-images-using-pythons-scikit-image-package">Finding shadows in images using Python&rsquo;s <code>scikit-image</code> package</h1>
+<p>Ever noticed how shadows can make photos look cool or kinda tricky for editing? Well, guess what? With some Python magic and a handy tool called scikit-image, you can become a shadow-busting wizard in no time!</p>
+<p>In this quick guide, we&rsquo;re diving into the nifty world of shadow segmentation. Don&rsquo;t worry; it&rsquo;s just a fancy way of saying we&rsquo;re going to teach you how to spot and separate shadows from the rest of your image. Why? Because sometimes you just need to clear things up a bit, whether you&rsquo;re tweaking photos or working on a cool project that needs shadow detection.</p>
+<p>We&rsquo;ll start with the basics—loading up an image and flipping it into HSV color space. This helps us really see where those sneaky shadows are hiding. Then, with a couple of smart tricks and some threshold magic, we&rsquo;ll show you how to pinpoint those shadows. And to keep things neat, we&rsquo;ll even clean up any small bits and bobs that don&rsquo;t belong.</p>
+<pre><code class="language-python"># %pip install numpy scikit-image matplotlib
+</code></pre>
+<pre><code class="language-python">import numpy as np
+import skimage
+import matplotlib.pyplot as plt
+</code></pre>
+<pre><code class="language-python"># get sample image
+image_rgb = skimage.data.stereo_motorcycle()[0]
+</code></pre>
+<pre><code class="language-python"># sense check (show the image)
+skimage.io.imshow(
+    image_rgb,
+)
+</code></pre>
+<pre><code>&lt;matplotlib.image.AxesImage at 0x10c422f50&gt;
+</code></pre>
+<p><img src="sample_shadow_segmentation_5_1.png" alt="png"></p>
+<pre><code class="language-python"># Convert the image to HSV color space
+image_hsv = skimage.color.rgb2hsv(image_rgb)
+hue = image_hsv[:, :, 0]
+brightness = image_hsv[:, :, 2]
 
+# Find global threshold on the lightness and hue to detect dark (shadow) regions
+brightness_thresh = skimage.filters.threshold_otsu(
+    brightness,
+)
+hue_thresh = skimage.filters.threshold_otsu(
+    hue,
+)
+</code></pre>
+<pre><code class="language-python"># Create a mask for the shadow regions
+shadow_mask = (image_hsv[:, :, 2] &lt; brightness_thresh) &amp; (
+    image_hsv[:, :, 0] &lt; hue_thresh
+)
+
+# Remove small objects from the mask
+shadow_mask = skimage.morphology.remove_small_objects(shadow_mask)
+</code></pre>
+<pre><code class="language-python"># Mask the image with the shadow mask
+image_masked = np.ma.masked_where(
+    np.array(
+        [
+            ~shadow_mask,
+            ~shadow_mask,
+            ~shadow_mask,
+        ]
+    ).transpose(1, 2, 0),
+    image_rgb,
+)
+</code></pre>
+<pre><code class="language-python"># Display the original image and the shadow mask
+fig, ax = plt.subplots(
+    1,
+    2,
+    figsize=(16, 8),
+)
+ax[0].imshow(image_rgb)
+ax[0].set_title(&quot;Original Image&quot;)
+ax[0].axis(&quot;off&quot;)
+ax[0].set_aspect(&quot;equal&quot;)
+
+ax[1].imshow(
+    ~shadow_mask,
+    # cmap=&quot;gray&quot;,
+)
+ax[1].set_title(&quot;Shadow Mask (purple = shadow)&quot;)
+ax[1].axis(&quot;off&quot;)
+ax[1].set_aspect(&quot;equal&quot;)
+
+
+plt.show()
+</code></pre>
+<p><img src="sample_shadow_segmentation_9_0.png" alt="png"></p>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
   
-<nav>
-  <ul class="pagination justify-content-center">
+  <a class="badge badge-light" href="/tag/python/">Python</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
     
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://kamingfung.github.io/post/2024-03-05-segment-shadow-python/&amp;text=Finding%20shadows%20in%20images%20using%20Python&amp;#39;s%20scikit-image%20package" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
     
-    <li class="page-item"><a class="page-link" href="/tags/page/2/">&raquo;</a></li>
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://kamingfung.github.io/post/2024-03-05-segment-shadow-python/&amp;t=Finding%20shadows%20in%20images%20using%20Python&amp;#39;s%20scikit-image%20package" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Finding%20shadows%20in%20images%20using%20Python&amp;#39;s%20scikit-image%20package&amp;body=https://kamingfung.github.io/post/2024-03-05-segment-shadow-python/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://kamingfung.github.io/post/2024-03-05-segment-shadow-python/&amp;title=Finding%20shadows%20in%20images%20using%20Python&amp;#39;s%20scikit-image%20package" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Finding%20shadows%20in%20images%20using%20Python&amp;#39;s%20scikit-image%20package%20https://kamingfung.github.io/post/2024-03-05-segment-shadow-python/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://reddit.com/submit?url=https://kamingfung.github.io/post/2024-03-05-segment-shadow-python/&amp;title=Finding%20shadows%20in%20images%20using%20Python&amp;#39;s%20scikit-image%20package" target="_blank" rel="noopener" class="share-btn-reddit">
+          <i class="fab fa-reddit-alien"></i>
+        </a>
+      </li>
     
   </ul>
-</nav>
-
-
 </div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://kamingfung.github.io/"><img class="avatar mr-3 avatar-circle" src="/author/ka-ming-fung/avatar_hu1b61be9699ee7054a19859ac40e62c49_825725_270x270_fill_q90_lanczos_center.jpg" alt="Ka Ming FUNG"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://kamingfung.github.io/">Ka Ming FUNG</a></h5>
+      <h6 class="card-subtitle">Data Scientist</h6>
+      <p class="card-text">Data Scientist who&rsquo;s interested in the interactions between food security, air pollution, environmental health, and climate change</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:kamingfung@link.cuhk.edu.hk" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/kamingfung" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=OIgTlqEAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/kamingfung" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/kamingfung/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.researchgate.net/profile/Ka_Ming_Fung" target="_blank" rel="noopener">
+        <i class="fab fa-researchgate"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/files/Academic%20CV%20-%20Ka%20Ming%20FUNG.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/post/2024-02-14-ms-buildings/">Improved notebook to download buildings from Microsoft</a></li>
+      
+      <li><a href="/post/2021-02-11-partial_scaling/">Scaling a Subset of Input Data in NetCDF Format</a></li>
+      
+      <li><a href="/post/2020-11-13-using-r-python-cheyenne/">Python &amp; R on Cheyenne/Casper</a></li>
+      
+      <li><a href="/post/2020-10-03-python_basics_cesm/">Python Basics for CESM</a></li>
+      
+      <li><a href="/post/2021-03-02-r-regridding/">Regridding High-resolution Data</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+  </div>
+</article>
 
       
 
