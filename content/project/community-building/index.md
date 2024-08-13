@@ -1,5 +1,5 @@
 ---
-title: Community Services
+title: Community Building
 summary: Serving the Society
 tags:
 date: "2020-10-13T00:00:00Z"
