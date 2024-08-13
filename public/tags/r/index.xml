@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R | Ka Ming Fung, Ph.D.</title>
-    <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/tags/r/</link>
-      <atom:link href="https://kamingfung.github.io/kamingfung.github.io.academic_cv/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:51854/kamingfung.github.io.academic_cv/tags/r/</link>
+      <atom:link href="http://localhost:51854/kamingfung.github.io.academic_cv/tags/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 10 Feb 2021 00:05:04 -0400</lastBuildDate>
     <image>
-      <url>https://kamingfung.github.io/kamingfung.github.io.academic_cv/media/icon_hu14322561806154635754.png</url>
+      <url>http://localhost:51854/kamingfung.github.io.academic_cv/media/icon_hu14322561806154635754.png</url>
       <title>R</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/tags/r/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/tags/r/</link>
     </image>
     
     <item>
       <title>Regridding High-resolution Data</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2021-03-02-r-regridding/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/post/2021-03-02-r-regridding/</link>
       <pubDate>Wed, 10 Feb 2021 00:05:04 -0400</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2021-03-02-r-regridding/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/post/2021-03-02-r-regridding/</guid>
       <description>&lt;!-- *Created by [Ka Ming Fung](kamingfung@link.cuhk.edu.hk)* --&gt;
 &lt;p&gt;Often time, we use observations to validate model simulations. In
 addition to data quality, a big challenge is that we need to regrid the
@@ -136,9 +136,9 @@ and the regridded ones:&lt;/p&gt;
     
     <item>
       <title>Regional Analysis Using R</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2021-01-01/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/post/2021-01-01/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2021-01-01/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/post/2021-01-01/</guid>
       <description>&lt;p&gt;This is an example to append geographic information to gridded data for
 regional analysis.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# *** use install.packages to get the packages for the first time ***&lt;/span&gt;
@@ -177,7 +177,7 @@ regional analysis.&lt;/p&gt;
                /kamingfung.github.io.academic_cv/post/2021-01-01/figures/pressure-1_hu15314028022718439822.webp 400w,
                /kamingfung.github.io.academic_cv/post/2021-01-01/figures/pressure-1_hu8801672442608219303.webp 760w,
                /kamingfung.github.io.academic_cv/post/2021-01-01/figures/pressure-1_hu17375304020995555177.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2021-01-01/figures/pressure-1_hu15314028022718439822.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2021-01-01/figures/pressure-1_hu15314028022718439822.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -225,7 +225,7 @@ regional analysis.&lt;/p&gt;
                /kamingfung.github.io.academic_cv/post/2021-01-01/figures/unnamed-chunk-2-1_hu16519372820770677386.webp 400w,
                /kamingfung.github.io.academic_cv/post/2021-01-01/figures/unnamed-chunk-2-1_hu11172111939279013019.webp 760w,
                /kamingfung.github.io.academic_cv/post/2021-01-01/figures/unnamed-chunk-2-1_hu15474175203800568798.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2021-01-01/figures/unnamed-chunk-2-1_hu16519372820770677386.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2021-01-01/figures/unnamed-chunk-2-1_hu16519372820770677386.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -309,7 +309,7 @@ regional analysis.&lt;/p&gt;
                /kamingfung.github.io.academic_cv/post/2021-01-01/figures/unnamed-chunk-6-1_hu643808701594771466.webp 400w,
                /kamingfung.github.io.academic_cv/post/2021-01-01/figures/unnamed-chunk-6-1_hu16502443626104737614.webp 760w,
                /kamingfung.github.io.academic_cv/post/2021-01-01/figures/unnamed-chunk-6-1_hu1804313109968241261.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2021-01-01/figures/unnamed-chunk-6-1_hu643808701594771466.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2021-01-01/figures/unnamed-chunk-6-1_hu643808701594771466.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -320,9 +320,9 @@ regional analysis.&lt;/p&gt;
     
     <item>
       <title>Python &amp; R on Cheyenne/Casper</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2020-11-13-using-r-python-cheyenne/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/post/2020-11-13-using-r-python-cheyenne/</link>
       <pubDate>Fri, 13 Nov 2020 00:00:00 -0500</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2020-11-13-using-r-python-cheyenne/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/post/2020-11-13-using-r-python-cheyenne/</guid>
       <description>&lt;p&gt;I am lucky enough to have an access to NCAR&amp;rsquo;s super computing facilities - Cheyenne allows me to run CESM simulation with hundreds of cores while Casper streamlines my data processing, analysis, and visualization without wasting time to transfer large files. But, setting up the correct software to full deploy these machines are a pain in the neck. Here I would like to share how I set up my &lt;code&gt;Jupyter&lt;/code&gt; environment to run &lt;code&gt;R&lt;/code&gt; and &lt;code&gt;Python&lt;/code&gt; on these two supercomputers.&lt;/p&gt;
 &lt;h3 id=&#34;what-does-ncar-say&#34;&gt;What does NCAR say&lt;/h3&gt;
 &lt;p&gt;NCAR has been putting a lot of efforts in modernizing their legendary NCL libraries and translating them into Python packages. In this &lt;a href=&#34;https://www2.cisl.ucar.edu/resources/python-%E2%80%93-ncar-package-library&#34;&gt;guide&lt;/a&gt;, they lay out the easiest way to use &lt;code&gt;Python&lt;/code&gt; with &lt;code&gt;Jupyter&lt;/code&gt; on Casper.&lt;/p&gt;
@@ -376,9 +376,9 @@ ncar_pylib --kernel my_npl_clone
     
     <item>
       <title>Setting up Colorbar Colors Using R and ggplot2</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/</link>
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/</guid>
       <description>&lt;!-- Created by Ka Ming Fung (&lt;kamingfung@link.cuhk.edu.hk&gt;) --&gt;
 &lt;p&gt;This is an example to set up colors in the colorbars in ggplot2.&lt;/p&gt;
 &lt;p&gt;Let’s start with generating some random data.&lt;/p&gt;
@@ -430,7 +430,7 @@ ncar_pylib --kernel my_npl_clone
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-2-1_hu3817612055248207526.webp 400w,
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-2-1_hu4172982605434758671.webp 760w,
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-2-1_hu8871213353744562067.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-2-1_hu3817612055248207526.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-2-1_hu3817612055248207526.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -462,7 +462,7 @@ ncar_pylib --kernel my_npl_clone
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-3-1_hu11357067759806229862.webp 400w,
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-3-1_hu2789801412299129210.webp 760w,
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-3-1_hu10898338187018703306.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-3-1_hu11357067759806229862.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-3-1_hu11357067759806229862.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -496,7 +496,7 @@ colors.&lt;/p&gt;
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-4-1_hu11116596322675920893.webp 400w,
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-4-1_hu922136808080415983.webp 760w,
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-4-1_hu8883579489954720578.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-4-1_hu11116596322675920893.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-4-1_hu11116596322675920893.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -528,7 +528,7 @@ colors.&lt;/p&gt;
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-5-1_hu6816188425990838078.webp 400w,
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-5-1_hu16545290006715509309.webp 760w,
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-5-1_hu5168096658656599408.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-5-1_hu6816188425990838078.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-5-1_hu6816188425990838078.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -560,7 +560,7 @@ colors.&lt;/p&gt;
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-6-1_hu4517245734950015766.webp 400w,
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-6-1_hu8581924498060373847.webp 760w,
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-6-1_hu8287793095077328030.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-6-1_hu4517245734950015766.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-6-1_hu4517245734950015766.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -592,7 +592,7 @@ colors.&lt;/p&gt;
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-7-1_hu5347376129648213962.webp 400w,
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-7-1_hu14180065275155630510.webp 760w,
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-7-1_hu1229705268656817592.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-7-1_hu5347376129648213962.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-7-1_hu5347376129648213962.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -629,7 +629,7 @@ under package &amp;ldquo;scales&amp;rdquo;.&lt;/p&gt;
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-8-1_hu12277586635864421613.webp 400w,
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-8-1_hu4482846002392236912.webp 760w,
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-8-1_hu6130020328080566768.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-8-1_hu12277586635864421613.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-8-1_hu12277586635864421613.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -646,9 +646,9 @@ under package &amp;ldquo;scales&amp;rdquo;.&lt;/p&gt;
     
     <item>
       <title>Displaying Special Symbols for Equations and Reactions</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2019-09-24-parsing-special-symbols/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/post/2019-09-24-parsing-special-symbols/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2019-09-24-parsing-special-symbols/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/post/2019-09-24-parsing-special-symbols/</guid>
       <description>&lt;p&gt;This is an example to show special characters and formats in ggplot2.&lt;/p&gt;
 &lt;p&gt;In the following example, we are going to show a chemical reaction in a
 plot created by &amp;ldquo;ggplot2&amp;rdquo;. It may seem straightforward but the way R
@@ -687,9 +687,9 @@ plotmath&lt;/a&gt;.&lt;/li&gt;
     
     <item>
       <title>Bar Charts with Labels</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/</link>
       <pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/</guid>
       <description>&lt;p&gt;This is an example to draw a informative bar chart using &amp;ldquo;geom_label&amp;rdquo; from &amp;ldquo;ggplot2&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;Let’s start with generating some sample data.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# we will use the Motor Trend Car Road Tests datasets from R base (only the first 15 models for better illustration)&lt;/span&gt;
@@ -738,7 +738,7 @@ with a basic bar chart.&lt;/p&gt;
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-2-1_hu13554490903727761314.webp 400w,
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-2-1_hu6844154297256837360.webp 760w,
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-2-1_hu18375551729514718204.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-2-1_hu13554490903727761314.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-2-1_hu13554490903727761314.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -771,7 +771,7 @@ them by 45º.&lt;/p&gt;
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-3-1_hu5631214096196372097.webp 400w,
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-3-1_hu14077663097841479983.webp 760w,
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-3-1_hu5716768607709004611.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-3-1_hu5631214096196372097.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-3-1_hu5631214096196372097.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -809,7 +809,7 @@ the &lt;code&gt;am&lt;/code&gt; column), we can visualize it by stacking up the 
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-4-1_hu12126293378103126694.webp 400w,
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-4-1_hu3718735649592810098.webp 760w,
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-4-1_hu4098747327761278572.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-4-1_hu12126293378103126694.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-4-1_hu12126293378103126694.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -843,7 +843,7 @@ contributed.&lt;/p&gt;
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-5-1_hu8028918167275639814.webp 400w,
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-5-1_hu18049922415354983278.webp 760w,
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-5-1_hu8303836525456685154.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-5-1_hu8028918167275639814.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-5-1_hu8028918167275639814.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -877,7 +877,7 @@ is &lt;code&gt;geom_label&lt;/code&gt;.&lt;/p&gt;
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-6-1_hu1355500788622869180.webp 400w,
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-6-1_hu8589875641387766539.webp 760w,
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-6-1_hu13706639556943567110.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-6-1_hu1355500788622869180.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-6-1_hu1355500788622869180.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -923,7 +923,7 @@ global variable. For the second problem, we seek help from the package
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-7-1_hu13952554218479500310.webp 400w,
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-7-1_hu17373634891564280817.webp 760w,
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-7-1_hu17429574131872509218.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-7-1_hu13952554218479500310.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-7-1_hu13952554218479500310.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -957,7 +957,7 @@ legend which is kinda redundant.&lt;/p&gt;
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-8-1_hu13942085358463704659.webp 400w,
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-8-1_hu6473502417907359759.webp 760w,
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-8-1_hu4343710125291592871.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-8-1_hu13942085358463704659.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-8-1_hu13942085358463704659.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -968,9 +968,9 @@ legend which is kinda redundant.&lt;/p&gt;
     
     <item>
       <title>Atlantic Centered Map</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2019-09-10-atlantic-centered-map/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/post/2019-09-10-atlantic-centered-map/</link>
       <pubDate>Tue, 10 Sep 2019 17:06:22 -0400</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2019-09-10-atlantic-centered-map/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/post/2019-09-10-atlantic-centered-map/</guid>
       <description>&lt;!-- *Created by [Ka Ming Fung](kamingfung@link.cuhk.edu.hk)* --&gt;
 &lt;p&gt;This is an example to plot a world map with Atlantic centered map using
 R and ggplot2.&lt;/p&gt;
@@ -999,7 +999,7 @@ R and ggplot2.&lt;/p&gt;
                /kamingfung.github.io.academic_cv/post/2019-09-10-atlantic-centered-map/unnamed-chunk-1-1_hu2803711369684275837.webp 400w,
                /kamingfung.github.io.academic_cv/post/2019-09-10-atlantic-centered-map/unnamed-chunk-1-1_hu70689207406900896.webp 760w,
                /kamingfung.github.io.academic_cv/post/2019-09-10-atlantic-centered-map/unnamed-chunk-1-1_hu9319302062934183077.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-10-atlantic-centered-map/unnamed-chunk-1-1_hu2803711369684275837.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-10-atlantic-centered-map/unnamed-chunk-1-1_hu2803711369684275837.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1033,7 +1033,7 @@ R and ggplot2.&lt;/p&gt;
                /kamingfung.github.io.academic_cv/post/2019-09-10-atlantic-centered-map/unnamed-chunk-2-1_hu9675403704829020759.webp 400w,
                /kamingfung.github.io.academic_cv/post/2019-09-10-atlantic-centered-map/unnamed-chunk-2-1_hu16587875673302732471.webp 760w,
                /kamingfung.github.io.academic_cv/post/2019-09-10-atlantic-centered-map/unnamed-chunk-2-1_hu17045132457291720520.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-10-atlantic-centered-map/unnamed-chunk-2-1_hu9675403704829020759.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-10-atlantic-centered-map/unnamed-chunk-2-1_hu9675403704829020759.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;

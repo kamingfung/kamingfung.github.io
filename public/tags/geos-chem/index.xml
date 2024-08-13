@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GEOS-Chem | Ka Ming Fung, Ph.D.</title>
-    <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/tags/geos-chem/</link>
-      <atom:link href="https://kamingfung.github.io/kamingfung.github.io.academic_cv/tags/geos-chem/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:51854/kamingfung.github.io.academic_cv/tags/geos-chem/</link>
+      <atom:link href="http://localhost:51854/kamingfung.github.io.academic_cv/tags/geos-chem/index.xml" rel="self" type="application/rss+xml" />
     <description>GEOS-Chem</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 10 May 2019 11:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://kamingfung.github.io/kamingfung.github.io.academic_cv/media/icon_hu14322561806154635754.png</url>
+      <url>http://localhost:51854/kamingfung.github.io.academic_cv/media/icon_hu14322561806154635754.png</url>
       <title>GEOS-Chem</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/tags/geos-chem/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/tags/geos-chem/</link>
     </image>
     
     <item>
       <title>Invited Talk for Centre for Atmospheric Science Seminars</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2019-05-uofcambridge/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2019-05-uofcambridge/</link>
       <pubDate>Fri, 10 May 2019 11:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2019-05-uofcambridge/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2019-05-uofcambridge/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Modelling and Assessing the Impacts of Intercropping, as a Sustainable Farming Practice, on Food Security, Air Quality, and Public Health&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
@@ -26,17 +26,17 @@
     
     <item>
       <title>Co-benefits of intercropping as a sustainable farming method for safeguarding both food security and air quality</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/fung-2019/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/publication/fung-2019/</link>
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/fung-2019/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/publication/fung-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Joint 14th iCACGP Symposium and 15th IGAC Science Conference</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2018-09-igac/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2018-09-igac/</link>
       <pubDate>Thu, 27 Sep 2018 09:00:00 -0600</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2018-09-igac/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2018-09-igac/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Potential co-benefits of intercropping as a sustainable agricultural practice for both air pollution mitigation and global food security&lt;/p&gt;
 &lt;h3 id=&#34;sponsor&#34;&gt;Sponsor&lt;/h3&gt;
@@ -46,9 +46,9 @@
     
     <item>
       <title>AGU Fall Meeting 2017</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2017-12-agu/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2017-12-agu/</link>
       <pubDate>Fri, 15 Dec 2017 11:50:00 -0600</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2017-12-agu/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2017-12-agu/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Modeling large-scale adoption of intercropping as a sustainable agricultural practice for food security and air pollution mitigation around the globe&lt;/p&gt;
 </description>
@@ -56,9 +56,9 @@
     
     <item>
       <title>5th iLEAPS Science Conference</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2017-09-ileaps/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2017-09-ileaps/</link>
       <pubDate>Mon, 11 Sep 2017 10:00:00 -0400</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2017-09-ileaps/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2017-09-ileaps/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Modeling and assessing effectiveness of intercropping as a sustainable agricultural practice for food security and air pollution mitigation&lt;/p&gt;
 </description>
@@ -66,9 +66,9 @@
     
     <item>
       <title>8th International GEOS-Chem Meeting</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2017-06-igc/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2017-06-igc/</link>
       <pubDate>Wed, 03 May 2017 09:00:00 -0600</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2017-06-igc/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2017-06-igc/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Evaluating effectiveness of maize-soybean intercropping in securing food production and air quality in China using DNDC and GEOS-Chem&lt;/p&gt;
 </description>
@@ -76,9 +76,9 @@
     
     <item>
       <title>AGU Fall Meeting 2016</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2016-12-agu/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2016-12-agu/</link>
       <pubDate>Mon, 12 Dec 2016 08:00:00 -0700</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2016-12-agu/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2016-12-agu/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Effectiveness of intercropping with soybean as a sustainable farming practice to maintain food production and reduce air pollution in China&lt;/p&gt;
 </description>

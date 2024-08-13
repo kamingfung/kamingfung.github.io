@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | Ka Ming Fung, Ph.D.</title>
-    <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/project/</link>
-      <atom:link href="https://kamingfung.github.io/kamingfung.github.io.academic_cv/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:51854/kamingfung.github.io.academic_cv/project/</link>
+      <atom:link href="http://localhost:51854/kamingfung.github.io.academic_cv/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 13 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://kamingfung.github.io/kamingfung.github.io.academic_cv/media/icon_hu14322561806154635754.png</url>
+      <url>http://localhost:51854/kamingfung.github.io.academic_cv/media/icon_hu14322561806154635754.png</url>
       <title>Projects</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/project/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/project/</link>
     </image>
     
     <item>
       <title>Awards</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/project/awards/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/project/awards/</link>
       <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/project/awards/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/project/awards/</guid>
       <description>&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -73,9 +73,9 @@
     
     <item>
       <title>Professional Activities</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/project/professional-activities/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/project/professional-activities/</link>
       <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/project/professional-activities/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/project/professional-activities/</guid>
       <description>&lt;h3 id=&#34;leadership&#34;&gt;Leadership&lt;/h3&gt;
 &lt;h4 id=&#34;since-2020&#34;&gt;Since 2020&lt;/h4&gt;
 &lt;ul&gt;
@@ -116,9 +116,9 @@ Processes, CUHK&lt;/li&gt;
     
     <item>
       <title>Community Services</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/project/community-services/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/project/community-services/</link>
       <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/project/community-services/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/project/community-services/</guid>
       <description>&lt;h3 id=&#34;massachusetts-institute-of-technology&#34;&gt;Massachusetts Institute of Technology&lt;/h3&gt;
 &lt;h4 id=&#34;2020---2021&#34;&gt;2020 - 2021&lt;/h4&gt;
 &lt;p&gt;Postdoc Liaison &amp;amp; Host of DEI Seminar Series, Department of Civil and Environmental Engineering&lt;/p&gt;
@@ -142,9 +142,9 @@ Processes, CUHK&lt;/li&gt;
     
     <item>
       <title>Teaching Experience</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/project/teaching-exerience/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/project/teaching-exerience/</link>
       <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/project/teaching-exerience/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/project/teaching-exerience/</guid>
       <description>&lt;h3 id=&#34;the-chinese-university-of-hong-kong&#34;&gt;The Chinese University of Hong Kong&lt;/h3&gt;
 &lt;h4 id=&#34;fall-2018&#34;&gt;Fall 2018&lt;/h4&gt;
 &lt;ul&gt;

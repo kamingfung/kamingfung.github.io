@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ka Ming Fung, Ph.D.</title>
-    <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/</link>
-      <atom:link href="https://kamingfung.github.io/kamingfung.github.io.academic_cv/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:51854/kamingfung.github.io.academic_cv/</link>
+      <atom:link href="http://localhost:51854/kamingfung.github.io.academic_cv/index.xml" rel="self" type="application/rss+xml" />
     <description>Ka Ming Fung, Ph.D.</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://kamingfung.github.io/kamingfung.github.io.academic_cv/media/icon_hu14322561806154635754.png</url>
+      <url>http://localhost:51854/kamingfung.github.io.academic_cv/media/icon_hu14322561806154635754.png</url>
       <title>Ka Ming Fung, Ph.D.</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/event/example/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/event/example/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/event/example/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/event/example/</guid>
       <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
   &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
@@ -35,17 +35,17 @@
     
     <item>
       <title>Projects</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/projects/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/projects/</link>
       <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/projects/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Finding shadows in images using Python&#39;s scikit-image package</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2024-03-05-segment-shadow-python/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/post/2024-03-05-segment-shadow-python/</link>
       <pubDate>Tue, 05 Mar 2024 00:05:04 -0400</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2024-03-05-segment-shadow-python/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/post/2024-03-05-segment-shadow-python/</guid>
       <description>&lt;h1 id=&#34;finding-shadows-in-images-using-pythons-scikit-image-package&#34;&gt;Finding shadows in images using Python&amp;rsquo;s &lt;code&gt;scikit-image&lt;/code&gt; package&lt;/h1&gt;
 &lt;p&gt;Ever noticed how shadows can make photos look cool or kinda tricky for editing? Well, guess what? With some Python magic and a handy tool called scikit-image, you can become a shadow-busting wizard in no time!&lt;/p&gt;
 &lt;p&gt;In this quick guide, we&amp;rsquo;re diving into the nifty world of shadow segmentation. Don&amp;rsquo;t worry; it&amp;rsquo;s just a fancy way of saying we&amp;rsquo;re going to teach you how to spot and separate shadows from the rest of your image. Why? Because sometimes you just need to clear things up a bit, whether you&amp;rsquo;re tweaking photos or working on a cool project that needs shadow detection.&lt;/p&gt;
@@ -84,7 +84,7 @@
                /kamingfung.github.io.academic_cv/post/2024-03-05-segment-shadow-python/sample_shadow_segmentation_5_1_hu2444524728741753772.webp 400w,
                /kamingfung.github.io.academic_cv/post/2024-03-05-segment-shadow-python/sample_shadow_segmentation_5_1_hu8130987965567773011.webp 760w,
                /kamingfung.github.io.academic_cv/post/2024-03-05-segment-shadow-python/sample_shadow_segmentation_5_1_hu13763805786673316091.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2024-03-05-segment-shadow-python/sample_shadow_segmentation_5_1_hu2444524728741753772.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2024-03-05-segment-shadow-python/sample_shadow_segmentation_5_1_hu2444524728741753772.webp&#34;
                width=&#34;630&#34;
                height=&#34;436&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -163,7 +163,7 @@
                /kamingfung.github.io.academic_cv/post/2024-03-05-segment-shadow-python/sample_shadow_segmentation_9_0_hu14171549610828828833.webp 400w,
                /kamingfung.github.io.academic_cv/post/2024-03-05-segment-shadow-python/sample_shadow_segmentation_9_0_hu4299294486589443593.webp 760w,
                /kamingfung.github.io.academic_cv/post/2024-03-05-segment-shadow-python/sample_shadow_segmentation_9_0_hu12831045858939211134.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2024-03-05-segment-shadow-python/sample_shadow_segmentation_9_0_hu14171549610828828833.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2024-03-05-segment-shadow-python/sample_shadow_segmentation_9_0_hu14171549610828828833.webp&#34;
                width=&#34;760&#34;
                height=&#34;255&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -174,9 +174,9 @@
     
     <item>
       <title>Improved notebook to download buildings from Microsoft</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2024-02-14-ms-buildings/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/post/2024-02-14-ms-buildings/</link>
       <pubDate>Wed, 14 Feb 2024 00:05:04 -0400</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2024-02-14-ms-buildings/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/post/2024-02-14-ms-buildings/</guid>
       <description>&lt;!-- *Created by [Ka Ming Fung](kamingfung@link.cuhk.edu.hk)* --&gt;
 &lt;p&gt;This notebook works with the &lt;a href=&#34;https://github.com/microsoft/GlobalMLBuildingFootprints&#34;&gt;Microsoft Building Footprint Dataset&lt;/a&gt; to download building footprints for a given area of interest (AOI). I modified the &lt;a href=&#34;https://github.com/victor-ka-ming-fung/GlobalMLBuildingFootprints/blob/main/examples/example_building_footprints.ipynb&#34;&gt;original notebook&lt;/a&gt; to download the data to output a parquet file of a GeoDataFrame of buildings, instead of GeoJSON.&lt;/p&gt;
 &lt;p&gt;To find the Jupyter notebook version, please visit &lt;a href=&#34;https://github.com/victor-ka-ming-fung/GlobalMLBuildingFootprints/blob/improved_example_notebook/examples/example_building_footprints.ipynb&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
@@ -290,17 +290,17 @@
     
     <item>
       <title>Experience</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/experience/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/experience/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/experience/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/experience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learn JavaScript</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/teaching/js/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/teaching/js/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/teaching/js/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/teaching/js/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
@@ -347,7 +347,7 @@
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/teaching/js/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/teaching/js/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -424,9 +424,9 @@ data.head()
     
     <item>
       <title>Learn Python</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/teaching/python/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/teaching/python/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/teaching/python/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/teaching/python/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
@@ -473,7 +473,7 @@ data.head()
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/teaching/python/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/teaching/python/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -551,33 +551,33 @@ data.head()
     <item>
       <title>Improving nitrogen cycling in a land surface model (CLM5) to quantify soil N2O, NO, and NH3 emissions from enhanced rock weathering with croplands
 </title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/valmartin-2023/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/publication/valmartin-2023/</link>
       <pubDate>Wed, 18 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/valmartin-2023/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/publication/valmartin-2023/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Global Health and Climate Effects of Organic Aerosols from Different Sources</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/jo-2023/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/publication/jo-2023/</link>
       <pubDate>Wed, 06 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/jo-2023/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/publication/jo-2023/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Editorial - Agriculture and food supply challenges in a changing climate</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/fung-2023/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/publication/fung-2023/</link>
       <pubDate>Wed, 04 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/fung-2023/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/publication/fung-2023/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Awards</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/project/awards/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/project/awards/</link>
       <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/project/awards/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/project/awards/</guid>
       <description>&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -634,35 +634,35 @@ data.head()
     
     <item>
       <title>Modeling the interinfluence of fertilizer-induced ammonia emission, nitrogen deposition, and aerosol radiative effects using modified CESM2</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/fung-2022b/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/publication/fung-2022b/</link>
       <pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/fung-2022b/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/publication/fung-2022b/</guid>
       <description>&lt;p&gt;Codes are available here: &lt;a href=&#34;https://github.com/kamingfung/Fung_NH3/&#34;&gt;https://github.com/kamingfung/Fung_NH3/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Exploring dimethyl sulfide (DMS) oxidation and implications for global aerosol radiative forcing</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/fung-2022a/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/publication/fung-2022a/</link>
       <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/fung-2022a/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/publication/fung-2022a/</guid>
       <description>&lt;p&gt;Codes are available here: &lt;a href=&#34;https://github.com/kamingfung/Fung_Heald_DMS/&#34;&gt;https://github.com/kamingfung/Fung_Heald_DMS/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Responses of surface ozone to future agricultural ammonia emissions and subsequent nitrogen deposition through terrestrial ecosystem changes</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/liu-2021/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/publication/liu-2021/</link>
       <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/liu-2021/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/publication/liu-2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Professional Activities</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/project/professional-activities/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/project/professional-activities/</link>
       <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/project/professional-activities/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/project/professional-activities/</guid>
       <description>&lt;h3 id=&#34;leadership&#34;&gt;Leadership&lt;/h3&gt;
 &lt;h4 id=&#34;since-2020&#34;&gt;Since 2020&lt;/h4&gt;
 &lt;ul&gt;
@@ -703,9 +703,9 @@ Processes, CUHK&lt;/li&gt;
     
     <item>
       <title>Regridding High-resolution Data</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2021-03-02-r-regridding/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/post/2021-03-02-r-regridding/</link>
       <pubDate>Wed, 10 Feb 2021 00:05:04 -0400</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2021-03-02-r-regridding/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/post/2021-03-02-r-regridding/</guid>
       <description>&lt;!-- *Created by [Ka Ming Fung](kamingfung@link.cuhk.edu.hk)* --&gt;
 &lt;p&gt;Often time, we use observations to validate model simulations. In
 addition to data quality, a big challenge is that we need to regrid the
@@ -825,9 +825,9 @@ and the regridded ones:&lt;/p&gt;
     
     <item>
       <title>Scaling a Subset of Input Data in NetCDF Format</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2021-02-11-partial_scaling/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/post/2021-02-11-partial_scaling/</link>
       <pubDate>Wed, 10 Feb 2021 00:05:04 -0400</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2021-02-11-partial_scaling/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/post/2021-02-11-partial_scaling/</guid>
       <description>&lt;!-- *Created by [Ka Ming Fung](kamingfung@link.cuhk.edu.hk)* --&gt;
 &lt;p&gt;&lt;em&gt;Reference:&lt;/em&gt;
 For general python handling of nc files using Xarray: &lt;a href=&#34;http://xarray.pydata.org/en/stable/index.html&#34;&gt;http://xarray.pydata.org/en/stable/index.html&lt;/a&gt;&lt;/p&gt;
@@ -1996,9 +1996,9 @@ Mon Jul 20 16:29:34 2015: cdo mergetime tmp.1985*.nc tmp.nc&lt;/dd&gt;&lt;dt&gt;
     
     <item>
       <title>CESM The Atmosphere, Whole Atmosphere, and Chemistry-Climate Working Group Meeting 2021</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2021-02-cam/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2021-02-cam/</link>
       <pubDate>Tue, 09 Feb 2021 14:30:00 -0700</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2021-02-cam/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2021-02-cam/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Exploring natural aerosol formation from DMS oxidation and implications for aerosol forcing&lt;/p&gt;
 </description>
@@ -2006,9 +2006,9 @@ Mon Jul 20 16:29:34 2015: cdo mergetime tmp.1985*.nc tmp.nc&lt;/dd&gt;&lt;dt&gt;
     
     <item>
       <title>Regional Analysis Using R</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2021-01-01/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/post/2021-01-01/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2021-01-01/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/post/2021-01-01/</guid>
       <description>&lt;p&gt;This is an example to append geographic information to gridded data for
 regional analysis.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# *** use install.packages to get the packages for the first time ***&lt;/span&gt;
@@ -2047,7 +2047,7 @@ regional analysis.&lt;/p&gt;
                /kamingfung.github.io.academic_cv/post/2021-01-01/figures/pressure-1_hu15314028022718439822.webp 400w,
                /kamingfung.github.io.academic_cv/post/2021-01-01/figures/pressure-1_hu8801672442608219303.webp 760w,
                /kamingfung.github.io.academic_cv/post/2021-01-01/figures/pressure-1_hu17375304020995555177.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2021-01-01/figures/pressure-1_hu15314028022718439822.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2021-01-01/figures/pressure-1_hu15314028022718439822.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -2095,7 +2095,7 @@ regional analysis.&lt;/p&gt;
                /kamingfung.github.io.academic_cv/post/2021-01-01/figures/unnamed-chunk-2-1_hu16519372820770677386.webp 400w,
                /kamingfung.github.io.academic_cv/post/2021-01-01/figures/unnamed-chunk-2-1_hu11172111939279013019.webp 760w,
                /kamingfung.github.io.academic_cv/post/2021-01-01/figures/unnamed-chunk-2-1_hu15474175203800568798.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2021-01-01/figures/unnamed-chunk-2-1_hu16519372820770677386.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2021-01-01/figures/unnamed-chunk-2-1_hu16519372820770677386.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -2179,7 +2179,7 @@ regional analysis.&lt;/p&gt;
                /kamingfung.github.io.academic_cv/post/2021-01-01/figures/unnamed-chunk-6-1_hu643808701594771466.webp 400w,
                /kamingfung.github.io.academic_cv/post/2021-01-01/figures/unnamed-chunk-6-1_hu16502443626104737614.webp 760w,
                /kamingfung.github.io.academic_cv/post/2021-01-01/figures/unnamed-chunk-6-1_hu1804313109968241261.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2021-01-01/figures/unnamed-chunk-6-1_hu643808701594771466.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2021-01-01/figures/unnamed-chunk-6-1_hu643808701594771466.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -2190,9 +2190,9 @@ regional analysis.&lt;/p&gt;
     
     <item>
       <title>AGU Fall Meeting 2020</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2020-12-agu/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2020-12-agu/</link>
       <pubDate>Thu, 10 Dec 2020 07:00:00 -0400</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2020-12-agu/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2020-12-agu/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Exploring natural aerosol formation from DMS oxidation and implications for aerosol forcing&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
@@ -2202,9 +2202,9 @@ regional analysis.&lt;/p&gt;
     
     <item>
       <title>Python &amp; R on Cheyenne/Casper</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2020-11-13-using-r-python-cheyenne/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/post/2020-11-13-using-r-python-cheyenne/</link>
       <pubDate>Fri, 13 Nov 2020 00:00:00 -0500</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2020-11-13-using-r-python-cheyenne/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/post/2020-11-13-using-r-python-cheyenne/</guid>
       <description>&lt;p&gt;I am lucky enough to have an access to NCAR&amp;rsquo;s super computing facilities - Cheyenne allows me to run CESM simulation with hundreds of cores while Casper streamlines my data processing, analysis, and visualization without wasting time to transfer large files. But, setting up the correct software to full deploy these machines are a pain in the neck. Here I would like to share how I set up my &lt;code&gt;Jupyter&lt;/code&gt; environment to run &lt;code&gt;R&lt;/code&gt; and &lt;code&gt;Python&lt;/code&gt; on these two supercomputers.&lt;/p&gt;
 &lt;h3 id=&#34;what-does-ncar-say&#34;&gt;What does NCAR say&lt;/h3&gt;
 &lt;p&gt;NCAR has been putting a lot of efforts in modernizing their legendary NCL libraries and translating them into Python packages. In this &lt;a href=&#34;https://www2.cisl.ucar.edu/resources/python-%E2%80%93-ncar-package-library&#34;&gt;guide&lt;/a&gt;, they lay out the easiest way to use &lt;code&gt;Python&lt;/code&gt; with &lt;code&gt;Jupyter&lt;/code&gt; on Casper.&lt;/p&gt;
@@ -2258,9 +2258,9 @@ ncar_pylib --kernel my_npl_clone
     
     <item>
       <title>Community Services</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/project/community-services/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/project/community-services/</link>
       <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/project/community-services/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/project/community-services/</guid>
       <description>&lt;h3 id=&#34;massachusetts-institute-of-technology&#34;&gt;Massachusetts Institute of Technology&lt;/h3&gt;
 &lt;h4 id=&#34;2020---2021&#34;&gt;2020 - 2021&lt;/h4&gt;
 &lt;p&gt;Postdoc Liaison &amp;amp; Host of DEI Seminar Series, Department of Civil and Environmental Engineering&lt;/p&gt;
@@ -2284,9 +2284,9 @@ ncar_pylib --kernel my_npl_clone
     
     <item>
       <title>Oops! I did it again.</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2020-10-12-oops-i-did-it-again/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/post/2020-10-12-oops-i-did-it-again/</link>
       <pubDate>Mon, 12 Oct 2020 13:00:00 -0400</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2020-10-12-oops-i-did-it-again/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/post/2020-10-12-oops-i-did-it-again/</guid>
       <description>&lt;p&gt;I did it again. A day after my Jekyll-generated site is launched, I discovered Hugo, another SSG (static site generator) written in Go &amp;#x2747;&amp;#xfe0f;. Six hours later, my Hugo-powered site is up and running. Here in this post, I am explaining why.&lt;/p&gt;
 &lt;h3 id=&#34;dr-j-and-mr-h&#34;&gt;Dr. J and Mr. H&lt;/h3&gt;
 &lt;ul&gt;
@@ -2307,9 +2307,9 @@ ncar_pylib --kernel my_npl_clone
     
     <item>
       <title>This is the moment</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2020-10-09-so-i-have-been-told/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/post/2020-10-09-so-i-have-been-told/</link>
       <pubDate>Fri, 09 Oct 2020 16:58:10 -0400</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2020-10-09-so-i-have-been-told/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/post/2020-10-09-so-i-have-been-told/</guid>
       <description>&lt;p&gt;So I have been told there is a new tool (new to me &amp;#x1f609;) trending among academicians. I was casually checking it out last night, and now, I have just finished my 12-hour journey of website migration. Not to bore you to death by giving you all the geeky &amp;#x1f453; and technical details (including how I googled and picked the nicest templates, extracted the good elements, studied their liquid syntax &amp;amp; HTML codes, reassembled them, fixed countless bugs, and ran numerous tests&amp;hellip;), I will discuss some major advantages of Jekyll, as a static web page generator, over WordPress.&lt;/p&gt;
 &lt;h3 id=&#34;wordpress-was-not-good-enough&#34;&gt;WordPress was not good enough&lt;/h3&gt;
 &lt;p&gt;Let&amp;rsquo;s start with WordPress (WP). Here is a list of bad things about this commercial web page hosting service providers:&lt;/p&gt;
@@ -2345,9 +2345,9 @@ ncar_pylib --kernel my_npl_clone
     
     <item>
       <title>Python Basics for CESM</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2020-10-03-python_basics_cesm/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/post/2020-10-03-python_basics_cesm/</link>
       <pubDate>Sat, 03 Oct 2020 16:05:04 -0400</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2020-10-03-python_basics_cesm/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/post/2020-10-03-python_basics_cesm/</guid>
       <description>&lt;!-- *Created by [Ka Ming Fung](kamingfung@link.cuhk.edu.hk)* --&gt;
 &lt;h2 id=&#34;references&#34;&gt;References:&lt;/h2&gt;
 &lt;p&gt;For general python handling of nc files: &lt;a href=&#34;https://github.com/geoschem/GEOSChem-python-tutorial&#34;&gt;https://github.com/geoschem/GEOSChem-python-tutorial&lt;/a&gt;
@@ -2555,18 +2555,18 @@ Data variables:
     
     <item>
       <title>Appeared in Early Career Spotlight in IGACnews</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2020-03-igacnews/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/post/2020-03-igacnews/</link>
       <pubDate>Sun, 15 Mar 2020 13:00:00 -0400</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2020-03-igacnews/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/post/2020-03-igacnews/</guid>
       <description>&lt;p&gt;Thank you &lt;strong&gt;IGAC&lt;/strong&gt; for introducing me in their newsletter&amp;rsquo;s &amp;ldquo;&lt;a href=&#34;https://igacproject.org/sites/default/files/2020-03/Issue_66_Mar_2020.pdf&#34;&gt;Early Career Spotlight&lt;/a&gt;&amp;rdquo; session on pp 23-24. This issue also cover the IGAC/SPARC Chemistry-Climate Model Initiative (CCMI) 2019 Science Workshop I helped organized in CUHK (pp 8-11).&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>CESM Land Model Working Group Meeting 2020</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2020-03-clm/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2020-03-clm/</link>
       <pubDate>Wed, 04 Mar 2020 09:00:00 -0600</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2020-03-clm/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2020-03-clm/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Impacts of Ammonia-Aerosol-Climate Feedbacks on Food Security and Air Quality&lt;/p&gt;
 </description>
@@ -2574,9 +2574,9 @@ Data variables:
     
     <item>
       <title>AGU Fall Meeting 2019</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2019-12-agu/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2019-12-agu/</link>
       <pubDate>Wed, 11 Dec 2019 11:50:00 -0700</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2019-12-agu/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2019-12-agu/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Modeling ammonia-aerosol-climate feedback mechanisms using an earth system model: Implications for future food security and air quality&lt;/p&gt;
 </description>
@@ -2584,9 +2584,9 @@ Data variables:
     
     <item>
       <title>Setting up Colorbar Colors Using R and ggplot2</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/</link>
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/</guid>
       <description>&lt;!-- Created by Ka Ming Fung (&lt;kamingfung@link.cuhk.edu.hk&gt;) --&gt;
 &lt;p&gt;This is an example to set up colors in the colorbars in ggplot2.&lt;/p&gt;
 &lt;p&gt;Let’s start with generating some random data.&lt;/p&gt;
@@ -2638,7 +2638,7 @@ Data variables:
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-2-1_hu3817612055248207526.webp 400w,
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-2-1_hu4172982605434758671.webp 760w,
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-2-1_hu8871213353744562067.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-2-1_hu3817612055248207526.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-2-1_hu3817612055248207526.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -2670,7 +2670,7 @@ Data variables:
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-3-1_hu11357067759806229862.webp 400w,
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-3-1_hu2789801412299129210.webp 760w,
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-3-1_hu10898338187018703306.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-3-1_hu11357067759806229862.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-3-1_hu11357067759806229862.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -2704,7 +2704,7 @@ colors.&lt;/p&gt;
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-4-1_hu11116596322675920893.webp 400w,
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-4-1_hu922136808080415983.webp 760w,
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-4-1_hu8883579489954720578.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-4-1_hu11116596322675920893.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-4-1_hu11116596322675920893.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -2736,7 +2736,7 @@ colors.&lt;/p&gt;
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-5-1_hu6816188425990838078.webp 400w,
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-5-1_hu16545290006715509309.webp 760w,
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-5-1_hu5168096658656599408.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-5-1_hu6816188425990838078.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-5-1_hu6816188425990838078.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -2768,7 +2768,7 @@ colors.&lt;/p&gt;
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-6-1_hu4517245734950015766.webp 400w,
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-6-1_hu8581924498060373847.webp 760w,
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-6-1_hu8287793095077328030.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-6-1_hu4517245734950015766.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-6-1_hu4517245734950015766.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -2800,7 +2800,7 @@ colors.&lt;/p&gt;
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-7-1_hu5347376129648213962.webp 400w,
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-7-1_hu14180065275155630510.webp 760w,
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-7-1_hu1229705268656817592.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-7-1_hu5347376129648213962.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-7-1_hu5347376129648213962.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -2837,7 +2837,7 @@ under package &amp;ldquo;scales&amp;rdquo;.&lt;/p&gt;
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-8-1_hu12277586635864421613.webp 400w,
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-8-1_hu4482846002392236912.webp 760w,
                /kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-8-1_hu6130020328080566768.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-8-1_hu12277586635864421613.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-30-setting-color-bars/unnamed-chunk-8-1_hu12277586635864421613.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -2854,9 +2854,9 @@ under package &amp;ldquo;scales&amp;rdquo;.&lt;/p&gt;
     
     <item>
       <title>Displaying Special Symbols for Equations and Reactions</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2019-09-24-parsing-special-symbols/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/post/2019-09-24-parsing-special-symbols/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2019-09-24-parsing-special-symbols/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/post/2019-09-24-parsing-special-symbols/</guid>
       <description>&lt;p&gt;This is an example to show special characters and formats in ggplot2.&lt;/p&gt;
 &lt;p&gt;In the following example, we are going to show a chemical reaction in a
 plot created by &amp;ldquo;ggplot2&amp;rdquo;. It may seem straightforward but the way R
@@ -2895,9 +2895,9 @@ plotmath&lt;/a&gt;.&lt;/li&gt;
     
     <item>
       <title>Bar Charts with Labels</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/</link>
       <pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/</guid>
       <description>&lt;p&gt;This is an example to draw a informative bar chart using &amp;ldquo;geom_label&amp;rdquo; from &amp;ldquo;ggplot2&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;Let’s start with generating some sample data.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# we will use the Motor Trend Car Road Tests datasets from R base (only the first 15 models for better illustration)&lt;/span&gt;
@@ -2946,7 +2946,7 @@ with a basic bar chart.&lt;/p&gt;
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-2-1_hu13554490903727761314.webp 400w,
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-2-1_hu6844154297256837360.webp 760w,
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-2-1_hu18375551729514718204.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-2-1_hu13554490903727761314.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-2-1_hu13554490903727761314.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -2979,7 +2979,7 @@ them by 45º.&lt;/p&gt;
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-3-1_hu5631214096196372097.webp 400w,
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-3-1_hu14077663097841479983.webp 760w,
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-3-1_hu5716768607709004611.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-3-1_hu5631214096196372097.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-3-1_hu5631214096196372097.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -3017,7 +3017,7 @@ the &lt;code&gt;am&lt;/code&gt; column), we can visualize it by stacking up the 
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-4-1_hu12126293378103126694.webp 400w,
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-4-1_hu3718735649592810098.webp 760w,
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-4-1_hu4098747327761278572.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-4-1_hu12126293378103126694.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-4-1_hu12126293378103126694.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -3051,7 +3051,7 @@ contributed.&lt;/p&gt;
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-5-1_hu8028918167275639814.webp 400w,
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-5-1_hu18049922415354983278.webp 760w,
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-5-1_hu8303836525456685154.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-5-1_hu8028918167275639814.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-5-1_hu8028918167275639814.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -3085,7 +3085,7 @@ is &lt;code&gt;geom_label&lt;/code&gt;.&lt;/p&gt;
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-6-1_hu1355500788622869180.webp 400w,
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-6-1_hu8589875641387766539.webp 760w,
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-6-1_hu13706639556943567110.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-6-1_hu1355500788622869180.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-6-1_hu1355500788622869180.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -3131,7 +3131,7 @@ global variable. For the second problem, we seek help from the package
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-7-1_hu13952554218479500310.webp 400w,
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-7-1_hu17373634891564280817.webp 760w,
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-7-1_hu17429574131872509218.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-7-1_hu13952554218479500310.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-7-1_hu13952554218479500310.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -3165,7 +3165,7 @@ legend which is kinda redundant.&lt;/p&gt;
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-8-1_hu13942085358463704659.webp 400w,
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-8-1_hu6473502417907359759.webp 760w,
                /kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-8-1_hu4343710125291592871.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-8-1_hu13942085358463704659.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-17-barchart-with-labels/unnamed-chunk-8-1_hu13942085358463704659.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -3176,9 +3176,9 @@ legend which is kinda redundant.&lt;/p&gt;
     
     <item>
       <title>Atlantic Centered Map</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2019-09-10-atlantic-centered-map/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/post/2019-09-10-atlantic-centered-map/</link>
       <pubDate>Tue, 10 Sep 2019 17:06:22 -0400</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2019-09-10-atlantic-centered-map/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/post/2019-09-10-atlantic-centered-map/</guid>
       <description>&lt;!-- *Created by [Ka Ming Fung](kamingfung@link.cuhk.edu.hk)* --&gt;
 &lt;p&gt;This is an example to plot a world map with Atlantic centered map using
 R and ggplot2.&lt;/p&gt;
@@ -3207,7 +3207,7 @@ R and ggplot2.&lt;/p&gt;
                /kamingfung.github.io.academic_cv/post/2019-09-10-atlantic-centered-map/unnamed-chunk-1-1_hu2803711369684275837.webp 400w,
                /kamingfung.github.io.academic_cv/post/2019-09-10-atlantic-centered-map/unnamed-chunk-1-1_hu70689207406900896.webp 760w,
                /kamingfung.github.io.academic_cv/post/2019-09-10-atlantic-centered-map/unnamed-chunk-1-1_hu9319302062934183077.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-10-atlantic-centered-map/unnamed-chunk-1-1_hu2803711369684275837.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-10-atlantic-centered-map/unnamed-chunk-1-1_hu2803711369684275837.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -3241,7 +3241,7 @@ R and ggplot2.&lt;/p&gt;
                /kamingfung.github.io.academic_cv/post/2019-09-10-atlantic-centered-map/unnamed-chunk-2-1_hu9675403704829020759.webp 400w,
                /kamingfung.github.io.academic_cv/post/2019-09-10-atlantic-centered-map/unnamed-chunk-2-1_hu16587875673302732471.webp 760w,
                /kamingfung.github.io.academic_cv/post/2019-09-10-atlantic-centered-map/unnamed-chunk-2-1_hu17045132457291720520.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-10-atlantic-centered-map/unnamed-chunk-2-1_hu9675403704829020759.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2019-09-10-atlantic-centered-map/unnamed-chunk-2-1_hu9675403704829020759.webp&#34;
                width=&#34;672&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -3253,9 +3253,9 @@ R and ggplot2.&lt;/p&gt;
     
     <item>
       <title>Useful Datasets</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2019-09-03-useful-datasets/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/post/2019-09-03-useful-datasets/</link>
       <pubDate>Tue, 03 Sep 2019 16:58:10 -0400</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2019-09-03-useful-datasets/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/post/2019-09-03-useful-datasets/</guid>
       <description>&lt;p&gt;&lt;em&gt;The below datasets or documentation are open to all. Hope it will benefit your research.&lt;/em&gt;&lt;/p&gt;
 &lt;h4 id=&#34;climate&#34;&gt;Climate&lt;/h4&gt;
 &lt;ul&gt;
@@ -3318,9 +3318,9 @@ R and ggplot2.&lt;/p&gt;
     
     <item>
       <title>Using &#34;Ka-ming&#34; as my author name</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2019-09-03-about-ka-ming/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/post/2019-09-03-about-ka-ming/</link>
       <pubDate>Tue, 03 Sep 2019 11:12:00 -0400</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2019-09-03-about-ka-ming/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/post/2019-09-03-about-ka-ming/</guid>
       <description>&lt;!-- ![](./IMG_2917.jpeg) --&gt;
 &lt;p&gt;Hi there! My last name is &amp;ldquo;Fung&amp;rdquo; (馮), and my first name is &amp;ldquo;Ka Ming&amp;rdquo; (家銘), which is actually two words. In Cantonese, my name is written as &amp;ldquo;Fung Ka Ming&amp;rdquo;. However, according to Chinese naming customs, the family name should come first, so my full birth name is &amp;ldquo;Fung Ka Ming&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;Because of the British-style education system in Hong Kong, some people here have adopted English names as nicknames, and I go by &amp;ldquo;Victor&amp;rdquo;.&lt;/p&gt;
@@ -3330,9 +3330,9 @@ R and ggplot2.&lt;/p&gt;
     
     <item>
       <title>CCMI Science Workshop 2019</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2019-08-ccmi/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2019-08-ccmi/</link>
       <pubDate>Fri, 09 Aug 2019 10:05:00 +0800</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2019-08-ccmi/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2019-08-ccmi/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Modeling and Assessing the Impacts of Sustainable Farming Practices on Food Security, Air Quality, and Public Health&lt;/p&gt;
 </description>
@@ -3340,9 +3340,9 @@ R and ggplot2.&lt;/p&gt;
     
     <item>
       <title>Teaching Experience</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/project/teaching-exerience/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/project/teaching-exerience/</link>
       <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/project/teaching-exerience/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/project/teaching-exerience/</guid>
       <description>&lt;h3 id=&#34;the-chinese-university-of-hong-kong&#34;&gt;The Chinese University of Hong Kong&lt;/h3&gt;
 &lt;h4 id=&#34;fall-2018&#34;&gt;Fall 2018&lt;/h4&gt;
 &lt;ul&gt;
@@ -3400,9 +3400,9 @@ R and ggplot2.&lt;/p&gt;
     
     <item>
       <title>Gordon Research Conference – Urbanization, Water and Food Security 2019</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2019-07-grc/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2019-07-grc/</link>
       <pubDate>Mon, 22 Jul 2019 11:50:00 -0700</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2019-07-grc/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2019-07-grc/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Co-benefits of Intercropping, as a Sustainable Farming Practice, for Safeguarding Food Supply and Air Quality&lt;/p&gt;
 </description>
@@ -3410,9 +3410,9 @@ R and ggplot2.&lt;/p&gt;
     
     <item>
       <title>Invited Talk for Centre for Atmospheric Science Seminars</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2019-05-uofcambridge/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2019-05-uofcambridge/</link>
       <pubDate>Fri, 10 May 2019 11:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2019-05-uofcambridge/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2019-05-uofcambridge/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Modelling and Assessing the Impacts of Intercropping, as a Sustainable Farming Practice, on Food Security, Air Quality, and Public Health&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
@@ -3422,9 +3422,9 @@ R and ggplot2.&lt;/p&gt;
     
     <item>
       <title>7th Annual Composition-Climate Interaction Meeting</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2019-03-acci/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2019-03-acci/</link>
       <pubDate>Wed, 20 Mar 2019 09:00:00 -0600</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2019-03-acci/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2019-03-acci/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Estimation of agricultural ammonia emission under sustainable farming practices by improving terrestrial nitrogen cycle modeling&lt;/p&gt;
 </description>
@@ -3432,17 +3432,17 @@ R and ggplot2.&lt;/p&gt;
     
     <item>
       <title>Co-benefits of intercropping as a sustainable farming method for safeguarding both food security and air quality</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/fung-2019/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/publication/fung-2019/</link>
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/fung-2019/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/publication/fung-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Global Young Scientists Summit 2019</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2019-01-gyss/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2019-01-gyss/</link>
       <pubDate>Wed, 23 Jan 2019 09:00:00 -0600</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2019-01-gyss/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2019-01-gyss/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Co-benefits of maize-soybean intercropping for securing air quality and global food supply&lt;/p&gt;
 </description>
@@ -3450,9 +3450,9 @@ R and ggplot2.&lt;/p&gt;
     
     <item>
       <title>AGU Fall Meeting 2018</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2018-12-agu/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2018-12-agu/</link>
       <pubDate>Mon, 10 Dec 2018 16:15:00 -0500</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2018-12-agu/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2018-12-agu/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Improving the terrestrial N cycle modeling for a better estimation of agricultural ammonia emission under sustainable farming alternatives&lt;/p&gt;
 </description>
@@ -3460,9 +3460,9 @@ R and ggplot2.&lt;/p&gt;
     
     <item>
       <title>Joint 14th iCACGP Symposium and 15th IGAC Science Conference</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2018-09-igac/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2018-09-igac/</link>
       <pubDate>Thu, 27 Sep 2018 09:00:00 -0600</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2018-09-igac/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2018-09-igac/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Potential co-benefits of intercropping as a sustainable agricultural practice for both air pollution mitigation and global food security&lt;/p&gt;
 &lt;h3 id=&#34;sponsor&#34;&gt;Sponsor&lt;/h3&gt;
@@ -3472,9 +3472,9 @@ R and ggplot2.&lt;/p&gt;
     
     <item>
       <title>CESM Land Model Working Group Meeting 2018</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2018-02-clm/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2018-02-clm/</link>
       <pubDate>Mon, 05 Feb 2018 09:00:00 -0600</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2018-02-clm/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2018-02-clm/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Large-scale adoption of intercropping for securing global food supply and air quality – a model study using CLM 4.5&lt;/p&gt;
 </description>
@@ -3482,9 +3482,9 @@ R and ggplot2.&lt;/p&gt;
     
     <item>
       <title>AGU Fall Meeting 2017</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2017-12-agu/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2017-12-agu/</link>
       <pubDate>Fri, 15 Dec 2017 11:50:00 -0600</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2017-12-agu/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2017-12-agu/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Modeling large-scale adoption of intercropping as a sustainable agricultural practice for food security and air pollution mitigation around the globe&lt;/p&gt;
 </description>
@@ -3492,9 +3492,9 @@ R and ggplot2.&lt;/p&gt;
     
     <item>
       <title>5th iLEAPS Science Conference</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2017-09-ileaps/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2017-09-ileaps/</link>
       <pubDate>Mon, 11 Sep 2017 10:00:00 -0400</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2017-09-ileaps/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2017-09-ileaps/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Modeling and assessing effectiveness of intercropping as a sustainable agricultural practice for food security and air pollution mitigation&lt;/p&gt;
 </description>
@@ -3502,9 +3502,9 @@ R and ggplot2.&lt;/p&gt;
     
     <item>
       <title>8th International GEOS-Chem Meeting</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2017-06-igc/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2017-06-igc/</link>
       <pubDate>Wed, 03 May 2017 09:00:00 -0600</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2017-06-igc/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2017-06-igc/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Evaluating effectiveness of maize-soybean intercropping in securing food production and air quality in China using DNDC and GEOS-Chem&lt;/p&gt;
 </description>
@@ -3512,9 +3512,9 @@ R and ggplot2.&lt;/p&gt;
     
     <item>
       <title>AGU Fall Meeting 2016</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2016-12-agu/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2016-12-agu/</link>
       <pubDate>Mon, 12 Dec 2016 08:00:00 -0700</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2016-12-agu/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2016-12-agu/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Effectiveness of intercropping with soybean as a sustainable farming practice to maintain food production and reduce air pollution in China&lt;/p&gt;
 </description>
@@ -3522,9 +3522,9 @@ R and ggplot2.&lt;/p&gt;
     
     <item>
       <title>Predicting cerebral hyperperfusion syndrome following superficial temporal artery to middle cerebral artery bypass based on intraoperative perfusion-weighted magnetic resonance imaging</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/wang-2015/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/publication/wang-2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/wang-2015/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/publication/wang-2015/</guid>
       <description></description>
     </item>
     

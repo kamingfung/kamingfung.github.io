@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python | Ka Ming Fung, Ph.D.</title>
-    <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/tags/python/</link>
-      <atom:link href="https://kamingfung.github.io/kamingfung.github.io.academic_cv/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:51854/kamingfung.github.io.academic_cv/tags/python/</link>
+      <atom:link href="http://localhost:51854/kamingfung.github.io.academic_cv/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <description>Python</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 05 Mar 2024 00:05:04 -0400</lastBuildDate>
     <image>
-      <url>https://kamingfung.github.io/kamingfung.github.io.academic_cv/media/icon_hu14322561806154635754.png</url>
+      <url>http://localhost:51854/kamingfung.github.io.academic_cv/media/icon_hu14322561806154635754.png</url>
       <title>Python</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/tags/python/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/tags/python/</link>
     </image>
     
     <item>
       <title>Finding shadows in images using Python&#39;s scikit-image package</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2024-03-05-segment-shadow-python/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/post/2024-03-05-segment-shadow-python/</link>
       <pubDate>Tue, 05 Mar 2024 00:05:04 -0400</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2024-03-05-segment-shadow-python/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/post/2024-03-05-segment-shadow-python/</guid>
       <description>&lt;h1 id=&#34;finding-shadows-in-images-using-pythons-scikit-image-package&#34;&gt;Finding shadows in images using Python&amp;rsquo;s &lt;code&gt;scikit-image&lt;/code&gt; package&lt;/h1&gt;
 &lt;p&gt;Ever noticed how shadows can make photos look cool or kinda tricky for editing? Well, guess what? With some Python magic and a handy tool called scikit-image, you can become a shadow-busting wizard in no time!&lt;/p&gt;
 &lt;p&gt;In this quick guide, we&amp;rsquo;re diving into the nifty world of shadow segmentation. Don&amp;rsquo;t worry; it&amp;rsquo;s just a fancy way of saying we&amp;rsquo;re going to teach you how to spot and separate shadows from the rest of your image. Why? Because sometimes you just need to clear things up a bit, whether you&amp;rsquo;re tweaking photos or working on a cool project that needs shadow detection.&lt;/p&gt;
@@ -55,7 +55,7 @@
                /kamingfung.github.io.academic_cv/post/2024-03-05-segment-shadow-python/sample_shadow_segmentation_5_1_hu2444524728741753772.webp 400w,
                /kamingfung.github.io.academic_cv/post/2024-03-05-segment-shadow-python/sample_shadow_segmentation_5_1_hu8130987965567773011.webp 760w,
                /kamingfung.github.io.academic_cv/post/2024-03-05-segment-shadow-python/sample_shadow_segmentation_5_1_hu13763805786673316091.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2024-03-05-segment-shadow-python/sample_shadow_segmentation_5_1_hu2444524728741753772.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2024-03-05-segment-shadow-python/sample_shadow_segmentation_5_1_hu2444524728741753772.webp&#34;
                width=&#34;630&#34;
                height=&#34;436&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -134,7 +134,7 @@
                /kamingfung.github.io.academic_cv/post/2024-03-05-segment-shadow-python/sample_shadow_segmentation_9_0_hu14171549610828828833.webp 400w,
                /kamingfung.github.io.academic_cv/post/2024-03-05-segment-shadow-python/sample_shadow_segmentation_9_0_hu4299294486589443593.webp 760w,
                /kamingfung.github.io.academic_cv/post/2024-03-05-segment-shadow-python/sample_shadow_segmentation_9_0_hu12831045858939211134.webp 1200w&#34;
-               src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2024-03-05-segment-shadow-python/sample_shadow_segmentation_9_0_hu14171549610828828833.webp&#34;
+               src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/post/2024-03-05-segment-shadow-python/sample_shadow_segmentation_9_0_hu14171549610828828833.webp&#34;
                width=&#34;760&#34;
                height=&#34;255&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -145,9 +145,9 @@
     
     <item>
       <title>Improved notebook to download buildings from Microsoft</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2024-02-14-ms-buildings/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/post/2024-02-14-ms-buildings/</link>
       <pubDate>Wed, 14 Feb 2024 00:05:04 -0400</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2024-02-14-ms-buildings/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/post/2024-02-14-ms-buildings/</guid>
       <description>&lt;!-- *Created by [Ka Ming Fung](kamingfung@link.cuhk.edu.hk)* --&gt;
 &lt;p&gt;This notebook works with the &lt;a href=&#34;https://github.com/microsoft/GlobalMLBuildingFootprints&#34;&gt;Microsoft Building Footprint Dataset&lt;/a&gt; to download building footprints for a given area of interest (AOI). I modified the &lt;a href=&#34;https://github.com/victor-ka-ming-fung/GlobalMLBuildingFootprints/blob/main/examples/example_building_footprints.ipynb&#34;&gt;original notebook&lt;/a&gt; to download the data to output a parquet file of a GeoDataFrame of buildings, instead of GeoJSON.&lt;/p&gt;
 &lt;p&gt;To find the Jupyter notebook version, please visit &lt;a href=&#34;https://github.com/victor-ka-ming-fung/GlobalMLBuildingFootprints/blob/improved_example_notebook/examples/example_building_footprints.ipynb&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
@@ -261,9 +261,9 @@
     
     <item>
       <title>Learn Python</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/teaching/python/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/teaching/python/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/teaching/python/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/teaching/python/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
@@ -310,7 +310,7 @@
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;https://kamingfung.github.io/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/teaching/python/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;http://localhost:51854/kamingfung.github.io.academic_cv/kamingfung.github.io.academic_cv/teaching/python/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -387,9 +387,9 @@ data.head()
     
     <item>
       <title>Scaling a Subset of Input Data in NetCDF Format</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2021-02-11-partial_scaling/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/post/2021-02-11-partial_scaling/</link>
       <pubDate>Wed, 10 Feb 2021 00:05:04 -0400</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2021-02-11-partial_scaling/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/post/2021-02-11-partial_scaling/</guid>
       <description>&lt;!-- *Created by [Ka Ming Fung](kamingfung@link.cuhk.edu.hk)* --&gt;
 &lt;p&gt;&lt;em&gt;Reference:&lt;/em&gt;
 For general python handling of nc files using Xarray: &lt;a href=&#34;http://xarray.pydata.org/en/stable/index.html&#34;&gt;http://xarray.pydata.org/en/stable/index.html&lt;/a&gt;&lt;/p&gt;
@@ -1558,9 +1558,9 @@ Mon Jul 20 16:29:34 2015: cdo mergetime tmp.1985*.nc tmp.nc&lt;/dd&gt;&lt;dt&gt;
     
     <item>
       <title>Python &amp; R on Cheyenne/Casper</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2020-11-13-using-r-python-cheyenne/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/post/2020-11-13-using-r-python-cheyenne/</link>
       <pubDate>Fri, 13 Nov 2020 00:00:00 -0500</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2020-11-13-using-r-python-cheyenne/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/post/2020-11-13-using-r-python-cheyenne/</guid>
       <description>&lt;p&gt;I am lucky enough to have an access to NCAR&amp;rsquo;s super computing facilities - Cheyenne allows me to run CESM simulation with hundreds of cores while Casper streamlines my data processing, analysis, and visualization without wasting time to transfer large files. But, setting up the correct software to full deploy these machines are a pain in the neck. Here I would like to share how I set up my &lt;code&gt;Jupyter&lt;/code&gt; environment to run &lt;code&gt;R&lt;/code&gt; and &lt;code&gt;Python&lt;/code&gt; on these two supercomputers.&lt;/p&gt;
 &lt;h3 id=&#34;what-does-ncar-say&#34;&gt;What does NCAR say&lt;/h3&gt;
 &lt;p&gt;NCAR has been putting a lot of efforts in modernizing their legendary NCL libraries and translating them into Python packages. In this &lt;a href=&#34;https://www2.cisl.ucar.edu/resources/python-%E2%80%93-ncar-package-library&#34;&gt;guide&lt;/a&gt;, they lay out the easiest way to use &lt;code&gt;Python&lt;/code&gt; with &lt;code&gt;Jupyter&lt;/code&gt; on Casper.&lt;/p&gt;
@@ -1614,9 +1614,9 @@ ncar_pylib --kernel my_npl_clone
     
     <item>
       <title>Python Basics for CESM</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2020-10-03-python_basics_cesm/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/post/2020-10-03-python_basics_cesm/</link>
       <pubDate>Sat, 03 Oct 2020 16:05:04 -0400</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/post/2020-10-03-python_basics_cesm/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/post/2020-10-03-python_basics_cesm/</guid>
       <description>&lt;!-- *Created by [Ka Ming Fung](kamingfung@link.cuhk.edu.hk)* --&gt;
 &lt;h2 id=&#34;references&#34;&gt;References:&lt;/h2&gt;
 &lt;p&gt;For general python handling of nc files: &lt;a href=&#34;https://github.com/geoschem/GEOSChem-python-tutorial&#34;&gt;https://github.com/geoschem/GEOSChem-python-tutorial&lt;/a&gt;

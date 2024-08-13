@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AGU | Ka Ming Fung, Ph.D.</title>
-    <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/tags/agu/</link>
-      <atom:link href="https://kamingfung.github.io/kamingfung.github.io.academic_cv/tags/agu/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:51854/kamingfung.github.io.academic_cv/tags/agu/</link>
+      <atom:link href="http://localhost:51854/kamingfung.github.io.academic_cv/tags/agu/index.xml" rel="self" type="application/rss+xml" />
     <description>AGU</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 10 Dec 2020 07:00:00 -0400</lastBuildDate>
     <image>
-      <url>https://kamingfung.github.io/kamingfung.github.io.academic_cv/media/icon_hu14322561806154635754.png</url>
+      <url>http://localhost:51854/kamingfung.github.io.academic_cv/media/icon_hu14322561806154635754.png</url>
       <title>AGU</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/tags/agu/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/tags/agu/</link>
     </image>
     
     <item>
       <title>AGU Fall Meeting 2020</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2020-12-agu/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2020-12-agu/</link>
       <pubDate>Thu, 10 Dec 2020 07:00:00 -0400</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2020-12-agu/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2020-12-agu/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Exploring natural aerosol formation from DMS oxidation and implications for aerosol forcing&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
@@ -26,9 +26,9 @@
     
     <item>
       <title>AGU Fall Meeting 2019</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2019-12-agu/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2019-12-agu/</link>
       <pubDate>Wed, 11 Dec 2019 11:50:00 -0700</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2019-12-agu/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2019-12-agu/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Modeling ammonia-aerosol-climate feedback mechanisms using an earth system model: Implications for future food security and air quality&lt;/p&gt;
 </description>
@@ -36,9 +36,9 @@
     
     <item>
       <title>AGU Fall Meeting 2018</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2018-12-agu/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2018-12-agu/</link>
       <pubDate>Mon, 10 Dec 2018 16:15:00 -0500</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2018-12-agu/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2018-12-agu/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Improving the terrestrial N cycle modeling for a better estimation of agricultural ammonia emission under sustainable farming alternatives&lt;/p&gt;
 </description>
@@ -46,9 +46,9 @@
     
     <item>
       <title>AGU Fall Meeting 2017</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2017-12-agu/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2017-12-agu/</link>
       <pubDate>Fri, 15 Dec 2017 11:50:00 -0600</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2017-12-agu/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2017-12-agu/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Modeling large-scale adoption of intercropping as a sustainable agricultural practice for food security and air pollution mitigation around the globe&lt;/p&gt;
 </description>

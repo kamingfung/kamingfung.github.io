@@ -2,47 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ammonia | Ka Ming Fung, Ph.D.</title>
-    <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/tags/ammonia/</link>
-      <atom:link href="https://kamingfung.github.io/kamingfung.github.io.academic_cv/tags/ammonia/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:51854/kamingfung.github.io.academic_cv/tags/ammonia/</link>
+      <atom:link href="http://localhost:51854/kamingfung.github.io.academic_cv/tags/ammonia/index.xml" rel="self" type="application/rss+xml" />
     <description>Ammonia</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 18 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://kamingfung.github.io/kamingfung.github.io.academic_cv/media/icon_hu14322561806154635754.png</url>
+      <url>http://localhost:51854/kamingfung.github.io.academic_cv/media/icon_hu14322561806154635754.png</url>
       <title>Ammonia</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/tags/ammonia/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/tags/ammonia/</link>
     </image>
     
     <item>
       <title>Improving nitrogen cycling in a land surface model (CLM5) to quantify soil N2O, NO, and NH3 emissions from enhanced rock weathering with croplands
 </title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/valmartin-2023/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/publication/valmartin-2023/</link>
       <pubDate>Wed, 18 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/valmartin-2023/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/publication/valmartin-2023/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Modeling the interinfluence of fertilizer-induced ammonia emission, nitrogen deposition, and aerosol radiative effects using modified CESM2</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/fung-2022b/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/publication/fung-2022b/</link>
       <pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/fung-2022b/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/publication/fung-2022b/</guid>
       <description>&lt;p&gt;Codes are available here: &lt;a href=&#34;https://github.com/kamingfung/Fung_NH3/&#34;&gt;https://github.com/kamingfung/Fung_NH3/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Responses of surface ozone to future agricultural ammonia emissions and subsequent nitrogen deposition through terrestrial ecosystem changes</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/liu-2021/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/publication/liu-2021/</link>
       <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/liu-2021/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/publication/liu-2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CESM Land Model Working Group Meeting 2020</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2020-03-clm/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2020-03-clm/</link>
       <pubDate>Wed, 04 Mar 2020 09:00:00 -0600</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2020-03-clm/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2020-03-clm/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Impacts of Ammonia-Aerosol-Climate Feedbacks on Food Security and Air Quality&lt;/p&gt;
 </description>
@@ -50,9 +50,9 @@
     
     <item>
       <title>AGU Fall Meeting 2019</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2019-12-agu/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2019-12-agu/</link>
       <pubDate>Wed, 11 Dec 2019 11:50:00 -0700</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2019-12-agu/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2019-12-agu/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Modeling ammonia-aerosol-climate feedback mechanisms using an earth system model: Implications for future food security and air quality&lt;/p&gt;
 </description>
@@ -60,9 +60,9 @@
     
     <item>
       <title>CCMI Science Workshop 2019</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2019-08-ccmi/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2019-08-ccmi/</link>
       <pubDate>Fri, 09 Aug 2019 10:05:00 +0800</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2019-08-ccmi/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2019-08-ccmi/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Modeling and Assessing the Impacts of Sustainable Farming Practices on Food Security, Air Quality, and Public Health&lt;/p&gt;
 </description>
@@ -70,9 +70,9 @@
     
     <item>
       <title>Gordon Research Conference – Urbanization, Water and Food Security 2019</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2019-07-grc/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2019-07-grc/</link>
       <pubDate>Mon, 22 Jul 2019 11:50:00 -0700</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2019-07-grc/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2019-07-grc/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Co-benefits of Intercropping, as a Sustainable Farming Practice, for Safeguarding Food Supply and Air Quality&lt;/p&gt;
 </description>
@@ -80,9 +80,9 @@
     
     <item>
       <title>Invited Talk for Centre for Atmospheric Science Seminars</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2019-05-uofcambridge/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2019-05-uofcambridge/</link>
       <pubDate>Fri, 10 May 2019 11:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2019-05-uofcambridge/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2019-05-uofcambridge/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Modelling and Assessing the Impacts of Intercropping, as a Sustainable Farming Practice, on Food Security, Air Quality, and Public Health&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
@@ -92,9 +92,9 @@
     
     <item>
       <title>7th Annual Composition-Climate Interaction Meeting</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2019-03-acci/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2019-03-acci/</link>
       <pubDate>Wed, 20 Mar 2019 09:00:00 -0600</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2019-03-acci/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2019-03-acci/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Estimation of agricultural ammonia emission under sustainable farming practices by improving terrestrial nitrogen cycle modeling&lt;/p&gt;
 </description>
@@ -102,17 +102,17 @@
     
     <item>
       <title>Co-benefits of intercropping as a sustainable farming method for safeguarding both food security and air quality</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/fung-2019/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/publication/fung-2019/</link>
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/fung-2019/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/publication/fung-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Global Young Scientists Summit 2019</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2019-01-gyss/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2019-01-gyss/</link>
       <pubDate>Wed, 23 Jan 2019 09:00:00 -0600</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2019-01-gyss/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2019-01-gyss/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Co-benefits of maize-soybean intercropping for securing air quality and global food supply&lt;/p&gt;
 </description>
@@ -120,9 +120,9 @@
     
     <item>
       <title>AGU Fall Meeting 2018</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2018-12-agu/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2018-12-agu/</link>
       <pubDate>Mon, 10 Dec 2018 16:15:00 -0500</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2018-12-agu/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2018-12-agu/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Improving the terrestrial N cycle modeling for a better estimation of agricultural ammonia emission under sustainable farming alternatives&lt;/p&gt;
 </description>
@@ -130,9 +130,9 @@
     
     <item>
       <title>Joint 14th iCACGP Symposium and 15th IGAC Science Conference</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2018-09-igac/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2018-09-igac/</link>
       <pubDate>Thu, 27 Sep 2018 09:00:00 -0600</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2018-09-igac/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2018-09-igac/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Potential co-benefits of intercropping as a sustainable agricultural practice for both air pollution mitigation and global food security&lt;/p&gt;
 &lt;h3 id=&#34;sponsor&#34;&gt;Sponsor&lt;/h3&gt;
@@ -142,9 +142,9 @@
     
     <item>
       <title>CESM Land Model Working Group Meeting 2018</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2018-02-clm/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2018-02-clm/</link>
       <pubDate>Mon, 05 Feb 2018 09:00:00 -0600</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2018-02-clm/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2018-02-clm/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Large-scale adoption of intercropping for securing global food supply and air quality – a model study using CLM 4.5&lt;/p&gt;
 </description>
@@ -152,9 +152,9 @@
     
     <item>
       <title>AGU Fall Meeting 2017</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2017-12-agu/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2017-12-agu/</link>
       <pubDate>Fri, 15 Dec 2017 11:50:00 -0600</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2017-12-agu/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2017-12-agu/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Modeling large-scale adoption of intercropping as a sustainable agricultural practice for food security and air pollution mitigation around the globe&lt;/p&gt;
 </description>
@@ -162,9 +162,9 @@
     
     <item>
       <title>5th iLEAPS Science Conference</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2017-09-ileaps/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2017-09-ileaps/</link>
       <pubDate>Mon, 11 Sep 2017 10:00:00 -0400</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2017-09-ileaps/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2017-09-ileaps/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Modeling and assessing effectiveness of intercropping as a sustainable agricultural practice for food security and air pollution mitigation&lt;/p&gt;
 </description>
@@ -172,9 +172,9 @@
     
     <item>
       <title>8th International GEOS-Chem Meeting</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2017-06-igc/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2017-06-igc/</link>
       <pubDate>Wed, 03 May 2017 09:00:00 -0600</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2017-06-igc/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2017-06-igc/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Evaluating effectiveness of maize-soybean intercropping in securing food production and air quality in China using DNDC and GEOS-Chem&lt;/p&gt;
 </description>
@@ -182,9 +182,9 @@
     
     <item>
       <title>AGU Fall Meeting 2016</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2016-12-agu/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2016-12-agu/</link>
       <pubDate>Mon, 12 Dec 2016 08:00:00 -0700</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/talk/2016-12-agu/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/talk/2016-12-agu/</guid>
       <description>&lt;h3 id=&#34;title&#34;&gt;Title&lt;/h3&gt;
 &lt;p&gt;Effectiveness of intercropping with soybean as a sustainable farming practice to maintain food production and reduce air pollution in China&lt;/p&gt;
 </description>

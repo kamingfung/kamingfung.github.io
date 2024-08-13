@@ -9,11 +9,11 @@ design:
   spacing: "6rem"
 
 sections:
-  - block: resume-biography
+  - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      text: "I'm a Data Scientist utilizing advanced tools like process-based models and machine learning to study the effects of natural and human activities on air quality, food security, environmental health, and climate change. I publish academic papers under 'Ka Ming Fung'."
+      text: ""
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
@@ -106,14 +106,14 @@ sections:
       view: date-title-summary
       columns: 1
 
-  - block: resume-experience
-    content:
-      username: admin
-    design:
-      # Hugo date format
-      date_format: 'January 2006'
-      # Education or Experience section first?
-      is_education_first: false
+  # - block: resume-experience
+  #   content:
+  #     username: admin
+  #   design:
+  #     # Hugo date format
+  #     date_format: 'January 2006'
+  #     # Education or Experience section first?
+  #     is_education_first: false
 
   - block: collection
     id: more

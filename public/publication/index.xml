@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | Ka Ming Fung, Ph.D.</title>
-    <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/</link>
-      <atom:link href="https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:51854/kamingfung.github.io.academic_cv/publication/</link>
+      <atom:link href="http://localhost:51854/kamingfung.github.io.academic_cv/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 18 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://kamingfung.github.io/kamingfung.github.io.academic_cv/media/icon_hu14322561806154635754.png</url>
+      <url>http://localhost:51854/kamingfung.github.io.academic_cv/media/icon_hu14322561806154635754.png</url>
       <title>Publications</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/publication/</link>
     </image>
     
     <item>
       <title>Improving nitrogen cycling in a land surface model (CLM5) to quantify soil N2O, NO, and NH3 emissions from enhanced rock weathering with croplands
 </title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/valmartin-2023/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/publication/valmartin-2023/</link>
       <pubDate>Wed, 18 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/valmartin-2023/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/publication/valmartin-2023/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Global Health and Climate Effects of Organic Aerosols from Different Sources</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/jo-2023/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/publication/jo-2023/</link>
       <pubDate>Wed, 06 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/jo-2023/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/publication/jo-2023/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Editorial - Agriculture and food supply challenges in a changing climate</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/fung-2023/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/publication/fung-2023/</link>
       <pubDate>Wed, 04 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/fung-2023/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/publication/fung-2023/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Modeling the interinfluence of fertilizer-induced ammonia emission, nitrogen deposition, and aerosol radiative effects using modified CESM2</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/fung-2022b/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/publication/fung-2022b/</link>
       <pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/fung-2022b/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/publication/fung-2022b/</guid>
       <description>&lt;p&gt;Codes are available here: &lt;a href=&#34;https://github.com/kamingfung/Fung_NH3/&#34;&gt;https://github.com/kamingfung/Fung_NH3/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Exploring dimethyl sulfide (DMS) oxidation and implications for global aerosol radiative forcing</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/fung-2022a/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/publication/fung-2022a/</link>
       <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/fung-2022a/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/publication/fung-2022a/</guid>
       <description>&lt;p&gt;Codes are available here: &lt;a href=&#34;https://github.com/kamingfung/Fung_Heald_DMS/&#34;&gt;https://github.com/kamingfung/Fung_Heald_DMS/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Responses of surface ozone to future agricultural ammonia emissions and subsequent nitrogen deposition through terrestrial ecosystem changes</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/liu-2021/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/publication/liu-2021/</link>
       <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/liu-2021/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/publication/liu-2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Co-benefits of intercropping as a sustainable farming method for safeguarding both food security and air quality</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/fung-2019/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/publication/fung-2019/</link>
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/fung-2019/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/publication/fung-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Predicting cerebral hyperperfusion syndrome following superficial temporal artery to middle cerebral artery bypass based on intraoperative perfusion-weighted magnetic resonance imaging</title>
-      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/wang-2015/</link>
+      <link>http://localhost:51854/kamingfung.github.io.academic_cv/publication/wang-2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/wang-2015/</guid>
+      <guid>http://localhost:51854/kamingfung.github.io.academic_cv/publication/wang-2015/</guid>
       <description></description>
     </item>
     
