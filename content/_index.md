@@ -47,7 +47,7 @@ sections:
       subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...
-      page_type: post
+      page_type: blogs
       # Choose how many pages you would like to display (0 = all pages)
       count: 6
       # Filter on criteria
@@ -74,10 +74,10 @@ sections:
   - block: collection
     id: papers
     content:
-      title: Publications
+      title: Papers
       filters:
         folders:
-          - publication
+          - papers
         featured_only: false
       count: 6
     design:
@@ -96,10 +96,10 @@ sections:
   - block: collection
     id: talks
     content:
-      title: Posters & Talks
+      title: Talks
       filters:
         folders:
-          - talk
+          - talks
       count: 3
     design:
       view: date-title-summary
