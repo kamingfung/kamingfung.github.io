@@ -19,9 +19,9 @@ sections:
       #   text: Download CV
       #   url: uploads/Academic CV - Ka Ming FUNG.pdf
     design:
-      css_class: light
+      css_class: auto-cols-2
       background:
-        color: lightgray
+        # color: Gainsboro
         # image:
         #   # Add your image background to `assets/media/`.
         #   filename: stacked-peaks.svg
