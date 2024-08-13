@@ -1,3 +1,0 @@
-User-agent: *
-
-Sitemap: http://localhost:51854/kamingfung.github.io.academic_cv/sitemap.xml
