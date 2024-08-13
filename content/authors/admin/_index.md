@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Victor Ka Ming FUNG
+title: Ka Ming FUNG
 
 # Name pronunciation (optional)
 name_pronunciation:
@@ -30,9 +30,12 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
-    url: 'mailto:kamingfung@link.cuhk.edu.hk'
-    label: E-mail Me
+  # - icon: at-symbol
+  #   url: 'mailto:kamingfung@link.cuhk.edu.hk'
+  #   label: E-mail Me
+  - icon: academicons/cv
+    link: uploads/Academic CV - Ka Ming FUNG.pdf
+    label: My CV
   - icon: brands/x
     url: https://twitter.com/kamingfung
   # - icon: brands/instagram
@@ -45,6 +48,7 @@ profiles:
     url: https://orcid.org/0000-0002-7416-2534
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=OIgTlqEAAAAJ&hl=en
+
 
 interests:
 - Food Security & Sustainability

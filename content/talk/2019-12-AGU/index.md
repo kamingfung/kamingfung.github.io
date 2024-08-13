@@ -5,14 +5,14 @@ title: "AGU Fall Meeting 2019"
 event: "AGU Fall Meeting 2019"
 event_url: "https://agu.confex.com/agu/fm20/meetingapp.cgi/Paper/676955"
 location: "Moscone West 3012, L3, San Francisco, CA, USA"
-address: 
+address:
   street: ""
   city:
   region: ""
   postcode:
   country: "USA"
 summary: "Modeling ammonia-aerosol-climate feedback mechanisms using an earth system model: Implications for future food security and air quality"
-abstract: 
+abstract:
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -31,7 +31,7 @@ categories: [Conference Talks]
 featured: true
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
@@ -47,7 +47,7 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your talk's folder or a URL.
-url_slides: "https://www.dropbox.com/s/9b9zkky7o3omtlb/Presentation%20-%20AGU%202019%20_fkm.pdf?dl=0"
+url_slides: content/talk/2019-12-AGU/Fung_presentation_agu2019.pdf #"https://www.dropbox.com/s/9b9zkky7o3omtlb/Presentation%20-%20AGU%202019%20_fkm.pdf?dl=0"
 
 url_code:
 url_pdf:
@@ -71,4 +71,5 @@ math: true
 ---
 
 ### Title
+
 Modeling ammonia-aerosol-climate feedback mechanisms using an earth system model: Implications for future food security and air quality
