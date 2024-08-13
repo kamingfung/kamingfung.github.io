@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: system
-  color: emerald
+  color: blue
 
 # SEO
 marketing:
@@ -17,7 +17,7 @@ marketing:
     description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
     twitter: 'GetResearchDev'
   analytics:
-    google_analytics: ''
+    google_analytics: 'G-07YWFEZLJQ'
     baidu_tongji: ''
     plausible: ''
     fathom: ''
@@ -32,15 +32,15 @@ header:
     enable: true
     blox: "navbar"
     fixed_to_top: true
-    show_search: true
+    show_search: false
     show_theme_chooser: true
     logo:
-      text: "Your Name"
+      text: "Ka Ming FUNG, Ph.D."
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} fkm. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
@@ -49,12 +49,12 @@ footer:
 
 # Localization
 locale:
-  date_format: 'Jan 2, 2006'
+  date_format: '2006-01-02'
   time_format: '3:04 PM'
 
 # Site features
 features:
   math:
-    enable: false
+    enable: true
   privacy_pack:
     enable: false

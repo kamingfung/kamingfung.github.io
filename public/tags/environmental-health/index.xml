@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Environmental Health | Ka Ming Fung, Ph.D.</title>
+    <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/tags/environmental-health/</link>
+      <atom:link href="https://kamingfung.github.io/kamingfung.github.io.academic_cv/tags/environmental-health/index.xml" rel="self" type="application/rss+xml" />
+    <description>Environmental Health</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 18 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://kamingfung.github.io/kamingfung.github.io.academic_cv/media/icon_hu14322561806154635754.png</url>
+      <title>Environmental Health</title>
+      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/tags/environmental-health/</link>
+    </image>
+    
+    <item>
+      <title>Improving nitrogen cycling in a land surface model (CLM5) to quantify soil N2O, NO, and NH3 emissions from enhanced rock weathering with croplands
+</title>
+      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/valmartin-2023/</link>
+      <pubDate>Wed, 18 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/valmartin-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Global Health and Climate Effects of Organic Aerosols from Different Sources</title>
+      <link>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/jo-2023/</link>
+      <pubDate>Wed, 06 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://kamingfung.github.io/kamingfung.github.io.academic_cv/publication/jo-2023/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
