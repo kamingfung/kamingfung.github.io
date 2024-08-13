@@ -38,7 +38,6 @@ image:
 projects: [Nitrogen Cycle, CLM, CAM]
 publishDate: '2022-03-21T06:17:05.695374Z'
 publication_types:
-- '2'
 abstract: ''
 publication: '*Biogeosciences*'
 url_pdf: https://bg.copernicus.org/articles/19/1635/2022/

@@ -15,7 +15,7 @@ authors:
 - Muhammad Omar Nawaz
 - Ka Ming Fung
 - Jose L. Jimenez
-tags: 
+tags:
 - Environmental Health
 - Climate
 - Aerosals
@@ -41,7 +41,6 @@ image:
 projects: []
 publishDate: '2023-09-07T06:17:05.695374Z'
 publication_types:
-- '2'
 abstract: ''
 publication: '*Environmental Science & Technology*'
 url_pdf: https://pubs.acs.org/doi/abs/10.1021/acs.est.3c02823

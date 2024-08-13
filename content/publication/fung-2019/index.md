@@ -41,7 +41,6 @@ image:
 projects: [Nitrogen Cycle, Sustainable Farming]
 publishDate: '2020-10-12T06:17:05.695374Z'
 publication_types:
-- '2'
 abstract: ''
 publication: '*Environmental Research Letters*'
 url_pdf: http://stacks.iop.org/1748-9326/14/i=4/a=044011?key=crossref.f8367dcd224ffcd65aa0d4f6a856f181

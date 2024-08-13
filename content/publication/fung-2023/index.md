@@ -37,7 +37,6 @@ image:
 projects: []
 publishDate: '2023-01-04T06:17:05.695374Z'
 publication_types:
-- '2'
 abstract: ''
 publication: '*Frontiers in Climate*'
 url_pdf: https://www.frontiersin.org/articles/10.3389/fclim.2022.1113825/full

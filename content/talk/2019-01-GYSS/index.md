@@ -5,14 +5,14 @@ title: "Global Young Scientists Summit 2019"
 event: "Global Young Scientists Summit 2019"
 event_url: "https://www.nrf.gov.sg/gyss/home"
 location: "Nanyang Technological University, Singapore"
-address: 
+address:
   street:
   city:
   region: ""
   postcode:
   country: ""
 summary: "Co-benefits of maize-soybean intercropping for securing air quality and global food supply"
-abstract: 
+abstract:
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -31,7 +31,7 @@ categories: [Conference Posters]
 featured: true
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
@@ -47,7 +47,7 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your talk's folder or a URL.
-url_slides: ""
+url_slides: Fung_poster_GYSS_2019.pdf
 
 url_code:
 url_pdf:
@@ -71,4 +71,5 @@ math: true
 ---
 
 ### Title
+
 Co-benefits of maize-soybean intercropping for securing air quality and global food supply

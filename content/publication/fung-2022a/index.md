@@ -55,7 +55,6 @@ image:
 projects: [DMS, CAM, Sulfate, aerosol]
 publishDate: '2022-02-01T06:17:05.695374Z'
 publication_types:
-- '2'
 abstract: ''
 publication: '*Atmospheric Chemistry and Physics*'
 url_pdf: https://acp.copernicus.org/articles/22/1549/2022/acp-22-1549-2022.pdf

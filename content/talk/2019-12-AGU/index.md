@@ -47,7 +47,7 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your talk's folder or a URL.
-url_slides: content/talk/2019-12-AGU/Fung_presentation_agu2019.pdf #"https://www.dropbox.com/s/9b9zkky7o3omtlb/Presentation%20-%20AGU%202019%20_fkm.pdf?dl=0"
+url_slides: Fung_talk_AGU_2019.pdf #"https://www.dropbox.com/s/9b9zkky7o3omtlb/Presentation%20-%20AGU%202019%20_fkm.pdf?dl=0"
 
 url_code:
 url_pdf:

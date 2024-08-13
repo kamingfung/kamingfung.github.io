@@ -12,7 +12,7 @@ address:
   postcode:
   country:
 summary: "Exploring natural aerosol formation from DMS oxidation and implications for aerosol forcing"
-abstract: 
+abstract:
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -31,7 +31,7 @@ categories: [Conference Talks]
 featured: true
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
@@ -47,7 +47,7 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your talk's folder or a URL.
-url_slides:
+url_slides: Fung_talk_AMWG_2021.pdf
 
 url_code:
 url_pdf:
@@ -71,4 +71,5 @@ math: true
 ---
 
 ### Title
+
 Exploring natural aerosol formation from DMS oxidation and implications for aerosol forcing

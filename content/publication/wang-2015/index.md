@@ -41,7 +41,6 @@ image:
 projects: [Medical Imagining]
 publishDate: '2020-10-12T06:17:05.447578Z'
 publication_types:
-- '2'
 abstract: Moyamoya disease leads to the formation of stenosis in the cerebrovasculature.
   A superficial temporal artery to middle cerebral artery (STA-MCA) bypass is an effective
   treatment for the disease, yet it is usually associated with postoperative cerebral

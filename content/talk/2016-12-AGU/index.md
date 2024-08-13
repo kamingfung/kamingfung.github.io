@@ -5,14 +5,14 @@ title: "AGU Fall Meeting 2016"
 event: "AGU Fall Meeting 2016"
 event_url: "https://agu.confex.com/agu/fm16/meetingapp.cgi/Paper/124509"
 location: "Moscone South - Poster Hall, San Francisco, CA, USA"
-address: 
+address:
   street:
   city:
   region: ""
   postcode:
   country:
 summary: "Effectiveness of intercropping with soybean as a sustainable farming practice to maintain food production and reduce air pollution in China"
-abstract: 
+abstract:
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -31,7 +31,7 @@ categories: [Conference Posters]
 featured: false
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
@@ -47,7 +47,7 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your talk's folder or a URL.
-url_slides: ""
+url_slides: Fung_poster_AGU_2016.pdf
 
 url_code:
 url_pdf:
@@ -71,4 +71,5 @@ math: true
 ---
 
 ### Title
+
 Effectiveness of intercropping with soybean as a sustainable farming practice to maintain food production and reduce air pollution in China

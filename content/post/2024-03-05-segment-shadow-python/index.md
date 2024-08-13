@@ -16,7 +16,7 @@ draft: false
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: 
+  caption:
   focal_point: Smart
   preview_only: true
 
@@ -30,14 +30,13 @@ highlight_languages: ["Python"]
 projects: []
 ---
 
-
-# Finding shadows in images using Python's `scikit-image` package
-
 Ever noticed how shadows can make photos look cool or kinda tricky for editing? Well, guess what? With some Python magic and a handy tool called scikit-image, you can become a shadow-busting wizard in no time!
 
 In this quick guide, we're diving into the nifty world of shadow segmentation. Don't worry; it's just a fancy way of saying we're going to teach you how to spot and separate shadows from the rest of your image. Why? Because sometimes you just need to clear things up a bit, whether you're tweaking photos or working on a cool project that needs shadow detection.
 
 We'll start with the basics—loading up an image and flipping it into HSV color space. This helps us really see where those sneaky shadows are hiding. Then, with a couple of smart tricks and some threshold magic, we'll show you how to pinpoint those shadows. And to keep things neat, we'll even clean up any small bits and bobs that don't belong.
+
+## System set up
 
 ```python
 # %pip install numpy scikit-image matplotlib
@@ -49,8 +48,9 @@ import skimage
 import matplotlib.pyplot as plt
 ```
 
+## Get sample image
+
 ```python
-# get sample image
 image_rgb = skimage.data.stereo_motorcycle()[0]
 ```
 
@@ -61,9 +61,9 @@ skimage.io.imshow(
 )
 ```
 
-    <matplotlib.image.AxesImage at 0x10c422f50>
-
 ![png](sample_shadow_segmentation_5_1.png)
+
+## Preprocess the image
 
 ```python
 # Convert the image to HSV color space
@@ -79,6 +79,8 @@ hue_thresh = skimage.filters.threshold_otsu(
     hue,
 )
 ```
+
+## Segment the shadows
 
 ```python
 # Create a mask for the shadow regions
@@ -103,6 +105,8 @@ image_masked = np.ma.masked_where(
     image_rgb,
 )
 ```
+
+## Display the results
 
 ```python
 # Display the original image and the shadow mask

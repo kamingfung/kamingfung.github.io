@@ -5,14 +5,14 @@ title: "5th iLEAPS Science Conference"
 event: "5th iLEAPS Science Conference"
 event_url: "https://ileaps.org/content/5th-ileaps-science-conference-oxford-uk-september-2017#A2"
 location: "University of Oxford, UK"
-address: 
+address:
   street: ""
   city:
   region: ""
   postcode:
   country: "USA"
 summary: "Modeling and assessing effectiveness of intercropping as a sustainable agricultural practice for food security and air pollution mitigation"
-abstract: 
+abstract:
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -31,7 +31,7 @@ categories: [Conference Talks]
 featured: true
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
@@ -47,7 +47,7 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your talk's folder or a URL.
-url_slides: "https://ileaps.org/sites/default/files/A212_KaMing_Fung.pdf"
+url_slides: Fung_talk_iLEAPS_2017.pdf
 
 url_code:
 url_pdf:
@@ -71,4 +71,5 @@ math: true
 ---
 
 ### Title
+
 Modeling and assessing effectiveness of intercropping as a sustainable agricultural practice for food security and air pollution mitigation

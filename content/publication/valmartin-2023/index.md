@@ -45,7 +45,6 @@ image:
 projects: []
 publishDate: '2023-10-08T06:17:05.695374Z'
 publication_types:
-- '2'
 abstract: ''
 publication: '*Geoscientific Model Development*'
 url_pdf: https://gmd.copernicus.org/articles/16/5783/2023/gmd-16-5783-2023.html

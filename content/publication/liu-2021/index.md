@@ -38,7 +38,6 @@ image:
 projects: [Nitrogen Cycle, CLM, CAM]
 publishDate: '2021-12-03T06:17:05.695374Z'
 publication_types:
-- '2'
 abstract: ''
 publication: '*Atmospheric Chemistry and Physics*'
 url_pdf: https://acp.copernicus.org/articles/21/17743/2021/acp-21-17743-2021.pdf

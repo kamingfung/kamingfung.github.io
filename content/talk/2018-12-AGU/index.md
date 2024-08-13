@@ -5,14 +5,14 @@ title: "AGU Fall Meeting 2018"
 event: "AGU Fall Meeting 2018"
 event_url: "https://agu.confex.com/agu/fm18/prelim.cgi/Paper/386252"
 location: "Walter E Washington Convention Center - Salon C, Washington DC, USA"
-address: 
+address:
   street: ""
   city:
   region: ""
   postcode:
   country: ""
 summary: "Improving the terrestrial N cycle modeling for a better estimation of agricultural ammonia emission under sustainable farming alternatives"
-abstract: 
+abstract:
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -31,7 +31,7 @@ categories: [Conference Talks]
 featured: true
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
@@ -47,7 +47,7 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your talk's folder or a URL.
-url_slides: ""
+url_slides: "Fung_talk_AGU_2018.pdf"
 
 url_code:
 url_pdf:
@@ -71,4 +71,5 @@ math: true
 ---
 
 ### Title
+
 Improving the terrestrial N cycle modeling for a better estimation of agricultural ammonia emission under sustainable farming alternatives

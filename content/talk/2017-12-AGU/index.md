@@ -5,14 +5,14 @@ title: "AGU Fall Meeting 2017"
 event: "AGU Fall Meeting 2017"
 event_url: "https://agu.confex.com/agu/fm17/meetingapp.cgi/Paper/237095"
 location: "Ernest N. Morial Convention Center - 356-357, New Orleans, LA, USA"
-address: 
+address:
   street: ""
   city:
   region: ""
   postcode:
   country: ""
 summary: "Modeling large-scale adoption of intercropping as a sustainable agricultural practice for food security and air pollution mitigation around the globe"
-abstract: 
+abstract:
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -31,7 +31,7 @@ categories: [Conference Talks]
 featured: true
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
@@ -47,7 +47,7 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your talk's folder or a URL.
-url_slides: ""
+url_slides: Fung_talk_AGU_2017.pdf
 
 url_code:
 url_pdf:
@@ -71,4 +71,5 @@ math: true
 ---
 
 ### Title
+
 Modeling large-scale adoption of intercropping as a sustainable agricultural practice for food security and air pollution mitigation around the globe

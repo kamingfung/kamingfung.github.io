@@ -5,14 +5,14 @@ title: "Gordon Research Conference – Urbanization, Water and Food Security 201
 event: "Gordon Research Conference – Urbanization, Water and Food Security 2019"
 event_url: "https://www.grc.org/urbanization-water-and-food-security-conference/2019/"
 location: "Hong Kong University of Science and Technology, Hong Kong"
-address: 
+address:
   street: ""
   city:
   region: ""
   postcode:
   country: ""
 summary: "Co-benefits of Intercropping, as a Sustainable Farming Practice, for Safeguarding Food Supply and Air Quality"
-abstract: 
+abstract:
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -31,7 +31,7 @@ categories: [Conference Posters]
 featured: true
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
@@ -47,7 +47,7 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your talk's folder or a URL.
-url_slides: ""
+url_slides: Fung_Poster_GRC_2019.pdf
 
 url_code:
 url_pdf:
@@ -71,4 +71,5 @@ math: true
 ---
 
 ### Title
+
 Co-benefits of Intercropping, as a Sustainable Farming Practice, for Safeguarding Food Supply and Air Quality

@@ -5,14 +5,14 @@ title: "CESM Land Model Working Group Meeting 2018"
 event: "CESM Land Model Working Group Meeting 2018"
 event_url: "http://www.cesm.ucar.edu/events/wg-meetings/2018/land.html"
 location: "NCAR, Mesa Lab., Boulder, CO, USA"
-address: 
+address:
   street:
   city:
   region: ""
   postcode:
   country: ""
 summary: "Large-scale adoption of intercropping for securing global food supply and air quality – a model study using CLM 4.5"
-abstract: 
+abstract:
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -31,7 +31,7 @@ categories: [Conference Talks]
 featured: true
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
@@ -47,7 +47,7 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your talk's folder or a URL.
-url_slides: "http://www.cesm.ucar.edu/events/wg-meetings/2018/presentations/lmwg/fung.pdf"
+url_slides: Fung_talk_LMWG_2018.pdf
 
 url_code:
 url_pdf:
@@ -71,4 +71,5 @@ math: true
 ---
 
 ### Title
+
 Large-scale adoption of intercropping for securing global food supply and air quality – a model study using CLM 4.5

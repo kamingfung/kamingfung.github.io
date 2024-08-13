@@ -5,14 +5,14 @@ title: "8th International GEOS-Chem Meeting"
 event: "8th International GEOS-Chem Meeting"
 event_url: "http://acmg.seas.harvard.edu/geos/meetings/2017/presentationsposters.html"
 location: "Harvard University, MA, USA"
-address: 
+address:
   street:
   city:
   region: ""
   postcode:
   country:
 summary: "Evaluating effectiveness of maize-soybean intercropping in securing food production and air quality in China using DNDC and GEOS-Chem"
-abstract: 
+abstract:
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -31,7 +31,7 @@ categories: [Conference Posters]
 featured: true
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
@@ -47,7 +47,7 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your talk's folder or a URL.
-url_slides: ""
+url_slides: Fung_poster_IGC_2017.pdf
 
 url_code:
 url_pdf:
@@ -71,4 +71,5 @@ math: true
 ---
 
 ### Title
+
 Evaluating effectiveness of maize-soybean intercropping in securing food production and air quality in China using DNDC and GEOS-Chem
