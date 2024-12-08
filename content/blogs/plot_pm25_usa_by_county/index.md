@@ -1,8 +1,34 @@
 ---
-title: Visualizing harmful PM<sub>2.5</sub> levels in the US by county
-date: '2024-12-08'
----
+# Documentation: https://wowchemy.com/docs/managing-content/
 
+title: Visualizing harmful PM<sub>2.5</sub> levels in the US by county
+subtitle: ""
+summary: ""
+authors: [admin]
+tags: [Python]
+categories: [Skill Share]
+date: 2024-12-08
+lastmod: 2024-12-08
+featured: true
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption:
+  focal_point: Smart
+  preview_only: true
+
+highlight_languages: ["Python"]
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+---
 
 ```python
 # %pip install pandas geopandas folium matplotlib mapclassify
