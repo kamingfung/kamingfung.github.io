@@ -3,7 +3,7 @@
 
 title: "Finding shadows in images using Python's scikit-image package"
 subtitle: ""
-summary: ""
+summary: "segmenting shadows in images using Python's scikit-image package"
 authors: [admin]
 tags: [Python]
 categories: [Skill Share]
