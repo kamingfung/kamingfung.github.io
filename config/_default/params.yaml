@@ -13,9 +13,9 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    org_name: 'Ka Ming Fung'
+    description: 'Victor Ka Ming Fung, Ph.D.'
+    twitter: 'kamingfung'
   analytics:
     google_analytics: 'G-07YWFEZLJQ'
     baidu_tongji: ''
