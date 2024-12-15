@@ -260,4 +260,4 @@ I am a **Data Scientist** studying the impacts of natural processes and human ac
 
 I graduated with a Ph.D. from [Prof. Amos Tai's group](http://www.cuhk.edu.hk/sci/essc/tgabi/) at The Chinese University of Hong Kong ([CUHK](https://www.cuhk.edu.hk/english/index.html)) in 2019. I then worked with [Prof. Colette Heald's group](https://www.healdgroupmit.com/) as a Postdoctoral Associate at Massachusetts Institute of Technology([MIT](https://mit.edu)) until 2021. I am currently a Data Scientist at a management consulting firm.
 
-I use my Cantonese name ["Ka Ming Fung"](post/2019-09-03-about-ka-ming/) for my academic publications, though I am also known as **Victor**.
+I use my Cantonese name ["Ka Ming Fung"](/blogs/2019-09-03-about-ka-ming/) for my academic publications, though I am also known as **Victor**.
