@@ -350,7 +350,7 @@ counties_processed
       <td>06</td>
       <td>639387454</td>
       <td>69473325</td>
-      <td>POLYGON ((-89.18137 37.04630, -89.17938 37.053...</td>
+      <td>POLYGON ((-89.18137 37.0463, -89.17938 37.0530...</td>
       <td>21007</td>
     </tr>
     <tr>
@@ -392,7 +392,7 @@ counties_processed
       <td>06</td>
       <td>655509930</td>
       <td>6516335</td>
-      <td>POLYGON ((-84.12662 37.64540, -84.12483 37.646...</td>
+      <td>POLYGON ((-84.12662 37.6454, -84.12483 37.6461...</td>
       <td>21065</td>
     </tr>
     <tr>
@@ -434,7 +434,7 @@ counties_processed
       <td>06</td>
       <td>1186616237</td>
       <td>11831826</td>
-      <td>POLYGON ((-100.09510 40.43866, -100.08937 40.4...</td>
+      <td>POLYGON ((-100.0951 40.43866, -100.08937 40.43...</td>
       <td>31073</td>
     </tr>
     <tr>
@@ -462,7 +462,7 @@ counties_processed
       <td>06</td>
       <td>2740719114</td>
       <td>9012764</td>
-      <td>POLYGON ((-99.30400 30.49983, -99.28234 30.499...</td>
+      <td>POLYGON ((-99.304 30.49983, -99.28234 30.49967...</td>
       <td>48171</td>
     </tr>
     <tr>
@@ -490,7 +490,7 @@ counties_processed
       <td>06</td>
       <td>1459502408</td>
       <td>2765830983</td>
-      <td>POLYGON ((-86.26432 43.11830, -86.25103 43.118...</td>
+      <td>POLYGON ((-86.26432 43.1183, -86.25103 43.1182...</td>
       <td>26139</td>
     </tr>
   </tbody>
@@ -509,239 +509,36 @@ counties_w_pm25 = counties_processed.merge(
 
 ```python
 # optional sense check
-counties_w_pm25
+counties_w_pm25.STATEFP.unique()
 ```
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
+    array(['21', '17', '18', '01', '02', '05', '06', '08', '09', '11', '12',
+           '13', '15', '16', '19', '20', '48', '29', '30', '31', '53', '22',
+           '23', '24', '34', '35', '36', '37', '38', '39', '40', '49', '41',
+           '42', '45', '46', '47', '25', '26', '51', '72', '78', '27', '28',
+           '32', '33', '04', '54', '55', '56', '60', '69', '50', '10', '44',
+           '66'], dtype=object)
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
+```python
+# display PM2.5 in Contiguous US
+ax = counties_w_pm25.pipe(lambda x: x[(x['STATEFP'].astype(int)<=56) & ~(x['STATEFP'].astype(int).isin([2, 15]))]).plot(column='pm25_ug_per_m3', legend=False, cmap='magma',)
+ax.set_axis_off()
 
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>STATEFP</th>
-      <th>COUNTYFP</th>
-      <th>COUNTYNS</th>
-      <th>AFFGEOID</th>
-      <th>GEOID</th>
-      <th>NAME</th>
-      <th>LSAD</th>
-      <th>ALAND</th>
-      <th>AWATER</th>
-      <th>geometry</th>
-      <th>FIPS</th>
-      <th>County</th>
-      <th>Micrograms per cubic meter (PM2.5)(2)</th>
-      <th>pm25_ug_per_m3</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>21</td>
-      <td>007</td>
-      <td>00516850</td>
-      <td>0500000US21007</td>
-      <td>21007</td>
-      <td>Ballard</td>
-      <td>06</td>
-      <td>639387454</td>
-      <td>69473325</td>
-      <td>POLYGON ((-89.18137 37.04630, -89.17938 37.053...</td>
-      <td>21007</td>
-      <td>Ballard County, Kentucky</td>
-      <td>8.7</td>
-      <td>8.7</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>21</td>
-      <td>017</td>
-      <td>00516855</td>
-      <td>0500000US21017</td>
-      <td>21017</td>
-      <td>Bourbon</td>
-      <td>06</td>
-      <td>750439351</td>
-      <td>4829777</td>
-      <td>POLYGON ((-84.44266 38.28324, -84.44114 38.283...</td>
-      <td>21017</td>
-      <td>Bourbon County, Kentucky</td>
-      <td>8.5</td>
-      <td>8.5</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>21</td>
-      <td>031</td>
-      <td>00516862</td>
-      <td>0500000US21031</td>
-      <td>21031</td>
-      <td>Butler</td>
-      <td>06</td>
-      <td>1103571974</td>
-      <td>13943044</td>
-      <td>POLYGON ((-86.94486 37.07341, -86.94346 37.074...</td>
-      <td>21031</td>
-      <td>Butler County, Kentucky</td>
-      <td>8.3</td>
-      <td>8.3</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>21</td>
-      <td>065</td>
-      <td>00516879</td>
-      <td>0500000US21065</td>
-      <td>21065</td>
-      <td>Estill</td>
-      <td>06</td>
-      <td>655509930</td>
-      <td>6516335</td>
-      <td>POLYGON ((-84.12662 37.64540, -84.12483 37.646...</td>
-      <td>21065</td>
-      <td>Estill County, Kentucky</td>
-      <td>7.9</td>
-      <td>7.9</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>21</td>
-      <td>069</td>
-      <td>00516881</td>
-      <td>0500000US21069</td>
-      <td>21069</td>
-      <td>Fleming</td>
-      <td>06</td>
-      <td>902727151</td>
-      <td>7182793</td>
-      <td>POLYGON ((-83.98428 38.44549, -83.98246 38.450...</td>
-      <td>21069</td>
-      <td>Fleming County, Kentucky</td>
-      <td>8.0</td>
-      <td>8.0</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>3228</th>
-      <td>31</td>
-      <td>073</td>
-      <td>00835858</td>
-      <td>0500000US31073</td>
-      <td>31073</td>
-      <td>Gosper</td>
-      <td>06</td>
-      <td>1186616237</td>
-      <td>11831826</td>
-      <td>POLYGON ((-100.09510 40.43866, -100.08937 40.4...</td>
-      <td>31073</td>
-      <td>Gosper County, Nebraska</td>
-      <td>5.5</td>
-      <td>5.5</td>
-    </tr>
-    <tr>
-      <th>3229</th>
-      <td>39</td>
-      <td>075</td>
-      <td>01074050</td>
-      <td>0500000US39075</td>
-      <td>39075</td>
-      <td>Holmes</td>
-      <td>06</td>
-      <td>1094405866</td>
-      <td>3695230</td>
-      <td>POLYGON ((-82.22066 40.66758, -82.19327 40.667...</td>
-      <td>39075</td>
-      <td>Holmes County, Ohio</td>
-      <td>9.2</td>
-      <td>9.2</td>
-    </tr>
-    <tr>
-      <th>3230</th>
-      <td>48</td>
-      <td>171</td>
-      <td>01383871</td>
-      <td>0500000US48171</td>
-      <td>48171</td>
-      <td>Gillespie</td>
-      <td>06</td>
-      <td>2740719114</td>
-      <td>9012764</td>
-      <td>POLYGON ((-99.30400 30.49983, -99.28234 30.499...</td>
-      <td>48171</td>
-      <td>Gillespie County, Texas</td>
-      <td>8.2</td>
-      <td>8.2</td>
-    </tr>
-    <tr>
-      <th>3231</th>
-      <td>55</td>
-      <td>079</td>
-      <td>01581100</td>
-      <td>0500000US55079</td>
-      <td>55079</td>
-      <td>Milwaukee</td>
-      <td>06</td>
-      <td>625440563</td>
-      <td>2455383635</td>
-      <td>POLYGON ((-88.06959 42.86726, -88.06959 42.872...</td>
-      <td>55079</td>
-      <td>Milwaukee County, Wisconsin</td>
-      <td>8.7</td>
-      <td>8.7</td>
-    </tr>
-    <tr>
-      <th>3232</th>
-      <td>26</td>
-      <td>139</td>
-      <td>01623012</td>
-      <td>0500000US26139</td>
-      <td>26139</td>
-      <td>Ottawa</td>
-      <td>06</td>
-      <td>1459502408</td>
-      <td>2765830983</td>
-      <td>POLYGON ((-86.26432 43.11830, -86.25103 43.118...</td>
-      <td>26139</td>
-      <td>Ottawa County, Michigan</td>
-      <td>8.3</td>
-      <td>8.3</td>
-    </tr>
-  </tbody>
-</table>
-<p>3233 rows × 14 columns</p>
-</div>
+import matplotlib.pyplot as plt
+
+# Customize the colorbar
+plt.colorbar(ax.collections[0], orientation='horizontal', label='24-hr average PM2.5 (ug/m3) in 2018')
+
+plt.show()
+
+
+```
+
+![png](plot_pm25_usa_by_county_files/plot_pm25_usa_by_county_12_0.png)
 
 ```python
 # display the data on map by level of PM2.5
-counties_w_pm25.explore(
+m = counties_w_pm25.explore(
     column="pm25_ug_per_m3",
 )
 ```
