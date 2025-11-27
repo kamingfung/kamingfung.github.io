@@ -11,8 +11,8 @@ design:
 sections:
   - block: collection
     content:
-      title: Selected Projects
-      text: I enjoy making things. Here is a selection of projects that I have worked on over the years. :hammer_and_wrench:
+      title: "Selected Projects"
+      text: "I enjoy making things. Here is a selection of projects that I have worked on over the years. :hammer_and_wrench:"
       filters:
         folders:
           - projects
