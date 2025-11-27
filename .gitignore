@@ -8,4 +8,13 @@ public/
 # macOS
 .DS_Store
 
-node_modules
+
+# Hugo
+.hugo_build.lock
+hugo_stats.json
+
+# Dependencies
+node_modules/
+
+# Security
+.secrets.baseline

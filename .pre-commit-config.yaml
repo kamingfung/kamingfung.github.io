@@ -24,3 +24,9 @@ repos:
     hooks:
       - id: prettier
         types_or: [markdown, yaml, css, scss, javascript, json]
+
+  - repo: https://github.com/Yelp/detect-secrets
+    rev: v1.4.0
+    hooks:
+      - id: detect-secrets
+        exclude: package.lock.json
