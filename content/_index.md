@@ -36,7 +36,6 @@ sections:
   #     subtitle: ''
   #     text: |-
 
-
   #   design:
   #     columns: '1'
   # Page sections
@@ -44,8 +43,8 @@ sections:
     id: blogs
     content:
       title: Blogs
-      subtitle: ''
-      text: ''
+      subtitle: ""
+      text: ""
       # Page type to display. E.g. post, talk, publication...
       page_type: blogs
       # Choose how many pages you would like to display (0 = all pages)
@@ -147,5 +146,4 @@ sections:
         # Card background color (CSS class)
         css_class: "bg-primary-700"
         css_style: ""
-
 ---

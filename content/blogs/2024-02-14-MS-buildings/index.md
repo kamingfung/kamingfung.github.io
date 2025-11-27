@@ -8,7 +8,7 @@ authors: [admin]
 tags: [Python]
 categories: [Skill Share]
 date: 2024-02-14T00:05:04-04:00
-lastmod: 2024-2-14T16:05:04-04:00
+lastmod: 2024-02-14T16:05:04-04:00
 featured: true
 draft: false
 
@@ -16,7 +16,7 @@ draft: false
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: 
+  caption:
   focal_point: Smart
   preview_only: true
 
@@ -32,17 +32,16 @@ projects: []
 
 <!-- *Created by [Ka Ming Fung](kamingfung@link.cuhk.edu.hk)* -->
 
-This notebook works with the [Microsoft Building Footprint Dataset](https://github.com/microsoft/GlobalMLBuildingFootprints) to download building footprints for a given area of interest (AOI). I modified the [original notebook](https://github.com/victor-ka-ming-fung/GlobalMLBuildingFootprints/blob/main/examples/example_building_footprints.ipynb) to download the data to output a parquet file of a GeoDataFrame of buildings, instead of GeoJSON.
+This notebook works with the [Microsoft Building Footprint Dataset](https://github.com/microsoft/GlobalMLBuildingFootprints) to download building footprints for a given area of interest (AOI). I modified the [original notebook](https://github.com/victor-ka-ming-fung/GlobalMLBuildingFootprints/blob/main/examples/example_building_footprints.ipynb) to download the data to output a parquet file of a GeoDataFrame of buildings, instead of GeoJSON. :building_construction:
 
 To find the Jupyter notebook version, please visit [here](https://github.com/victor-ka-ming-fung/GlobalMLBuildingFootprints/blob/improved_example_notebook/examples/example_building_footprints.ipynb).
-
 
 ```python
 # # """install packages if not already installed"""
 # %pip install --upgrade pandas geopandas shapely mercantile tqdm folium
 ```
 
-### set up environment and local varialbles
+### set up environment and local variables
 
 ```python
 import pandas as pd
@@ -59,7 +58,6 @@ output_fn = "example_building_footprints.parquet"
 We define our area of interest (or AOI) as a GeoJSON geometry, then use the `shapely` library to get the bounding box.
 
 **Note**: the coordinate reference system for the GeoJSON should be "EPSG:4326", i.e. in global lat/lon format.
-
 
 ```python
 # Geometry copied from https://geojson.io
@@ -83,7 +81,6 @@ minx, miny, maxx, maxy = aoi_shape.bounds
 
 ## Step 2 - Determine which tiles intersect our AOI
 
-
 ```python
 """Get tiles for a given bounding box and zoom level"""
 
@@ -98,13 +95,11 @@ print(f"The input area spans {len(quad_keys)} tiles: {quad_keys}")
 
     The input area spans 1 tiles: [21230030]
 
-
 ## Step 3 - Download the building footprints for each tile that intersects our AOI and crop the results
 
-This is where most of the magic happens. We download all the building footprints for each tile that intersects our AOI, then only keep the footprints that are _contained_ by our AOI.
+This is where most of the magic happens. :sparkles: We download all the building footprints for each tile that intersects our AOI, then only keep the footprints that are _contained_ by our AOI.
 
-*Note*: this step might take awhile depending on how many tiles your AOI covers and how many buildings footprints are in those tiles.
-
+_Note_: this step might take awhile depending on how many tiles your AOI covers and how many buildings footprints are in those tiles.
 
 ```python
 # read the quads catalog
@@ -149,7 +144,6 @@ buildings_gdf = (
 
       0%|          | 0/1 [00:00<?, ?it/s]
 
-
 ```python
 # filter to buildings that intersect the AOI
 buildings_in_aoi_gdf = buildings_gdf[buildings_gdf.intersects(aoi_shape)]
@@ -157,14 +151,12 @@ buildings_in_aoi_gdf = buildings_gdf[buildings_gdf.intersects(aoi_shape)]
 
 # Step 4 - Save the resulting footprints to a parquet file
 
-
 ```python
 # write to parquet
 buildings_in_aoi_gdf.to_parquet(output_fn)
 ```
 
 # Optional sense check
-
 
 ```python
 # interactive map
@@ -182,15 +174,9 @@ buildings_in_aoi_gdf.to_parquet(output_fn)
 # m
 ```
 
-
 ```python
 # static map
 buildings_in_aoi_gdf.plot()
 ```
 
-
-
-    
 ![png](featured.png)
-    
-

@@ -6,11 +6,9 @@ In this quick guide, we're diving into the nifty world of shadow segmentation. D
 
 We'll start with the basics—loading up an image and flipping it into HSV color space. This helps us really see where those sneaky shadows are hiding. Then, with a couple of smart tricks and some threshold magic, we'll show you how to pinpoint those shadows. And to keep things neat, we'll even clean up any small bits and bobs that don't belong.
 
-
 ```python
 # %pip install numpy scikit-image matplotlib
 ```
-
 
 ```python
 import numpy as np
@@ -18,12 +16,10 @@ import skimage
 import matplotlib.pyplot as plt
 ```
 
-
 ```python
 # get sample image
 image_rgb = skimage.data.stereo_motorcycle()[0]
 ```
-
 
 ```python
 # sense check (show the image)
@@ -32,19 +28,9 @@ skimage.io.imshow(
 )
 ```
 
-
-
-
     <matplotlib.image.AxesImage at 0x10c422f50>
 
-
-
-
-    
 ![png](sample_shadow_segmentation_files/sample_shadow_segmentation_5_1.png)
-    
-
-
 
 ```python
 # Convert the image to HSV color space
@@ -61,7 +47,6 @@ hue_thresh = skimage.filters.threshold_otsu(
 )
 ```
 
-
 ```python
 # Create a mask for the shadow regions
 shadow_mask = (image_hsv[:, :, 2] < brightness_thresh) & (
@@ -71,7 +56,6 @@ shadow_mask = (image_hsv[:, :, 2] < brightness_thresh) & (
 # Remove small objects from the mask
 shadow_mask = skimage.morphology.remove_small_objects(shadow_mask)
 ```
-
 
 ```python
 # Mask the image with the shadow mask
@@ -86,7 +70,6 @@ image_masked = np.ma.masked_where(
     image_rgb,
 )
 ```
-
 
 ```python
 # Display the original image and the shadow mask
@@ -112,12 +95,7 @@ ax[1].set_aspect("equal")
 plt.show()
 ```
 
-
-    
 ![png](sample_shadow_segmentation_files/sample_shadow_segmentation_9_0.png)
-    
-
-
 
 ```python
 

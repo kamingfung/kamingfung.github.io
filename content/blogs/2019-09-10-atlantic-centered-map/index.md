@@ -17,7 +17,7 @@ draft: false
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: 
+  caption:
   focal_point: Smart
   preview_only: true
 
@@ -31,10 +31,9 @@ projects: []
 
 <!-- *Created by [Ka Ming Fung](kamingfung@link.cuhk.edu.hk)* -->
 
-This is an example to plot a world map with Atlantic centered map using
-R and ggplot2.
+Here is an example of how to plot an Atlantic-centered world map using R and ggplot2. :earth_americas:
 
-``` r
+```r
 library(ggplot2) # for plotting
 
 ggplot() + borders("world2") + coord_fixed(expand = FALSE) + theme_bw()
@@ -44,14 +43,14 @@ ggplot() + borders("world2") + coord_fixed(expand = FALSE) + theme_bw()
 
 …and with a bit more informative axes.
 
-``` r
+```r
 library(scales)  # for formatting axes labels
 
-ggplot() + borders("world2") + coord_fixed(expand = FALSE) + theme_bw() + 
-  scale_x_continuous(breaks = c(90, 180, 270), labels = label_number(suffix = "ºE")) + 
+ggplot() + borders("world2") + coord_fixed(expand = FALSE) + theme_bw() +
+  scale_x_continuous(breaks = c(90, 180, 270), labels = label_number(suffix = "ºE")) +
   scale_y_continuous(breaks = c(-60, -30, 0, 30, 60), labels = label_number(suffix = "ºN"))
 ```
 
 ![](unnamed-chunk-2-1.png)<!-- -->
 
-You can then add other geometry object onto the maps.
+You can then add other geometry objects onto the map.

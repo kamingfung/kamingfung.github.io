@@ -1,7 +1,7 @@
 ---
 title: "Bar Charts with Labels"
-summary: "This is an example to draw a informative bar chart using \"geom_label\" from \"ggplot2\"."
-date: '2019-09-17'
+summary: 'This is an example to draw a informative bar chart using "geom_label" from "ggplot2".'
+date: "2019-09-17"
 authors: [admin]
 tags: [R]
 categories: [Skill Share]
@@ -12,11 +12,11 @@ image:
   preview_only: true
 ---
 
-This is an example to draw a informative bar chart using "geom_label" from "ggplot2".
+Here is an example of how to draw an informative bar chart using "geom_label" from "ggplot2". :bar_chart:
 
 Let’s start with generating some sample data.
 
-``` r
+```r
 # we will use the Motor Trend Car Road Tests datasets from R base (only the first 15 models for better illustration)
 # run ?mtcars for details of the datasets
 df = mtcars[1:20,]
@@ -34,10 +34,10 @@ head(x = df, n = 7)
     ## Valiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1
     ## Duster 360        14.3   8  360 245 3.21 3.570 15.84  0  0    3    4
 
-Suppose we wants to show the weight in tons (wt) of the cars, we start
+Suppose we want to show the weight in tons (wt) of the cars, we start
 with a basic bar chart.
 
-``` r
+```r
 library(ggplot2)  # for plotting
 library(cowplot)  # for publication friendly ggplot themes
 
@@ -52,8 +52,8 @@ g
 Oh, the names of the models are all overlapped…Let’s fix it by rotating
 them by 45º.
 
-``` r
-# fixing the overlapped the labels of the x-axis
+```r
+# fixing the overlapped labels of the x-axis
 g1 = g + theme(axis.text.x = element_text(angle = 45, hjust = 1))
 g1
 ```
@@ -66,8 +66,8 @@ Now, let’s suppose that we somehow want to know the total weight of
 automatic transmission cars vs manual transmission cars (i.e., based on
 the `am` column), we can visualize it by stacking up the bars.
 
-``` r
-# converting the entries in the "am" column into factor-valued (Note: 0 = autmatic, 1 = manual, in the original data)
+```r
+# converting the entries in the "am" column into factor-valued (Note: 0 = automatic, 1 = manual, in the original data)
 df$am = factor(df$am, labels = c("automatic", "manual"))
 
 # fixing the overlapped the labels of the x-axis
@@ -81,7 +81,7 @@ Wow, we now know that the cars with automatic transmission are heavier
 than the manual ones. We can also show how much weight each car has
 contributed.
 
-``` r
+```r
 # adding colors to the bar
 g3 = g2 + geom_bar(mapping = aes(fill = row.names(df)), stat = "identity", position = "stack", color = "black") + labs(fill = "Models")
 g3
@@ -89,11 +89,10 @@ g3
 
 ![](unnamed-chunk-5-1.png)<!-- -->
 
-Not bad. But, what cross referencing between the bar segments and the
-legend makes people’s eyes sore. Can it be easier? Yes, and the answer
+Not bad. But, cross-referencing between the bar segments and the legend makes people’s eyes sore. Can it be easier? Yes, and the answer
 is `geom_label`.
 
-``` r
+```r
 # adding labels on the bar chart
 g4 = g3 + geom_label(mapping = aes(label = row.names(df)), position = position_stack(vjust = 0.5))
 g4
@@ -101,15 +100,14 @@ g4
 
 ![](unnamed-chunk-6-1.png)<!-- -->
 
-Wait, there are two problems. First, the labels are mismatch\!\!\!
-Second, labels are overlapped\!\!\! For the first problem, it is because
+Wait, there are two problems. First, the labels are mismatched!!! Second, labels are overlapped!!! For the first problem, it is because
 `geom_label` and `geom_bar` are not sharing the same mapping aesthetics,
 i.e., `fill` is only defined in `geom_bar` only. Therefore, the data are
 not “grouped” properly for both objects. The fix is to set `fill` as a
 global variable. For the second problem, we seek help from the package
 `ggrepel`. Let’s check out the codes:
 
-``` r
+```r
 # adding a new grouping variable to the plot
 g5 = ggplot(data = df, mapping = aes(x = am, y = wt, fill = row.names(df))) + theme_cowplot() + labs(x = "Transmission", y = "Weight (tons)", fill = "Models")
 
@@ -128,7 +126,7 @@ g5
 After ensuring the labels are correctly matched, we can even omit the
 legend which is kinda redundant.
 
-``` r
+```r
 # turning off the guides
 g6 = g5 + scale_fill_discrete(guide = guide_none())
 

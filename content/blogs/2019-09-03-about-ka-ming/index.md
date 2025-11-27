@@ -9,9 +9,7 @@ categories: [Casual]
 
 <!-- ![](./IMG_2917.jpeg) -->
 
-
-
-Hi there! My last name is "Fung" (馮), and my first name is "Ka Ming" (家銘), which is actually two words. In Cantonese, my name is written as "Fung Ka Ming". However, according to Chinese naming customs, the family name should come first, so my full birth name is "Fung Ka Ming".
+Hi there! :wave: My last name is "Fung" (馮), and my first name is "Ka Ming" (家銘). In Chinese culture, the family name comes first, so my full birth name is "Fung Ka Ming" (馮家銘).
 
 Because of the British-style education system in Hong Kong, some people here have adopted English names as nicknames, and I go by "Victor".
 

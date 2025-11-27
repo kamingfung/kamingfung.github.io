@@ -1,5 +1,4 @@
 ---
-
 # Documentation: <https://wowchemy.com/docs/managing-content/>
 
 title: Visualizing harmful PM<sub>2.5</sub> levels in the US by county
@@ -39,17 +38,42 @@ highlight_languages: ["Python"]
 projects: []
 ---
 
+So, air pollution is a silent killer :skull:, and Fine Particulate Matter (PM<sub>2.5</sub>) is one of the nastiest ones out there. These tiny particles (smaller than 2.5 micrometers!) can sneak deep into our lungs and bloodstream, causing all sorts of health trouble.
+
+In this post, I'm going to show you how to visualize PM<sub>2.5</sub> levels across the US using Python. We'll grab some raw data from the NIH, clean it up, and make a cool choropleth map to see where the pollution hot spots are. :earth_americas:
+
+By the end of this, you'll know how to:
+
+1. **Load and Clean Data**: Wrangling CSVs with `pandas`.
+2. **Handle Geospatial Data**: Playing with shapefiles using `geopandas`.
+3. **Merge Datasets**: Smashing statistical data together with geographic boundaries.
+4. **Visualize Results**: Making pretty maps with `matplotlib`.
+
+## Prerequisites
+
+You'll need these Python libraries. If you don't have them, just pip install them:
+
 ```python
 # %pip install pandas geopandas folium matplotlib mapclassify
 ```
 
+Let's import the goods:
+
 ```python
 import pandas as pd
 import geopandas as gpd
+import matplotlib.pyplot as plt
 ```
 
+## Step 1: Loading the Data
+
+I got this dataset from the [NIH HDPulse project](https://hdpulse.nimhd.nih.gov/). It has the annual average PM<sub>2.5</sub> concentrations by county.
+
+We'll read the CSV, skipping the first 5 rows because they're just metadata headers.
+
 ```python
-# download the data from US NIH (https://hdpulse.nimhd.nih.gov/data-portal/physical/table?age=001&age_options=ageall_1&demo=234&demo_options=air_pollution_1&physicaltopic=002&physicaltopic_options=physical_2&race=00&race_options=raceall_1&sex=0&sex_options=sexboth_1&statefips=99&statefips_options=area_states)
+# Download the data from US NIH
+# Source: https://hdpulse.nimhd.nih.gov/data-portal/physical/table...
 
 county_pm25: pd.DataFrame = pd.read_csv(
     "HDPulse_data_export.csv",
@@ -57,244 +81,51 @@ county_pm25: pd.DataFrame = pd.read_csv(
 )
 ```
 
+Let's peek at the raw data:
+
 ```python
-county_pm25
+county_pm25.head()
 ```
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
+## Step 2: Data Cleaning and Processing
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
+Real-world data is messy. Always. :sweat_smile: So we need to clean it up a bit:
 
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>County</th>
-      <th>FIPS</th>
-      <th>Micrograms per cubic meter (PM2.5)(2)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>United States</td>
-      <td>0.0</td>
-      <td>7.4</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>San Bernardino County, California</td>
-      <td>6071.0</td>
-      <td>15.6</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Fairbanks North Star, Alaska</td>
-      <td>2090.0</td>
-      <td>15.5</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Allegheny County, Pennsylvania</td>
-      <td>42003.0</td>
-      <td>14.1</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>San Diego County, California</td>
-      <td>6073.0</td>
-      <td>13.8</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>3146</th>
-      <td>Notes:</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>3147</th>
-      <td>Source: National Environmental Public Health T...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>3148</th>
-      <td>Average daily density of fine particulate matt...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>3149</th>
-      <td>Some data are not available or suppressed due ...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>3150</th>
-      <td>Note: This website still uses Connecticut coun...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-  </tbody>
-</table>
-<p>3151 rows × 3 columns</p>
-</div>
+1. **Convert PM<sub>2.5</sub> to Numeric**: Sometimes numbers get read as text. We'll force them to be numbers and turn any "No Data" into `NaN`.
+2. **Format FIPS Codes**: The FIPS code is like a social security number for counties. We need it to be a 5-digit string (e.g., "06073" for San Diego) to match our map data later.
+3. **Remove Missing Data**: If we don't have a FIPS code or a pollution reading, we can't map it. So, bye-bye rows! :wave:
 
 ```python
 county_pm25_processed: pd.DataFrame = (
     county_pm25.assign(
-        # make PM2.5 reading a float
+        # Convert PM2.5 reading to a float, coercing errors to NaN
         pm25_ug_per_m3=lambda x: pd.to_numeric(arg=x[x.keys()[-1]], errors="coerce"),
-        # convert FIPS to a 5-digit string
-        FIPS=lambda x: pd.to_numeric(x["FIPS"]),
+        # Ensure FIPS is numeric first to handle any weird formatting
+        FIPS=lambda x: pd.to_numeric(x["FIPS"], errors="coerce"),
     )
     .dropna(
-        # drop rows with missing PM2.5 readings
-        subset=[
-            "FIPS",
-            "pm25_ug_per_m3",
-        ],
+        # Drop rows with missing FIPS or PM2.5 readings
+        subset=["FIPS", "pm25_ug_per_m3"],
     )
     .assign(
+        # Convert FIPS to a 5-digit string, padding with leading zeros
         FIPS=lambda x: x["FIPS"].astype(int).astype(str).str.zfill(5),
     )
 )
 ```
 
-```python
-# optional sense check
-county_pm25_processed
-```
+## Step 3: Getting Geospatial Data
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>County</th>
-      <th>FIPS</th>
-      <th>Micrograms per cubic meter (PM2.5)(2)</th>
-      <th>pm25_ug_per_m3</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>United States</td>
-      <td>00000</td>
-      <td>7.4</td>
-      <td>7.4</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>San Bernardino County, California</td>
-      <td>06071</td>
-      <td>15.6</td>
-      <td>15.6</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Fairbanks North Star, Alaska</td>
-      <td>02090</td>
-      <td>15.5</td>
-      <td>15.5</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Allegheny County, Pennsylvania</td>
-      <td>42003</td>
-      <td>14.1</td>
-      <td>14.1</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>San Diego County, California</td>
-      <td>06073</td>
-      <td>13.8</td>
-      <td>13.8</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>3111</th>
-      <td>Custer County, South Dakota</td>
-      <td>46033</td>
-      <td>2.6</td>
-      <td>2.6</td>
-    </tr>
-    <tr>
-      <th>3112</th>
-      <td>Apache County, Arizona</td>
-      <td>04001</td>
-      <td>2.5</td>
-      <td>2.5</td>
-    </tr>
-    <tr>
-      <th>3113</th>
-      <td>Campbell County, Wyoming</td>
-      <td>56005</td>
-      <td>2.4</td>
-      <td>2.4</td>
-    </tr>
-    <tr>
-      <th>3114</th>
-      <td>Converse County, Wyoming</td>
-      <td>56009</td>
-      <td>2.2</td>
-      <td>2.2</td>
-    </tr>
-    <tr>
-      <th>3115</th>
-      <td>Gallatin County, Montana</td>
-      <td>30031</td>
-      <td>0.9</td>
-      <td>0.9</td>
-    </tr>
-  </tbody>
-</table>
-<p>3116 rows × 4 columns</p>
-</div>
+To draw the map, we need the shapes of US counties. The Census Bureau gives us these "shapefiles". `geopandas` makes loading them a breeze.
 
 ```python
-# download us county shape files from https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html
+# Download US county shapefiles from the Census Bureau
 counties: gpd.GeoDataFrame = gpd.read_file(
     "https://www2.census.gov/geo/tiger/GENZ2018/shp/cb_2018_us_county_500k.zip"
 )
 ```
+
+The Census data splits the FIPS code into state (`STATEFP`) and county (`COUNTYFP`) parts. We need to glue them together to match our pollution data.
 
 ```python
 counties_processed: gpd.GeoDataFrame = counties.assign(
@@ -302,204 +133,17 @@ counties_processed: gpd.GeoDataFrame = counties.assign(
 )
 ```
 
-```python
-# optional sense check
-counties_processed
-```
+## Step 4: Merging Data
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
+Now we have two datasets:
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
+1. `county_pm25_processed`: The pollution numbers.
+2. `counties_processed`: The map shapes.
 
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>STATEFP</th>
-      <th>COUNTYFP</th>
-      <th>COUNTYNS</th>
-      <th>AFFGEOID</th>
-      <th>GEOID</th>
-      <th>NAME</th>
-      <th>LSAD</th>
-      <th>ALAND</th>
-      <th>AWATER</th>
-      <th>geometry</th>
-      <th>FIPS</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>21</td>
-      <td>007</td>
-      <td>00516850</td>
-      <td>0500000US21007</td>
-      <td>21007</td>
-      <td>Ballard</td>
-      <td>06</td>
-      <td>639387454</td>
-      <td>69473325</td>
-      <td>POLYGON ((-89.18137 37.0463, -89.17938 37.0530...</td>
-      <td>21007</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>21</td>
-      <td>017</td>
-      <td>00516855</td>
-      <td>0500000US21017</td>
-      <td>21017</td>
-      <td>Bourbon</td>
-      <td>06</td>
-      <td>750439351</td>
-      <td>4829777</td>
-      <td>POLYGON ((-84.44266 38.28324, -84.44114 38.283...</td>
-      <td>21017</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>21</td>
-      <td>031</td>
-      <td>00516862</td>
-      <td>0500000US21031</td>
-      <td>21031</td>
-      <td>Butler</td>
-      <td>06</td>
-      <td>1103571974</td>
-      <td>13943044</td>
-      <td>POLYGON ((-86.94486 37.07341, -86.94346 37.074...</td>
-      <td>21031</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>21</td>
-      <td>065</td>
-      <td>00516879</td>
-      <td>0500000US21065</td>
-      <td>21065</td>
-      <td>Estill</td>
-      <td>06</td>
-      <td>655509930</td>
-      <td>6516335</td>
-      <td>POLYGON ((-84.12662 37.6454, -84.12483 37.6461...</td>
-      <td>21065</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>21</td>
-      <td>069</td>
-      <td>00516881</td>
-      <td>0500000US21069</td>
-      <td>21069</td>
-      <td>Fleming</td>
-      <td>06</td>
-      <td>902727151</td>
-      <td>7182793</td>
-      <td>POLYGON ((-83.98428 38.44549, -83.98246 38.450...</td>
-      <td>21069</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>3228</th>
-      <td>31</td>
-      <td>073</td>
-      <td>00835858</td>
-      <td>0500000US31073</td>
-      <td>31073</td>
-      <td>Gosper</td>
-      <td>06</td>
-      <td>1186616237</td>
-      <td>11831826</td>
-      <td>POLYGON ((-100.0951 40.43866, -100.08937 40.43...</td>
-      <td>31073</td>
-    </tr>
-    <tr>
-      <th>3229</th>
-      <td>39</td>
-      <td>075</td>
-      <td>01074050</td>
-      <td>0500000US39075</td>
-      <td>39075</td>
-      <td>Holmes</td>
-      <td>06</td>
-      <td>1094405866</td>
-      <td>3695230</td>
-      <td>POLYGON ((-82.22066 40.66758, -82.19327 40.667...</td>
-      <td>39075</td>
-    </tr>
-    <tr>
-      <th>3230</th>
-      <td>48</td>
-      <td>171</td>
-      <td>01383871</td>
-      <td>0500000US48171</td>
-      <td>48171</td>
-      <td>Gillespie</td>
-      <td>06</td>
-      <td>2740719114</td>
-      <td>9012764</td>
-      <td>POLYGON ((-99.304 30.49983, -99.28234 30.49967...</td>
-      <td>48171</td>
-    </tr>
-    <tr>
-      <th>3231</th>
-      <td>55</td>
-      <td>079</td>
-      <td>01581100</td>
-      <td>0500000US55079</td>
-      <td>55079</td>
-      <td>Milwaukee</td>
-      <td>06</td>
-      <td>625440563</td>
-      <td>2455383635</td>
-      <td>POLYGON ((-88.06959 42.86726, -88.06959 42.872...</td>
-      <td>55079</td>
-    </tr>
-    <tr>
-      <th>3232</th>
-      <td>26</td>
-      <td>139</td>
-      <td>01623012</td>
-      <td>0500000US26139</td>
-      <td>26139</td>
-      <td>Ottawa</td>
-      <td>06</td>
-      <td>1459502408</td>
-      <td>2765830983</td>
-      <td>POLYGON ((-86.26432 43.1183, -86.25103 43.1182...</td>
-      <td>26139</td>
-    </tr>
-  </tbody>
-</table>
-<p>3233 rows × 11 columns</p>
-</div>
+Let's merge them on the `FIPS` column! I'm using a "left" merge to keep all the county shapes, even if we're missing data for some (though hopefully we have most of it).
 
 ```python
-# merge the two dataframes
+# Merge the geospatial data with the pollution data
 counties_w_pm25 = counties_processed.merge(
     right=county_pm25_processed,
     on="FIPS",
@@ -507,40 +151,60 @@ counties_w_pm25 = counties_processed.merge(
 )
 ```
 
-```python
-# optional sense check
-counties_w_pm25.STATEFP.unique()
-```
+## Step 5: Visualizing the Data
 
-    array(['21', '17', '18', '01', '02', '05', '06', '08', '09', '11', '12',
-           '13', '15', '16', '19', '20', '48', '29', '30', '31', '53', '22',
-           '23', '24', '34', '35', '36', '37', '38', '39', '40', '49', '41',
-           '42', '45', '46', '47', '25', '26', '51', '72', '78', '27', '28',
-           '32', '33', '04', '54', '55', '56', '60', '69', '50', '10', '44',
-           '66'], dtype=object)
+Finally, the fun part! :art: We'll filter out the territories and non-contiguous states (sorry Alaska and Hawaii, just for this map!) to focus on the "Lower 48".
+
+I'm using the `magma` colormap because it looks cool and is easy to read.
 
 ```python
-# display PM2.5 in Contiguous US
-ax = counties_w_pm25.pipe(lambda x: x[(x['STATEFP'].astype(int)<=56) & ~(x['STATEFP'].astype(int).isin([2, 15]))]).plot(column='pm25_ug_per_m3', legend=False, cmap='magma',)
+# Filter for Contiguous US (State FIPS <= 56, excluding Alaska (02) and Hawaii (15))
+contiguous_us = counties_w_pm25.pipe(
+    lambda x: x[(x['STATEFP'].astype(int) <= 56) & (~x['STATEFP'].astype(int).isin([2, 15]))]
+)
+
+# Plot the map
+fig, ax = plt.subplots(1, 1, figsize=(15, 10))
+contiguous_us.plot(
+    column='pm25_ug_per_m3',
+    legend=False,
+    cmap='magma',
+    ax=ax
+)
+
+# Remove axis for a cleaner look
 ax.set_axis_off()
 
-import matplotlib.pyplot as plt
+# Add a colorbar
+sm = plt.cm.ScalarMappable(cmap='magma', norm=plt.Normalize(vmin=contiguous_us['pm25_ug_per_m3'].min(), vmax=contiguous_us['pm25_ug_per_m3'].max()))
+sm._A = [] # Dummy array for the ScalarMappable
+cbar = fig.colorbar(sm, ax=ax, orientation='horizontal', fraction=0.046, pad=0.04)
+cbar.set_label('24-hr Average PM2.5 (µg/m³) in 2018')
 
-# Customize the colorbar
-plt.colorbar(ax.collections[0], orientation='horizontal', label='24-hr average PM2.5 (ug/m3) in 2018')
-
+plt.title("PM2.5 Concentration by County in the Contiguous US", fontsize=16)
 plt.show()
-
-
 ```
 
-![png](plot_pm25_usa_by_county_files/plot_pm25_usa_by_county_12_0.png)
+![PM2.5 Map](plot_pm25_usa_by_county_files/plot_pm25_usa_by_county_12_0.png)
+
+## Interactive Map
+
+Static maps are nice, but interactive maps are better. `geopandas` has this awesome `.explore()` method that lets you zoom and hover.
 
 ```python
-# display the data on map by level of PM2.5
+# Create an interactive map
 m = counties_w_pm25.explore(
     column="pm25_ug_per_m3",
+    tooltip=["County", "pm25_ug_per_m3"], # Show county name and value on hover
+    cmap="magma",
 )
+m
 ```
 
-[interactive maps](../../../uploads/2024-12-06-plotting-pm25-us-by-county.html)
+[View Interactive Map](../../../uploads/2024-12-06-plotting-pm25-us-by-county.html)
+
+## Conclusion
+
+And there you have it! We successfully visualized PM<sub>2.5</sub> data across the US. We learned how to clean messy real-world data, handle FIPS codes, and create some sweet maps.
+
+You can use this same workflow for pretty much any county-level data—census stuff, election results, you name it. Happy mapping! :world_map:

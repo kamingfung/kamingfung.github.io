@@ -16,7 +16,7 @@ draft: false
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: 
+  caption:
   focal_point: Smart
   preview_only: true
 
@@ -32,18 +32,17 @@ projects: []
 
 <!-- *Created by [Ka Ming Fung](kamingfung@link.cuhk.edu.hk)* -->
 
-## References:
-For general python handling of nc files: https://github.com/geoschem/GEOSChem-python-tutorial
-<br/>
-For NCL plot styles: http://www.pyngl.ucar.edu/
-<br/> 
-For merging nc files: https://medium.com/@neetinayak/combine-many-netcdf-files-into-a-single-file-with-python-469ba476fc14
-<br/>
-For NCL color scales: https://github.com/hhuangwx/cmaps
+## References
 
+For general python handling of nc files: <https://github.com/geoschem/GEOSChem-python-tutorial>
+<br/>
+For NCL plot styles: <http://www.pyngl.ucar.edu/>
+<br/>
+For merging nc files: <https://medium.com/@neetinayak/combine-many-netcdf-files-into-a-single-file-with-python-469ba476fc14>
+<br/>
+For NCL color scales: <https://github.com/hhuangwx/cmaps>
 
 This is an example to show how to combine multiple ncdf files, compute annual means, and make plots.
-
 
 ```python
 import numpy as np                    # for better array
@@ -51,11 +50,11 @@ import xarray as xr                   # the major tool to work with NetCDF data!
 ```
 
 ## Merging monthly .nc files
+
 Below is a list of files for this example. They are nc files named after case name, for each month in 2016.
 <br />
 
 Note that we could use, in the code, % (magic link) to call a function on the shell level.
-
 
 ```python
 %ls _data/*.nc
@@ -75,9 +74,7 @@ Note that we could use, in the code, % (magic link) to call a function on the sh
     _data/FC2000climo.f19_f19.2_1_MOSAIC.OAS_KPP_ISO.cam.h0.2016-12.nc
     _data/FC2000climo.f19_f19.2_1_MOSAIC.OAS_KPP_ISO.cam.i.2017-01-01-00000.nc
 
-
-We use the function xr.open_mfdataset from the xarray package. specifying the "names, **combining** _method_ and _dimension_ for **concatenation**. Note the use of * as a wildcard.
-
+We use the function xr.open*mfdataset from the xarray package, specifying the names, **combining** method and \_dimension* for **concatenation**. Note the use of \* as a wildcard.
 
 ```python
 ds = xr.open_mfdataset(paths='_data/*.cam.h0.2016-*.nc', combine='by_coords', concat_dim="time")
@@ -91,7 +88,6 @@ Done! Couldn't imagine life can be this easy :P
 
 We want to extract the variables concerned using some string selection tracks, for instance "startswith" here.
 
-
 ```python
 vid = [x for x in ds.keys() if x.startswith('r_is')]
 dr = ds[vid]
@@ -101,7 +97,6 @@ dr = ds[vid]
 
 Then, we "slice" the surface layers out from the big dataset.
 
-
 ```python
 dr_surf = dr.sel(lev=slice(100, 1000))  # lev is in hPa. Here I assume troposphere is within 1000hPa-100hPa
 
@@ -109,7 +104,6 @@ dr_surf = dr.sel(lev=slice(100, 1000))  # lev is in hPa. Here I assume troposphe
 ```
 
 Do a quick check on the global mean values.
-
 
 ```python
 print(dr_surf.mean().compute().values)
@@ -131,13 +125,11 @@ print(dr_surf.mean().compute().values)
         r_is_shift_1           float32 1240.3165
         r_is_shift_2           float32 1215.9198>
 
-
 Ok, they are about right.
 
 ## Plotting variables on maps
+
 To plot variables, we employ the powerful and (most) popular packages:
-
-
 
 ```python
 %matplotlib inline
@@ -146,13 +138,11 @@ from matplotlib import pyplot as plt  # for plotting
 
 Here, we want to plot variable, r_is_shift_1, which is a 4-D array (lon, lat, lev, and time).
 
-
 ```python
 vid = "r_is_shift_1"                  # storing the variable id for easier recall
 
 # dr_surf[vid]                          # just to double check if the array is what we want
 ```
-
 
 ```python
 # actual plotting codes:
@@ -164,22 +154,14 @@ dr_surf[vid].mean(dim=['lev', 'time']).plot()  # two operations happened here, t
 
 ```
 
-
-
-
     <matplotlib.collections.QuadMesh at 0x2b0b7a6006d0>
 
-
-
-
 ![png](output_18_1.png)
-
 
 Hurray, we got our nice plot. But who would stop here?
 <br/>
 
 Time to play around the codes and make some aesthetic changes.
-
 
 ```python
 # Change 1: Projection - People have been arguing about which map projection is the best to maintain the "shape" of the Earth.
@@ -194,41 +176,25 @@ ax = plt.axes(projection=ccrs.Robinson())  # defining the axes after Robinson pr
 dr_surf[vid].mean(dim=['time', 'lev']).plot(transform=ccrs.PlateCarree())  # two operations here: computing the mean, and transforming the retangular grids onto a Robinson-projected coordinate system
 ```
 
-
-
-
     <matplotlib.collections.QuadMesh at 0x2b0b7a4fd310>
-
-
-
 
 ![png](output_20_1.png)
 
-
-
 ```python
-# Change 2: Coastline - Land-sea difference of some variables are not that obvisous so we also draw coastal lines for better readability
+# Change 2: Coastline - Land-sea difference of some variables are not that obvious so we also draw coastal lines for better readability
 
 fig = plt.figure(figsize=(14, 4))
 ax = plt.axes(projection=ccrs.Robinson())
 
-dr_surf[vid].mean(dim=['time', 'lev']).plot(transform=ccrs.PlateCarree()) 
+dr_surf[vid].mean(dim=['time', 'lev']).plot(transform=ccrs.PlateCarree())
 
 ax.coastlines(color="w") # this line adds coastlines to the coordinate system (aka axes in the language of matplotlib), and we used white
 
 ```
 
-
-
-
     <cartopy.mpl.feature_artist.FeatureArtist at 0x2b0b7a6d4610>
 
-
-
-
 ![png](output_21_1.png)
-
-
 
 ```python
 # Change 3: Color Scale - the default color scale of matplotlib is a color-blindness-friendly one but some community like to use their own color scales.
@@ -240,33 +206,25 @@ import cmaps                          # packages for NCL color options
 fig = plt.figure(figsize=(14, 4))
 ax = plt.axes(projection=ccrs.Robinson())
 
-dr_surf[vid].mean(dim=['time', 'lev']).plot(transform=ccrs.PlateCarree(), 
+dr_surf[vid].mean(dim=['time', 'lev']).plot(transform=ccrs.PlateCarree(),
                                             cmap = cmaps.WhiteBlueGreenYellowRed) # assigning the color scale
 
 ax.coastlines() # now we use black coastal lines
 
 ```
 
-
-
-
     <cartopy.mpl.feature_artist.FeatureArtist at 0x2b0b7cb88f10>
-
-
-
 
 ![png](output_22_1.png)
 
-
-
 ```python
-# Change 4: Color Steps or discretized color scale - Some scientists advocate for minimial color shades for better comparison.
+# Change 4: Color Steps or discretized color scale - Some scientists advocate for minimal color shades for better comparison.
 # This is how we do that.
 
 fig = plt.figure(figsize=(14, 4))
 ax = plt.axes(projection=ccrs.Robinson())
 
-dr_surf[vid].mean(dim=['time', 'lev']).plot(transform=ccrs.PlateCarree(), 
+dr_surf[vid].mean(dim=['time', 'lev']).plot(transform=ccrs.PlateCarree(),
                                             cmap = cmaps.WhiteBlueGreenYellowRed,
                                             levels = 10)
 
@@ -274,17 +232,9 @@ ax.coastlines()
 
 ```
 
-
-
-
     <cartopy.mpl.feature_artist.FeatureArtist at 0x2b0b7cb45850>
 
-
-
-
 ![png](output_23_1.png)
-
-
 
 ```python
 # Change 5: Titles and Labels - They are simply essential for all plots.
@@ -292,12 +242,12 @@ ax.coastlines()
 fig = plt.figure(figsize=(14, 4))
 ax = plt.axes(projection=ccrs.Robinson())
 
-ms = dr_surf[vid].mean(dim=['time', 'lev']).plot(transform=ccrs.PlateCarree(), 
+ms = dr_surf[vid].mean(dim=['time', 'lev']).plot(transform=ccrs.PlateCarree(),
                                                  cmap = cmaps.WhiteBlueGreenYellowRed,
                                                  levels = 10,
                                                  add_colorbar = False) # Omitting the original colorbar.
 
-# I haven't find how to change title using the build-in attribute of xarray so I recreate the color using the matplotlib function like this
+# I haven't find how to change title using the built-in attribute of xarray so I recreate the color using the matplotlib function like this
 colorbar_obj = plt.colorbar(ms)
 colorbar_obj.set_label('molecules cm$^{-3}$ s$^{-1}$')  # adding the unit to the colorbar
 
@@ -305,26 +255,18 @@ ax.coastlines()
 plt.title("Surface " + vid + "(global and annual mean)")  # adding a title to the plot
 ```
 
-
-
-
     Text(0.5, 1.0, 'Surface r_is_shift_1(global and annual mean)')
-
-
-
 
 ![png](output_24_1.png)
 
-
-
 ```python
-# Bonus Change: Showing smaller values only - sometimes some data are just too large that the color scale, 
+# Bonus Change: Showing smaller values only - sometimes some data are just too large that the color scale,
 # we would want to put a maximum on the values to show, we set that cap at 6000
 
 fig = plt.figure(figsize=(14, 4))
 ax = plt.axes(projection=ccrs.Robinson())
 
-ms = dr_surf[vid].mean(dim=['time', 'lev']).plot(transform=ccrs.PlateCarree(), 
+ms = dr_surf[vid].mean(dim=['time', 'lev']).plot(transform=ccrs.PlateCarree(),
                                                  cmap = cmaps.WhiteBlueGreenYellowRed,
                                                  levels = 10,
                                                  add_colorbar = False,
@@ -338,26 +280,19 @@ ax.coastlines()
 plt.title("Surface " + vid + " (global and annual mean)")
 ```
 
-
-
-
     Text(0.5, 1.0, 'Surface r_is_shift_1 (global and annual mean)')
-
-
-
 
 ![png](output_25_1.png)
 
-
 ## Saving the figure
-Now we have done some simple post-processing. Let's output the plot for publication!
 
+Now we have done some simple post-processing. Let's output the plot for publication!
 
 ```python
 fig = plt.figure(figsize=(14, 4))
 ax = plt.axes(projection=ccrs.Robinson())
 
-ms = dr_surf[vid].mean(dim=['time', 'lev']).plot(transform=ccrs.PlateCarree(), 
+ms = dr_surf[vid].mean(dim=['time', 'lev']).plot(transform=ccrs.PlateCarree(),
                                                  cmap = cmaps.WhiteBlueGreenYellowRed,
                                                  levels = 10,
                                                  add_colorbar = False,
@@ -372,12 +307,9 @@ plt.title("Surface " + vid + " (global and annual mean)")
 plt.savefig("Figure1.png") # we can simply specify the wanted file type in the filename
 ```
 
-
 ![png](output_27_0.png)
 
-
 And a png.file is created in under the same directory.
-
 
 ```python
 %ls *.png
@@ -386,4 +318,3 @@ And a png.file is created in under the same directory.
 ```
 
     Figure1.png
-

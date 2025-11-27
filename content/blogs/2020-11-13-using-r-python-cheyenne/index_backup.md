@@ -28,7 +28,7 @@ image:
 projects: []
 ---
 
-I am lucky enough to have an access to NCAR's super computing facilities - Cheyenne allows me to run CESM simulation with hundreds of cores while Casper streamlines my data processing, analysis, and visualization without wasting time to transfer large files. But, setting up the correct software to full deploy these machines are a pain in the neck. Here I would like to share how I set up my `Jupyter` environment to run `R` and `Python` on these two supercomputers. 
+I am lucky enough to have an access to NCAR's super computing facilities - Cheyenne allows me to run CESM simulation with hundreds of cores while Casper streamlines my data processing, analysis, and visualization without wasting time to transfer large files. But, setting up the correct software to full deploy these machines are a pain in the neck. Here I would like to share how I set up my `Jupyter` environment to run `R` and `Python` on these two supercomputers.
 
 ### What does NCAR say
 
@@ -37,7 +37,6 @@ NCAR has been putting a lot of efforts in modernizing their legendary NCL librar
 The idea is to use `module` the default environment managing software on Casper to load the pre-bundled package:
 
     module load ncarenv
-    
 
 Then, you can run
 
@@ -56,16 +55,17 @@ NCAR is experimenting a simple way to run `Jupyter` using `JupyterHub` ([Visit h
 Alternatively, the old-fashion `IPython` approach to run `Jupyter` can also be found [here](https://www2.cisl.ucar.edu/resources/jupyter-and-ipython).
 
 ### I wanted to include `R`
+
 To include more packages and other software, I needed to create my own environment `my_npl_clone`. For that, I invoked,
 
     ncar_pylib -c 20200417 /glade/work/$USER/my_npl_clone
-    
+
 to create a clone of the environment `20200417`.
 
 Activating the new environment with
 
     ncar_pylib my_npl_clone
-    
+
 I also install `Miniconda` - a package management software for `Python` and `R`, which helps me to create `R` directories under my home dir and enables installing package without the `root` access right.
 
 #### Installing `Miniconda`
@@ -73,27 +73,27 @@ I also install `Miniconda` - a package management software for `Python` and `R`,
 In my `$HOME` directory, I first download the installation file for `Miniconda`,
 
     wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-    
+
 then install it by invoking,
 
     bash Miniconda3-latest-Linux-x86_64.sh
-    
+
 reviewing the documentation and set up the locations.
 
 After the installation, I can see they modified my `.bashrc`. To use `Miniconda`, I had to run
 
     source .bashrc
-    
+
 (This part may be a bit different for you depending on your settings. Feel free to contact me for details.)
 
 For better file management, I created a new environment for `R` and named it `r` based on two preset library sets `r-essentials` and `r-base`,
 
     conda create -n r -c conda-forge r-base=4.0.2
-    
+
 The `conda` environment is ready to use by running,
 
     conda activate r
-    
+
 By adding `R` and `my_npl_clone` to `Jupyter`'s kernel, I invoked,
 
     conda install -c r r-irkernel

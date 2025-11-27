@@ -8,7 +8,7 @@ authors: [admin]
 tags: [R]
 categories: [Skill Share]
 date: 2021-02-10T00:05:04-04:00
-lastmod: 2021-2-10T16:05:04-04:00
+lastmod: 2021-02-10T16:05:04-04:00
 featured: true
 draft: false
 
@@ -16,7 +16,7 @@ draft: false
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: 
+  caption:
   focal_point: Smart
   preview_only: true
 
@@ -32,15 +32,11 @@ projects: []
 
 <!-- *Created by [Ka Ming Fung](kamingfung@link.cuhk.edu.hk)* -->
 
+Often, we use observations to validate model simulations. In addition to data quality, a big challenge is that we need to regrid the observations (or model results) to match with its counterpart. :straight_ruler:
 
-Often time, we use observations to validate model simulations. In
-addition to data quality, a big challenge is that we need to regrid the
-observations (or model results) to match with its counterpart.
+In this post, I'll show you how to use the `raster` package to perform a bilinear interpolation on the 5-min-by-5-min data of global maize production.
 
-Here we are using the `raster` package to perform a bilinear
-interpolation on the 5-min-by-5-min data of global maize production.
-
-``` r
+```r
 # ====== loading libraries =====
 library(ncdf4)      # for reading nc files
 library(raster)     # for resampling
@@ -48,7 +44,7 @@ library(raster)     # for resampling
 
     ## Loading required package: sp
 
-``` r
+```r
 library(reshape2)   # for reshaping files
 library(tidyverse)  # for tidying up data
 ```
@@ -68,7 +64,7 @@ library(tidyverse)  # for tidying up data
 
 The dataset we use here is in NetCDF format and can be downloaded [here](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155013803_link_cuhk_edu_hk/EUGfT23rRvRBqivuwpOFmSgB0a_wvYCPOpnY8STqYqoCKw?e=JRexEL).
 
-``` r
+```r
 # ====== reading data =====
 nc.name = "maize_AreaYieldProduction.nc"
 
@@ -102,7 +98,7 @@ head(old.df)
 
 Now we have a `dataframe` storing the values. We first convert the `dataframe` into a `raster` object so that we can apply the `resample` function in the `raster` package. Then, we define the solution of the target grid size (usually matching with model).
 
-``` r
+```r
 # ===== regridding =====
 # make raster for the old gridded data
 r = rasterFromXYZ(old.df)
@@ -123,8 +119,8 @@ t = resample(r, s, method = "bilinear")
 Finally, we can convert the `raster` `t` back to a `matrix` or a
 `dataframe` for further processing.
 
-``` r
-# converting the regridded raster back to a named matrix 
+```r
+# converting the regridded raster back to a named matrix
 new.matrix = as.matrix(t)
 dimnames(new.matrix) = list(lat = seq(90, -90, length.out = nlat.new),
                    lon = seq(-177.5, 180, by = dlon.new)) # <--- this setting is a bit tricky as lon of -180º = 180º
@@ -148,9 +144,9 @@ visually.
 
 This is what the original data looks like:
 
-``` r
+```r
 # plot the original data to check
-old.df %>% ggplot(aes(x = lon, y = lat, fill = value)) + 
+old.df %>% ggplot(aes(x = lon, y = lat, fill = value)) +
   geom_raster(interpolate = FALSE) +  # adding heat maps
   scale_fill_viridis_b(na.value = NA ) + # change color
   borders() + # adding country borders
@@ -162,9 +158,9 @@ old.df %>% ggplot(aes(x = lon, y = lat, fill = value)) +
 ![](unnamed-chunk-5-1.png)
 and the regridded ones:
 
-``` r
-# then the regrided data
-new.df %>% ggplot(aes(x = lon, y = lat, fill = value)) + 
+```r
+# then the regridded data
+new.df %>% ggplot(aes(x = lon, y = lat, fill = value)) +
   geom_raster(interpolate = FALSE) +  # adding heat maps
   scale_fill_viridis_b(na.value = NA ) + # change color
   borders() + # adding country borders

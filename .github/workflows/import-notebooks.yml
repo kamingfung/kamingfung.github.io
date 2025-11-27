@@ -9,8 +9,8 @@ permissions:
 # Run workflow when a `.bib` file is added or updated in the `data/` folder
 on:
   push:
-    branches: ['main']
-    paths: ['notebooks/*.ipynb']
+    branches: ["main"]
+    paths: ["notebooks/*.ipynb"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -38,7 +38,7 @@ jobs:
         id: cpr
         uses: peter-evans/create-pull-request@v5
         with:
-          commit-message: 'content: import blog posts from `notebooks/` folder'
+          commit-message: "content: import blog posts from `notebooks/` folder"
           title: Hugo Blox Builder - Import latest blog posts
           body: |
             Convert Jupyter Notebooks in the `notebooks/` folder into blog posts in the `content/post/` folder.

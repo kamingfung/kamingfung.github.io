@@ -4,24 +4,26 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-- name: Home
-  url: /
-  weight: 10
-- name: Blogs
-  url: /#blogs
-  weight: 11
-- name: Papers
-  url: /#papers
-  weight: 12
-- name: Talks
-  url: /#talks
-  weight: 13
-# - name: Experience
-#   url: experience/
-#   weight: 20
-- name: More
-  url: /#more
-  weight: 30
+  - name: Home
+    url: /
+    weight: 10
+  - name: Blogs
+    # url: /#blogs
+    url: https://kamingfung.github.io/my-project/
+    weight: 11
+  - name: Papers
+    url: /#papers
+    weight: 12
+  - name: Talks
+    url: /#talks
+    weight: 13
+  # - name: Experience
+  #   url: experience/
+  #   weight: 20
+  - name: More
+    url: /#more
+    weight: 30
+
 # - name: Teaching
 #   url: teaching/
 #   weight: 40

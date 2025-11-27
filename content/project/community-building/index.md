@@ -50,7 +50,7 @@ Master of Ceremonies, Faculty of Science Master's Degree (2017-2018) Graduation 
 
 #### 2013 – 2019
 
-Summer Camp Organizer for scholarships to Hong Kong junior secondary school students
+Summer Camp Organizer for scholarships for Hong Kong junior secondary school students
 
 ### Hong Kong University of Science and Technology
 

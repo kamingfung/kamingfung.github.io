@@ -28,4 +28,4 @@ image:
 projects: []
 ---
 
-Thank you **IGAC** for introducing me in their newsletter's "[Early Career Spotlight](https://igacproject.org/sites/default/files/2020-03/Issue_66_Mar_2020.pdf)" session on pp 23-24. This issue also cover the IGAC/SPARC Chemistry-Climate Model Initiative (CCMI) 2019 Science Workshop I helped organized in CUHK (pp 8-11).
+Thank you **IGAC** for introducing me in their newsletter's "[Early Career Spotlight](https://igacproject.org/sites/default/files/2020-03/Issue_66_Mar_2020.pdf)" session on pp 23-24. This issue also covers the IGAC/SPARC Chemistry-Climate Model Initiative (CCMI) 2019 Science Workshop I helped organize in CUHK (pp 8-11).
