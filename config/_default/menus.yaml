@@ -9,7 +9,7 @@ main:
     weight: 10
   - name: Blogs
     # url: /#blogs
-    url: https://kamingfung.github.io/my-project/
+    url: https://kamingfung.github.io/blogsss/
     weight: 11
   - name: Papers
     url: /#papers
