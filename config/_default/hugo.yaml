@@ -39,9 +39,28 @@ outputs:
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
-  quality: 80
+  quality: 75
   anchor: smart
+  formats:
+    - webp
+    - original
 timeout: 600000
+caches:
+  images:
+    dir: :resourceDir/_gen
+    maxAge: 720h # 30 days
+  getjson:
+    dir: :cacheDir/:project
+    maxAge: 1440h # 60 days
+  getcsv:
+    dir: :cacheDir/:project
+    maxAge: 1440h
+  assets:
+    dir: :resourceDir/_gen
+    maxAge: 720h
+  modules:
+    dir: :cacheDir/modules
+    maxAge: 720h
 taxonomies:
   author: authors
   tag: tags

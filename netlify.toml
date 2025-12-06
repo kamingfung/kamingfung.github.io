@@ -3,7 +3,7 @@
   publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.126.3"
+  HUGO_VERSION = "0.145.0"
   HUGO_ENABLEGITINFO = "true"
 
 [context.production.environment]
@@ -18,4 +18,19 @@
 [[plugins]]
   package = "netlify-plugin-hugo-cache-resources"
   [plugins.inputs]
-    debug = true
+    debug = false
+
+[[headers]]
+  for = "/media/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
