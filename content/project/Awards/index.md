@@ -30,13 +30,11 @@ url_video: ""
 # slides: example
 ---
 
-| Year | Title                                                                   | Awarder                                                                                                                                                   |
-| ---- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2021 | Outstanding Reviewer for Environmental Research Communications for 2020 | [IOP Publishing](https://publishingsupport.iopscience.iop.org/questions/environmental-research-communications-2020-reviewer-awards/)                      |
-| 2020 | Trusted Reviewer                                                        | [IOP Publishing](https://ioppublishing.org/peer-review-excellence/)                                                                                       |
-| 2019 | Postgraduate Scholarship                                                | Li Po Chun Charitable Trust Fund                                                                                                                          |
-| 2018 | Global Scholarship Programme for Research Excellence                    | The Chinese University of Hong Kong                                                                                                                       |
-| 2017 | Pre-doctoral Fellowship                                                 | [Emory University's Institute of Quantitative Theory and Methods](http://quantitative.emory.edu/graduate/programs/visiting-pre-doctoral-fellowships.html) |
-| 2017 | Reaching Out Award                                                      | [Hong Kong Government](https://www.edb.gov.hk/en/edu-system/postsecondary/local-higher-edu/publicly-funded-programmmes/scholarship.html)                  |
-| 2017 | Winning Team of the Young Scholar Competition                           | WUN Symposium cum Research Summit – Impacts of Grain Legume Research and Development in Developing Countries                                              |
-| 2016 | Service Award for 2015/16 and 2016/17                                   | Earth System Sciences Programme, The Chinese University of Hong Kong                                                                                      |
+- **2021** - Outstanding Reviewer for Environmental Research Communications for 2020 - [IOP Publishing](https://publishingsupport.iopscience.iop.org/questions/environmental-research-communications-2020-reviewer-awards/)
+- **2020** - Trusted Reviewer - [IOP Publishing](https://ioppublishing.org/peer-review-excellence/)
+- **2019** - Postgraduate Scholarship - Li Po Chun Charitable Trust Fund
+- **2018** - Global Scholarship Programme for Research Excellence - The Chinese University of Hong Kong
+- **2017** - Pre-doctoral Fellowship - [Emory University's Institute of Quantitative Theory and Methods](http://quantitative.emory.edu/graduate/programs/visiting-pre-doctoral-fellowships.html)
+- **2017** - Reaching Out Award - [Hong Kong Government](https://www.edb.gov.hk/en/edu-system/postsecondary/local-higher-edu/publicly-funded-programmmes/scholarship.html)
+- **2017** - Winning Team of the Young Scholar Competition - WUN Symposium cum Research Summit – Impacts of Grain Legume Research and Development in Developing Countries
+- **2016** - Service Award for 2015/16 and 2016/17 - Earth System Sciences Programme, The Chinese University of Hong Kong
