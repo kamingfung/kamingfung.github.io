@@ -70,6 +70,6 @@ projects: []
 math: true
 ---
 
-### Title
+## Title
 
 Co-benefits of maize-soybean intercropping for securing air quality and global food supply

@@ -13,36 +13,36 @@ image:
   preview_only: true
 ---
 
-### The Chinese University of Hong Kong
+## The Chinese University of Hong Kong
 
-#### Fall 2018
+### Fall 2018
 
 - EASC5001 | Research Frontiers in Earth & Atmospheric Sciences I
   - Guest instructor for a special lecture on nitrogen cycle modeling
 
-#### Spring 2017
+### Spring 2017
 
 - ESSC4820 | Senior Project II
   - Mentor
 
-#### Fall 2016
+### Fall 2016
 
 - ESSC4810 | Senior Project I
   - Mentor
 
-#### Spring 2016
+### Spring 2016
 
 - ESSC4520 | Numerical Methods and Modeling for Earth and Atmospheric Sciences
   - Teaching Assistant
 
-#### Fall 2015
+### Fall 2015
 
 - ESSC2020 | Climate System Dynamics
   - Teaching Assistant
 
-### NTK Academic Group
+## NTK Academic Group
 
-#### Oct 2012 – March 2013
+### Oct 2012 – March 2013
 
 - Mathematics Teacher
   - IB Standard Level and Higher Level Mathematics

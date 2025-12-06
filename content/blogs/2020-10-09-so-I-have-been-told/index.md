@@ -30,7 +30,7 @@ projects: []
 
 So I have been told there is a new tool (new to me :wink:) trending among academics. I was casually checking it out last night, and now, I have just finished my 12-hour journey of website migration. Not to bore you to death by giving you all the geeky :eyeglasses: and technical details (including how I googled and picked the nicest templates, extracted the good elements, studied their liquid syntax & HTML codes, reassembled them, fixed countless bugs, and ran numerous tests...), I will discuss some major advantages of Jekyll, as a static web page generator, over WordPress.
 
-### WordPress was not good enough
+## WordPress was not good enough
 
 Let's start with WordPress (WP). Here is a list of bad things about this commercial web page hosting service providers:
 
@@ -40,7 +40,7 @@ Let's start with WordPress (WP). Here is a list of bad things about this commerc
 
 - **WP Has Ads** - pop-ups, top-bars, and other forms of ads appear like elves if you are not a paid user. It just looks unprofessional. (I know, so do emojis :scream:.)
 
-### Jekyll is not perfect but just better
+## Jekyll is not perfect but just better
 
 After some research, aka skimming though the first page of Google Search results and watched a few Youtube vids, I found that Jekyll + GitHub Pages would be a better alternative for me.
 
@@ -50,7 +50,7 @@ After some research, aka skimming though the first page of Google Search results
 
 - **Jekyll Puts You in Charge** - even though the Jekyll-generated websites still need to be hosted on places like Github Pages, you can always keep a local copy of it, including all the blog posts, pages, pictures, pdf files, etc. With this, you don't have to worry about your memories being gone one day like those Xanga diaries you once wrote. (Sorry that I am a senior netizen. :older_man:)
 
-### One size doesn't fit all
+## One size doesn't fit all
 
 I am sure that somewhere out there a newer and fancier tool has already been invented. I also have to confess that learning Jekyll was not my sweetest moment, and I have invested quite some time (probably longer than I should have). It's highly customizable but not at all straight-forward. But, after all, I am happy to pay such as a small cost and appreciate Jekyll's letting me own my contents and, together with GitHub, enabling me to host an ad-free open-source website.
 

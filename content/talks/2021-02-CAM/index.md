@@ -70,6 +70,6 @@ projects: [DMS]
 math: true
 ---
 
-### Title
+## Title
 
 Exploring natural aerosol formation from DMS oxidation and implications for aerosol forcing

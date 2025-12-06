@@ -49,7 +49,7 @@ from matplotlib import pyplot as plt  # for plotting
 
 ## Open the monthly Ocean DMS nc file
 
-The marine DMS data used in this example can be downloaded [here](http://rain.ucis.dal.ca/ctm/HEMCO/DMS/v2015-07/DMS_lana.geos.1x1.nc). Or, we can download it from `Python`.
+The marine DMS data used in this example can be downloaded [from the Dalhousie University server](http://rain.ucis.dal.ca/ctm/HEMCO/DMS/v2015-07/DMS_lana.geos.1x1.nc). Or, we can download it from `Python`.
 
 ```python
 wget.download('http://rain.ucis.dal.ca/ctm/HEMCO/DMS/v2015-07/DMS_lana.geos.1x1.nc')

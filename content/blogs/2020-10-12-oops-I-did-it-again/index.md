@@ -30,7 +30,7 @@ projects: []
 
 I did it again. A day after my Jekyll-generated site was launched, I discovered Hugo, another SSG (static site generator) written in Go :sparkles:. Six hours later, my Hugo-powered site is up and running. Here in this post, I am explaining why.
 
-### Dr. J and Mr. H
+## Dr. J and Mr. H
 
 - **Hugo is Faster** - website generating is a process of conversion from a collection of scripts into html and other media files for website hosts. With multimedia content, such as pictures and videos, Jekyll took 8 seconds to render my site vs Hugo's <1 second. Some users tested that Hugo can generate 600k pages within 5 minutes.
 
@@ -38,6 +38,6 @@ I did it again. A day after my Jekyll-generated site was launched, I discovered 
 
 - **Hugo is Newer** - one long page, fast scrolling, no BS. Just like Insta. :camera:
 
-### Jekyll for flexibility
+## Jekyll for flexibility
 
 Based on Ruby, Jekyll is still a more customizable tool for website builders. It encourages users to add contents using HTML, liquid syntax, and markdown all at once, sounding perfect for picky geeks :nerd_face:.

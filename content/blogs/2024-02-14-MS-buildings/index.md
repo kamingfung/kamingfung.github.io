@@ -34,14 +34,14 @@ projects: []
 
 This notebook works with the [Microsoft Building Footprint Dataset](https://github.com/microsoft/GlobalMLBuildingFootprints) to download building footprints for a given area of interest (AOI). I modified the [original notebook](https://github.com/victor-ka-ming-fung/GlobalMLBuildingFootprints/blob/main/examples/example_building_footprints.ipynb) to download the data to output a parquet file of a GeoDataFrame of buildings, instead of GeoJSON. :building_construction:
 
-To find the Jupyter notebook version, please visit [here](https://github.com/victor-ka-ming-fung/GlobalMLBuildingFootprints/blob/improved_example_notebook/examples/example_building_footprints.ipynb).
+To find the Jupyter notebook version, please visit [the improved notebook on GitHub](https://github.com/victor-ka-ming-fung/GlobalMLBuildingFootprints/blob/improved_example_notebook/examples/example_building_footprints.ipynb).
 
 ```python
 # # """install packages if not already installed"""
 # %pip install --upgrade pandas geopandas shapely mercantile tqdm folium
 ```
 
-### set up environment and local variables
+## set up environment and local variables
 
 ```python
 import pandas as pd

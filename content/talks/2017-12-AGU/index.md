@@ -70,6 +70,6 @@ projects: []
 math: true
 ---
 
-### Title
+## Title
 
 Modeling large-scale adoption of intercropping as a sustainable agricultural practice for food security and air pollution mitigation around the globe

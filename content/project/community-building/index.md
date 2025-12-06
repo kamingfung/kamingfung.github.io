@@ -30,38 +30,38 @@ url_video: ""
 # slides: example
 ---
 
-### Massachusetts Institute of Technology
+## Massachusetts Institute of Technology
 
-#### 2020 - 2021
+### 2020 - 2021
 
 Postdoc Liaison & Host of DEI Seminar Series, Department of Civil and Environmental Engineering
 
-### The Chinese University of Hong Kong
+## The Chinese University of Hong Kong
 
-#### 2013 – 2019
+### 2013 – 2019
 
 Resident Tutor & Honorary Resident Tutor, Daisy Li Hall, New Asia College
 
-#### 2018
+### 2018
 
 Master of Ceremonies, Faculty of Science Master's Degree (2017-2018) Graduation Ceremony
 
-### Unison Hope (行樂社)
+## Unison Hope (行樂社)
 
-#### 2013 – 2019
+### 2013 – 2019
 
 Summer Camp Organizer for scholarships for Hong Kong junior secondary school students
 
-### Hong Kong University of Science and Technology
+## Hong Kong University of Science and Technology
 
-#### 2008 – 2009
+### 2008 – 2009
 
 Councilor, HKUST Students’ Union (SU) Council
 
-#### 2008 – 2009
+### 2008 – 2009
 
 Student Ambassador, School of Engineering
 
-#### 2007
+### 2007
 
 Publication Secretary, Glacier, HOUSE III Students’ Association, HKUSTSU

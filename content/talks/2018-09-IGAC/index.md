@@ -70,7 +70,7 @@ projects: []
 math: true
 ---
 
-### Title
+## Title
 
 Potential co-benefits of intercropping as a sustainable agricultural practice for both air pollution mitigation and global food security
 

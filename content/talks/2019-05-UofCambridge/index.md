@@ -69,7 +69,7 @@ projects: [Agricultural Ammonia]
 math: true
 ---
 
-### Title
+## Title
 
 Modelling and Assessing the Impacts of Intercropping, as a Sustainable Farming Practice, on Food Security, Air Quality, and Public Health
 

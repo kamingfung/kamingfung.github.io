@@ -30,7 +30,7 @@ projects: []
 
 I am lucky enough to have an access to NCAR's super computing facilities - Cheyenne allows me to run CESM simulation with hundreds of cores while Casper streamlines my data processing, analysis, and visualization without wasting time to transfer large files. But, setting up the correct software to full deploy these machines are a pain in the neck. Here I would like to share how I set up my `Jupyter` environment to run `R` and `Python` on these two supercomputers.
 
-### What does NCAR say
+## What does NCAR say
 
 NCAR has been putting a lot of efforts in modernizing their legendary NCL libraries and translating them into Python packages. In this [guide](https://www2.cisl.ucar.edu/resources/python-–-ncar-package-library), they lay out the easiest way to use `Python` with `Jupyter` on Casper.
 
@@ -48,13 +48,13 @@ to check what packages are pre-installed. If you are happy with it, activate the
 
 It should allow you to use `Python` and other common packages including `matplotlib`.
 
-### Running `Jupyter` on Casper
+## Running `Jupyter` on Casper
 
-NCAR is experimenting a simple way to run `Jupyter` using `JupyterHub` ([Visit here for details](https://www2.cisl.ucar.edu/resources/jupyterhub-ncar)) which can bypass using the `Terminal`.
+NCAR is experimenting a simple way to run `Jupyter` using `JupyterHub` ([Visit the JupyterHub documentation](https://www2.cisl.ucar.edu/resources/jupyterhub-ncar)) which can bypass using the `Terminal`.
 
-Alternatively, the old-fashion `IPython` approach to run `Jupyter` can also be found [here](https://www2.cisl.ucar.edu/resources/jupyter-and-ipython).
+Alternatively, the old-fashion `IPython` approach to run `Jupyter` can also be found [in the Jupyter and IPython documentation](https://www2.cisl.ucar.edu/resources/jupyter-and-ipython).
 
-### I wanted to include `R`
+## I wanted to include `R`
 
 To include more packages and other software, I needed to create my own environment `my_npl_clone`. For that, I invoked,
 
@@ -68,7 +68,7 @@ Activating the new environment with
 
 I also install `Miniconda` - a package management software for `Python` and `R`, which helps me to create `R` directories under my home dir and enables installing package without the `root` access right.
 
-#### Installing `Miniconda`
+### Installing `Miniconda`
 
 In my `$HOME` directory, I first download the installation file for `Miniconda`,
 

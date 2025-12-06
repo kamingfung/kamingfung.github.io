@@ -70,6 +70,6 @@ projects: []
 math: true
 ---
 
-### Title
+## Title
 
 Modeling and Assessing the Impacts of Sustainable Farming Practices on Food Security, Air Quality, and Public Health

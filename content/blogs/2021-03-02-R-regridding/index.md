@@ -62,7 +62,7 @@ library(tidyverse)  # for tidying up data
     ## x dplyr::lag()     masks stats::lag()
     ## x dplyr::select()  masks raster::select()
 
-The dataset we use here is in NetCDF format and can be downloaded [here](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155013803_link_cuhk_edu_hk/EUGfT23rRvRBqivuwpOFmSgB0a_wvYCPOpnY8STqYqoCKw?e=JRexEL).
+The dataset we use here is in NetCDF format and can be downloaded [from this link](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155013803_link_cuhk_edu_hk/EUGfT23rRvRBqivuwpOFmSgB0a_wvYCPOpnY8STqYqoCKw?e=JRexEL).
 
 ```r
 # ====== reading data =====
