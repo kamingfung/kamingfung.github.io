@@ -25,17 +25,30 @@ hugo version
 We provide a setup script to automatically download and install the correct Hugo version locally within this project. This avoids conflicts with your system-wide Hugo installation.
 
 1. **Run the setup script:**
+   (Only needs to be done once or when upgrading)
 
    ```bash
    ./bin/setup_hugo.sh
    ```
 
-2. **Start the server:**
-   The script will output the commands to run. Typically:
+2. **Activate the environment:**
+   This adds the local `bin/` directory to your PATH for the current shell session.
 
    ```bash
-   export PATH="$(pwd)/bin:$PATH"
+   source bin/activate
+   ```
+
+3. **Start the server:**
+   Now you can simply run:
+
+   ```bash
    hugo server
+   ```
+
+   To exit the environment later, run:
+
+   ```bash
+   deactivate
    ```
 
 ### Manual Installation (Alternative)

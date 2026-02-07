@@ -12,6 +12,7 @@ public/
 # Hugo
 .hugo_build.lock
 hugo_stats.json
+bin/hugo
 
 # Dependencies
 node_modules/
